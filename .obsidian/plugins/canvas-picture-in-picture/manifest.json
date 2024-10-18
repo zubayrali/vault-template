@@ -1,0 +1,11 @@
+{
+	"id": "canvas-picture-in-picture",
+	"name": "Canvas Picture in Picture",
+	"version": "0.1.0",
+	"minAppVersion": "1.4.0",
+	"description": "Enables ability to pin Canvas nodes and float them above the board (Picture-in-Picture mode)",
+	"author": "hypersphere",
+	"authorUrl": "https://hypersphere.blog/",
+	"fundingUrl": "ko-fi.com/hypersphere",
+	"isDesktopOnly": false
+}

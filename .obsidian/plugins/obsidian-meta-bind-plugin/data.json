@@ -1,0 +1,170 @@
+{
+  "devMode": false,
+  "ignoreCodeBlockRestrictions": false,
+  "preferredDateFormat": "YYYY-MM-DD",
+  "firstWeekday": {
+    "index": 1,
+    "name": "Monday",
+    "shortName": "Mo"
+  },
+  "syncInterval": 200,
+  "minSyncInterval": 50,
+  "maxSyncInterval": 1000,
+  "enableJs": true,
+  "viewFieldDisplayNullAsEmpty": false,
+  "enableSyntaxHighlighting": true,
+  "enableEditorRightClickMenu": true,
+  "inputFieldTemplates": [
+    {
+      "name": "sliderTemplate",
+      "declaration": "INPUT[slider(addLabels, minValue(0), maxValue(10))]"
+    },
+    {
+      "name": "toggleTemplate",
+      "declaration": "INPUT[toggle]"
+    },
+    {
+      "name": "moodSelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option(\"😊\", \"Joy\"), \n    option(\"😢\", \"Sadness\"), \n    option(\"😠\", \"Anger\"), \n    option(\"😨\", \"Fear\"), \n    option(\"🤢\", \"Disgust\"), \n    option(\"😲\", \"Surprise\"), \n    option(\"😐\", \"Neutral\"), \n    option(\"🤔\", \"Contemplative\"), \n    option(\"🥰\", \"Love\"), \n    option(\"🤩\", \"Excitement\")\n)]"
+    },
+    {
+      "name": "sleepSelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option(\"Poor\"), \n    option(\"Fair\"), \n    option(\"Good\"), \n    option(\"Excellent\")\n)]"
+    },
+    {
+      "name": "exerciseSelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option(\"None\"), \n    option(\"Light\"), \n    option(\"Moderate\"), \n    option(\"Intense\")\n)]"
+    },
+    {
+      "name": "meditationSelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option(0), \n    option(5), \n    option(10), \n    option(15), \n    option(20), \n    option(30)\n)]"
+    },
+    {
+      "name": "learningSelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option(\"None\"), \n    option(\"Little\"), \n    option(\"Moderate\"), \n    option(\"Significant\")\n)]"
+    },
+    {
+      "name": "creativitySelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option(\"None\"), \n    option(\"Some\"), \n    option(\"Substantial\")\n)]"
+    },
+    {
+      "name": "socialSelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option(\"Isolating\"), \n    option(\"Minimal\"), \n    option(\"Moderate\"), \n    option(\"Enriching\")\n)]"
+    },
+    {
+      "name": "natureSelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option(\"None\"), \n    option(\"Brief\"), \n    option(\"Extended\")\n)]"
+    },
+    {
+      "name": "statusSelectTemplate",
+      "declaration": "INPUT[inlineSelect(\n    option('🟥 Backlog', '🟥 Backlog'), \n    option('🟨 Active', '🟨 Active'), \n    option('🟩 Finished', '🟩 Finished')\n)]"
+    }
+  ],
+  "buttonTemplates": [
+    {
+      "label": "📂 File",
+      "hidden": true,
+      "class": "inline-button-right",
+      "tooltip": "create a new file in the active directory",
+      "id": "new-file2",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:ef9397a9-b7a1-41d1-b59b-6105460d461e"
+        }
+      ]
+    },
+    {
+      "label": "🏃‍♂️ Activity",
+      "hidden": true,
+      "class": "inline-button-center",
+      "tooltip": "Add an entry to daily note",
+      "id": "new-activity2",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:7f0c6dbf-54b7-4c69-ae0f-29da76888e32"
+        }
+      ]
+    },
+    {
+      "label": "✅ Task",
+      "hidden": true,
+      "class": "inline-button-left",
+      "tooltip": "add a task to the active file and log to daily note",
+      "id": "new-task2",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:222275ca-187c-4c66-97c6-6a63d56b9f75"
+        }
+      ]
+    },
+    {
+      "label": "🪄 Effort",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Begin a new Effort",
+      "id": "new-effort",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:54060121-0161-40a8-9f81-a87df5c6c01b"
+        }
+      ]
+    },
+    {
+      "label": "🛠️ Project",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "A project is a very focused effort, a goal which tasks that span over several files.",
+      "id": "new-project",
+      "style": "primary",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:ce26a926-55a1-4b6b-a594-741e6fb09583"
+        }
+      ]
+    },
+    {
+      "label": "Wheel of Life",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "Generate a Wheel of Life chart at cursor",
+      "id": "wheel-of-life",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:45550695-c62b-4390-9a7d-d66c7ddf6206"
+        }
+      ]
+    },
+    {
+      "label": "getPictures",
+      "icon": "",
+      "hidden": false,
+      "class": "",
+      "tooltip": "",
+      "id": "get-pictures",
+      "style": "default",
+      "actions": [
+        {
+          "type": "command",
+          "command": "quickadd:choice:0c6cc7fb-ac07-4f56-a215-e6eb71f7c0d3"
+        }
+      ]
+    }
+  ],
+  "excludedFolders": [
+    "bin"
+  ]
+}

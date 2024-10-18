@@ -1,0 +1,58 @@
+/* https://forum.obsidian.md/u/IanTeves */
+/* https://forum.obsidian.md/t/css-snippet-keep-divider-line-from-being-folded-into-headers/69451/7 */
+
+/* Hide and resize header styles when there's an hr divider line immediately after */
+.HyperMD-header-1, .HyperMD-header-2, .HyperMD-header-3,
+.HyperMD-header-4, .HyperMD-header-5, .HyperMD-header-6,
+.HyperMD-header {
+    &:has(+ .hr) {
+        opacity: 0;
+        font-size: 1px;
+    }
+
+    &.cm-active:has(+ .hr) {
+        opacity: 100;
+    }
+}
+
+.cm-active {
+    &.HyperMD-header-1:has(+ .hr) { font-size: var(--h1-size); }
+    &.HyperMD-header-2:has(+ .hr) { font-size: var(--h2-size); }
+    &.HyperMD-header-3:has(+ .hr) { font-size: var(--h3-size); }
+    &.HyperMD-header-4:has(+ .hr) { font-size: var(--h4-size); }
+    &.HyperMD-header-5:has(+ .hr) { font-size: var(--h5-size); }
+    &.HyperMD-header-6:has(+ .hr) { font-size: var(--h6-size); }
+    &.HyperMD-header:has(+ .hr),
+    &.HyperMD-header:has(+ .HyperMD-hr) { font-size: 1em; }
+}
+
+.HyperMD-header:has(+ .HyperMD-hr),
+.cm-line:has(+ .cm-active.HyperMD-hr) {
+    font-size: 1em;
+}
+
+/* Hide non-active headers followed by .cm-html-embed with .divider inside */
+.HyperMD-header:not(.cm-active):has(.cm-header:not(.cm-formatting)):has(+ .cm-html-embed .divider) {
+    opacity: 0 !important;
+    font-size: 1px !important;
+}
+
+/* Add Custom Divider */
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: grey;
+
+    &::after,
+    &::before {
+        content: "";
+        border-bottom: 1px solid grey;
+        flex: 1;
+    }
+
+    &:not(:empty) {
+        &::before { margin-right: .25em; }
+        &::after { margin-left: .25em; }
+    }
+}

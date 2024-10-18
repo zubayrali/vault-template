@@ -1,0 +1,232 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "projects/",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "0439e460-44d0-45ec-bbbc-ecc02244a045",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "581d5f8d-f58c-4645-b890-fd89ccb0a20b",
+      "name": "projects"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Efforts/Projects",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b50ff9b0-c196-4557-8051-5a7a57d89f45",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "f5f1bed9-3d21-42d1-8a66-0ce8c219716a",
+      "name": "Projects"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Efforts/Projects",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c5d69cc6-0e55-4d8a-bc58-188e180a73b7",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "2d97334c-c178-4f3e-b8e1-942c33fcc9f3",
+      "name": "Projects"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Efforts/Projects",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "created": {
+                "hide": true
+              },
+              "name": {
+                "width": 464,
+                "pinned": true
+              },
+              "title": {
+                "hide": true
+              },
+              "updated": {
+                "hide": true
+              },
+              "eol": {
+                "hide": false
+              },
+              "fileClass": {
+                "hide": true
+              },
+              "status": {
+                "hide": false
+              }
+            },
+            "orderFields": [
+              "name",
+              "description",
+              "dueDate",
+              "fileClass",
+              "status",
+              "tags",
+              "title",
+              "eol",
+              "type",
+              "updated"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4625e69c-ba3c-4c7b-a40a-f867635d64ec",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "3792eb26-5a82-477b-b5e6-633c7cceaecd",
+      "name": "Projects"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Atlas/Sources/Books",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b76ed08c-009f-4ce9-a842-4608db03e139",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "5aafed74-40d7-479f-8330-f1bb78f5b7f5",
+      "name": "Books"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

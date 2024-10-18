@@ -1,0 +1,20 @@
+{
+  "useSnippets": false,
+  "showAll": false,
+  "snippets": [
+    {
+      "path": "publish.js",
+      "type": "file",
+      "hiddenInNav": true,
+      "hiddenInBookmarks": false
+    },
+    {
+      "path": "publish.css",
+      "type": "file",
+      "hiddenInNav": true,
+      "hiddenInBookmarks": false
+    }
+  ],
+  "alwaysHideInBookmarks": false,
+  "buttonInContextBookmark": false
+}

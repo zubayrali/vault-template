@@ -1,0 +1,610 @@
+/* @settings
+
+name: Reference Map
+id: reference-map
+settings:
+	- 
+		id: orm-paper-title-font-size
+		title: Reference paper title font size
+		type: variable-number-slider
+		default: 14
+		format: px
+		min: 8
+		max: 24
+		step: 1
+	-
+		id: orm-paper-title-font-weight
+		title: Reference paper title font weight
+		type: variable-number-slider
+		default: 400
+		format: px
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: orm-paper-author-font-size
+		title: Reference paper author font size
+		type: variable-number-slider
+		default: 12
+		format: px
+		min: 8
+		max: 24
+		step: 1
+	-
+		id: orm-paper-author-font-weight
+		title: Reference paper author font weight
+		type: variable-number-slider
+		default: 400
+		format: px
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: orm-paper-citekey-font-size
+		title: Reference paper citekey font size
+		type: variable-number-slider
+		default: 12
+		format: px
+		min: 8
+		max: 24
+		step: 1
+	-
+		id: orm-paper-citekey-font-weight
+		title: Reference paper citekey font weight
+		type: variable-number-slider
+		default: 400
+		format: px
+		min: 100
+		max: 900
+		step: 100
+	-
+		id: orm-paper-line-thickness
+		title: Reference paper line thickness
+		type: variable-number-slider
+		default: 1
+		format: px
+		min: 1
+		max: 4
+		step: 1
+	-
+		id: orm-paper-index-card-padding
+		title: Reference paper index card padding
+		type: variable-number-slider
+		default: 0.5
+		format: rem
+		min: 0.25
+		max: 2
+		step: 0.25
+	-
+		id: orm-paper-reference-card-padding
+		title: Reference paper reference card padding
+		type: variable-number-slider
+		default: 0.5
+		format: rem
+		min: 0.25
+		max: 2
+		step: 0.25
+	-
+		id: orm-paper-background-color
+		title: Primary background color
+		type: variable-color
+		format: hex
+		default: var(--background-primary)
+	-
+		id: orm-paper-background-secondary-color
+		title: Secondary background color
+		type: variable-color
+		format: hex
+		default: var(--background-secondary)
+	-
+		id: orm-paper-title-link-color
+		title: Reference paper title link color
+		type: variable-color
+		format: hex
+		default: var(--text-normal)
+	-
+		id: orm-paper-title-link-hover-color
+		title: Reference paper title link hover color
+		type: variable-color
+		format: hex
+		default: var(--text-accent)
+	-
+		id: orm-paper-author-link-color
+		title: Reference paper author link color
+		type: variable-color
+		format: hex
+		default: var(--text-muted)
+	-
+		id: orm-paper-author-link-hover-color
+		title: Reference paper author link hover color
+		type: variable-color
+		format: hex
+		default: var(--text-accent)
+	- 
+		id: orm-paper-citekey-link-color
+		title: Reference paper citekey link color
+		type: variable-color
+		format: hex
+		default: var(--text-muted)
+	- 
+		id: orm-paper-citekey-link-hover-color
+		title: Reference paper citekey link hover color
+		type: variable-color
+		format: hex
+		default: var(--text-accent)
+	-
+		id: orm-paper-buttons-color
+		title: Reference paper buttons color
+		type: variable-color
+		format: hex
+		default: var(--icon-color)
+	-
+		id: orm-paper-buttons-hover-color
+		title: Reference paper buttons hover color
+		type: variable-color
+		format: hex
+		default: var(--text-accent)
+	-
+		id: orm-paper-line-color
+		title: Reference paper line color
+		type: variable-color
+		format: hex
+		default: var(--color-base-30)
+		
+*/
+body {
+	--orm-paper-title-font-size: small;
+	--orm-paper-author-font-size: small;
+	--orm-paper-title-font-weight: 400;
+	--orm-paper-author-font-weight: 400;
+	--orm-paper-abstract-font-size: small;
+	--orm-paper-abstract-font-weight: 400;
+	--orm-paper-citekey-font-size: small;
+	--orm-paper-citekey-font-weight: 400;
+	--orm-paper-line-thickness: 1px;
+	--orm-paper-index-card-padding: 0.5rem;
+	--orm-paper-reference-card-padding: 0.5rem;
+	--orm-paper-background-color: var(--background-primary);
+	--orm-paper-background-secondary-color: var(--background-secondary);
+	--orm-paper-title-link-color: var(--text-normal);
+	--orm-paper-title-link-hover-color: var(--text-accent);
+	--orm-paper-author-link-color: var(--text-muted);
+	--orm-paper-author-link-hover-color: var(--text-accent);
+	--orm-paper-citekey-link-color: var(--text-muted);
+	--orm-paper-citekey-link-hover-color: var(--text-accent);
+	--orm-paper-abstract-color: var(--text-muted);
+	--orm-paper-buttons-color: var(--icon-color);
+	--orm-paper-buttons-hover-color: var(--text-accent);
+	--orm-paper-line-color: var(--color-base-30);
+	--orm-paper-disable-opacity: 0.5;
+}
+/* following removes the jumping when scrollbar is visible */
+
+[data-type='reference-map-view'] > .view-content {
+	scrollbar-gutter: stable both-edges;
+}
+
+.orm-view-title {
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+.orm-no-content {
+	text-align: center;
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.orm-no-content-subtext {
+	border: var(--orm-paper-line-thickness) solid var(--orm-paper-line-color);
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	font-size: var(--font-ui-small);
+	font-weight: var(--font-medium);
+	color: var(--text-faint);
+	margin-top: 0.5rem;
+}
+
+/* ReferenceMapList */
+.orm-reference-map {
+	display: block;
+}
+
+/* .orm-plugin-name{
+	position: sticky;
+    top: 0;
+	z-index: 1000;
+} */
+
+/* RootPaperCard */
+.orm-root-paper {
+	border: var(--orm-paper-line-thickness) solid var(--orm-paper-line-color);
+	background: var(--orm-paper-background-color);
+	border-radius: 0.25rem;
+	padding: var(--orm-paper-index-card-padding);
+	margin: 0.25rem 0 0 0;
+	position: relative;
+}
+
+.orm-active-index {
+	border: var(--orm-paper-line-thickness) solid
+		var(--orm-paper-buttons-hover-color);
+}
+
+/* Paper Heading */
+.orm-paper-info {
+	position: absolute;
+	top: 1rem;
+	right: 0.5rem;
+	color: var(--orm-paper-title-link-color);
+}
+.orm-paper-title {
+	font-size: var(--orm-paper-title-font-size);
+	font-weight: var(--orm-paper-title-font-weight);
+	cursor: pointer;
+	padding-bottom: 0.25rem;
+}
+.orm-paper-title-disabled {
+	cursor: default;
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.orm-paper-title a {
+	color: var(--orm-paper-title-link-color);
+	text-decoration: none;
+}
+
+.orm-paper-title a:hover {
+	color: var(--orm-paper-title-link-hover-color);
+}
+
+.orm-paper-abstract {
+	display: block;
+	font-size: var(--orm-paper-abstract-font-size);
+	color: var(--orm-paper-abstract-color);
+	margin-bottom: 0.25rem;
+}
+
+.orm-paper-abstract-disabled {
+	cursor: default;
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.orm-paper-authors {
+	font-size: var(--orm-paper-author-font-size);
+	font-weight: var(--orm-paper-author-font-weight);
+	display: block;
+	margin-bottom: 0.25rem;
+}
+
+.orm-paper-authors-disabled {
+	cursor: default;
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.orm-paper-abstract-disabled {
+	cursor: default;
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.orm-paper-authors a {
+	color: var(--orm-paper-author-link-color);
+	text-decoration: none;
+}
+
+.orm-paper-authors a:hover {
+	color: var(--orm-paper-author-link-hover-color);
+}
+
+.orm-paper-journal {
+	font-size: var(--orm-paper-author-font-size);
+	font-weight: var(--orm-paper-author-font-weight);
+	display: block;
+	margin-bottom: 0.25rem;
+}
+
+.orm-paper-journal-disabled {
+	cursor: default;
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.orm-paper-tag {
+	word-break: break-all;
+	width: max-content;
+	text-decoration: none;
+	color: var(--text-muted);
+	padding: var(--size-4-1) var(--size-4-2);
+	border-radius: 0.2rem;
+	background-color: rgba(var(--mono-rgb-100), 0.05);
+	line-height: 2;
+	font-size: var(--font-ui-smaller);
+	margin-right: 0.2rem;
+}
+
+.orm-paper-tag a {
+	color: var(--orm-paper-citekey-link-color);
+	text-decoration: none;
+}
+
+.orm-paper-tag a:hover {
+	color: var(--orm-paper-citekey-link-hover-color);
+}
+
+.orm-paper-buttons {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.2rem;
+}
+
+.orm-paper-buttons > div {
+	font-size: small;
+	text-align: left;
+	min-width: 16%;
+	padding: 0.25rem;
+	color: var(--orm-paper-buttons-color);
+}
+
+.orm-paper-buttons > .orm-openaccess a {
+	color: var(--orm-paper-buttons-color);
+}
+
+.orm-paper-buttons > .orm-openaccess a:hover {
+	color: var(--orm-paper-buttons-hover-color);
+}
+
+.orm-button-disable {
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.orm-paper-buttons > .orm-copy-metadata-one:hover,
+.orm-copy-metadata-two:hover,
+.orm-copy-metadata-three:hover,
+.orm-button-references:hover,
+.orm-button-citations:hover {
+	color: var(--orm-paper-buttons-hover-color);
+}
+
+.orm-is-local{
+	font-size: var(--font-ui-smaller);
+}
+
+/* Paper List */
+.orm-paper-list {
+	margin: 0.5rem 0 0 0;
+}
+
+.orm-paper-list .orm-paper-heading {
+	padding-top: 0.5rem 0;
+	margin-top: 0.5rem 0 0 0;
+}
+
+.orm-paper-card {
+	border: var(--orm-paper-line-thickness) dotted var(--orm-paper-line-color);
+	background: var(--orm-paper-background-secondary-color);
+	padding: var(--orm-paper-reference-card-padding);
+	margin: 0.5rem 0;
+	border-radius: 0.25rem;
+}
+
+.orm-paper-list-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.orm-button-disabled {
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.orm-search-form {
+	width: 100%;
+	position: relative;
+}
+
+.orm-search-input {
+	width: 100%;
+	border: none;
+	padding: 0;
+}
+
+.orm-search-input::placeholder {
+	text-align: center;
+}
+
+.orm-plugin-global-copy {
+	position: absolute;
+	top: 0;
+	left: 5px;
+	padding: 0.4rem 0.25rem 0.15rem 0.25rem;
+	border-right: var(--orm-paper-line-thickness) solid
+		var(--orm-paper-line-color);
+	color: var(--orm-paper-buttons-color);
+}
+
+.orm-plugin-global-copy:hover {
+	color: var(--orm-paper-buttons-hover-color);
+}
+
+.orm-plugin-global-copy-disabled {
+	position: absolute;
+	top: 0;
+	left: 5px;
+	padding: 0.4rem 0.25rem 0.15rem 0.25rem;
+	border-right: var(--orm-paper-line-thickness) solid
+		var(--orm-paper-line-color);
+	color: var(--orm-paper-buttons-color);
+	opacity: var(--orm-paper-disable-opacity);
+}
+
+.search-icon {
+	position: absolute;
+	top: 55%;
+	left: 7px;
+	transform: translateY(-50%);
+	color: var(--orm-paper-buttons-color);
+}
+
+.orm-index-no-search {
+	pointer-events: none;
+}
+
+.index-search {
+	position: relative;
+	align-items: center;
+	gap: var(--size-4-1);
+}
+
+.cardCount {
+	position: absolute;
+	right: var(--size-4-1);
+	top: var(--size-4-1);
+	/* padding: 0.25em; */
+	color: var(--text-muted);
+	display: flex;
+	padding: var(--size-4-1) var(--size-4-2);
+	border-radius: var(--tag-radius);
+	background-color: rgba(var(--mono-rgb-100), 0.05);
+	font-weight: var(--font-normal);
+	line-height: 1;
+	font-size: var(--font-ui-smaller);
+}
+
+.orm-loading {
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.orm-loading-puff {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 20px;
+}
+
+/** Settings Dialog **/
+.d-none {
+	display: none;
+}
+.orm-PathLoading,
+.orm-PathError,
+.orm-PathSuccess {
+	font-size: 14px;
+}
+
+.orm-PathLoading {
+	color: var(--text-muted);
+}
+
+.orm-PathError {
+	color: var(--text-error);
+}
+
+.orm-PathSuccess {
+	color: var(--text-accent);
+}
+
+.orm-Warning {
+	color: var(--text-warning);
+}
+
+/* Settings page CSS */
+
+.orm-settings-description {
+	font-size: var(--font-ui-small);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 0.25rem;
+	padding: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+/* Search modal settings */
+
+.orm-search-modal-input-heading {
+	font-variant: var(--h2-variant);
+	line-height: var(--h2-line-height);
+	font-size: var(--h2-size);
+	color: var(--h2-color);
+	font-weight: var(--h2-weight);
+	font-style: var(--h2-style);
+	font-family: var(--h2-font);
+	display: flex;
+	padding: 0.5rem 0;
+	text-align: center;
+	width: 100%;
+}
+.orm-search-modal-input-heading-mode {
+	margin-left: 0.25rem;
+	color: var(--code-normal);
+	font-family: var(--font-monospace);
+	background-color: var(--code-background);
+	border-radius: var(--radius-s);
+	font-size: var(--code-size);
+	padding: 0.1em 0.25em;
+}
+
+.orm-search-modal-input-button {
+	border: none;
+}
+
+.orm-search-modal-input input {
+	width: 100%;
+}
+
+.orm-modal-paper-title {
+	padding-bottom: 0.25rem;
+}
+
+.orm-modal-paper-authors {
+	font-size: var(--orm-paper-author-font-size);
+	font-weight: var(--orm-paper-author-font-weight);
+	display: block;
+}
+
+.orm-modal-paper-year {
+	font-size: var(--orm-paper-author-font-size);
+	font-weight: var(--orm-paper-author-font-weight);
+	display: block;
+}
+
+.orm-setting-item-wrapper {
+	flex-direction: column;
+	align-items: stretch;
+}
+
+.orm-setting-item-wrapper > div {
+	margin-right: 0 !important;
+}
+
+.orm-setting-item-wrapper > div:last-child {
+	padding-bottom: 0;
+}
+
+.orm-group-toggle {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: var(--size-4-2);
+}
+
+.orm-group-toggle .setting-item-description {
+	padding-top: 0;
+}
+
+/* GRAPH */
+.orm-graph-content {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+.orm-graph-paper-card {
+	width: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.orm-csl-search{
+	width: calc(100% - 20px);
+}

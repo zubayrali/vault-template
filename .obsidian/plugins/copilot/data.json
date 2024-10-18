@@ -1,0 +1,193 @@
+{
+  "openAIApiKey": "",
+  "openAIOrgId": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "azureOpenAIApiKey": "",
+  "azureOpenAIApiInstanceName": "",
+  "azureOpenAIApiDeploymentName": "",
+  "azureOpenAIApiVersion": "",
+  "azureOpenAIApiEmbeddingDeploymentName": "",
+  "googleApiKey": "",
+  "openRouterAiApiKey": "",
+  "defaultModelKey": "gpt-4o|openai",
+  "embeddingModelKey": "text-embedding-3-small|openai",
+  "temperature": 0.1,
+  "maxTokens": 1000,
+  "contextTurns": 15,
+  "userSystemPrompt": "",
+  "openAIProxyBaseUrl": "",
+  "openAIEmbeddingProxyBaseUrl": "",
+  "stream": true,
+  "defaultSaveFolder": "copilot-conversations",
+  "defaultConversationTag": "copilot-conversation",
+  "autosaveChat": true,
+  "customPromptsFolder": "copilot-custom-prompts",
+  "indexVaultToVectorStore": "ON MODE SWITCH",
+  "qaExclusionPaths": "",
+  "chatNoteContextPath": "",
+  "chatNoteContextTags": [],
+  "debug": false,
+  "enableEncryption": false,
+  "maxSourceChunks": 3,
+  "groqApiKey": "",
+  "activeModels": [
+    {
+      "name": "gpt-4o",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true
+    },
+    {
+      "name": "gpt-4o-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true
+    },
+    {
+      "name": "gpt-4-turbo",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "claude-3-5-sonnet-20240620",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "claude-3-haiku-20240307",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "command-r",
+      "provider": "cohereai",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "command-r-plus",
+      "provider": "cohereai",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "gemini-1.5-pro",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "gemini-1.5-flash",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "azure-openai",
+      "provider": "azure openai",
+      "enabled": true,
+      "isBuiltIn": true
+    }
+  ],
+  "activeEmbeddingModels": [
+    {
+      "name": "text-embedding-3-small",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
+    },
+    {
+      "name": "text-embedding-3-large",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true
+    },
+    {
+      "name": "embed-multilingual-light-v3.0",
+      "provider": "cohereai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true
+    },
+    {
+      "name": "azure-openai",
+      "provider": "azure_openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true
+    }
+  ],
+  "enabledCommands": {
+    "fix-grammar-prompt": {
+      "enabled": true,
+      "name": "Fix grammar and spelling of selection"
+    },
+    "summarize-prompt": {
+      "enabled": true,
+      "name": "Summarize selection"
+    },
+    "generate-toc-prompt": {
+      "enabled": true,
+      "name": "Generate table of contents for selection"
+    },
+    "generate-glossary-prompt": {
+      "enabled": true,
+      "name": "Generate glossary for selection"
+    },
+    "simplify-prompt": {
+      "enabled": true,
+      "name": "Simplify selection"
+    },
+    "emojify-prompt": {
+      "enabled": true,
+      "name": "Emojify selection"
+    },
+    "remove-urls-prompt": {
+      "enabled": true,
+      "name": "Remove URLs from selection"
+    },
+    "rewrite-tweet-prompt": {
+      "enabled": true,
+      "name": "Rewrite selection to a tweet"
+    },
+    "rewrite-tweet-thread-prompt": {
+      "enabled": true,
+      "name": "Rewrite selection to a tweet thread"
+    },
+    "make-shorter-prompt": {
+      "enabled": true,
+      "name": "Make selection shorter"
+    },
+    "make-longer-prompt": {
+      "enabled": true,
+      "name": "Make selection longer"
+    },
+    "eli5-prompt": {
+      "enabled": true,
+      "name": "Explain selection like I'm 5"
+    },
+    "press-release-prompt": {
+      "enabled": true,
+      "name": "Rewrite selection to a press release"
+    },
+    "translate-selection-prompt": {
+      "enabled": true,
+      "name": "Translate selection"
+    },
+    "change-tone-prompt": {
+      "enabled": true,
+      "name": "Change tone of selection"
+    }
+  },
+  "promptUsageTimestamps": {}
+}

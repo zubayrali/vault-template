@@ -1,0 +1,63 @@
+.highlighted-folder {
+    background-color: var(--highlighted-folder-color, #eeeeee);
+    border-radius: var(--highlighted-folder-border-radius, 5px);
+    margin: 5px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: padding 0.2s ease;
+}
+
+.highlighted-folder:not(.is-collapsed) {
+    padding: 5px;
+}
+
+.highlighted-folder > .nav-folder-title {
+    background-color: var(--highlighted-folder-title-color, #ffffff00);
+    border-radius: var(--highlighted-folder-border-radius, 5px);
+    margin-bottom: 5px;
+    color: var(--highlighted-folder-text-color, #000000);
+}
+
+
+.highlighted-parent-folder {
+    background-color: var(--highlighted-parent-folder-color, #dddddd);
+    border-radius: var(--highlighted-parent-folder-border-radius, 5px);
+    padding: 0;
+    margin: 5px 0;
+}
+
+.highlighted-parent-folder > .nav-folder-title {
+    border-radius: var(--highlighted-parent-folder-border-radius, 5px);
+    margin-bottom: 5px;
+    color: var(--highlighted-parent-folder-text-color, #000000);
+}
+
+
+.highlighted-folder .nav-file-title,
+.highlighted-parent-folder .nav-file-title {
+    color: inherit;
+}
+
+.highlighted-folder .nav-file-title.is-active {
+    font-weight:var(--highlighted-folder-font-weight, bold);
+    color: inherit;
+}
+.highlighted-parent-folder .nav-file-title.is-active {
+    font-weight:var(--highlighted-parent-folder-font-weight, bold);
+    color: inherit;
+}
+
+.highlighted-folder .nav-file-title:hover,
+.highlighted-folder .nav-file-title.is-being-dragged,
+.highlighted-parent-folder .nav-file-title:hover,
+.highlighted-parent-folder .nav-file-title.is-being-dragged {
+    color: inherit;
+    font-weight: var(--highlighted-folder-font-weight, bold);
+}
+
+.input-width-150 {
+    width: 150px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}

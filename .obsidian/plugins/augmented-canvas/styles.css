@@ -1,0 +1,54 @@
+.augmented-canvas-modal-container {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	justify-content: end;
+	align-items: end;
+}
+
+.augmented-canvas-modal-textarea {
+	box-sizing: border-box;
+	min-height: 70px;
+	flex-grow: 1;
+	width: 100%;
+}
+
+.augmented-canvas-modal-input {
+	box-sizing: border-box;
+	flex-grow: 1;
+	width: 100%;
+	padding: 12px;
+}
+
+/*  */
+
+.augmented-canvas-setting-item {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.augmented-canvas-setting-item > .setting-item-control {
+	width: 100%;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	gap: 16px;
+}
+
+.augmented-canvas-settings-prompt {
+	flex-grow: 1;
+	width: 300px;
+}
+
+.augmented-canvas-list-container {
+}
+
+.augmented-canvas-list-element {
+	width: 100%;
+	display: flex;
+	justify-content: start;
+	align-items: start;
+	gap: 16px;
+	padding: 0.75em 0;
+}

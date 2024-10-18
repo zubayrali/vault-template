@@ -1,0 +1,10 @@
+{
+	"id": "canvas-keyboard-pan",
+	"name": "Canvas Keyboard Pan",
+	"version": "1.0.1",
+	"minAppVersion": "1.5.0",
+	"description": "Pan around your canvas using the keyboard",
+	"author": "Nathonius",
+	"authorUrl": "https://nathan-smith.org/",
+	"isDesktopOnly": true
+}

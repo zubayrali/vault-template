@@ -1,0 +1,16 @@
+.taskido {
+    font-size: 0.8em;
+}
+
+.taskido .quickEntryPanel {
+    flex-direction: column;
+}
+
+.taskido .quickEntryPanel .left,
+.taskido .quickEntryPanel .right {
+    width: 100%;
+}
+
+.taskido .quickEntryPanel .right {
+    margin-top: 5px;
+}

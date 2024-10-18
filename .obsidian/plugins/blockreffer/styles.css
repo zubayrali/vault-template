@@ -1,0 +1,15 @@
+.blockreffer-suggestion-content {
+	display: flex;
+	flex-direction: column;
+	gap: 0.15rem;
+}
+
+.blockreffer-suggestion-block-link {
+	text-decoration: underline;
+	text-decoration-color: var(--text-faint);
+	text-underline-offset: 0.2rem;
+}
+
+.blockreffer-suggestion-block-file {
+	color: var(--text-muted);
+}

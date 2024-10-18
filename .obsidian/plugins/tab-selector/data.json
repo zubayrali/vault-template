@@ -1,0 +1,35 @@
+{
+  "goToPreviousNextTab": {
+    "enableMultiWIndow": false,
+    "focusColor": "#00b4e0",
+    "mainModifierKey": "Control",
+    "subModifierKey": "Shift",
+    "actionKey": "Tab",
+    "reverseActionKey": "ArrowLeft",
+    "howToNextTab": "useSubModifierKey"
+  },
+  "openTabSelector": {
+    "enableMultiWIndow": false,
+    "showAliases": false,
+    "replaceToAliases": false,
+    "showPaths": false,
+    "showPaginationButtons": true,
+    "showLegends": true,
+    "focusColor": "#00b4e0",
+    "characters": "asdfghjkl;",
+    "enableClose": true
+  },
+  "showTabShortcuts": {
+    "enableMultiWIndow": false,
+    "characters": "asdfghjkl;qwertyuiopzxcvbnm,./"
+  },
+  "searchTab": {
+    "enableMultiWIndow": false,
+    "showAliases": false,
+    "includeAliases": false,
+    "showPaths": false,
+    "includePaths": false,
+    "showLegends": true,
+    "focusColor": "#00b4e0"
+  }
+}

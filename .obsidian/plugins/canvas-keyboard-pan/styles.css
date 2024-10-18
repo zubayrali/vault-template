@@ -1,0 +1,54 @@
+.pan-kb-mapping-container {
+	display: grid;
+	grid-template-areas:
+		"a      a    label-north b    b"
+		"c      c    key-north   d    d"
+		"label-west key-west key-south   key-east label-east"
+		"e      e    label-south f    f";
+	width: 250px;
+	height: 200px;
+}
+
+.pan-kb,
+.pan-kb-label {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pan-kb.active,
+.pan-kb-label.active {
+	color: deeppink;
+}
+
+.pan-kb svg.svg-icon {
+	width: 40px;
+	height: 40px;
+}
+
+.pan-kb-north {
+	grid-area: key-north;
+}
+.pan-kb-label-north {
+	grid-area: label-north;
+}
+.pan-kb-west {
+	grid-area: key-west;
+}
+.pan-kb-label-west {
+	grid-area: label-west;
+}
+.pan-kb-south {
+	grid-area: key-south;
+}
+.pan-kb-label-south {
+	grid-area: label-south;
+}
+.pan-kb-east {
+	grid-area: key-east;
+}
+.pan-kb-label-east {
+	grid-area: label-east;
+}

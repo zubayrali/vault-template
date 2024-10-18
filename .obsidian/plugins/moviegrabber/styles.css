@@ -1,0 +1,164 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+.search_text_label_box { 
+	margin-bottom: var(--size-4-2);
+}
+
+.search_text_label{
+	font-size: var(--font-ui-small);
+	color: var(--text-muted);
+}
+
+.search_text_box{
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.search_text{
+    margin: var(--size-4-2);
+    margin-bottom: var(--size-4-4);
+    margin-top: var(--size-4-4);
+    width: 96%;
+    border-top: 1px solid var(--background-modifier-border) !important;
+}
+
+.notice_error{
+    background-color: var(--color-red);
+}
+
+.preview_list_item{
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+.preview_img {
+    max-height: 112px;
+}
+
+.preview_Text{
+    margin-left: var(--size-4-4);
+    display: block;
+}
+
+.preview_Title{
+    font-size: large;
+}
+
+.preview_Year{
+    font-size: small;
+}
+
+.moviegrabber-confirm-button{
+    background-color: var(--background-modifier-error);
+}
+
+.confirm_preview_item{
+    min-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.confirm_preview_img {
+    max-height: 224px;
+}
+
+.confirm_preview_Text{
+    margin: var(--size-4-1);
+    display: flex;
+    align-items: center;
+}
+
+.confirm_preview_Year{
+    font-size: small;
+    margin-left: var(--size-4-1);
+}
+
+/* -------------------------------------------------- */
+/* ------------ Moviegrabber Gallery View ----------- */
+/* -------------------------------------------------- */
+
+.moviegrabber-gallery-cardbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+    width: 100%;
+}
+
+.moviegrabber-card-outerbody{
+    display: flex;
+    flex-direction: column;
+
+    margin: var(--size-4-6);
+	height: calc(--size-4-18 + 2* --size-4-12 + 512)px;
+	width: 400px;
+    background-color: var(--background-secondary) !important;
+	box-shadow: 10px 11px 19px -1px #070202;
+}
+
+.moviegrabber-card-titlebox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    min-height: var(--size-4-18) !important ;
+
+    background-color: var(--background-secondary-alt);
+	border: 1px solid rgb(48, 48, 48) !important;
+    box-shadow: 5px 5px 30px -10px #070202;
+}
+
+.moviegrabber-card-titletext{
+    font-weight: bold !important;
+    color: var(--text-accent) !important;
+    display: flex;
+}
+
+
+.moviegrabber-card-toprow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-height: var(--size-4-12);
+
+    padding-right: var(--size-4-2);
+    padding-left:  var(--size-4-2);
+}
+
+.moviegrabber-card-countryyearbox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 70%;
+}
+
+.moviegrabber-card-country{
+    font-weight: bold !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.moviegrabber-card-year{
+
+}
+
+.moviegrabber-card-length{
+    float: right;
+}
+
+.moviegrabber-card-poster{
+    width: 100%;
+}

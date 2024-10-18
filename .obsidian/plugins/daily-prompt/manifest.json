@@ -1,0 +1,11 @@
+{
+	"id": "daily-prompt",
+	"name": "Daily Prompt",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Set up custom prompts and automatically fill them into your daily notes",
+	"author": "Erl-koenig",
+	"authorUrl": "https://github.com/Erl-koenig",
+	"fundingUrl": "https://www.buymeacoffee.com/erlkoenig",
+	"isDesktopOnly": false
+}

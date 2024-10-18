@@ -1,0 +1,10 @@
+{
+	"id": "card-note",
+	"name": "CardNote",
+	"version": "1.2.0",
+	"minAppVersion": "1.5.11",
+	"description": "Help you quickly extract your thoughts in the Canvas and Excalidraw",
+	"author": "cycsd",
+	"authorUrl": "https://github.com/cycsd",
+	"isDesktopOnly": false
+}

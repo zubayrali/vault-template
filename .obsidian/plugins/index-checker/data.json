@@ -1,0 +1,136 @@
+{
+  "indexFileFormat": "[FOLDER]",
+  "useRootIndexFileFormat": false,
+  "rootIndexFileFormat": "[VAULT]",
+  "outputFileFormat": "_[FOLDER]",
+  "markIndexes": true,
+  "startupCheck": false,
+  "nestedMode": "",
+  "allFiles": false,
+  "ignorePatterns": "",
+  "outputMode": "INDEX",
+  "prependToIndex": false,
+  "outputLinksFormat": "***\n[LINKS]",
+  "canvasShowOptions": false,
+  "canvasGroup": true,
+  "canvasGroupLabel": "Missing files:",
+  "canvasPosition": "TOP_LEFT",
+  "canvasSize": [
+    50,
+    400
+  ],
+  "canvasMode": null,
+  "persistentMarks": [
+    [
+      "Bin/patterns/patterns.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Bin/templates/templates.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Bin/views/views.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Calendar/2024/2024.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Efforts/Initiatives/Initiatives.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Efforts/Obsidian Setup Efforts/Obsidian Setup Efforts.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Efforts/Tasks/Tasks.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Efforts/Efforts.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Canvas/Canvas-Candy-Vault/Features/Features.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Canvas/Canvas-Candy-Vault/Samples/media/sample notes/annotation/annotation.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Canvas/Canvas-Candy-Vault/Samples/media/sample notes/diabetes/diabetes.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Canvas/Canvas-Candy-Vault/Samples/Samples.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Canvas/Canvas-Candy-Vault/Stencils/Stencils.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Canvas/Canvas-Candy-Vault/Tutorial/Tutorial.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Canvas/Canvas-Candy-Vault/Canvas-Candy-Vault.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Canvas/Canvas.md",
+      "ON_TOUCH"
+    ],
+    [
+      "Spaces/Devlog/Devlog.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Fleeting/Fleeting.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Insights/Insights.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/MOCs/MOCs.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Sources/Articles/Articles.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Sources/Books/highlights/highlights.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Sources/Books/Books.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Sources/Definitions/Definitions.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Sources/Films/Films.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Sources/Videos/Videos.md",
+      "ON_TOUCH"
+    ],
+    [
+      "zFlow/Sources/Sources.md",
+      "ON_TOUCH"
+    ]
+  ],
+  "timeStamps": [
+    1727382415480
+  ]
+}

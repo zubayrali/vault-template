@@ -1,0 +1,39 @@
+/* Project Action Buttons Styling */
+.mb-button.project-action-button {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.mb-button.project-action-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+/* New Task Button */
+.mb-button.project-action-button[data-id="addTask"] {
+    background-color: var(--color-green);
+    color: white;
+}
+
+/* New Activity Button */
+.mb-button.project-action-button[data-id="addActivity"] {
+    background-color: var(--color-orange);
+    color: white;
+}
+
+/* New File Button */
+.mb-button.project-action-button[data-id="addFile"] {
+    background-color: var(--color-blue);
+    color: white;
+}
+
+/* Button Container */
+.project-action-buttons-container {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}

@@ -1,0 +1,46 @@
+{
+  "pluginList": [
+    "jensmtg/influx",
+    "greater-than/Obsidian-Tracker-Plus",
+    "SebastianMC/obsidian-custom-sort",
+    "phibr0/obsidian-charts",
+    "mProjectsCode/obsidian-js-engine-plugin",
+    "pyrochlore/obsidian-tracker",
+    "vran-dev/obsidian-contribution-graph",
+    "claremacrae/reveal-active-file-button-plugin",
+    "kometenstaub/customizable-page-header-buttons",
+    "brianpetro/obsidian-smart-connections",
+    "ivan-lednev/better-search-views",
+    "pjeby/hotkey-helper",
+    "kzhovn/uri-commands-obsidian",
+    "chasebank87/mesh-ai",
+    "alexandru-dinu/obsidian-sortable",
+    "ransurf/live-sync-inline-to-yaml",
+    "SkepticMystic/breadcrumbs",
+    "Quorafind/Obsidian-Card-Library",
+    "aqav/obsidian-canvas-links",
+    "andrewmcgivery/obsidian-canvas-dailynote",
+    "michaellw/Obsidian-Canvas-Style-Menu",
+    "HananoshikaYomaru/obsidian-run",
+    "noatpad/obsidian-banners",
+    "soberhacker/obsidian-telegram-sync",
+    "ordidxzero/obsidian-external-favicon"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [
+    {
+      "repo": "Akifyss/obsidian-border",
+      "lastUpdate": "155659002"
+    }
+  ],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": true,
+  "personalAccessToken": "",
+  "ribbonIconEnabled": false
+}

@@ -1,0 +1,15 @@
+{
+	"id": "blockreffer",
+	"name": "Blockreffer",
+	"version": "1.4.1",
+	"minAppVersion": "0.15.0",
+	"description": "Search and embed blocks with ^block-references (aka ^block-ids)",
+	"author": "tyler.earth",
+	"authorUrl": "https://tyler.earth/",
+	"isDesktopOnly": false,
+	"fundingUrl": {
+		"GitHub Sponsor": "https://github.com/sponsors/tyler-dot-earth",
+		"Ko-Fi": "https://ko-fi.com/tylerdotearth",
+		"Buy Me a Coffee": "https://buymeacoffee.com/tyler.earth"
+	}
+}

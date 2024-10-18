@@ -1,0 +1,40 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.ghost {
+	position: absolute;
+	padding: 5px 25px;
+	border: solid;
+	border-width: 3px;
+	border-radius: 10px;
+	width: 300px;
+	min-height: 200px;
+}
+
+.hidden {
+	display: none;
+}
+
+.dragbackground {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+/* .no-border-search-input{
+	border-width: 0px !important;
+	outline-color: blue;
+	outline-width: 0 !important;
+	box-shadow:none !important;
+	width: 100;
+}
+.no-border-search-input:focus{
+	outline-color: blue;
+} */

@@ -1,0 +1,19 @@
+{
+  "versionValue": "0.1.7",
+  "startupBackupStatus": true,
+  "lifecycleValue": "2",
+  "backupsPerDayValue": "1",
+  "maxRetriesValue": "1",
+  "retryIntervalValue": "100",
+  "winSavePathValue": "/home/b166er",
+  "unixSavePathValue": "/home/b166er/vault-bkp",
+  "fileNameFormatValue": "vault-Backup-%Y_%m_%d-%H_%M_%S",
+  "intervalBackupStatus": true,
+  "backupFrequencyValue": "86400",
+  "callingArchiverStatus": true,
+  "archiverTypeValue": "sevenZip",
+  "archiveFileTypeValue": "zip",
+  "archiverWinPathValue": "",
+  "archiverUnixPathValue": "/usr/bin/7z",
+  "showRibbonIcon": true
+}

@@ -1,0 +1,8 @@
+{
+  "snapToObjects": true,
+  "snapToGrid": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "zFlow/Canvas",
+  "defaultWheelBehavior": "pan",
+  "cardLabelVisibility": "always"
+}

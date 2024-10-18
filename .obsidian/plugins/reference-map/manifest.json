@@ -1,0 +1,11 @@
+{
+	"id": "reference-map",
+	"name": "Reference Map",
+	"version": "1.8.1",
+	"minAppVersion": "1.0",
+	"description": "Reference and citation map for literature review and discovery",
+	"author": "Anoop K. Chandran",
+	"authorUrl": "anoopkcn.com",
+	"fundingUrl": "https://github.com/sponsors/anoopkcn",
+	"isDesktopOnly": true
+}

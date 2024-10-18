@@ -1,0 +1,41 @@
+{
+  "openaiApiKey": "",
+  "googleApiKey": "",
+  "microsoftApiKey": "",
+  "anthropicApiKey": "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",
+  "grocqApiKey": "",
+  "tavilyApiKey": "",
+  "openrouterApiKey": "",
+  "usePerplexity": false,
+  "perplexityApiKey": "",
+  "youtubeApiKey": "",
+  "ollamaServerUrl": "http://localhost:11434",
+  "microsoftEndpointUrl": "",
+  "selectedProvider": "openai",
+  "selectedModel": "",
+  "providerModels": {
+    "openai": [
+      "gpt-4-1106-preview"
+    ],
+    "google": [],
+    "microsoft": [],
+    "anthropic": [],
+    "grocq": [],
+    "ollama": [],
+    "openrouter": [
+      "google/gemini-flash-1.5-8b"
+    ]
+  },
+  "customPatternsFolder": "Bin/patterns/custom-patterns",
+  "fabricPatternsFolder": "Bin/patterns",
+  "meshOutputFolder": "/",
+  "patternStitchingEnabled": false,
+  "enableDebugging": false,
+  "workflows": [],
+  "lmstudioApiKey": "",
+  "lmstudioServerUrl": "http://localhost:8000",
+  "pathwaysModel": "o1-preview",
+  "pathwaysOutputFolder": "",
+  "defaultPathwayWorkflow": "",
+  "pathwaysSearchProvider": "tavily"
+}

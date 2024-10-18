@@ -1,0 +1,387 @@
+{
+  "Canvas Candy": {
+    "name": "Canvas Candy",
+    "menuItems": [
+      {
+        "class": "cc-border",
+        "type": "border",
+        "icon": "cs-style-border",
+        "name": "Border",
+        "cat": "",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true,
+        "expanded": false
+      },
+      {
+        "class": "cc-background",
+        "type": "bg",
+        "icon": "cs-background",
+        "name": "Background",
+        "cat": "",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true,
+        "expanded": false
+      },
+      {
+        "class": "cc-position",
+        "type": "rotate",
+        "icon": "lucide-scale-3d",
+        "name": "Position",
+        "cat": "",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true,
+        "expanded": false
+      },
+      {
+        "class": "cs-shape",
+        "type": "shape",
+        "icon": "diamond",
+        "name": "Shape",
+        "cat": "",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true,
+        "expanded": false
+      },
+      {
+        "class": "cs-highlight",
+        "type": "highlight",
+        "icon": "star",
+        "name": "Highlight",
+        "cat": "",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true
+      },
+      {
+        "class": "cc-extra",
+        "type": "extra",
+        "icon": "more-horizontal",
+        "name": "Extra",
+        "cat": "",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true,
+        "expanded": false
+      },
+      {
+        "class": "cs-line-type",
+        "type": "lineType",
+        "icon": "cs-border-corner-pill",
+        "name": "Line type",
+        "cat": "edge",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true,
+        "expanded": false
+      },
+      {
+        "class": "cs-line-style",
+        "type": "lineStyle",
+        "icon": "cs-line-style",
+        "name": "Line style",
+        "cat": "edge",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true
+      },
+      {
+        "class": "cs-line-thickness",
+        "type": "lineThickness",
+        "icon": "equal",
+        "name": "Line thickness",
+        "cat": "edge",
+        "selector": "",
+        "ctxmenu": false,
+        "enable": true
+      }
+    ],
+    "subMenuItems": {
+      "border": [
+        {
+          "class": "cc-border-none",
+          "type": "border",
+          "icon": "",
+          "name": "None",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-top",
+          "type": "border",
+          "icon": "",
+          "name": "Top",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-bottom",
+          "type": "border",
+          "icon": "",
+          "name": "Bottom",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-left",
+          "type": "border",
+          "icon": "",
+          "name": "Left",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-right",
+          "type": "border",
+          "icon": "",
+          "name": "Right",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-dotted",
+          "type": "border",
+          "icon": "",
+          "name": "Dotted",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-dashed",
+          "type": "border",
+          "icon": "",
+          "name": "Dashed",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-double",
+          "type": "border",
+          "icon": "",
+          "name": "Double",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-dropshadow",
+          "type": "border",
+          "icon": "",
+          "name": "Dropshadow",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-squared",
+          "type": "border",
+          "icon": "",
+          "name": "Squared",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-border-rounded",
+          "type": "border",
+          "icon": "",
+          "name": "Rounded",
+          "selector": "cc",
+          "enable": true
+        }
+      ],
+      "bg": [
+        {
+          "class": "cc-card-transparent",
+          "type": "bg",
+          "icon": "",
+          "name": "Transparent",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-card-opaque",
+          "type": "bg",
+          "icon": "",
+          "name": "Opaque",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-card-nocolor",
+          "type": "bg",
+          "icon": "",
+          "name": "No Color",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-image-clip",
+          "type": "bg",
+          "icon": "",
+          "name": "Image Clip",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-image-cover",
+          "type": "bg",
+          "icon": "",
+          "name": "Image Cover",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-card-fill",
+          "type": "bg",
+          "icon": "",
+          "name": "Card Fill",
+          "selector": "cc",
+          "enable": true
+        }
+      ],
+      "rotate": [
+        {
+          "class": "cc-rotate-card-45",
+          "type": "rotate",
+          "icon": "",
+          "name": "45",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-callout-center",
+          "type": "rotate",
+          "icon": "",
+          "name": "Callout Center",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-card-center",
+          "type": "rotate",
+          "icon": "",
+          "name": "Card Content Center",
+          "selector": "cc",
+          "enable": true
+        }
+      ],
+      "shape": [
+        {
+          "class": "cc-shape-circle",
+          "type": "shape",
+          "icon": "",
+          "name": "Circle",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-shape-parallelogram-left",
+          "type": "shape",
+          "icon": "",
+          "name": "Parallelogram Left",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "parallelogram-right",
+          "type": "shape",
+          "icon": "",
+          "name": "Parallelogram Right",
+          "selector": "cc",
+          "enable": true
+        }
+      ],
+      "highlight": [],
+      "extra": [
+        {
+          "class": "cc-card-gradient-0deg",
+          "type": "extra",
+          "icon": "",
+          "name": "Gradient 0°",
+          "selector": "cc",
+          "enable": true
+        },
+        {
+          "class": "cc-card-gradient-45deg",
+          "type": "extra",
+          "icon": "",
+          "name": "Gradient 45°",
+          "selector": "cc",
+          "enable": true
+        }
+      ],
+      "lineType": [
+        {
+          "class": "cs-line-straight",
+          "type": "lineType",
+          "icon": "minus",
+          "name": "Straight",
+          "selector": "",
+          "enable": true
+        },
+        {
+          "class": "cs-line-elbow",
+          "type": "lineType",
+          "icon": "cs-elbow",
+          "name": "Elbow",
+          "selector": "",
+          "enable": true
+        }
+      ],
+      "lineStyle": [
+        {
+          "class": "cs-line-dashed",
+          "type": "lineStyle",
+          "icon": "cs-line-dashed",
+          "name": "Dashed",
+          "selector": "",
+          "enable": true
+        },
+        {
+          "class": "cs-line-dashed-round",
+          "type": "lineStyle",
+          "icon": "cs-line-dashed",
+          "name": "Dashed round",
+          "selector": "",
+          "enable": true
+        },
+        {
+          "class": "cs-line-dotted",
+          "type": "lineStyle",
+          "icon": "cs-line-dotted",
+          "name": "Dotted",
+          "selector": "",
+          "enable": true
+        },
+        {
+          "class": "cs-line-dotted-line",
+          "type": "lineStyle",
+          "icon": "cs-dotted-line",
+          "name": "Dotted line",
+          "selector": "",
+          "enable": true
+        }
+      ],
+      "lineThickness": [
+        {
+          "class": "cs-line-thick",
+          "type": "lineThickness",
+          "icon": "cs-thicker",
+          "name": "Thicker",
+          "selector": "",
+          "enable": true
+        },
+        {
+          "class": "cs-line-thicker",
+          "type": "lineThickness",
+          "icon": "cs-thicker++",
+          "name": "Thicker++",
+          "selector": "",
+          "enable": true
+        }
+      ]
+    },
+    "customIcons": []
+  }
+}

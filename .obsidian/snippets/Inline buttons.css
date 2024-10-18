@@ -1,0 +1,21 @@
+/* Custom styling for inline Meta Bind buttons */
+.inline-button {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the spacing between buttons */
+}
+
+.mb-input-type-button.inline-button {
+    padding: 5px 15px;
+    background-color: var(--interactive-primary);
+    border-radius: 4px;
+    color: var(--text-normal);
+}
+
+.inline-button:hover {
+    background-color: var(--interactive-hover);
+}
+
+.mb-input-type-button.inline-button .mb-button-label {
+    font-size: 14px;
+    font-weight: 500;
+}

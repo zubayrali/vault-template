@@ -1,0 +1,10 @@
+{
+	"id": "alias-management",
+	"name": "Alias Management",
+	"version": "0.0.1",
+	"minAppVersion": "1.5.8",
+	"description": "Identify duplicate notes based on similar aliases and filenames.",
+	"author": "WithMarcel",
+	"authorUrl": "https://github.com/WithMarcel",
+	"isDesktopOnly": true
+}

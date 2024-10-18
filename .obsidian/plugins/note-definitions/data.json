@@ -1,0 +1,21 @@
+{
+  "enableInReadingView": true,
+  "popoverEvent": "hover",
+  "defFileParseConfig": {
+    "defaultFileType": "consolidated",
+    "divider": {
+      "dash": true,
+      "underscore": false
+    }
+  },
+  "defPopoverConfig": {
+    "displayAliases": true,
+    "displayDefFileName": false,
+    "enableCustomSize": false,
+    "maxWidth": 150,
+    "maxHeight": 150,
+    "popoverDismissEvent": "click",
+    "enableDefinitionLink": false
+  },
+  "defFolder": "zFlow/Sources/Misc"
+}

@@ -1,0 +1,51 @@
+/* Custom Cursor for Obsidian (requires Ninja Cursor plugin) */
+
+/* https://forum.obsidian.md/t/options-to-modify-cursor-style/1091 */
+
+/* Cursor appearance */
+.cursorWrapper .x-cursor {
+    opacity: 1;
+    background: rgba(1, 183, 255, 1); /* iA Writer blue */
+    width: 2px;
+    left: -1px;
+    height: calc(6px + var(--cursor-height));
+    transition: opacity;
+    top: calc(-4px - var(--header-height));
+}
+
+/* Theme-specific colors (if needed) */
+.theme-light .x-cursor {
+    background: rgba(1, 183, 255, 1);
+}
+
+.theme-dark .x-cursor {
+    background: rgba(1, 183, 255, 1);
+}
+
+/* Remove default cursor */
+.cm-editor * {
+    caret-color: transparent !important;
+}
+
+/* Disable movement effect */
+.cursorWrapper .x-cursor::after {
+    display: none;
+}
+
+/* Remove normal cursor on text selection */
+.cm-cursorLayer {
+    animation: none !important;
+    visibility: hidden !important;
+}
+
+/* Blinking animation */
+.cursorWrapper .x-cursor0,
+.cursorWrapper .x-cursor1 {
+    animation: blink 1s 1s both infinite;
+}
+
+@keyframes blink {
+    0%, 45% { opacity: 1; }
+    50%, 95% { opacity: 0; }
+    100% { opacity: 0.3; }
+}

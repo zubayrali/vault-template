@@ -1,0 +1,35 @@
+{
+  "openNewTab": false,
+  "openFileIn": "newTab",
+  "deleteCommandWhenFileIsDeleted": true,
+  "updateCommandsOnRename": true,
+  "commands": [
+    {
+      "id": "d9db4b8f-d191-46b7-a224-87ef3a6b3d3c",
+      "name": "Open Daily Note",
+      "filePath": "daily-note",
+      "openFileIn": "activeTab",
+      "command": {
+        "id": "open-files-with-commands:d9db4b8f-d191-46b7-a224-87ef3a6b3d3c",
+        "name": "Open files with commands: Open Daily Note"
+      }
+    }
+  ],
+  "customVariables": [
+    {
+      "name": "date",
+      "value": "{{d:YYYY-MM-DD}}",
+      "type": "string"
+    },
+    {
+      "name": "time",
+      "value": "{{d:HH:mm:ss}}",
+      "type": "string"
+    },
+    {
+      "name": "daily-note",
+      "value": "journals/Daily/{{d:YYYY}}/{{d:MM}}/{{d:YYYY-MM-DD}}",
+      "type": "string"
+    }
+  ]
+}

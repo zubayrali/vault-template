@@ -1,0 +1,10 @@
+{
+	"id": "pin-enhancer",
+	"name": "Pin Enhancer",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Enhances the pin function to prevent closing the pinned tab.",
+	"author": "Sheeplet1",
+	"authorUrl": "https://github.com/Sheeplet1",
+	"isDesktopOnly": true
+}
