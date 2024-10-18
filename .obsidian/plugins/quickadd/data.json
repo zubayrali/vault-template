@@ -872,12 +872,12 @@
             "templatePath": "bin/templates/empty file.md",
             "fileNameFormat": {
               "enabled": true,
-              "format": "{{VALUE:Effort Name}}"
+              "format": "{{VALUE:Begin an Effort}}"
             },
             "folder": {
               "enabled": true,
               "folders": [
-                "Efforts/{{VALUE:Effort Name}}/"
+                "Efforts/{{VALUE:Begin an Effort}}"
               ],
               "chooseWhenCreatingNote": false,
               "createInSameFolderAsActiveFile": false,
@@ -890,7 +890,7 @@
               "focus": true
             },
             "openFile": true,
-            "openFileInMode": "source",
+            "openFileInMode": "default",
             "fileExistsMode": "Overwrite the file",
             "setFileExistsBehavior": true
           }
@@ -898,7 +898,7 @@
         {
           "name": "Wait",
           "type": "Wait",
-          "id": "ebc3c6a6-fd70-4de5-8a19-fcd8975d11a0",
+          "id": "ed55f96c-03bd-44de-b834-28ddf7bea238",
           "time": 100
         },
         {
@@ -926,7 +926,7 @@
             },
             "format": {
               "enabled": true,
-              "format": "- {{DATE:HH:mm}} - Effort [[{{VALUE:Effort Name}}]]  created  \\n"
+              "format": "- {{DATE:HH:mm}} - Effort [[{{VALUE:Begin an Effort}}]]  created  \\n"
             },
             "insertAfter": {
               "enabled": true,

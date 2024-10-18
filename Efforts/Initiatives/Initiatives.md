@@ -1,15 +1,11 @@
 ---
 title: Initiatives
 created: 2024-09-11T01:40:44.000-04:00
-updated: 2024-10-08T10:34:36.211-04:00
+updated: 2024-10-18T10:34:26.282-04:00
 searchTerm:
 ---
 
-# Initiatives
-
-[[Flow|<< 🌊 Flow]]
-
-> [!increase] Initiatives Summary
+> [!increase] Initiatives Stats
 > ```dataviewjs
 > let totalInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.tags && p.tags.includes("type/initiative")).length;
 > let backlogInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟥 Backlog").length;

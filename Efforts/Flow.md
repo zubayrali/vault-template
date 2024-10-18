@@ -1,7 +1,7 @@
 ---
 title: Flow
 created: 2024-10-06T12:24:12.000-04:00
-updated: 2024-10-18T08:40:40.979-04:00
+updated: 2024-10-18T10:33:23.034-04:00
 ---
 
 
@@ -9,6 +9,8 @@ Your launchpad and home base. That's here. That's **home**.
 
 > [!question] What does the Flow Dashboard do?
 > This dashboard provides a bird's-eye view of your current **Efforts** and **Initiatives**, guiding you to take meaningful actions. Click on any entry to drill down into tasks and details.
+>
+> Use this to keep priorities in order and quickly adjust your bandwidth as needed.
 
 > [!Map]- zFlow
 > > *Where would you like to go?*
@@ -46,7 +48,7 @@ Your launchpad and home base. That's here. That's **home**.
 > [[Initiatives]]
 > ```
 
-> [!note] Dashboard Overview 📊
+> [!note] Stats 📊
 > ```dataviewjs
 > let totalEfforts = dv.pages('"Efforts"').length;
 > let totalInitiatives = dv.pages('"Efforts/Initiatives"').length;

@@ -1,15 +1,10 @@
 ---
 title: Efforts
 created: 2024-10-06T12:24:12.000-04:00
-updated: 2024-10-08T10:35:01.210-04:00
+updated: 2024-10-18T10:34:04.307-04:00
 ---
 
-# Efforts
-
-[[Flow|<< 🌊 Flow]]
-
-
-> [!increase] Efforts Summary 📊
+> [!increase] Efforts Stats 📊
 > ```dataviewjs
 > let totalEfforts = dv.pages('"Efforts"').where(p => p.tags && p.tags.includes("type/effort")).length;
 > let activeEfforts = dv.pages('"Efforts"').where(p => p.type === "On").length;
