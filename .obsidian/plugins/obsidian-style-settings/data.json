@@ -281,7 +281,7 @@
   "anuppuccin-theme-settings@@anp-file-label-align": "1",
   "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border-only",
   "anuppuccin-theme-settings@@anp-list-toggle": true,
-  "anuppuccin-theme-settings@@list-numbered-style": "katakana-iroha",
+  "anuppuccin-theme-settings@@list-numbered-style": "decimal",
   "anuppuccin-theme-settings@@anp-autohide-titlebar": false,
   "anuppuccin-theme-settings@@anp-hide-status-bar": true,
   "anuppuccin-theme-settings@@anp-toggle-scrollbars": true,

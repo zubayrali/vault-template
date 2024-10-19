@@ -73,7 +73,6 @@
   "obsidian-filename-heading-sync",
   "obsidian-auto-link-title",
   "obsidian-linter",
-  "obsidian-meta-bind-plugin",
   "enhanced-annotations",
   "geulo-youtube-liked-video",
   "note-definitions",
@@ -85,5 +84,6 @@
   "obsidian-local-images-plus",
   "mysnippets-plugin",
   "tag-wrangler",
-  "make-md"
+  "obsidian-tracker",
+  "obsidian-meta-bind-plugin"
 ]

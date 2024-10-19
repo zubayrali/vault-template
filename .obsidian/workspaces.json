@@ -390,39 +390,25 @@
         "type": "split",
         "children": [
           {
-            "id": "5d737efd0cf2a27d",
+            "id": "07701da4332eac26",
             "type": "tabs",
             "children": [
               {
-                "id": "908d1d68fe6ecd5f",
+                "id": "27d91dbbc57865fe",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Calendar/2024/Daily/10/2024-10-06.md",
+                    "file": "Calendar/2024/Daily/10/2024-10-19.md",
                     "mode": "preview",
                     "backlinks": false,
                     "source": true
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "ed90f2bfd8a9ee24",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Calendar/Tasks/Tasks in Efforts.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": true
-                  }
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -452,12 +438,12 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Calendar/Tasks/Overview.md"
+                    "file": "Calendar/2024/Daily/10/2024-10-19.md"
                   }
                 }
               },
               {
-                "id": "63dcf36ee510aec5",
+                "id": "a2612523814bcbb8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -541,7 +527,7 @@
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "Calendar/Tasks/Overview.md"
+                    "file": "Calendar/2024/Daily/10/2024-10-19.md"
                   }
                 }
               },
@@ -582,6 +568,14 @@
                   "type": "journal-calendar",
                   "state": {}
                 }
+              },
+              {
+                "id": "d7222b003970f036",
+                "type": "leaf",
+                "state": {
+                  "type": "Strange New Worlds",
+                  "state": {}
+                }
               }
             ],
             "currentTab": 1
@@ -597,7 +591,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Calendar/Tasks/Overview.md",
+                    "file": "Calendar/2024/Daily/10/2024-10-19.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -616,7 +610,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "periodic-para:LifeOS": false,
+          "geulo-youtube-liked-video:Activate Liked Video List View": false,
+          "periodic-para:LifeOS Creation": false,
           "dashboard-navigator:Open dashboard navigator": false,
           "homepage:Open homepage": false,
           "yesterday:Create entry": false,
@@ -644,8 +639,8 @@
           "obsidian-omnivore:Omnivore": false
         }
       },
-      "active": "63dcf36ee510aec5",
-      "mtime": "2024-10-06T12:26:43-04:00"
+      "active": "27d91dbbc57865fe",
+      "mtime": "2024-10-19T11:05:35-04:00"
     },
     "Books Library": {
       "main": {

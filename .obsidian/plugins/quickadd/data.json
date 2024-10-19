@@ -1,238 +1,6 @@
 {
   "choices": [
     {
-      "id": "ce26a926-55a1-4b6b-a594-741e6fb09583",
-      "name": "🎖️Initiative",
-      "type": "Macro",
-      "command": true,
-      "macroId": "92e016f5-5c7f-46ec-a3b7-9cb17c4d1ed7"
-    },
-    {
-      "id": "54060121-0161-40a8-9f81-a87df5c6c01b",
-      "name": "🪄 Effort",
-      "type": "Macro",
-      "command": true,
-      "macroId": "ce3ee7da-1a0f-49be-9973-52b8e5fb165e"
-    },
-    {
-      "id": "8fa56ce8-a468-4b70-b1f2-7e271a01f11e",
-      "name": "Quick capture: Daily(task)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "Calendar/{{DATE:YYYY}}/Daily/{{DATE:MM}}/{{DATE:YYYY-MM-DD}}",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": true,
-        "createWithTemplate": true,
-        "template": "Bin/templates/new daily note.md"
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{VALUE}} ➕ {{time:YYYY-MM-DD}} #tasks\\n"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Daily Log",
-        "insertAtEnd": true,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": true,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": false
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "ec621bf5-d104-4cf8-a1b7-7749f9476060",
-      "name": "New Vocab",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "VocabJournal.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{value}}::{{mvalue}}"
-      },
-      "insertAfter": {
-        "enabled": false,
-        "after": "",
-        "insertAtEnd": true,
-        "considerSubsections": false,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": true,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "12826427-906a-48ea-baeb-4b5482a70b53",
-      "name": "Quick capture: Daily(tasks plugin)",
-      "type": "Macro",
-      "command": true,
-      "macroId": "09fc06b6-7f63-4a5d-ac82-da3e4c2db086"
-    },
-    {
-      "id": "a83f9a56-7766-4d12-b10c-d769faa35a09",
-      "name": "Quick capture: Task(#later)",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "tasks.md",
-      "captureToActiveFile": false,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": true,
-        "template": "bin/templates/new daily note.md"
-      },
-      "format": {
-        "enabled": true,
-        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Master List\\n",
-        "insertAtEnd": true,
-        "createIfNotFound": false,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": false
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
-      "id": "39d1cb3e-3906-4952-9511-81628761a975",
-      "name": "Menu",
-      "type": "Multi",
-      "command": true,
-      "choices": [
-        {
-          "id": "222275ca-187c-4c66-97c6-6a63d56b9f75",
-          "name": "✅ Task",
-          "type": "Macro",
-          "command": true,
-          "macroId": "95af30f9-5457-4572-85a0-066c3b77784c"
-        },
-        {
-          "id": "7f0c6dbf-54b7-4c69-ae0f-29da76888e32",
-          "name": "🏃 Activity",
-          "type": "Macro",
-          "command": true,
-          "macroId": "8f3ec0c0-74cd-4d03-98c6-ff4646b5b35f"
-        },
-        {
-          "id": "ef9397a9-b7a1-41d1-b59b-6105460d461e",
-          "name": "📂 File",
-          "type": "Macro",
-          "command": true,
-          "macroId": "d23441ae-1a54-4645-ab3e-d8eaf88ca7d7"
-        }
-      ],
-      "collapsed": false
-    },
-    {
-      "id": "da6eaa34-b3cc-43cd-ac97-fccf84884c3c",
-      "name": "BookFinder",
-      "type": "Macro",
-      "command": true,
-      "macroId": "4911f7dd-e47b-4c90-a2de-e2cd7dda3ec4"
-    },
-    {
-      "id": "dc1ccdc3-d492-49f0-87d0-ce2c91b84010",
-      "name": "zFlow",
-      "type": "Multi",
-      "command": true,
-      "choices": [
-        {
-          "id": "8340edcb-7380-423a-97fc-af30a945d167",
-          "name": "note by type",
-          "type": "Template",
-          "command": false,
-          "templatePath": "",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": false,
-            "folders": [],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
-        },
-        {
-          "id": "5f88b320-51fb-4587-ad46-c6040a2582c5",
-          "name": "fleeting",
-          "type": "Template",
-          "command": false,
-          "templatePath": "",
-          "fileNameFormat": {
-            "enabled": false,
-            "format": ""
-          },
-          "folder": {
-            "enabled": false,
-            "folders": [],
-            "chooseWhenCreatingNote": false,
-            "createInSameFolderAsActiveFile": false,
-            "chooseFromSubfolders": false
-          },
-          "appendLink": false,
-          "openFileInNewTab": {
-            "enabled": false,
-            "direction": "vertical",
-            "focus": true
-          },
-          "openFile": false,
-          "openFileInMode": "default",
-          "fileExistsMode": "Increment the file name",
-          "setFileExistsBehavior": false
-        }
-      ]
-    },
-    {
-      "id": "0c6cc7fb-ac07-4f56-a215-e6eb71f7c0d3",
-      "name": "macroGetPictures",
-      "type": "Macro",
-      "command": false,
-      "macroId": "0743e491-2f57-48f0-b960-ee0b30b39fe9"
-    },
-    {
       "id": "879adafd-b6c4-4715-a8ba-664f9aee9123",
       "name": "Daily",
       "type": "Multi",
@@ -557,6 +325,111 @@
       "collapsed": false
     },
     {
+      "id": "8fa56ce8-a468-4b70-b1f2-7e271a01f11e",
+      "name": "Quick capture: Daily(task)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "Calendar/{{DATE:YYYY}}/Daily/{{DATE:MM}}/{{DATE:YYYY-MM-DD}}",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": true,
+        "createWithTemplate": true,
+        "template": "Bin/templates/new daily note.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "{{VALUE}} ➕ {{time:YYYY-MM-DD}} #tasks\\n"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Daily Log",
+        "insertAtEnd": true,
+        "createIfNotFound": true,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": true,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "12826427-906a-48ea-baeb-4b5482a70b53",
+      "name": "Quick capture: Daily(tasks plugin)",
+      "type": "Macro",
+      "command": true,
+      "macroId": "09fc06b6-7f63-4a5d-ac82-da3e4c2db086"
+    },
+    {
+      "id": "a83f9a56-7766-4d12-b10c-d769faa35a09",
+      "name": "Quick capture: Task(#later)",
+      "type": "Capture",
+      "command": true,
+      "appendLink": false,
+      "captureTo": "tasks.md",
+      "captureToActiveFile": false,
+      "createFileIfItDoesntExist": {
+        "enabled": false,
+        "createWithTemplate": true,
+        "template": "bin/templates/new daily note.md"
+      },
+      "format": {
+        "enabled": true,
+        "format": "```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal();\n```"
+      },
+      "insertAfter": {
+        "enabled": true,
+        "after": "## Master List\\n",
+        "insertAtEnd": true,
+        "createIfNotFound": false,
+        "createIfNotFoundLocation": "top"
+      },
+      "prepend": false,
+      "task": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": false
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    },
+    {
+      "id": "39d1cb3e-3906-4952-9511-81628761a975",
+      "name": "Options",
+      "type": "Multi",
+      "command": true,
+      "choices": [
+        {
+          "id": "222275ca-187c-4c66-97c6-6a63d56b9f75",
+          "name": "✅ Task",
+          "type": "Macro",
+          "command": true,
+          "macroId": "95af30f9-5457-4572-85a0-066c3b77784c"
+        },
+        {
+          "id": "7f0c6dbf-54b7-4c69-ae0f-29da76888e32",
+          "name": "🏃 Activity",
+          "type": "Macro",
+          "command": true,
+          "macroId": "8f3ec0c0-74cd-4d03-98c6-ff4646b5b35f"
+        },
+        {
+          "id": "ef9397a9-b7a1-41d1-b59b-6105460d461e",
+          "name": "📂 File",
+          "type": "Macro",
+          "command": true,
+          "macroId": "d23441ae-1a54-4645-ab3e-d8eaf88ca7d7"
+        }
+      ],
+      "collapsed": false
+    },
+    {
       "id": "45550695-c62b-4390-9a7d-d66c7ddf6206",
       "name": "Wheel Of Life",
       "type": "Capture",
@@ -639,6 +512,20 @@
       "type": "Macro",
       "command": false,
       "macroId": "1f6de7d2-515a-453c-828c-097a8de53776"
+    },
+    {
+      "id": "ce26a926-55a1-4b6b-a594-741e6fb09583",
+      "name": "🎖️Initiative",
+      "type": "Macro",
+      "command": true,
+      "macroId": "92e016f5-5c7f-46ec-a3b7-9cb17c4d1ed7"
+    },
+    {
+      "id": "54060121-0161-40a8-9f81-a87df5c6c01b",
+      "name": "🪄 Effort",
+      "type": "Macro",
+      "command": true,
+      "macroId": "ce3ee7da-1a0f-49be-9973-52b8e5fb165e"
     },
     {
       "id": "c95f6cff-91b3-4b75-816d-9cb9cfcc8290",
@@ -724,7 +611,8 @@
       "name": "Canvases",
       "type": "Multi",
       "command": false,
-      "choices": []
+      "choices": [],
+      "collapsed": false
     },
     {
       "id": "376e9600-cf13-4901-b2df-0c55c25ecb92",
@@ -951,55 +839,6 @@
       "runOnStartup": false
     },
     {
-      "name": "BookFinder",
-      "id": "4911f7dd-e47b-4c90-a2de-e2cd7dda3ec4",
-      "commands": [
-        {
-          "name": "BookFinder",
-          "type": "UserScript",
-          "id": "cee803b3-8441-4468-81b3-d19cfb19f508",
-          "path": "bin/scripts/BookFinder.js",
-          "settings": {}
-        },
-        {
-          "name": "Create new book note",
-          "type": "NestedChoice",
-          "id": "43d7092e-0e1a-4077-b670-f4923f9c9a84",
-          "choice": {
-            "id": "d0e25e08-0c77-43ab-84d0-7f3fde860e50",
-            "name": "Create new book note",
-            "type": "Template",
-            "command": false,
-            "templatePath": "bin/templates/book quickadd.md",
-            "fileNameFormat": {
-              "enabled": true,
-              "format": "{{VALUE:fileName}}"
-            },
-            "folder": {
-              "enabled": true,
-              "folders": [
-                "refType/books"
-              ],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": true
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
       "name": "🎖️ Initiative",
       "id": "92e016f5-5c7f-46ec-a3b7-9cb17c4d1ed7",
       "commands": [
@@ -1120,8 +959,8 @@
         {
           "name": "tracker",
           "type": "UserScript",
-          "id": "4c335dc5-e151-479f-9fb3-4391dfef068d",
-          "path": "Bin/scripts/tracker.js",
+          "id": "05510132-cebf-46fe-9c02-9fa712665b0a",
+          "path": "bin/scripts/tracker.js",
           "settings": {}
         }
       ],

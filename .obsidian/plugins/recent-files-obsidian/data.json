@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Chew the Cud",
+      "path": "zFlow/Sources/Books/Chew the Cud.md"
+    },
+    {
+      "basename": "2024-10-19",
+      "path": "Calendar/2024/Daily/10/2024-10-19.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Calendar/Tasks/Overview.md"
+    },
+    {
+      "basename": "Calendar",
+      "path": "Calendar/Calendar.md"
+    },
+    {
+      "basename": "Tasks in Efforts",
+      "path": "Calendar/Tasks/Tasks in Efforts.md"
+    },
+    {
+      "basename": "2024-10-06",
+      "path": "Calendar/2024/Daily/10/2024-10-06.md"
+    },
+    {
+      "basename": "Psychology MOC",
+      "path": "Psychology MOC.md"
+    },
+    {
       "basename": "2024-10-18",
       "path": "Calendar/2024/Daily/10/2024-10-18.md"
+    },
+    {
+      "basename": "Hotkey Helper",
+      "path": "Hotkey Helper.md"
     },
     {
       "basename": "Initiatives",
@@ -57,10 +89,6 @@
       "path": "bin/classes/effort.md"
     },
     {
-      "basename": "Overview.md",
-      "path": "Calendar/Tasks/Overview.md.md"
-    },
-    {
       "basename": "initiative",
       "path": "bin/classes/initiative.md"
     },
@@ -97,20 +125,8 @@
       "path": "Calendar/2024/Daily/10/2024-10-14.md"
     },
     {
-      "basename": "Tasks in Efforts",
-      "path": "Calendar/Tasks/Tasks in Efforts.md"
-    },
-    {
-      "basename": "2024-10-06",
-      "path": "Calendar/2024/Daily/10/2024-10-06.md"
-    },
-    {
       "basename": "The Maturity Crisis",
       "path": "The Maturity Crisis.md"
-    },
-    {
-      "basename": "Chew the Cud",
-      "path": "Chew the Cud.md"
     },
     {
       "basename": "2024-10-11",
@@ -133,16 +149,8 @@
       "path": "new excalidraw templater.md"
     },
     {
-      "basename": "Calendar",
-      "path": "Calendar/Calendar.md"
-    },
-    {
       "basename": "Heuristics",
       "path": "Heuristics.md"
-    },
-    {
-      "basename": "hotkey helper",
-      "path": "hotkey helper.md"
     },
     {
       "basename": "2024-10-09",
@@ -171,10 +179,6 @@
     {
       "basename": "Building a Custom PC",
       "path": "Efforts/Initiatives/Building a Custom PC/Building a Custom PC.md"
-    },
-    {
-      "basename": "Psychology MOC",
-      "path": "Psychology MOC.md"
     },
     {
       "basename": "new article template",

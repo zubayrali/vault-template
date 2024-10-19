@@ -757,10 +757,7 @@
           "input": {
             "type": "multiselect",
             "source": "notes",
-            "folder": "zFlow",
-            "allowUnknownValues": false,
-            "query": "",
-            "multi_select_options": []
+            "folder": "zFlow"
           }
         },
         {
@@ -776,10 +773,7 @@
           "input": {
             "type": "multiselect",
             "source": "notes",
-            "folder": "zFlow",
-            "allowUnknownValues": false,
-            "query": "",
-            "multi_select_options": []
+            "folder": "zFlow"
           }
         },
         {
@@ -795,10 +789,7 @@
           "input": {
             "type": "multiselect",
             "source": "notes",
-            "folder": "zFlow",
-            "allowUnknownValues": false,
-            "query": "",
-            "multi_select_options": []
+            "folder": "zFlow"
           }
         },
         {
@@ -814,10 +805,7 @@
           "input": {
             "type": "multiselect",
             "source": "notes",
-            "folder": "zFlow",
-            "allowUnknownValues": false,
-            "query": "",
-            "multi_select_options": []
+            "folder": "zFlow"
           }
         },
         {
@@ -924,8 +912,7 @@
             "type": "multiselect",
             "source": "dataview",
             "query": "dv.pages('#type/effort').file.name",
-            "allowUnknownValues": true,
-            "multi_select_options": []
+            "allowUnknownValues": true
           }
         },
         {
