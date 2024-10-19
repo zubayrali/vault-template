@@ -5,6 +5,30 @@
       "path": "zFlow/Sources/Books/Chew the Cud.md"
     },
     {
+      "basename": "Books Dataview",
+      "path": "Books Dataview.md"
+    },
+    {
+      "basename": "Books Cardview",
+      "path": "Books Cardview.md"
+    },
+    {
+      "basename": "new book template",
+      "path": "bin/templates/new book template.md"
+    },
+    {
+      "basename": "Don't Believe Everything You Think",
+      "path": "zFlow/Sources/Books/Don't Believe Everything You Think.md"
+    },
+    {
+      "basename": "Initiatives",
+      "path": "Efforts/Initiatives/Initiatives.md"
+    },
+    {
+      "basename": "Starting a YouTube Channel",
+      "path": "Efforts/Initiatives/Starting a YouTube Channel/Starting a YouTube Channel.md"
+    },
+    {
       "basename": "2024-10-19",
       "path": "Calendar/2024/Daily/10/2024-10-19.md"
     },
@@ -35,10 +59,6 @@
     {
       "basename": "Hotkey Helper",
       "path": "Hotkey Helper.md"
-    },
-    {
-      "basename": "Initiatives",
-      "path": "Efforts/Initiatives/Initiatives.md"
     },
     {
       "basename": "Efforts",
@@ -177,20 +197,8 @@
       "path": "Calendar/Logbook.md"
     },
     {
-      "basename": "Building a Custom PC",
-      "path": "Efforts/Initiatives/Building a Custom PC/Building a Custom PC.md"
-    },
-    {
       "basename": "new article template",
       "path": "bin/templates/new article template.md"
-    },
-    {
-      "basename": "2024-10-07",
-      "path": "Calendar/2024/Daily/10/2024-10-07.md"
-    },
-    {
-      "basename": "Let's Do Shadow Work",
-      "path": "Efforts/Initiatives/Let's do Shadow Work/Let's Do Shadow Work.md"
     }
   ],
   "omittedPaths": [],

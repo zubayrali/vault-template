@@ -1,17 +1,16 @@
 ---
 title: Chew the Cud
 created: 2024-10-06T20:34:38.000-04:00
-updated: 2024-10-19T11:07:26.651-04:00
+updated: 2024-10-19T12:11:29.791-04:00
 ---
 
 # Chew the Cud
 
-## 1. Introduction to Chew the Cud
+## 1. Introduction
 
 This is an Obsidian vault. But it isn't just a vault, its something I came up with after revamping my Obsidian vault after kinda leaving it untended for a couple of months in 2023. I started using it 2022 and I half understood Zettelkasten and my bastardaized approach to PKM and note taking was working out fine as I was using it in a information hogger fashion not of a creative outlet place of mind so a revamp was due and this was a really good time with so many stable ways of doing thing within Obsidian. I often procastinate by scroll the community plugins page to find what new complex way of doing thing but adds a little bit of coolness to the workflow overall. I knew the day wasn't far where I could get exactly the system I wanted to have.
 
 I want to try to use this app in Reading view only as its much faster in my experience and I can leverage the Modal form with Templater to create cool templates which is much better than typing in a file directly even though I love the flat file so much. The daulity of a man am i right?
-
 
 I didn't see Obsidian as a Task manager until I started using Memos which is great to capture tasks and I can get a dual view of my tasks from with Memos and I also found the Tasks plugin combined with the Tabs plugin offer a great filtering view for different types and I used it with multi-column everywhere in my daily note and in efforts and initiatives templates.
 
@@ -19,7 +18,7 @@ I didn't see Obsidian as a Task manager until I started using Memos which is gre
 
 The setup focuses on flexibility, interconnectedness, and making knowledge easily accessible. By emphasizing tags over traditional folder structures and combining them with dynamic tools, this system is both scalable and adaptable, growing with evolving needs.
 
-## 2. Periodic Notes + LifeOS Plugin
+## 2. Periodic Notes
 
 ### Daily Note
 
@@ -68,6 +67,14 @@ The **Monthly Note** provides a broad overview of goals, ongoing projects, and l
 - **Trackers:** Embedded elements to monitor habits and project milestones.
 - **Stand-Out Days:** An automatically generated list of significant days based on daily reflections.
 
+### Quarterly Note Template
+
+Personal Retreat
+
+### Yearly Note Template
+
+Life Audit
+
 ## 3. Flow Method
 
 Welcome to the **Flow Method**, a comprehensive system designed to bring clarity and action to your task and project management. This method bridges the gap between your day-to-day activities and your long-term ambitions by integrating **Efforts** and **Initiatives** into a cohesive approach. It’s not just about managing to-do lists; it’s about creating a dynamic workflow that adapts to your evolving needs, whether you're tackling personal projects or professional goals.
@@ -81,19 +88,11 @@ Efforts was straight up taken from [[Nick Milo]]'s [How to Manage Projects with 
 The Flow Method is built upon two central components: **Efforts** and **Initiatives**. Understanding their distinct roles is key to making this system work for you.
 
 - **Efforts** are flexible commitments that focus on consistent action and personal growth. They represent areas where you’re continuously investing your energy, like learning a new skill, nurturing a habit, or pursuing a creative project. Efforts don’t require strict deadlines; instead, they allow you to adapt, adjust, and progress at your own pace. They are all about sustaining momentum and embracing fluidity in your workflow.
-    
 - **Initiatives** are the big-picture projects or goals that provide direction and purpose to your actions. Initiatives have a clear objective, milestones, and desired outcomes. They act as your guiding stars, helping you prioritize tasks that align with your longer-term vision, whether it’s launching a new product, writing a book, or planning a significant life event.
-    
 
 This combination of Efforts and Initiatives forms a balanced approach to managing both the flexible, ongoing commitments of daily life and the structured, outcome-focused projects that drive you forward.
 
-The **Tasks plugin** in Obsidian allows you to create, manage, and visualize tasks directly within your notes. By integrating task management into your Efforts and Initiatives, you can keep everything in one place, from daily to-dos to complex project milestones. The plugin supports features like due dates, priorities, and recurring tasks, providing the flexibility to handle both short-term actions and long-term goals.
-
-Tasks are automatically filtered and displayed according to their status or priority, giving you real-time insights into what needs to be done. This setup reduces the mental load of deciding what to focus on by surfacing the most relevant tasks based on your current context.
-
-### Day-to-Day Use Cases: Turning Ideas into Action
-
-The Flow Method isn’t just about organization—it’s about action. Here's how you can use this method to transform your daily activities and long-term goals into tangible progress.
+**The Flow Method isn’t just about organization—it’s about action. Here's how you can use this method to transform your daily activities and long-term goals into tangible progress.**
 
 #### Managing Efforts by Intensity
 
@@ -119,9 +118,7 @@ Initiatives in the Flow Method help you track the lifecycle of your projects fro
 3. **🟨 Active**: Initiatives that are in full swing, requiring your focus and consistent effort to push them toward completion. These are the projects that move the needle toward your goals.
     
 4. **🟩 Finished**: Successfully completed initiatives. This status not only celebrates your achievements but also allows you to reflect on what worked well and what could be improved for future projects.
-    
-
-### Why Efforts Outperform Traditional Project Management
+  
 
 Efforts differ from traditional projects in that they don’t impose rigid structures or deadlines. Where conventional project management often fails is in its demand for clear steps and defined outcomes. Efforts, by contrast, are more adaptable, allowing you to embrace changes, pivots, and new ideas as they emerge.
 
@@ -132,15 +129,17 @@ The **looser format of Efforts** supports a mindset that is both **architectural
 
 This dual approach lets you pivot when necessary without losing momentum, making the Flow Method an ideal solution for creative professionals, lifelong learners, and anyone looking to manage their ambitions with a blend of discipline and flexibility.
 
-The Flow Method integrates knowledge, time, and action into a unified system that adapts to your needs. It’s not just about managing your workload; it’s about creating a **personalized ecosystem** where your ideas, tasks, and goals can thrive. With this approach, you gain **clarity, control, and a deeper sense of fulfillment** as you transform your thoughts into tangible achievements.
-
-### Tasks Overview Note
+## 4. Task Management
 
 A **Tasks Overview** note serves as a high-level view of all tasks across different Efforts and Initiatives. It includes:
 - **Task Breakdown by Status**: Real-time statistics of tasks, including counts of completed, in-progress, and pending tasks.
 - **Dynamic Queries**: DataviewJS or LifeOS queries to provide insights into task completion rates and performance metrics.
 
 This centralized view offers actionable insights into productivity, helping in goal setting and performance evaluation.
+
+The **Tasks plugin** in Obsidian allows you to create, manage, and visualize tasks directly within your notes. By integrating task management into your Efforts and Initiatives, you can keep everything in one place, from daily to-dos to complex project milestones. The plugin supports features like due dates, priorities, and recurring tasks, providing the flexibility to handle both short-term actions and long-term goals.
+
+Tasks are automatically filtered and displayed according to their status or priority, giving you real-time insights into what needs to be done. This setup reduces the mental load of deciding what to focus on by surfacing the most relevant tasks based on your current context.
 
 ### Taskido
 
@@ -153,7 +152,6 @@ This centralized view offers actionable insights into productivity, helping in g
 
    - **Alternative View:** Taskido's dynamic sidebar is utilized as an alternative task management interface outside the daily notes.
    - **Contextual Filtering:** The sidebar allows you to filter, sort, and view tasks dynamically across different dates, projects, or tags without needing to open individual daily notes.
-
 
 
 ![[bin/assets/Chew the Cud/15b9b6d382cfd6390c84da943cb40c3d_MD5.jpeg]]
@@ -180,267 +178,6 @@ This approach relies heavily on tags and metadata to maintain order, reducing de
 
 - **usememos** provides an alternative front-end for capturing quick notes and ideas that sync directly with Obsidian.
 
----
-
-# zFlow Information Model
-
-## General Note Structure
-
-All notes will have the following basic structure in their YAML frontmatter:
-
-```yaml
----
-fileClass: [class name]
-up:
-related:
-prev:
-down:
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-tags:
-  - type/[actual-type]
-  - [additional-tags]
----
-```
-
-## Note Types and Their Structures
-
-1. Fleeting Note 2. Literature Note (Incubating) 3. Permanent Note (Insight)
-
-```yaml
----
-fileClass: note
-up:
-related:
-prev:
-down:
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-tags:
-  - [type/fleeting, type/insight, type/incubating, type/source, type/MOC, type/calendar, type/definition, type/effort, type/initiative]
----
-```
-
-1. Source Note (Eg: Book)
-
-```yaml
----
-fileClass: book
-up:
-related:
-prev:
-down:
-id: {{DATE:YYYYMMDDHHmmss}}
-title: "{{title}}"
-subtitle: "{{subtitle}}"
-author: "[[<%= book.authors.map(author => author.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ')).join(', ') %>]]"
-cover: "{{coverUrl}}"
-isbn: "{{isbn10}} {{isbn13}}"
-publisher: "{{publisher}}"
-publish: "{{publishDate}}"
-publishYear: "{{publishDate}}"
-total: 0
-created: {{DATE:YYYY-MM-DDTHH:mm:ss.SSSZ}}
-updated:
-started: {{DATE:YYYY-MM-DD}}
-finished:
-genres: "[[{{categories}}]]"
-status: queue
-rate:
-volume: {{totalPage}}
-timestamp: 0
-units: pages
-tags:
-  - type/source
-  - sources/books
-aliases:
----
-```
-
-1. Effort
-
-```yaml
----
-up:
-related:
-prev:
-down:
-title: {{VALUE:Effort Name}}
-fileClass: Effort
-description: {{VALUE:Effort Description}}
-type: {{VALUE:On,Ongoing,Simmering,Sleeping}}
-created: {{DATE:YYYY-MM-DD}}
-updated: {{DATE:YYYY-MM-DD}}
-rank: {{VALUE:1,2,3,4,5}}
-eol: false
-tags:
-  - type/effort
----
-```
-
-1. Daily Note
-
-```yaml
----
-fileClass: Calendar, Daily
-title: {{note_name}}
-created:
-updated:
-journal: {{ journal_name }}
-journal-start-date: {{ start_date:YYYY-MM-DD }}
-journal-end-date: {{ start_date:YYYY-MM-DD }}
-journal-section: day
-date: {{ start_date:YYYY-MM-DD }}
-tags:
-  - type/calendar
-  - Calendar/daily
-cssclasses:
----
-```
-
-1. Initiative
-
-```yaml
----
-title: {{VALUE:Initiative Name}}
-description: {{VALUE:Initiative Description}}
-fileClass: Initiative
-effort: {{VALUE:On,Ongoing,Simmering,Sleeping}}
-created: {{DATE:YYYY-MM-DD}}
-updated: {{DATE:YYYY-MM-DD}}
-dueDate: {{DATE:YYYY-MM-DD}}
-status: {{VALUE: 🟥 Backlog, 🟦 Planning, 🟨 Active, 🟩 Finished}}
-eol: false
-tags:
-  - type/initiative
----
-```
-
-1. Definition Note
-
-```yaml
----
-fileClass: dfn
-up:
-related:
-prev:
-down:
-created: YYYY-MM-DD
-updated: YYYY-MM-DD
-def-type: [atomic,consolidated]
-aliases:
-tags:
-  - type/definition
-  - definition/atomic
----
-```
-
-## Connections and Organization
-
-1. Use the `up`, `related`, `prev`, and `down` fields to create connections between notes.
-
-   - `up`: Link to broader topics or MOCs
-   - `related`: Link to related concepts or notes
-   - `prev`: Link to predecessors in a sequence of thoughts
-   - `down`: Link to more specific subtopics or examples
-
-2. Use `[[backlinks]]` within the content of notes to reference other notes, definitions, or MOCs.
-3. Create MOC (Map of Content) notes to organize and structure your knowledge areas.
-4. Use the `fileClass` field for categorization and to leverage the Metadata Menu plugin.
-5. Maintain a consistent tagging system using `type/[actual-type]` and additional tags as needed.
-
-## Workflow
-
-1. Capture fleeting notes quickly, using the fleeting note structure.
-2. Process fleeting notes into literature notes when reading or studying sources.
-3. Develop literature notes into permanent notes (insights), making connections to existing notes.
-4. Create and update MOCs to organize your permanent notes and provide entry points to your knowledge.
-5. Use daily notes for regular reflections and to capture new ideas.
-6. Create project notes for specific endeavors or areas of focus.
-7. Maintain definition notes for key terms, linking them to relevant permanent notes and MOCs.
-
-## Implementation in Obsidian
-
-1. Create templates for each note type with the predefined YAML structure.
-2. Use the Templater plugin to automatically fill in creation and update dates.
-3. Utilize the Metadata Menu plugin for easier management of the `fileClass` and other metadata fields.
-4. Set up Dataview queries to generate dynamic lists of notes based on `fileClass`, tags, or other metadata.
-5. Use the Graph View to visualize connections between notes based on the `up`, `related`, `prev`, and `down` links.
-6. Regularly review and update your MOCs to ensure your knowledge structure remains organized and accessible.
-
-# Zettelkasten Flow in Obsidian
-
-## Note Types and Their Roles
-
-1. **Fleeting Notes** (fileClass: note)
-
-   - Quick capture of ideas, thoughts, and observations
-   - Temporary by nature, waiting to be processed
-
-2. **Literature Notes** (fileClass: note)
-
-   - Processed notes from sources
-   - Contain key ideas, quotes, and your initial thoughts
-
-3. **Source Notes** (fileClass: note) + (fileClass: book, article, etc.)
-
-   - Reference materials
-   - Contain metadata about the source and your overall impressions
-
-4. **Insight Notes** (fileClass: note) + type/moc
-
-   - Well-developed, permanent notes
-   - Contain your own thoughts and connections
-
-5. **MOC Notes** (fileClass: note)
-
-   - Index notes that organize and structure your knowledge
-   - Each MOC has a corresponding Canvas file for visual organization
-
-6. **Definition Notes** (fileClass: definition)
-   - Concise explanations of key terms and concepts
-   - Can be individual files or consolidated for specific domains
-
-## Workflow
-
-1. **Capture**:
-
-   - Create Fleeting Notes to quickly capture ideas
-   - Use the fleeting note template with minimal metadata
-
-2. **Process Sources**:
-
-   - Create a Source Note for each book, article, or other reference
-   - While reading, create Literature Notes linked to the Source Note
-   - Use the `up` field in Literature Notes to link to the Source Note
-
-3. **Develop Insights**:
-
-   - Review and develop Literature Notes into Insight Notes
-   - Make connections using the `up`, `related`, `prev`, and `down` fields
-   - Link to Definition Notes for key terms using `[[backlinks]]`
-
-4. **Organize Knowledge**:
-
-   - Create and update MOC Notes to structure your knowledge
-   - Use the `up` field in Insight Notes to link to relevant MOCs
-   - Create corresponding Canvas files for visual organization
-
-5. **Define Terms**:
-
-   - Create individual Definition Notes for key concepts
-   - For domain-specific terms, use consolidated Definition Notes
-   - Link definitions to relevant Insight Notes and MOCs
-
-6. **Review and Refine**:
-   - Regularly review MOCs and update connections
-   - Process remaining Fleeting Notes into Literature or Insight Notes
-   - Update Canvas files to visualize and discover new connections
-
-## Tags Used
-
-#source/book
-
 ## Example Flow 1
 
 1. While reading "Thinking, Fast and Slow" by Daniel Kahneman:
@@ -449,11 +186,8 @@ tags:
 
    ```yaml
    ---
+   title: Thinking, Fast and Slow
    fileClass: book
-   up: "[[Psychology MOC]]"
-   related:
-   prev:
-   down:
    author: "[[Daniel Kahneman]]"
    year: 2011
    isbn: 978-0374275631
@@ -462,7 +196,6 @@ tags:
    created: 2023-09-23
    updated: 2023-09-23
    tags:
-     - type/source
      - source/book
    ---
    # Thinking, Fast and Slow
@@ -474,12 +207,12 @@ tags:
 
    ```yaml
    ---
+   title: 
    fileClass: literature
    up: "[[Thinking, Fast and Slow]]"
    related:
    prev:
    down:
-   source: "[[Thinking, Fast and Slow]]"
    created: 2023-09-23
    updated: 2023-09-23
    tags:
@@ -615,6 +348,7 @@ aliases:
   - dual-process model
   - two-system theory
 ---
+
 A psychological theory proposing two distinct systems of thinking: a fast, automatic, and intuitive system (System 1), and a slower, more deliberate, and analytical system (System 2). This theory is fundamental in understanding human cognition, decision making, and the formation of judgments.
 ```
 
@@ -648,8 +382,6 @@ The connections between notes (using `up`, `related`, `prev`, `down` with [[back
 This setup maintains the core principles of the Zettelkasten method while leveraging Obsidian's features for a digital implementation. It allows for flexible note-taking and organization while providing clear structures and connections between different types of information.
 
 ## Example Flow 2
-
-Let's imagine you're a student studying biology and using Obsidian for note-taking.
 
 Day 1: Setting up the plugin
 
@@ -749,3 +481,203 @@ Day 4: Expanding your definitions
 - Decide to move some definitions to atomic files for more detailed explanations.
 - Create new atomic definition files as needed, and cut/paste content from the consolidated file.
 - Update the "def-context" property in relevant notes to include or exclude specific definition files based on the topic of each note.
+
+---
+
+## zFlow Information Model
+
+1. Use the `up`, `related`, `prev`, and `down` fields to create connections between notes.
+
+   - `up`: Link to broader topics or MOCs
+   - `related`: Link to related concepts or notes
+   - `prev`: Link to predecessors in a sequence of thoughts
+   - `down`: Link to more specific subtopics or examples
+
+### Note Types and Their Structures
+
+All notes will have the following basic structure in their YAML frontmatter:
+
+```yaml
+---
+fileClass: [type]
+up:
+related:
+prev:
+down:
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags:
+  - type/[actual-type]
+  - [additional-tags]
+---
+```
+
+
+### Fleeting Note(Eggs), Literature Note (Incubating), Permanent Note (Insight)
+
+```yaml
+---
+fileClass: 
+up:
+related:
+prev:
+down:
+created:
+updated:
+tags:
+  - [type/fleeting, type/insight, type/incubating, type/source, type/MOC,]
+---
+```
+
+### Source Note (Eg: Book)
+
+```yaml
+---
+fileClass: book
+id: 20241019120051
+title: "Don't Believe Everything You Think"
+aliases:
+lead: "Why Your Thinking Is The Beginning & End Of Suffering"
+author: "[[Joseph Nguyen]]"
+authors: Joseph Nguyen
+category: Self-Help
+cover: "bin/assets/Don't Believe Everything You Think/b9366c9a21298bc3db4757e30c79919c_MD5.jpg"
+isbn10: 
+isbn13: "9798986406510"
+publisher: "One Satori LLC"
+publish_date: 2022-03-28
+total: 0
+created: 2024-10-19T12:00:51.714-04:00
+updated: 2024-10-19T12:04:38.355-04:00
+started: 2024-10-19
+finished:
+genres: "[[Self-Help]]"
+status: queue
+bibliography:  +++ Copy here from Zotero +++
+rating: ⭐️⭐️⭐️
+volume: 84
+timestamp: 0
+units: pages
+tags:
+  - source/book
+aliases:
+---
+```
+
+### Effort
+
+```yaml
+---
+title: 
+fileClass: Effort
+description:
+type: On,Ongoing,Simmering,Sleeping
+created: 
+updated: 
+rank: 1,2,3,4,5
+eol: false
+tags:
+  - type/effort
+---
+```
+
+### Daily Note
+
+```yaml
+---
+fileClass: Calendar, Daily
+title: "2024-10-19"
+created: 2024-10-19T10:59:21.564-04:00
+updated: 2024-10-19T11:05:16.413-04:00
+journal: calendar
+journal-start-date: 2024-10-19
+journal-end-date: 2024-10-19
+journal-section: day
+date: 2024-10-19
+tags:
+  - calendar/daily
+---
+```
+
+### Initiative
+
+```yaml
+---
+title: 
+description:
+fileClass: Initiative
+effort: On,Ongoing,Simmering,Sleeping
+created: 
+updated: 
+dueDate: 
+status: [🟥 Backlog, 🟦 Planning, 🟨 Active, 🟩 Finished]
+eol: false
+tags:
+  - type/initiative
+---
+```
+
+### Definition Note
+
+```yaml
+---
+fileClass: definition
+up:
+related:
+prev:
+down:
+created: 
+updated: 
+def-type: [atomic,consolidated]
+aliases:
+tags:
+  - type/definition
+---
+```
+
+## Note Types and Their Roles
+
+1. **Fleeting Notes** ([[QuickCapture]] to [[Daily Note]])
+   - Quick capture of ideas, thoughts, and observations
+   - Temporary by nature, waiting to be processed
+2. **Literature Notes** (fileClass: note)
+   - Processed notes from sources
+   - Contain key ideas, quotes, and your initial thoughts
+3. **Source Notes** (fileClass: source/book, source/article, etc.)
+   - Reference materials
+   - Contain metadata about the source and your overall impressions
+4. **Insight Notes** (fileClass: insight)
+   - Well-developed, permanent notes
+   - Contain your own thoughts and connections
+5. **MOC Notes** (fileClass: moc)
+   - Index notes that organize and structure your knowledge
+   - Each MOC has a corresponding Canvas file for visual organization
+6. **Definition Notes** (fileClass: definition)
+   - Concise explanations of key terms and concepts
+   - Can be individual files or consolidated for specific domains
+
+## Workflow
+
+1. **Capture**:
+   - Create Fleeting Notes to quickly capture ideas
+   - Use the fleeting note template with minimal metadata
+2. **Process Sources**:
+   - Create a Source Note for each book, article, or other reference
+   - While reading, create Literature Notes linked to the Source Note
+   - Use the `up` field in Literature Notes to link to the Source Note
+3. **Develop Insights**:
+   - Review and develop Literature Notes into Insight Notes
+   - Make connections using the `up`, `related`, `prev`, and `down` fields
+   - Link to Definition Notes for key terms using `[[backlinks]]`
+4. **Organize Knowledge**:
+   - Create and update MOC Notes to structure your knowledge
+   - Use the `up` field in Insight Notes to link to relevant MOCs
+   - Create corresponding Canvas or Excalidraw files for visual organization
+5. **Define Terms**:
+   - Create individual Definition Notes for key concepts
+   - For domain-specific terms, use consolidated Definition Notes
+   - Link definitions to relevant Insight Notes and MOCs
+6. **Review and Refine**:
+   - Regularly review MOCs and update connections
+   - Process remaining Fleeting Notes into Literature or Insight Notes
+   - Update Canvas files to visualize and discover new connections

@@ -1214,6 +1214,7 @@ body {
     &.cg-note-toolbar-callout {
         /* margin-top: fix for reading mode */
         box-shadow: none;
+        line-height: normal;
         margin-top: 0; 
         & a, span.external-link {
             display: flex;
@@ -1227,6 +1228,10 @@ body {
             box-shadow: none;
             background-color: unset;
             border-radius: unset;
+        }
+        /* fix for bold Iconize icons #162 */
+        & .cm-iconize-icon svg svg[stroke-width='16px'] {
+            stroke-width: 2;
         }
         &:hover {
             /* themes like Cyber Glow add a hover color to callouts; remove it for toolbars */
@@ -1418,9 +1423,9 @@ body {
 
 .note-toolbar-setting-plugin-error {
     & .setting-item-name {
-        color: var(--color-red);
+        color: var(--text-error);
     }
-    border: solid 1px var(--color-red) !important;
+    border: solid 1px var(--text-error) !important;
     padding: 1em !important;
     border-radius: 8px;
 }
@@ -1558,6 +1563,10 @@ body {
     }
     & .note-toolbar-setting-tbar-preview {
         color: var(--color-base-60);
+        & svg {
+            height: var(--font-ui-medium);
+            width: var(--font-ui-medium);            
+        }
     }
     &:focus-within {
         border-radius: var(--input-radius);
@@ -1627,7 +1636,7 @@ body {
 }
 
 .note-toolbar-setting-error-message {
-    color: var(--color-red);
+    color: var(--text-error);
     padding-bottom: 1em;
 }
 
@@ -1635,11 +1644,37 @@ body {
     flex-wrap: wrap;
 }
 input[type="text"].note-toolbar-setting-error {
-    box-shadow: 0 0 0 1px var(--color-red);
+    box-shadow: 0 0 0 1px var(--text-error);
 }
 .note-toolbar-setting-error {
+    &.note-toolbar-setting-item-preview {
+        border-radius: var(--input-radius);
+        box-shadow: 0 0 0 1px var(--text-error);
+        animation-duration: 1s, 1s;
+        animation-delay: 0s, .1s;
+        animation-name: note-toolbar-setting-error-grows, note-toolbar-setting-error-shrinks;
+        animation-timing-function: cubic-bezier(.2,0,0,1), cubic-bezier(.2,0,0,1);
+    }
     & input[type="text"], & input[type="search"] {
-        box-shadow: 0 0 0 1px var(--color-red);
+        box-shadow: 0 0 0 1px var(--text-error);
+    }
+}
+
+@keyframes note-toolbar-setting-error-grows {
+    0% {
+      box-shadow: 0 0 0 1px var(--text-error);
+    }
+    100% {
+        box-shadow: 0 0 0 3px var(--text-error);
+    }
+}
+  
+@keyframes note-toolbar-setting-error-shrinks {
+    0% {
+        box-shadow: 0 0 0 3px var(--text-error);
+    }
+    100% {
+        box-shadow: 0 0 0 1px var(--text-error);
     }
 }
 
@@ -1688,7 +1723,9 @@ input[type="text"].note-toolbar-setting-error {
     margin-bottom: 1em;
 }
 
-.note-toolbar-setting-items-container {
+.note-toolbar-setting-callout-container,
+.note-toolbar-setting-items-container,
+.note-toolbar-setting-mappings-container {
     padding-top: 0.75em;
     &[data-active="true"] {
         & .note-toolbar-setting-items-list-container {
@@ -1706,6 +1743,15 @@ input[type="text"].note-toolbar-setting-error {
         & .setting-item .note-toolbar-setting-item-expand svg {
             transform: rotate(-90deg);
             transition: 0.1s;
+        }
+    }
+}
+
+.note-toolbar-setting-callout-container {
+    & .note-toolbar-setting-items-list-container {
+        .setting-item:first-child {
+            padding: 0.75em 0;
+            border-top: 1px solid var(--background-modifier-border);
         }
     }
 }
@@ -1938,6 +1984,12 @@ input[type="text"].note-toolbar-setting-error {
 }
 */
 
+.note-toolbar-setting-focussable-link {
+    &:focus-within {
+        box-shadow: 0 0 0 2px;
+    }
+}
+
 .note-toolbar-setting-field-help,
 .note-toolbar-setting-field-error {
     color: var(--text-muted);
@@ -1948,6 +2000,16 @@ input[type="text"].note-toolbar-setting-error {
     text-align: start;
     & a:focus-within {
         box-shadow: 0 0 0 2px;
+    }
+    & ol, ul {
+        margin-block-end: var(--font-ui-smaller);
+        padding-inline-start: 1em;
+    }
+    & svg {
+        height: var(--font-ui-smaller);
+        margin-inline-start: 0.25em;
+        width: var(--font-ui-smaller);
+        vertical-align: middle;
     }
 }
 
@@ -1970,7 +2032,7 @@ input[type="text"].note-toolbar-setting-error {
 }
 
 .note-toolbar-setting-field-error {
-    color: var(--color-red);
+    color: var(--text-error);
 }
 
 .note-toolbar-sortablejs-list {
@@ -2195,8 +2257,67 @@ input[type="text"].note-toolbar-setting-error {
     }
 }
 
+.is-phone .note-toolbar-setting-dialog-phonefix {
+    padding: 1em;
+}
+
 .note-toolbar-setting-mini-dialog {
     width: calc(var(--dialog-width) / 1.5);
+}
+
+.note-toolbar-setting-small-heading {
+    color: var(--color-base-50);
+    font-size: var(--font-ui-smaller);
+    font-variant: small-caps;
+    line-height: 1em;
+    margin-block-end: 0.5em;
+}
+
+.note-toolbar-setting-spacer {
+    margin-block-start: 2em;    
+}
+
+.note-toolbar-setting-import-confirm-preview {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 0em 1em 1em 1em;
+    & .note-toolbar-setting-tbar-preview {
+        & svg {
+            height: var(--font-ui-medium);
+            width: var(--font-ui-medium);            
+        }
+    }
+}
+
+.note-toolbar-setting-import-text-area {
+    border-top: none;
+    .setting-item-info {
+        display: none;
+    }
+    textarea {
+        flex: 1 1 auto;
+        min-height: 16em !important;
+    }
+}
+
+.note-toolbar-setting-confirm-dialog-buttons {
+    column-gap: 0.5em;
+    display: flex;
+}
+
+.note-toolbar-share-dialog {
+    .setting-item:first-of-type {
+        border-top: none;
+        overflow: hidden;
+        .setting-item-info {
+            overflow: auto;
+            .setting-item-name {
+                font-family: var(--font-monospace) !important;
+                font-size: var(--font-ui-smaller) !important;
+                text-wrap: nowrap !important;
+            }
+        }
+    }
 }
 
 .is-phone .note-toolbar-setting-help-dialog {
@@ -2234,32 +2355,18 @@ input[type="text"].note-toolbar-setting-error {
     }
 }
 
-.note-toolbar-setting-whatsnew-dialog {
-    padding: 0;
-    padding-bottom: 0.75em;
-    .modal-close-button {
-        color: #dadada;
-    }
+.note-toolbar-setting-whatsnew-view .is-readable-line-width {
+    max-width: var(--file-line-width);
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.note-toolbar-setting-whatsnew-banner {
-    background-color:hsla(268,51%,21%,1);
-    background-image:
-        radial-gradient(at 4% 92%, hsla(255,48%,30%,0.85) 0px, transparent 50%),
-        radial-gradient(at 95% 7%, hsla(277,80%,6%,1) 0px, transparent 50%),
-        radial-gradient(at 95% 91%, hsla(287,88%,66%,0.32) 0px, transparent 50%),
-        radial-gradient(at 61% 56%, hsla(281,44%,13%,1) 0px, transparent 50%),
-        radial-gradient(at 4% 7%, hsla(47,100%,50%,0.35) 0px, transparent 50%);
-    color: #dadada;
-    font-weight: var(--h2-weight);
-    padding: 1.75em !important;
-    margin-bottom: 0;
-    text-align: center;
-    text-shadow: 1px 1px black;
-    vertical-align: middle;
+.note-toolbar-setting-whatsnew-cta {
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 0.75em;
 }
 
-.is-phone .note-toolbar-setting-whatsnew-notes {
+.is-phone .note-toolbar-setting-whatsnew-cta {
     .setting-item {
         flex-direction: row !important;
         padding-top: 0 !important;
@@ -2273,32 +2380,16 @@ input[type="text"].note-toolbar-setting-error {
 }
 
 .note-toolbar-setting-whatsnew-content {
-    padding-inline: 1em;
-    h1 {
-        font-size: var(--font-ui-large);
-    }
-    h2 {
-        font-size: var(--font-ui-medium);
+    code {
+        font-size: calc(var(--font-ui-small) + 1px);
     }
     img {
         border: 1px solid var(--background-modifier-border);
         border-radius: 0.5rem;
-        margin-bottom: 1em;
         width: 100%;
     }
-    p {
-        font-size: var(--font-ui-medium);
-    }
-    ul {
-        padding-inline-start: 2em;
-    }
-}
-
-.note-toolbar-setting-whatsnew-notes {
-    border-bottom: 1px solid var(--background-modifier-border);
-    padding: 1em;
-    .setting-item {
-        padding-bottom: 0;
+    button.copy-code-button {
+        display: none;
     }
 }
 

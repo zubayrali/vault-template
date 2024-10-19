@@ -158,6 +158,12 @@
     "Bin/templates/Logbook.md": {
       "icon": "lucide-clipboard-signature"
     },
+    "Books Cardview.md": {
+      "icon": "lucide-book-copy"
+    },
+    "Books Dataview.md": {
+      "icon": "lucide-book-dashed"
+    },
     "Calendar": {
       "icon": "lucide-calendar-heart",
       "unsynced": [

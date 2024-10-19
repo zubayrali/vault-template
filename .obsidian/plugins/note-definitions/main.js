@@ -561,8 +561,8 @@ var ConsolidatedDefParser = class extends BaseDefParser {
   }
   commitDefBuffer() {
     var _a, _b, _c, _d, _e, _f, _g, _h, _i;
-    const aliases = [(_a = this.defBuffer.word) != null ? _a : ""].concat((_b = this.defBuffer.aliases) != null ? _b : []);
-    this.defBuffer.aliases = aliases.concat(this.calculatePlurals(aliases));
+    const aliases = (_a = this.defBuffer.aliases) != null ? _a : [];
+    this.defBuffer.aliases = aliases.concat(this.calculatePlurals([(_b = this.defBuffer.word) != null ? _b : ""].concat(aliases)));
     this.definitions.push({
       key: (_d = (_c = this.defBuffer.word) == null ? void 0 : _c.toLowerCase()) != null ? _d : "",
       word: (_e = this.defBuffer.word) != null ? _e : "",

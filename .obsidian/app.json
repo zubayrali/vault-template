@@ -62,7 +62,7 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "propertiesInDocument": "hidden",
+  "propertiesInDocument": "source",
   "showInlineTitle": true,
   "showIndentGuide": true,
   "foldIndent": true,

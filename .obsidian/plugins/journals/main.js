@@ -859,7 +859,7 @@ class AddNotesJournalModal extends obsidian.Modal {
         this.filters_combination = "no";
         this.filters = [];
         this.console_ident = 0;
-        this.journal = this.manager.get(this.config.name);
+        this.journal = this.manager.get(this.config.id);
     }
     onOpen() {
         this.display();
@@ -1163,6 +1163,8 @@ class AddNotesJournalModal extends obsidian.Modal {
         return __awaiter(this, void 0, void 0, function* () {
             var _a, _b;
             this.writeToConsole(`Processing ${note.basename}`);
+            if (note.extension !== "md")
+                return this.writeToConsole(`Not a markdown file - skipped`);
             const journalData = yield this.manager.getJournalData(note.path);
             this.console_ident++;
             try {

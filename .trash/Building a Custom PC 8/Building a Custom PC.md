@@ -2,7 +2,7 @@
 title: Building a Custom PC
 fileClass: Initiative
 created: 2024-10-08T00:00:00.000-04:00
-updated: 2024-10-08T17:29:30.574-04:00
+updated: 2024-10-19T11:40:35.205-04:00
 aliases: 
   - Alias1
   - Alias2

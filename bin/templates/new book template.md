@@ -1,5 +1,5 @@
 ---
-fileClass: Book
+fileClass: book
 id: {{DATE:YYYYMMDDHHmmss}}
 title: "{{title}}"
 aliases:
@@ -25,8 +25,7 @@ volume: {{totalPage}}
 timestamp: 0
 units: pages
 tags:
-  - type/source
-  - source/books
+  - source/book
 aliases:
 ---
 

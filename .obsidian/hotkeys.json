@@ -941,5 +941,23 @@
       ],
       "key": "E"
     }
+  ],
+  "quickadd:choice:54060121-0161-40a8-9f81-a87df5c6c01b": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "E"
+    }
+  ],
+  "quickadd:choice:ce26a926-55a1-4b6b-a594-741e6fb09583": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "I"
+    }
   ]
 }
