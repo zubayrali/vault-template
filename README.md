@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T17:43:39.051-04:00
+updated: 2024-10-20T17:54:43.517-04:00
 ---
 
 ## 1. Introduction
@@ -597,11 +597,14 @@ Workspaces allow you to quickly jump between different configurations of your va
 
 - See [[templates]] to find all the templates.
 - Modifying the QuickAdd functions to change Dataview ineline metadata fields used in [[Calendar/Logbook|Logbook]] and in other places to fit personal needs.
+- [style-settings](https://github.com/mgmeyers/obsidian-style-settings) for changing how the Notetoolbar appears, the theme [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) by AnubisNekhet with [extended-colorschemes](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/extended-colorschemes.css).
+- [iconic](https://github.com/gfxholo/iconic) for customzing Icons
+- [commander](https://github.com/phibr0/obsidian-commander) to add commands/buttons.
+- [GitHub - chrisgurney/obsidian-note-toolbar: Plugin for Obsidian providing a flexible way to create context-aware toolbars for your notes.](https://github.com/chrisgurney/obsidian-note-toolbar)
 
-## 14. Troubleshooting
+## 14. Bookmarks
 
-- Common issues and their solutions
-- Where to seek help
+Utilizing Bookmarks with the [bookmarks-caller](https://github.com/namikaze-40p/obsidian-bookmarks-caller) plugin to quickly open bookmarked notes.
 
 ## 15. Sources
 
