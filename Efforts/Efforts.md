@@ -1,7 +1,7 @@
 ---
 title: Efforts
 created: 2024-10-06T12:24:12.000-04:00
-updated: 2024-10-20T15:12:46.943-04:00
+updated: 2024-10-20T16:05:03.423-04:00
 ---
 
 ## Tabs
@@ -79,7 +79,7 @@ dv.table(
 
 ## Stats
 
-> [!increase] Efforts Stats 📊
+> [!increase] Stats 📊
 > ```dataviewjs
 > let totalEfforts = dv.pages('"Efforts"').where(p => p.tags && p.tags.includes("type/effort")).length;
 > let activeEfforts = dv.pages('"Efforts"').where(p => p.type === "On").length;
@@ -93,6 +93,7 @@ dv.table(
 > dv.paragraph(`💤 **${sleepingEfforts}** efforts are currently sleeping or in cold storage.`);
 > ```
 
+[[Efforts/Initiatives/Initiatives|🎖️ Initiatives >>]]
 
 > [!example]- Tasks
 > - [ ] Maintenance

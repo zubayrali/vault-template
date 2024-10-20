@@ -4,7 +4,7 @@ fileClass: effort
 description: Mastering time management skills to improve productivity and reduce stress.
 type: On
 created: 2024-10-06T00:00:00.000-04:00
-updated: 2024-10-18T08:41:03.104-04:00
+updated: 2024-10-20T16:16:39.221-04:00
 rank: 4
 eol: false
 tags:

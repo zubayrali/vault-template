@@ -1,7 +1,7 @@
 ---
 title: Flow
 created: 2024-10-06T12:24:12.000-04:00
-updated: 2024-10-20T14:40:39.982-04:00
+updated: 2024-10-20T16:09:17.720-04:00
 ---
 
 
@@ -40,13 +40,10 @@ Your launchpad and home base. That's here. That's **home**.
 > Use this to keep priorities in order and quickly adjust your bandwidth as needed.
 >
 >
-> ```dynamic-embed
-> [[Efforts]]
-> ```
+> ![[Efforts##Tabs]]
 >
-> ```dynamic-embed
-> [[Initiatives]]
-> ```
+> ![[Initiatives##Tabs]]
+
 
 
 [[Efforts|<< 🪄 Efforts]] | [[Efforts/Initiatives/Initiatives|🎖️ Initiatives >>]]

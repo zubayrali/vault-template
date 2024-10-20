@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "2024-10-20",
       "path": "Calendar/2024/Daily/10/2024-10-20.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "Overview",
+      "path": "Calendar/Tasks/Overview.md"
+    },
+    {
+      "basename": "2024-10-19",
+      "path": "Calendar/2024/Daily/10/2024-10-19.md"
+    },
+    {
+      "basename": "Flow",
+      "path": "Efforts/Flow.md"
+    },
+    {
+      "basename": "Learning Time Management",
+      "path": "Efforts/Learning Time Management/Learning Time Management.md"
+    },
+    {
+      "basename": "Efforts",
+      "path": "Efforts/Efforts.md"
+    },
+    {
+      "basename": "Overcoming Negative Thought Loops",
+      "path": "zFlow/Incubating/Overcoming Negative Thought Loops.md"
+    },
+    {
+      "basename": "Initiatives",
+      "path": "Efforts/Initiatives/Initiatives.md"
+    },
+    {
+      "basename": "new weekly note",
+      "path": "bin/templates/new weekly note.md"
     },
     {
       "basename": "Calendar",
@@ -29,20 +61,8 @@
       "path": "bin/templates/new monthly note.md"
     },
     {
-      "basename": "new weekly note",
-      "path": "bin/templates/new weekly note.md"
-    },
-    {
       "basename": "new daily note",
       "path": "bin/templates/new daily note.md"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Efforts/Efforts.md"
-    },
-    {
-      "basename": "Flow",
-      "path": "Efforts/Flow.md"
     },
     {
       "basename": "c18912d017d5ee5f682d4f029e288c62_MD5",
@@ -113,10 +133,6 @@
       "path": "The Maturity Crisis.md"
     },
     {
-      "basename": "Overcoming Negative Thought Loops",
-      "path": "zFlow/Incubating/Overcoming Negative Thought Loops.md"
-    },
-    {
       "basename": "99a276a2bd31517bce393fe27933eb9c_MD5",
       "path": "bin/assets/Chew the Cud - Vault Documentation/99a276a2bd31517bce393fe27933eb9c_MD5.jpeg"
     },
@@ -149,16 +165,8 @@
       "path": "bin/templates/templates.md"
     },
     {
-      "basename": "2024-10-19",
-      "path": "Calendar/2024/Daily/10/2024-10-19.md"
-    },
-    {
       "basename": "d38b5c05fc5b45decb49dfd38d9040a0_MD5",
       "path": "bin/assets/Chew the Cud - Vault Documentation/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg"
-    },
-    {
-      "basename": "Overview",
-      "path": "Calendar/Tasks/Overview.md"
     },
     {
       "basename": "Psychology MOC",
@@ -177,10 +185,6 @@
       "path": "bin/classes/omnivore.md"
     },
     {
-      "basename": "Initiatives",
-      "path": "Efforts/Initiatives/Initiatives.md"
-    },
-    {
       "basename": "person",
       "path": "bin/classes/person.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Starting a YouTube Channel",
       "path": "Efforts/Initiatives/Starting a YouTube Channel/Starting a YouTube Channel.md"
-    },
-    {
-      "basename": "Tasks in Efforts",
-      "path": "Calendar/Tasks/Tasks in Efforts.md"
     }
   ],
   "omittedPaths": [],

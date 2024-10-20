@@ -1,24 +1,11 @@
 ---
 title: Initiatives
 created: 2024-09-11T01:40:44.000-04:00
-updated: 2024-10-18T10:34:26.282-04:00
+updated: 2024-10-20T16:06:46.975-04:00
 searchTerm:
 ---
 
-> [!increase] Initiatives Stats
-> ```dataviewjs
-> let totalInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.tags && p.tags.includes("type/initiative")).length;
-> let backlogInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟥 Backlog").length;
-> let planningInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟦 Planning").length;
-> let activeInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟨 Active").length;
-> let finishedInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟩 Finished").length;
-> dv.paragraph(`You have **${totalInitiatives} Initiatives** in total.`);
-> dv.paragraph(`🟥 **${backlogInitiatives}** initiatives are in the backlog.`);
-> dv.paragraph(`🟦 **${planningInitiatives}** initiatives are in the planning phase.`);
-> dv.paragraph(`🟨 **${activeInitiatives}** initiatives are currently active.`);
-> dv.paragraph(`🟩 **${finishedInitiatives}** initiatives have been successfully completed.`);
-> ```
-
+## Tabs
 
 ````tabs
 top, multi
@@ -97,3 +84,19 @@ dv.table(
 );
 ```
 ````
+
+## Stats
+
+> [!increase] Stats 📊
+> ```dataviewjs
+> let totalInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.tags && p.tags.includes("type/initiative")).length;
+> let backlogInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟥 Backlog").length;
+> let planningInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟦 Planning").length;
+> let activeInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟨 Active").length;
+> let finishedInitiatives = dv.pages('"Efforts/Initiatives"').where(p => p.status === "🟩 Finished").length;
+> dv.paragraph(`You have **${totalInitiatives} Initiatives** in total.`);
+> dv.paragraph(`🟥 **${backlogInitiatives}** initiatives are in the backlog.`);
+> dv.paragraph(`🟦 **${planningInitiatives}** initiatives are in the planning phase.`);
+> dv.paragraph(`🟨 **${activeInitiatives}** initiatives are currently active.`);
+> dv.paragraph(`🟩 **${finishedInitiatives}** initiatives have been successfully completed.`);
+> ```

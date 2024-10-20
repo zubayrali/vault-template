@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "01e82ae22e92e720",
+            "id": "1d2d3ac2bc71cfac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Efforts.md",
+                "file": "Efforts/Initiatives/Initiatives.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -47,46 +47,16 @@
             }
           },
           {
-            "id": "9ea0762531456f54",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/2024/Daily/10/2024-10-20.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "a02e616661e35468",
+            "id": "01e82ae22e92e720",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bin/templates/new weekly note.md",
+                "file": "Efforts/Efforts.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
-            }
-          },
-          {
-            "id": "ccf1b8c5dd4c668e",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/2024/Daily/10/2024-10-20.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
             }
           },
           {
@@ -102,8 +72,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,11 +117,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendar/2024/Daily/10/2024-10-20.md"
+                "file": "README.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "7ec6c24bd7f04474",
@@ -212,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Calendar/2024/Daily/10/2024-10-20.md"
+                "file": "README.md"
               }
             }
           },
@@ -261,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -314,7 +284,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -382,19 +352,29 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "ccf1b8c5dd4c668e",
+  "active": "ecc2d998f9ab2587",
   "lastOpenFiles": [
+    "bin/assets/README/19f759f84753b789edc99f98beecb193_MD5.jpeg",
+    "bin/assets/Pasted image 20241020161950.png",
+    "Calendar/2024/Daily/10/2024-10-20.md",
+    "Calendar/Tasks/Overview.md",
+    "Calendar/2024/Daily/10/2024-10-19.md",
     "README.md",
+    "Efforts/Flow.md",
+    "Efforts/Learning Time Management/Learning Time Management.md",
+    "Efforts/Efforts.md",
+    "zFlow/Incubating/Overcoming Negative Thought Loops.md",
+    "bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg",
+    "bin/assets/README",
+    "bin/assets/Pasted image 20241020160945.png",
+    "Efforts/Initiatives/Initiatives.md",
+    "bin/templates/new weekly note.md",
     "Calendar/Calendar.md",
     "bin/classes/calendar.md",
     "bin/templates/new yearly template.md",
     "Calendar/Logbook.md",
-    "Calendar/2024/Daily/10/2024-10-20.md",
     "bin/templates/new monthly note.md",
-    "bin/templates/new weekly note.md",
     "bin/templates/new daily note.md",
-    "Efforts/Efforts.md",
-    "Efforts/Flow.md",
     "bin/assets/Chew the Cud - Vault Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg",
     "Efforts/Initiatives/Mindfulness Workshop Series/Mindfulness Workshop Series.md",
     "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
@@ -405,23 +385,14 @@
     "Hotkey Helper.md",
     "inbox.md",
     "Heuristics.md",
-    "Chew the Cud - Vault Documentation.md",
-    "bin/templates/Initiative Templater.md",
     "Efforts/Initiatives/Mindfulness Workshop Series",
-    "Cognitive Dissonance.md",
-    "zFlow/MOCs/Cognitive Psychology MOC.md",
     "bin/assets/Chew the Cud - Vault Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg",
     "bin/assets/Pasted image 20241020123749.png",
     "bin/assets/Chew the Cud - Vault Documentation/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg",
     "bin/assets/Pasted image 20241020123628.png",
     "bin/assets/Chew the Cud - Vault Documentation/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg",
     "bin/assets/Pasted image 20241020123420.png",
-    "bin/assets/Chew the Cud - Vault Documentation/d4706456abadce05319ded18f5eb07ca_MD5.jpeg",
-    "bin/assets/Pasted image 20241020123150.png",
-    "bin/assets/Chew the Cud - Vault Documentation/04779e7ebf4c933005bcba2dd2d461cd_MD5.jpeg",
     "Efforts/Developing Mindfulness Practice",
-    "bin/templates/Note Templater.md",
-    "something.md",
     "bin/assets/Chew the Cud - Vault Documentation",
     "bin/assets/Don't Believe Everything You Think",
     "bin/assets/Chew the Cud",
@@ -429,7 +400,6 @@
     "Tags",
     "refType/books",
     "refType",
-    "zFlow/Drawings/Drawing 2024-10-18 08.36.49.excalidraw.excalidraw",
     "Spaces/Canvas/Wheel of Life.canvas",
     "Spaces/Canvas/Canvas Example.canvas",
     "Spaces/Canvas/My Zettlekasten.canvas",

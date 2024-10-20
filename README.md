@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T16:00:41.366-04:00
+updated: 2024-10-20T16:24:53.267-04:00
 ---
 
 ## 1. Introduction
@@ -121,11 +121,10 @@ fileClass: book
 id: 20241019120051
 title: "Don't Believe Everything You Think"
 author: "[[Joseph Nguyen]]"
+# README
 ---
 
-# README
-by [[Joseph Nguyen]]
-
+… (rest of the note)
 ```
 
 ### 2. Fleeting Note (In Daily Note)
@@ -308,7 +307,7 @@ The process isn't linear, and not every fleeting thought leads to deeper explora
 
 ## 6. Definition Notes
 
-### Consolidated Definition File: [[Cognitive Psychology Terms]]
+**Consolidated Definition File**: [[Cognitive Psychology Terms]]
 
 ![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/76c9b4bb4aff18c3215da6e624ed5a88_MD5.jpeg)
 
@@ -356,7 +355,7 @@ The psychological process of purposely bringing one's attention to experiences o
 The capacity for introspection and the ability to recognize oneself as an individual separate from the environment and other individuals. It is not to be confused with consciousness in the sense of qualia.
 ```
 
-### Atomic Definition File: [[Cognitive Dissonance]]
+**Atomic Definition File**: [[Cognitive Dissonance]]
 
 ![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/43c8220329d12678fbd37a0da10a9d2c_MD5.jpeg)
 
@@ -422,17 +421,15 @@ The best way to learn is to teach, so let's turn this Effort into a project! The
 
 ## 5. Periodic Notes
 
-1. **Daily Notes**: Core of daily capture and reflection
-2. **Weekly Notes**: Weekly planning and review
-3. **Monthly Notes**: Monthly initiatives and patterns
-4. **Quarterly Notes**: Personal retreat and broader review
-5. **Yearly Notes**: Annual planning and life audit
-6. **Calendar Note**: Central hub for navigating temporal notes
-7. **Logbook**: Aggregated view of various logs from daily notes
+- **Daily Notes**: Core of daily capture and reflection
+- **Weekly Notes**: Weekly planning and review
+- **Monthly Notes**: Monthly initiatives and patterns
+- **Quarterly Notes**: Personal retreat and broader review
+- **Yearly Notes**: Annual planning and life audit
+- **Calendar Note**: Central hub for navigating temporal notes
+- **Logbook**: Aggregated view of various logs from daily notes
 
-### Workflow
-
-### 1. Daily Routine
+### 1. Daily Note
 
 **Morning:**
 1. Open your Daily Note (use `Alt + Shift + D` to trigger LifeOS plugin)
@@ -452,7 +449,10 @@ The best way to learn is to teach, so let's turn this Effort into a project! The
 1. Complete the Evening Review section
 2. Add any final thoughts or reflections
 
-### 2. Weekly Review (typically Done on Sundays)
+[[bin/assets/README/19f759f84753b789edc99f98beecb193_MD5.jpeg|Open: Pasted image 20241020161950.png]]
+![[bin/assets/README/19f759f84753b789edc99f98beecb193_MD5.jpeg]]
+
+### 2. Weekly Note
 
 1. Open your Weekly Note
 2. Review and update Weekly Initiatives
@@ -462,18 +462,22 @@ The best way to learn is to teach, so let's turn this Effort into a project! The
    - Achievements
    - Trackers
 
-### 3. Monthly Review
+### 3. Monthly Note
 
 1. Open your Monthly Note
 2. Set and review Monthly Initiatives
 3. Analyze Stand-Out Days from the Dataview query
 4. Reflect on patterns and trends observed
 
-### 4. Quarterly and Yearly Reviews
+### 4. Quarterly Note
 
-Follow a similar process to monthly reviews, but with a broader scope and longer-term focus.
+WIP
 
-### 5. Using the Calendar Note
+### 5. Yearly Note
+
+WIP
+
+### 6. Using the Calendar Note
 
 The Calendar Note serves as a central hub for navigating your temporal notes:
 
@@ -483,7 +487,7 @@ The Calendar Note serves as a central hub for navigating your temporal notes:
    - Get an overview of recent entries
    - Access your full note history
 
-### 6. Utilizing the Logbook
+### 7. Utilizing the Logbook
 
 The Logbook aggregates various logs from your Daily Notes:
 
@@ -498,7 +502,10 @@ Use the Logbook to:
 - Reflect on patterns in your thoughts and experiences
 - Quickly access past insights and achievements
 - Prepare for weekly and monthly reviews
-- **LifeOS Plugin**: Triggers Daily Note creation (`Alt + Shift + D`)
+
+### 8. Plugins and Integrations
+
+- **LifeOS Plugin**: Triggers Daily Note creation (`Alt + Shift + D`), this plugin helps with managing periodic notes in tandem with Journals plugin but I all so us e it for the **Usememos** integration
 - **Homepage Plugin**: Configures the default workspace to open the Daily Note view
 - **Journals Plugin**: Manages the structure of periodic notes
 - **Templater**: Handles templating for note creation
@@ -509,9 +516,11 @@ Use the Logbook to:
 - Regularly review longer-term notes (Weekly, Monthly, etc.) to stay aligned with your goals
 - Customize templates and queries as needed to fit your specific workflow
 
-By following this workflow, you create a comprehensive system of interconnected notes that capture your thoughts, track your progress, and facilitate regular reflection and planning. The system is designed to be flexible, allowing you to adapt it to your specific needs while maintaining a consistent structure for easy navigation and review.
-
 ## 6. Flow Method
+
+Go to [[Flow]] navigation page.
+
+![[bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg]]
 
 - Efforts
 	- Categories (On, Ongoing, Simmering, Sleeping)
