@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bin/templates/templates.md",
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "466f4383ee31b602",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bin/templates/new daily note.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -26,34 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Efforts/Flow.md",
+                "file": "Calendar/Logbook.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "1d2d3ac2bc71cfac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Initiatives/Initiatives.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "01e82ae22e92e720",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Efforts.md",
-                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -71,8 +58,38 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "b33c2b72d7266f9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d9792f675a4e4200",
+            "type": "leaf",
+            "state": {
+              "type": "modal-form-manage-forms-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d750deba46eab9b4",
+            "type": "leaf",
+            "state": {
+              "type": "FileClassView__person",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -117,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bin/templates/templates.md"
+                "file": "README.md"
               }
             }
           }
@@ -182,7 +199,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "bin/templates/templates.md"
+                "file": "README.md"
               }
             }
           },
@@ -231,7 +248,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bin/templates/templates.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -252,6 +269,14 @@
               "type": "annotations-outline",
               "state": {}
             }
+          },
+          {
+            "id": "2b70378163b398ff",
+            "type": "leaf",
+            "state": {
+              "type": "podcast_player_view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 1
@@ -267,7 +292,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bin/templates/templates.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +309,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "bin/templates/templates.md",
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -349,24 +374,38 @@
       "workspaces:Manage workspace layouts": false,
       "obsidian-projects:Open projects": false,
       "homepage:Open homepage": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "mesh-ai:Mesh AI Integration": false,
+      "improved-random-note:Open improved random note": false
     }
   },
-  "active": "ecc2d998f9ab2587",
+  "active": "b33c2b72d7266f9f",
   "lastOpenFiles": [
-    "bin/templates/03 From Knowledge Artifacts to Full Articles.md",
-    "bin/templates/templates.md",
+    "bin/assets/README/8e880ec74cd558c21a6e972642f2eaea_MD5.jpeg",
+    "bin/assets/README/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg",
+    "bin/templates/video modal form templater.md",
+    "Something.md",
     "README.md",
+    "Calendar/Logbook.md",
+    "bin/templates/Omnivore Frontmatter Template.md",
+    "bin/templates/Omnivore Template Body.md",
+    "bin/templates/Insert Weight Tracker Template.md",
+    "bin/templates/Insert Pomodoro Tracker Template.md",
+    "bin/templates/new note quickadd.md",
+    "bin/templates/templates.md",
+    "bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg",
+    "bin/templates/new daily note.md",
+    "Efforts/Flow.md",
+    "Hotkey Helper.md",
+    "bin/templates/03 From Knowledge Artifacts to Full Articles.md",
     "bin/assets/README/19f759f84753b789edc99f98beecb193_MD5.jpeg",
     "bin/assets/Pasted image 20241020161950.png",
     "Calendar/2024/Daily/10/2024-10-20.md",
     "Calendar/Tasks/Overview.md",
     "Calendar/2024/Daily/10/2024-10-19.md",
-    "Efforts/Flow.md",
     "Efforts/Learning Time Management/Learning Time Management.md",
     "Efforts/Efforts.md",
     "zFlow/Incubating/Overcoming Negative Thought Loops.md",
-    "bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg",
     "bin/assets/README",
     "bin/assets/Pasted image 20241020160945.png",
     "Efforts/Initiatives/Initiatives.md",
@@ -374,24 +413,12 @@
     "Calendar/Calendar.md",
     "bin/classes/calendar.md",
     "bin/templates/new yearly template.md",
-    "Calendar/Logbook.md",
-    "bin/templates/new monthly note.md",
-    "bin/templates/new daily note.md",
     "bin/assets/Chew the Cud - Vault Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg",
-    "Efforts/Initiatives/Mindfulness Workshop Series/Mindfulness Workshop Series.md",
-    "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
-    "zFlow/Insights/The Role of Self-Awareness in Cognitive Restructuring.md",
-    "zFlow/Sources/Books/Don't Believe Everything You Think.md",
-    "zFlow/Sources/Misc/Something.md",
-    "Cognitive Psychology Terms.md",
-    "Hotkey Helper.md",
-    "inbox.md",
     "Efforts/Initiatives/Mindfulness Workshop Series",
     "bin/assets/Chew the Cud - Vault Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg",
     "bin/assets/Pasted image 20241020123749.png",
     "bin/assets/Chew the Cud - Vault Documentation/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg",
     "bin/assets/Pasted image 20241020123628.png",
-    "bin/assets/Chew the Cud - Vault Documentation/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg",
     "Efforts/Developing Mindfulness Practice",
     "bin/assets/Chew the Cud - Vault Documentation",
     "bin/assets/Don't Believe Everything You Think",

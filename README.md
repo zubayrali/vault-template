@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T16:26:11.919-04:00
+updated: 2024-10-20T17:43:39.051-04:00
 ---
 
 ## 1. Introduction
@@ -32,9 +32,9 @@ The name "Chew the Cud" reflects the system's core philosophy: just as ruminants
 4. In the startup screen, select "Open folder as vault"
 5. Navigate to and select the unzipped folder (or cloned repository)
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/8e880ec74cd558c21a6e972642f2eaea_MD5.jpeg)
+![](bin/assets/README/8e880ec74cd558c21a6e972642f2eaea_MD5.jpeg)
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg)
+![](bin/assets/README/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg)
 
 ### Next Steps
 
@@ -46,22 +46,6 @@ After setting up your vault:
 4. Explore the pre-set workspaces Use `Alt + Z` or `Alt + S` to load or manage workspaces. The default workspace is "Daily Note"
 
 ## 3. Folder Structure
-
-```ascii
-         🌳
-        Chew
-        the
-        Cud
-         |
-    ┌────┴─────┐
- 📅Calendar  💡Efforts
-    |           |
- 📁zFlow     🛠️bin
-    |
- 📥inbox.md
-```
-
-### FileTree
 
 ```
 ├── .obsidian # Obsidian configuration files (hidden in file explorer by default)
@@ -104,16 +88,15 @@ After setting up your vault:
 │   ├── templates/  # Templater templates and other reference templates
 │   └── views/  # Custom view configurations, Taskido
 |
-│── README.md # 🟢 YOU ARE HERE
 │── index.md
-└── inbox.md  # Capture point for quick notes
+└── README.md # 🟢 YOU ARE HERE
 ```
 
 ## 4. Note Types
 
-### 1. Source Note (Already created)
+### Source Note
 
-[[Don't Believe Everything You Think]]
+Open Open note: [[Don't Believe Everything You Think]]
 
 ```markdown
 ---
@@ -127,7 +110,7 @@ author: "[[Joseph Nguyen]]"
 … (rest of the note)
 ```
 
-### 2. Fleeting Note (In Daily Note)
+### Fleeting Note (In Daily Note)
 
 Let's say you're reading [[Sylvia Plath]]'s journal and it reminds you of a concept from "[[Don't Believe Everything You Think]]". You quickly jot this down in your daily note [[2024-10-20]] :
 
@@ -146,7 +129,7 @@ title: "2024-10-20"
 
 This fleeting note captures a momentary thought connection. It may or may not lead to further exploration.
 
-### 3. Literature Note (Incubating)
+### Literature Note (Incubating)
 
 While reading "[[Don't Believe Everything You Think]]", you decide to create a literature note to capture and process some key ideas:
 
@@ -158,7 +141,7 @@ Here's how it would look:
 2. Insert the Note Template:
    - Press `Ctrl + Enter` to insert the [[Note Templater]] template, which will trigger the modal form **Note**.
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/99a276a2bd31517bce393fe27933eb9c_MD5.jpeg)
+![](bin/assets/README/99a276a2bd31517bce393fe27933eb9c_MD5.jpeg)
 
 
 ```markdown
@@ -207,11 +190,11 @@ up:
 - Developing a meditation routine focused on thought observation
 ```
 
-### 4. Permanent Note (Insight)
+### Permanent Note (Insight)
 
 After reflecting on the ideas from the book and your literature note, you decide to create a more developed insight [[The Observer Self]]:
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/41ab9b3dafdeae990f81e5a776c45c4a_MD5.jpeg)
+![](bin/assets/README/41ab9b3dafdeae990f81e5a776c45c4a_MD5.jpeg)
 
 
 ```markdown
@@ -247,11 +230,11 @@ Questions for further exploration:
 This insight connects ideas from [[Overcoming Negative Thought Loops]] with broader concepts of mindfulness and cognitive psychology. It also provides a framework for understanding the struggles of individuals like [[Sylvia Plath]], highlighting how this modern understanding might have impacted historical figures dealing with mental health challenges.
 ```
 
-### 5. Map of Content (MOC)
+### Map of Content (MOC)
 
 As you continue to explore these ideas, you might create or update a Map of Content [[Cognitive Psychology MOC]]:
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/d73ae2968ebeea1de4b3dd513c02331b_MD5.jpeg)
+![](bin/assets/README/d73ae2968ebeea1de4b3dd513c02331b_MD5.jpeg)
 
 ```markdown
 ---
@@ -305,11 +288,11 @@ This example demonstrates how notes can evolve organically:
 
 The process isn't linear, and not every fleeting thought leads to deeper exploration. It shows how your system can capture both quick ideas and developed insights, all interconnected through your personal knowledge web.
 
-## 6. Definition Notes
+### Definition Notes
 
 **Consolidated Definition File**: [[Cognitive Psychology Terms]]
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/76c9b4bb4aff18c3215da6e624ed5a88_MD5.jpeg)
+![](bin/assets/README/76c9b4bb4aff18c3215da6e624ed5a88_MD5.jpeg)
 
 
 ```markdown
@@ -357,7 +340,7 @@ The capacity for introspection and the ability to recognize oneself as an indivi
 
 **Atomic Definition File**: [[Cognitive Dissonance]]
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/43c8220329d12678fbd37a0da10a9d2c_MD5.jpeg)
+![](bin/assets/README/43c8220329d12678fbd37a0da10a9d2c_MD5.jpeg)
 
 ```markdown
 ---
@@ -385,31 +368,31 @@ down:
  The mental discomfort experienced by a person who simultaneously holds two or more contradictory beliefs, ideas, or values. This discomfort is triggered by a situation in which a person's belief clashes with new evidence perceived by that person. When confronted with facts that contradict personal beliefs, ideals, and values, people will find a way to resolve the contradiction to reduce their discomfort.
 ```
 
-## 7. Effort (Long-term Project)
+### Effort (Long-term Project or Area of Focus)
 
 [[Developing Mindfulness Practice]]
 
 **Create the Effort**: Trigger QuickAdd Macro for creating an Effort using `Alt + D`. Select "Effort," which will create the note in the correct directory with a dedicated folder. If the template gets overwritten by other plugins, press `Ctrl + Z` right after form submission to restore the original template.
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/04779e7ebf4c933005bcba2dd2d461cd_MD5.jpeg)
+![](bin/assets/README/04779e7ebf4c933005bcba2dd2d461cd_MD5.jpeg)
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/d4706456abadce05319ded18f5eb07ca_MD5.jpeg)
+![](bin/assets/README/d4706456abadce05319ded18f5eb07ca_MD5.jpeg)
 
 **Adding Tasks to the Effort**: Once the Effort note is created, add specific tasks related to mindfulness practice. You can add tasks manually or use natural language dates to set them.
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg)
+![](bin/assets/README/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg)
 
 - [GitHub - argenos/nldates-obsidian: Work with dates in natural language in Obsidian](https://github.com/argenos/nldates-obsidian)
 
 **Adding Recurring Tasks**: For practices like daily meditation, create recurring tasks to maintain consistency.
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg)
+![](bin/assets/README/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg)
 
 **Final Effort Note**: After populating the note with tasks and recurring tasks, ensure connections are made with other relevant notes (like insights and related readings).
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg)
+![](bin/assets/README/32aff77526d57f29000ad7a16884427e_MD5.jpeg)
 
-## 8. Initiative (Project with a deadline)
+### Initiative (Project with a deadline)
 
 The best way to learn is to teach, so let's turn this Effort into a project! The initiative will be a series based on [[Mindfulness MOC]]
 
@@ -429,7 +412,9 @@ The best way to learn is to teach, so let's turn this Effort into a project! The
 - **Calendar Note**: Central hub for navigating temporal notes
 - **Logbook**: Aggregated view of various logs from daily notes
 
-### 1. Daily Note
+### Daily Note
+
+This serves as main homepage for everyday. Logging everything.
 
 **Morning:**
 1. Open your Daily Note (use `Alt + Shift + D` to trigger LifeOS plugin)
@@ -449,10 +434,9 @@ The best way to learn is to teach, so let's turn this Effort into a project! The
 1. Complete the Evening Review section
 2. Add any final thoughts or reflections
 
-[[bin/assets/README/19f759f84753b789edc99f98beecb193_MD5.jpeg|Open: Pasted image 20241020161950.png]]
-![[bin/assets/README/19f759f84753b789edc99f98beecb193_MD5.jpeg]]
+![](bin/assets/README/19f759f84753b789edc99f98beecb193_MD5.jpeg)
 
-### 2. Weekly Note
+### Weekly Note
 
 1. Open your Weekly Note
 2. Review and update Weekly Initiatives
@@ -462,22 +446,22 @@ The best way to learn is to teach, so let's turn this Effort into a project! The
    - Achievements
    - Trackers
 
-### 3. Monthly Note
+### Monthly Note
 
 1. Open your Monthly Note
 2. Set and review Monthly Initiatives
 3. Analyze Stand-Out Days from the Dataview query
 4. Reflect on patterns and trends observed
 
-### 4. Quarterly Note
+### Quarterly Note
 
 WIP
 
-### 5. Yearly Note
+### Yearly Note
 
 WIP
 
-### 6. Using the Calendar Note
+### Using the Calendar Note
 
 The Calendar Note serves as a central hub for navigating your temporal notes:
 
@@ -487,7 +471,7 @@ The Calendar Note serves as a central hub for navigating your temporal notes:
    - Get an overview of recent entries
    - Access your full note history
 
-### 7. Utilizing the Logbook
+### Utilizing the Logbook
 
 The Logbook aggregates various logs from your Daily Notes:
 
@@ -503,7 +487,7 @@ Use the Logbook to:
 - Quickly access past insights and achievements
 - Prepare for weekly and monthly reviews
 
-### 8. Plugins and Integrations
+### Plugins and Integrations
 
 - **LifeOS Plugin**: Triggers Daily Note creation (`Alt + Shift + D`), this plugin helps with managing periodic notes in tandem with Journals plugin but I all so us e it for the **Usememos** integration
 - **Homepage Plugin**: Configures the default workspace to open the Daily Note view
@@ -518,6 +502,9 @@ Use the Logbook to:
 
 ## 6. Flow Method
 
+> [!summary] Note
+> Remember, this system is adaptable. As you use it, feel free to adjust the structure to better fit your workflow and thinking process.
+
 Go to [[Flow]] navigation page.
 
 ![[bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg]]
@@ -531,8 +518,10 @@ Go to [[Flow]] navigation page.
 
 ## 7. Task Management
 
-- Overview of task system
-- Using Tasks plugin
+- Tasks Plugin
+- Taskido (sidebar, mostly redundant IMO cuz I will be utilizing LifeOS Pro Calendar view for timeline view of my tasks)
+- Tabs plugin with Dynamic Embed pugin (Today's and Upcoming in daily note)
+- Recurring tasks for habits formation, recurring with a start date or scheduled tasks from efforts and initiatives
 - Taskido sidebar integration
 - Task creation and management workflow
 
@@ -557,7 +546,7 @@ I am using a combination of a few plugins:
   - Configured to open a workspace that displays the daily note view
   - Triggers the LifeOS: Create Daily note command when the Daily Note workspace is selected
 
-![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg)
+![](bin/assets/README/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg)
 
 Workspaces allow you to quickly jump between different configurations of your vault:
 
@@ -569,13 +558,25 @@ Workspaces allow you to quickly jump between different configurations of your va
 - List of custom hotkeys
 - Essential Obsidian shortcuts
 - How to modify hotkeys
+- `Alt + Shift + W` = LifeOs Create Weekly note
+- `Alt + Shift + D` = LifeOs Create Daily note
+- `Alt + Shift + M` = LifeOs Create Monthly note
+- `Alt + Shift + Q` = LifeOs Create Quarterly note
+- `Alt + Shift + Y` = LifeOs Create Yearly note
+- `Alt + D` - QuickAdd Trigger
+- `Ctrl + Enter(↩️)` - Templater Insert Template
+- `Alt + Ctrl + E` - Emoji
+- Workspaces - `Alt + S` manage workspaces, `Alt + Z` Load workspace
+- `Ctrl + Shift + S` - to save workspace as it is currently in currrent state.
+- `Ctrk + Shift + R` - Delete Current File(Move to trash)
+- `Ctrl + W` - Close current tab
+- `Ctrl + Shift + T` - Restore closed tabs
+- `Ctrl + T` - new tab
+- `Alt + B` - Add bookmark
+- `Alt + Shift + B` - Focus Bookmark Sidebar
+- `Alt + E` - Toggle Live preview reading
 
 ## 11. Workflows
-
-- Capture workflow
-- Processing information workflow
-- Review and maintenance workflow
-
 
 1. **Quick Capture**: Use 'inbox.md' or Daily Notes in Calendar for initial thoughts (Eggs/Fleeting notes).
 2. **Idea Development**: Move developing ideas to 'Incubating' in zFlow.
@@ -586,41 +587,53 @@ Workspaces allow you to quickly jump between different configurations of your va
 7. **Time Management**: Utilize 'Calendar' for daily notes, tasks, and regular reviews.
 8. **System Resources**: Access templates, scripts, and configurations in the 'bin' folder.
 
-> [!note]+ Note
-> Remember, this system is adaptable. As you use it, feel free to adjust the structure to better fit your workflow and thinking process.
+> [!warning] Review and maintenance workflow
 
 ## 12. Integration with External Tools
 
-- usememos integration
+- useMemos integration
 
 ## 13. Customization
 
 - See [[templates]] to find all the templates.
-- Modifying the system to fit personal needs
+- Modifying the QuickAdd functions to change Dataview ineline metadata fields used in [[Calendar/Logbook|Logbook]] and in other places to fit personal needs.
 
 ## 14. Troubleshooting
 
 - Common issues and their solutions
 - Where to seek help
 
-## 15. Examples
+## 15. Sources
 
-- Real-world examples of using the system
-- Sample projects tracked from start to finish
+### Omnivore
 
-## 16. Glossary
+I am using Omnivore along with fileClass `omnivore` to maintain articles that I maintain/highlight in my [omnivore.app](https://omnivore.app/) account, integration using the official Omnivore Obsidian integration, I have created both frontmatter and backmatter templates for this that can be found here [[Omnivore Frontmatter Template]] and [[Omnivore Template Body]].
 
-- Definitions of key terms used in the system
+### Book Search Plugin
 
-## 17. Changelog
+Template for the Book Search Plugin can be found at: [[new book template]]
+
+### PodNotes
+
+### Videos
+
+Add new video template: [[video modal form templater]]
+
+## Changelog
 
 - Version history of the vault template
 - Recent updates and modifications
 
 ## 18. Credits & Thanks
 
+- [Tony Ramella - YouTube](https://www.youtube.com/@TonyRamella) (Better understanding Zettlekasten and helped in embracing a loose intepretation of zettlekasten favouring personal style over fixed methodolog)
+- [Paul Dickson - YouTube](https://www.youtube.com/@PaulDickson7) (Lots of inspo)
+- [Prakash Joshi Pax - YouTube](https://www.youtube.com/@beingpax) (Daily Note setup, lots of inspo)
+- [Linking Your Thinking with Nick Milo - YouTube](https://www.youtube.com/@linkingyourthinking) (Efforts and Ideaverse)
+- [FromSergio - YouTube](https://www.youtube.com/@FromSergio) (Tutorials, inspiration)
+
 ## Appendices
 
 A. List of all plugins with brief descriptions
-B. Complete folder structure map
-C. All template files used in the system# README
+B. Complete folder structure map [[index]]
+C. All template files: [[templates]]

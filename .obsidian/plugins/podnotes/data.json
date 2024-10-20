@@ -209,7 +209,7 @@
   },
   "openAIApiKey": "",
   "transcript": {
-    "path": "Bin/podcasts/transcripts/{{podcast}}/{{title}}.md",
+    "path": "bin/podcasts/transcripts/{{podcast}}/{{title}}.md",
     "template": "# {{title}}\n\nPodcast: [[{{podcast}}]]\nDate: [[{{date}}]]\n\n{{transcript}}"
   }
 }

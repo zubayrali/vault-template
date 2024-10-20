@@ -490,7 +490,7 @@
       "name": "QuickAdd Video",
       "type": "Template",
       "command": true,
-      "templatePath": "Bin/templates/QuickAdd Videos Template.md",
+      "templatePath": "bin/templates/QuickAdd Videos Template.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{VALUE:Enter Title}}"
@@ -514,13 +514,6 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
-    },
-    {
-      "id": "93a4109b-aa4e-4bbb-920b-83377c9f611c",
-      "name": "Videos",
-      "type": "Macro",
-      "command": true,
-      "macroId": "dc4f0cbb-8c5e-4f5c-a9e9-db796413704e"
     },
     {
       "id": "fed57042-48c1-4bcc-942b-b8bb772aed48",

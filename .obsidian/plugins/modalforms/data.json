@@ -219,9 +219,9 @@
       "version": "1"
     },
     {
-      "title": "Video Entry Form",
-      "name": "video-form",
-      "customClassname": "Videos",
+      "title": "Add a Video",
+      "name": "Video",
+      "customClassname": "video",
       "fields": [
         {
           "name": "title",
@@ -239,8 +239,11 @@
           "description": "Enter Internal Link to Author",
           "isRequired": false,
           "input": {
-            "type": "text",
-            "hidden": false
+            "type": "multiselect",
+            "source": "fixed",
+            "multi_select_options": [],
+            "allowUnknownValues": true,
+            "query": ""
           }
         },
         {
@@ -804,6 +807,13 @@
           }
         ]
       }
+    },
+    {
+      "title": "Add a Person or Influence",
+      "name": "Person",
+      "customClassname": "person",
+      "fields": [],
+      "version": "1"
     }
   ]
 }

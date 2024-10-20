@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "video modal form templater",
+      "path": "bin/templates/video modal form templater.md"
+    },
+    {
+      "basename": "Logbook",
+      "path": "Calendar/Logbook.md"
+    },
+    {
+      "basename": "Omnivore Frontmatter Template",
+      "path": "bin/templates/Omnivore Frontmatter Template.md"
+    },
+    {
+      "basename": "Omnivore Template Body",
+      "path": "bin/templates/Omnivore Template Body.md"
+    },
+    {
       "basename": "templates",
       "path": "bin/templates/templates.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
+      "basename": "09d32947164e6c68096cdcbd2826b7f2_MD5",
+      "path": "bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg"
+    },
+    {
+      "basename": "new daily note",
+      "path": "bin/templates/new daily note.md"
+    },
+    {
+      "basename": "Flow",
+      "path": "Efforts/Flow.md"
     },
     {
       "basename": "2024-10-20",
@@ -19,10 +47,6 @@
     {
       "basename": "2024-10-19",
       "path": "Calendar/2024/Daily/10/2024-10-19.md"
-    },
-    {
-      "basename": "Flow",
-      "path": "Efforts/Flow.md"
     },
     {
       "basename": "Learning Time Management",
@@ -57,20 +81,8 @@
       "path": "bin/templates/new yearly template.md"
     },
     {
-      "basename": "Logbook",
-      "path": "Calendar/Logbook.md"
-    },
-    {
       "basename": "new monthly note",
       "path": "bin/templates/new monthly note.md"
-    },
-    {
-      "basename": "new daily note",
-      "path": "bin/templates/new daily note.md"
-    },
-    {
-      "basename": "c18912d017d5ee5f682d4f029e288c62_MD5",
-      "path": "bin/assets/Chew the Cud - Vault Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg"
     },
     {
       "basename": "Mindfulness Workshop Series",
@@ -97,10 +109,6 @@
       "path": "Cognitive Psychology Terms.md"
     },
     {
-      "basename": "Hotkey Helper",
-      "path": "Hotkey Helper.md"
-    },
-    {
       "basename": "inbox",
       "path": "inbox.md"
     },
@@ -125,20 +133,12 @@
       "path": "bin/templates/Note Templater.md"
     },
     {
-      "basename": "41ab9b3dafdeae990f81e5a776c45c4a_MD5",
-      "path": "bin/assets/Chew the Cud - Vault Documentation/41ab9b3dafdeae990f81e5a776c45c4a_MD5.jpeg"
-    },
-    {
       "basename": "The Observer Self",
       "path": "zFlow/Insights/The Observer Self.md"
     },
     {
       "basename": "The Maturity Crisis",
       "path": "The Maturity Crisis.md"
-    },
-    {
-      "basename": "99a276a2bd31517bce393fe27933eb9c_MD5",
-      "path": "bin/assets/Chew the Cud - Vault Documentation/99a276a2bd31517bce393fe27933eb9c_MD5.jpeg"
     },
     {
       "basename": "Effort Templater",
@@ -165,10 +165,6 @@
       "path": "zFlow/Sources/Videos/Videos.md"
     },
     {
-      "basename": "d38b5c05fc5b45decb49dfd38d9040a0_MD5",
-      "path": "bin/assets/Chew the Cud - Vault Documentation/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg"
-    },
-    {
       "basename": "Psychology MOC",
       "path": "zFlow/MOCs/Psychology MOC.md"
     },
@@ -183,18 +179,6 @@
     {
       "basename": "omnivore",
       "path": "bin/classes/omnivore.md"
-    },
-    {
-      "basename": "person",
-      "path": "bin/classes/person.md"
-    },
-    {
-      "basename": "new excalidraw templater",
-      "path": "bin/templates/new excalidraw templater.md"
-    },
-    {
-      "basename": "new book template",
-      "path": "bin/templates/new book template.md"
     }
   ],
   "omittedPaths": [],
