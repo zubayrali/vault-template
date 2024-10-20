@@ -145,7 +145,7 @@ Mindful walking has brought a new level of clarity to my routine. I'm noticing p
 ## Related Notes
 
 - [[Developing Mindfulness Practice]] (Effort)
-- [[zFlow/Sources/Books/Don't Believe Everything You Think]] (Resource)
+- [[Don't Believe Everything You Think]] (Resource)
 - [[The Role of Self-Awareness in Cognitive Restructuring]] (Insight)
 
 ## Questions to Explore

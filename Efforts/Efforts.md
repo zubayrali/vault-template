@@ -1,22 +1,10 @@
 ---
 title: Efforts
 created: 2024-10-06T12:24:12.000-04:00
-updated: 2024-10-18T10:34:04.307-04:00
+updated: 2024-10-20T15:12:46.943-04:00
 ---
 
-> [!increase] Efforts Stats 📊
-> ```dataviewjs
-> let totalEfforts = dv.pages('"Efforts"').where(p => p.tags && p.tags.includes("type/effort")).length;
-> let activeEfforts = dv.pages('"Efforts"').where(p => p.type === "On").length;
-> let ongoingEfforts = dv.pages('"Efforts"').where(p => p.type === "Ongoing").length;
-> let simmeringEfforts = dv.pages('"Efforts"').where(p => p.type === "Simmering").length;
-> let sleepingEfforts = dv.pages('"Efforts"').where(p => p.type === "Sleeping").length;
-> dv.paragraph(`You have **${totalEfforts} Efforts** in total.`);
-> dv.paragraph(`🔥 **${activeEfforts}** efforts are currently active.`);
-> dv.paragraph(`♻️ **${ongoingEfforts}** efforts are ongoing, sustaining your long-term projects.`);
-> dv.paragraph(`〰️ **${simmeringEfforts}** efforts are simmering, waiting for the right time to be reignited.`);
-> dv.paragraph(`💤 **${sleepingEfforts}** efforts are currently sleeping or in cold storage.`);
-> ```
+## Tabs
 
 ````tabs
 top, multi
@@ -88,3 +76,23 @@ dv.table(
 );
 ```
 ````
+
+## Stats
+
+> [!increase] Efforts Stats 📊
+> ```dataviewjs
+> let totalEfforts = dv.pages('"Efforts"').where(p => p.tags && p.tags.includes("type/effort")).length;
+> let activeEfforts = dv.pages('"Efforts"').where(p => p.type === "On").length;
+> let ongoingEfforts = dv.pages('"Efforts"').where(p => p.type === "Ongoing").length;
+> let simmeringEfforts = dv.pages('"Efforts"').where(p => p.type === "Simmering").length;
+> let sleepingEfforts = dv.pages('"Efforts"').where(p => p.type === "Sleeping").length;
+> dv.paragraph(`You have **${totalEfforts} Efforts** in total.`);
+> dv.paragraph(`🔥 **${activeEfforts}** efforts are currently active.`);
+> dv.paragraph(`♻️ **${ongoingEfforts}** efforts are ongoing, sustaining your long-term projects.`);
+> dv.paragraph(`〰️ **${simmeringEfforts}** efforts are simmering, waiting for the right time to be reignited.`);
+> dv.paragraph(`💤 **${sleepingEfforts}** efforts are currently sleeping or in cold storage.`);
+> ```
+
+
+> [!example]- Tasks
+> - [ ] Maintenance

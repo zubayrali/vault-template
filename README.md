@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T14:09:13.764-04:00
+updated: 2024-10-20T16:00:41.366-04:00
 ---
 
 ## 1. Introduction
@@ -113,7 +113,7 @@ After setting up your vault:
 
 ### 1. Source Note (Already created)
 
-[[zFlow/Sources/Books/Don't Believe Everything You Think]]
+[[Don't Believe Everything You Think]]
 
 ```markdown
 ---
@@ -130,7 +130,7 @@ by [[Joseph Nguyen]]
 
 ### 2. Fleeting Note (In Daily Note)
 
-Let's say you're reading [[Sylvia Plath]]'s journal and it reminds you of a concept from "[[zFlow/Sources/Books/Don't Believe Everything You Think]]". You quickly jot this down in your daily note [[2024-10-20]] :
+Let's say you're reading [[Sylvia Plath]]'s journal and it reminds you of a concept from "[[Don't Believe Everything You Think]]". You quickly jot this down in your daily note [[2024-10-20]] :
 
 ```markdown
 ---
@@ -149,7 +149,7 @@ This fleeting note captures a momentary thought connection. It may or may not le
 
 ### 3. Literature Note (Incubating)
 
-While reading "[[zFlow/Sources/Books/Don't Believe Everything You Think]]", you decide to create a literature note to capture and process some key ideas:
+While reading "[[Don't Believe Everything You Think]]", you decide to create a literature note to capture and process some key ideas:
 
 Here's how it would look:
 
@@ -390,29 +390,23 @@ down:
 
 [[Developing Mindfulness Practice]]
 
-1. **Create the Effort**:
-    - Trigger QuickAdd Macro for creating an Effort using `Alt + D`. Select "Effort," which will create the note in the correct directory with a dedicated folder.
-    - If the template gets overwritten by other plugins, press `Ctrl + Z` right after form submission to restore the original template.
+**Create the Effort**: Trigger QuickAdd Macro for creating an Effort using `Alt + D`. Select "Effort," which will create the note in the correct directory with a dedicated folder. If the template gets overwritten by other plugins, press `Ctrl + Z` right after form submission to restore the original template.
 
 ![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/04779e7ebf4c933005bcba2dd2d461cd_MD5.jpeg)
 
 ![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/d4706456abadce05319ded18f5eb07ca_MD5.jpeg)
 
-1. **Adding Tasks to the Effort**:
-    - Once the Effort note is created, add specific tasks related to mindfulness practice.
-    - You can add tasks manually or use natural language dates to set them.
+**Adding Tasks to the Effort**: Once the Effort note is created, add specific tasks related to mindfulness practice. You can add tasks manually or use natural language dates to set them.
 
 ![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg)
 
 - [GitHub - argenos/nldates-obsidian: Work with dates in natural language in Obsidian](https://github.com/argenos/nldates-obsidian)
 
-1. **Adding Recurring Tasks**:
-    - For practices like daily meditation, create recurring tasks to maintain consistency.
+**Adding Recurring Tasks**: For practices like daily meditation, create recurring tasks to maintain consistency.
 
 ![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg)
 
-1. **Final Effort Note**:
-    - After populating the note with tasks and recurring tasks, ensure connections are made with other relevant notes (like insights and related readings).
+**Final Effort Note**: After populating the note with tasks and recurring tasks, ensure connections are made with other relevant notes (like insights and related readings).
 
 ![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg)
 
@@ -420,21 +414,102 @@ down:
 
 The best way to learn is to teach, so let's turn this Effort into a project! The initiative will be a series based on [[Mindfulness MOC]]
 
-1. **Define the Project**:
-    - Create a series of mindfulness-focused sessions or resources as part of the initiative.
-2. **Set a Timeline**:
-    - This is a focused project with a clear goal, so choose a deadline that allows enough time for deep learning, without extending too long. Estimate a reasonable completion time based on your goal and commitment level.
+**Define the Project**: Create a series of mindfulness-focused sessions or resources as part of the initiative.
+
+**Set a Timeline**: This is a focused project with a clear goal, so choose a deadline that allows enough time for deep learning, without extending too long. Estimate a reasonable completion time based on your goal and commitment level.
 
 [[Mindfulness Workshop Series]].
 
 ## 5. Periodic Notes
 
-- Daily Notes
-- Weekly Notes
-- Monthly Notes
-- Quarterly Notes (Personal Retreat)
-- Yearly Notes (Life Audit)
-- Templates and usage for each
+1. **Daily Notes**: Core of daily capture and reflection
+2. **Weekly Notes**: Weekly planning and review
+3. **Monthly Notes**: Monthly initiatives and patterns
+4. **Quarterly Notes**: Personal retreat and broader review
+5. **Yearly Notes**: Annual planning and life audit
+6. **Calendar Note**: Central hub for navigating temporal notes
+7. **Logbook**: Aggregated view of various logs from daily notes
+
+### Workflow
+
+### 1. Daily Routine
+
+**Morning:**
+1. Open your Daily Note (use `Alt + Shift + D` to trigger LifeOS plugin)
+2. Review your daily focus and work sections
+3. Check upcoming tasks in the "Recycle" callout
+
+**Throughout the Day:**
+1. Use QuickAdd macros to quickly capture:
+   - Highlights
+   - Achievements
+   - Motivations
+   - Gratitude moments
+2. Log fleeting thoughts and ideas in the Daily Log section
+3. Complete tasks and update their status
+
+**Evening:**
+1. Complete the Evening Review section
+2. Add any final thoughts or reflections
+
+### 2. Weekly Review (typically Done on Sundays)
+
+1. Open your Weekly Note
+2. Review and update Weekly Initiatives
+3. Complete the Wheel of Life assessment
+4. Review the aggregated data from Daily Notes:
+   - Highlights
+   - Achievements
+   - Trackers
+
+### 3. Monthly Review
+
+1. Open your Monthly Note
+2. Set and review Monthly Initiatives
+3. Analyze Stand-Out Days from the Dataview query
+4. Reflect on patterns and trends observed
+
+### 4. Quarterly and Yearly Reviews
+
+Follow a similar process to monthly reviews, but with a broader scope and longer-term focus.
+
+### 5. Using the Calendar Note
+
+The Calendar Note serves as a central hub for navigating your temporal notes:
+
+1. Access it via [[Calendar/Calendar|<< 📆 Calendar]] link in your periodic notes
+2. Use it to:
+   - Navigate to specific Daily, Weekly, or Monthly notes
+   - Get an overview of recent entries
+   - Access your full note history
+
+### 6. Utilizing the Logbook
+
+The Logbook aggregates various logs from your Daily Notes:
+
+1. Access it via [[Logbook|📖 Logbook >>]] link in your periodic notes
+2. It provides consolidated views of:
+   - Gratitude Log
+   - Motivation Log
+   - Achievements Log
+   - Daily Reviews
+
+Use the Logbook to:
+- Reflect on patterns in your thoughts and experiences
+- Quickly access past insights and achievements
+- Prepare for weekly and monthly reviews
+- **LifeOS Plugin**: Triggers Daily Note creation (`Alt + Shift + D`)
+- **Homepage Plugin**: Configures the default workspace to open the Daily Note view
+- **Journals Plugin**: Manages the structure of periodic notes
+- **Templater**: Handles templating for note creation
+- **QuickAdd**: Provides macros for quick capture of various log entries
+- **Dataview**: Powers queries in Calendar, Logbook, and periodic notes
+- Consistency is key: Try to engage with your Daily Note every day
+- Use **QuickAdd macros** throughout the day for effortless capture
+- Regularly review longer-term notes (Weekly, Monthly, etc.) to stay aligned with your goals
+- Customize templates and queries as needed to fit your specific workflow
+
+By following this workflow, you create a comprehensive system of interconnected notes that capture your thoughts, track your progress, and facilitate regular reflection and planning. The system is designed to be flexible, allowing you to adapt it to your specific needs while maintaining a consistent structure for easy navigation and review.
 
 ## 6. Flow Method
 

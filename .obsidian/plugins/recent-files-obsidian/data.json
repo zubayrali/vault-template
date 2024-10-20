@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "2024-10-20",
+      "path": "Calendar/2024/Daily/10/2024-10-20.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
+    },
+    {
+      "basename": "Calendar",
+      "path": "Calendar/Calendar.md"
+    },
+    {
+      "basename": "calendar",
+      "path": "bin/classes/calendar.md"
+    },
+    {
+      "basename": "new yearly template",
+      "path": "bin/templates/new yearly template.md"
+    },
+    {
+      "basename": "Logbook",
+      "path": "Calendar/Logbook.md"
+    },
+    {
+      "basename": "new monthly note",
+      "path": "bin/templates/new monthly note.md"
+    },
+    {
+      "basename": "new weekly note",
+      "path": "bin/templates/new weekly note.md"
+    },
+    {
+      "basename": "new daily note",
+      "path": "bin/templates/new daily note.md"
+    },
+    {
+      "basename": "Efforts",
+      "path": "Efforts/Efforts.md"
+    },
+    {
+      "basename": "Flow",
+      "path": "Efforts/Flow.md"
     },
     {
       "basename": "c18912d017d5ee5f682d4f029e288c62_MD5",
@@ -43,10 +83,6 @@
     {
       "basename": "Heuristics",
       "path": "Heuristics.md"
-    },
-    {
-      "basename": "2024-10-20",
-      "path": "Calendar/2024/Daily/10/2024-10-20.md"
     },
     {
       "basename": "Initiative Templater",
@@ -99,14 +135,6 @@
     {
       "basename": "Books Cardview",
       "path": "Books Cardview.md"
-    },
-    {
-      "basename": "Flow",
-      "path": "Efforts/Flow.md"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Efforts/Efforts.md"
     },
     {
       "basename": "Books Dataview",
@@ -169,36 +197,8 @@
       "path": "Efforts/Initiatives/Starting a YouTube Channel/Starting a YouTube Channel.md"
     },
     {
-      "basename": "Calendar",
-      "path": "Calendar/Calendar.md"
-    },
-    {
       "basename": "Tasks in Efforts",
       "path": "Calendar/Tasks/Tasks in Efforts.md"
-    },
-    {
-      "basename": "2024-10-06",
-      "path": "Calendar/2024/Daily/10/2024-10-06.md"
-    },
-    {
-      "basename": "2024-10-18",
-      "path": "Calendar/2024/Daily/10/2024-10-18.md"
-    },
-    {
-      "basename": "Learning Time Management",
-      "path": "Efforts/Learning Time Management/Learning Time Management.md"
-    },
-    {
-      "basename": "Obsidian October O_O 2024 vault self-critique checklist",
-      "path": "Obsidian October O_O 2024 vault self-critique checklist.md"
-    },
-    {
-      "basename": "2024-Q4",
-      "path": "Calendar/2024/Quarterly/2024-Q4.md"
-    },
-    {
-      "basename": "video",
-      "path": "bin/classes/video.md"
     }
   ],
   "omittedPaths": [],

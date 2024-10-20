@@ -12,7 +12,7 @@ tags:
   - calendar/daily
 ---
 
-[[bin/classes/calendar|<< 📆 Calendar]] | [[Logbook|📖 Logbook >>]]
+[[Calendar/Calendar|<< 📆 Calendar]] | [[Logbook|📖 Logbook >>]]
 
 ```calendar-nav
 ```

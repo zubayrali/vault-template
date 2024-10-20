@@ -1,7 +1,7 @@
 ---
 title: Flow
 created: 2024-10-06T12:24:12.000-04:00
-updated: 2024-10-19T23:04:26.891-04:00
+updated: 2024-10-20T14:40:39.982-04:00
 ---
 
 
@@ -46,18 +46,6 @@ Your launchpad and home base. That's here. That's **home**.
 >
 > ```dynamic-embed
 > [[Initiatives]]
-> ```
-
-> [!note] Stats 📊
-> ```dataviewjs
-> let totalEfforts = dv.pages('"Efforts"').length;
-> let totalInitiatives = dv.pages('"Efforts/Initiatives"').length;
-> let totalTasks = dv.pages().file.tasks.length;
-> let completedTasks = dv.pages().file.tasks.filter(t => t.completed).length;
-> let progressRate = Math.round((completedTasks / totalTasks) * 100);
-> dv.header(2, "Current Flow Summary");
-> dv.paragraph(`You have **${totalEfforts} Efforts** and **${totalInitiatives} Initiatives** currently active.`);
-> dv.paragraph(`There are **${totalTasks} tasks** in total, with **${completedTasks} tasks** completed (${progressRate}% completion rate).`);
 > ```
 
 

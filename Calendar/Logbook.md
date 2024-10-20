@@ -1,12 +1,12 @@
 ---
 title: Logbook
 created: 2024-09-20T15:03:24.000-04:00
-updated: 2024-10-06T22:44:04.738-04:00
+updated: 2024-10-20T15:25:18.865-04:00
 ---
 
 # Logbook
 
-[[bin/classes/calendar|<< 📆 Calendar]]
+[[Calendar/Calendar|<< 📆 Calendar]]
 
 This logbook aggregates logs recorded in your daily notes, it uses the `Gratitude::`, `Motivation::`, `Achievement::`, `Title::` and `Summary::`.
 In Weekly note, `highlight::` is used.

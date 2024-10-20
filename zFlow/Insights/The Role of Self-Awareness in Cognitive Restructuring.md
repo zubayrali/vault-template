@@ -23,7 +23,7 @@ down:
 3. Create distance between thoughts and self-identity
 4. Implement [[Mindfulness]] techniques more effectively
 
-This insight draws from concepts in [[zFlow/Sources/Books/Don't Believe Everything You Think]] by [[Joseph Nguyen]] and connects to broader psychological theories like [[Cognitive Behavioral Therapy]].
+This insight draws from concepts in [[Don't Believe Everything You Think]] by [[Joseph Nguyen]] and connects to broader psychological theories like [[Cognitive Behavioral Therapy]].
 
 Key points:
 - Self-awareness is a skill that can be developed through practice

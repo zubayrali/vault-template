@@ -10,7 +10,7 @@ tags:
   - psychology
   - mindfulness
 up:
-  - "[[zFlow/Sources/Books/Don't Believe Everything You Think]]"
+  - "[[Don't Believe Everything You Think]]"
 related: 
 prev: 
 down: 

@@ -14,13 +14,96 @@
               "type": "markdown",
               "state": {
                 "file": "README.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "dc9609598029feb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Flow.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "01e82ae22e92e720",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Efforts/Efforts.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9ea0762531456f54",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "a02e616661e35468",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bin/templates/new weekly note.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ccf1b8c5dd4c668e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "3d99c8969f9840eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/Logbook.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -65,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Calendar/2024/Daily/10/2024-10-20.md"
               }
             }
           }
@@ -129,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "Calendar/2024/Daily/10/2024-10-20.md"
               }
             }
           },
@@ -178,7 +261,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Calendar/2024/Daily/10/2024-10-20.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +297,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Calendar/2024/Daily/10/2024-10-20.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -231,7 +314,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "Calendar/2024/Daily/10/2024-10-20.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,7 +337,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.57651335617586,
+                  "scale": 0.2933080221496573,
                   "close": true
                 }
               }
@@ -299,10 +382,20 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "ecc2d998f9ab2587",
+  "active": "ccf1b8c5dd4c668e",
   "lastOpenFiles": [
-    "bin/assets/Chew the Cud - Vault Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg",
     "README.md",
+    "Calendar/Calendar.md",
+    "bin/classes/calendar.md",
+    "bin/templates/new yearly template.md",
+    "Calendar/Logbook.md",
+    "Calendar/2024/Daily/10/2024-10-20.md",
+    "bin/templates/new monthly note.md",
+    "bin/templates/new weekly note.md",
+    "bin/templates/new daily note.md",
+    "Efforts/Efforts.md",
+    "Efforts/Flow.md",
+    "bin/assets/Chew the Cud - Vault Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg",
     "Efforts/Initiatives/Mindfulness Workshop Series/Mindfulness Workshop Series.md",
     "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
     "zFlow/Insights/The Role of Self-Awareness in Cognitive Restructuring.md",
@@ -313,7 +406,6 @@
     "inbox.md",
     "Heuristics.md",
     "Chew the Cud - Vault Documentation.md",
-    "Calendar/2024/Daily/10/2024-10-20.md",
     "bin/templates/Initiative Templater.md",
     "Efforts/Initiatives/Mindfulness Workshop Series",
     "Cognitive Dissonance.md",
@@ -327,18 +419,9 @@
     "bin/assets/Chew the Cud - Vault Documentation/d4706456abadce05319ded18f5eb07ca_MD5.jpeg",
     "bin/assets/Pasted image 20241020123150.png",
     "bin/assets/Chew the Cud - Vault Documentation/04779e7ebf4c933005bcba2dd2d461cd_MD5.jpeg",
-    "bin/assets/Pasted image 20241020122913.png",
     "Efforts/Developing Mindfulness Practice",
     "bin/templates/Note Templater.md",
     "something.md",
-    "Untitled 1.md",
-    "zFlow/Insights/The Observer Self.md",
-    "The Maturity Crisis.md",
-    "zFlow/Incubating/Overcoming Negative Thought Loops.md",
-    "bin/templates/Effort Templater.md",
-    "bin/classes/effort.md",
-    "My Needs.md",
-    "Books Cardview.md",
     "bin/assets/Chew the Cud - Vault Documentation",
     "bin/assets/Don't Believe Everything You Think",
     "bin/assets/Chew the Cud",

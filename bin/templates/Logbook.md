@@ -4,7 +4,7 @@ created: 2024-09-20T15:03:24.000-04:00
 updated: 2024-09-20T16:29:40.587-04:00
 ---
 
-[[bin/classes/calendar|<< 📆 Calendar]] 
+[[Calendar/Calendar|<< 📆 Calendar]] 
 
 This logbook aggregates logs recorded in your daily notes.
 

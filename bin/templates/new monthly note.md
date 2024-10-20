@@ -13,7 +13,7 @@ tags:
 cssclasses:
 ---
 
-[[bin/classes/calendar|<< 📆 Calendar]] | [[Logbook|📖 Logbook >>]]
+[[Calendar/Calendar|<< 📆 Calendar]] | [[Logbook|📖 Logbook >>]]
 
 ```calendar-nav
 ```
@@ -36,11 +36,6 @@ cssclasses:
 ## Wheel of Life
 
 %% Use QuickAdd for wheekly weel of life %%
-## Trackers
-
-```dynamic-embed
-[[Weekly Tracker]]
-```
 
 ## Stand-Out Days
 
