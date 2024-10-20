@@ -1,8 +1,10 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T17:54:43.517-04:00
+updated: 2024-10-20T19:51:25.969-04:00
 ---
+
+> [!warning] This is meant to be previewed from inside Obsidian
 
 ## 1. Introduction
 
@@ -15,8 +17,6 @@ The name "Chew the Cud" reflects the system's core philosophy: just as ruminants
 [PLACEHOLDER: Add any personal philosophies or principles you follow in your note-taking and knowledge management]
 
 [PLACEHOLDER: Add any specific goals you have for your PKM system]
-
-**Why "Chew the Cud"?**
 
 [PLACEHOLDER: Add any personal motivations or reasons for developing this system]
 
@@ -51,7 +51,7 @@ After setting up your vault:
 ├── .obsidian # Obsidian configuration files (hidden in file explorer by default)
 ├── .git # files related to your git repository (hidden in file explorer by default)
 |
-├── Calendar/  # Time-based notes and planning
+├── Calendar/  # Periodic Notes
 │   ├── 2024/  # Year-specific folder
 │   │   ├── Daily/  # Daily notes
 │   │   ├── Weekly/  # Weekly reviews
@@ -305,7 +305,7 @@ aliases:
 tags: 
   - type/definition
   - psychology 
-def-type:  
+def-type:  consolidated
 up: 
   - "[[Cognitive Psychology MOC]]"
 related: 
@@ -507,7 +507,8 @@ Use the Logbook to:
 
 Go to [[Flow]] navigation page.
 
-![[bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg]]
+
+![](bin/assets/READMEbin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg)_
 
 - Efforts
 	- Categories (On, Ongoing, Simmering, Sleeping)
@@ -629,9 +630,9 @@ Add new video template: [[video modal form templater]]
 
 ## 18. Credits & Thanks
 
-- [Tony Ramella - YouTube](https://www.youtube.com/@TonyRamella) (Better understanding Zettlekasten and helped in embracing a loose intepretation of zettlekasten favouring personal style over fixed methodolog)
+- [Tony Ramella - YouTube](https://www.youtube.com/@TonyRamella) (Better understanding Zettlekasten and helped in embracing a loose intepretation of zettlekasten favouring personal style over fixed methodolog and for the Logbook, as well as _Flow_).
 - [Paul Dickson - YouTube](https://www.youtube.com/@PaulDickson7) (Lots of inspo)
-- [Prakash Joshi Pax - YouTube](https://www.youtube.com/@beingpax) (Daily Note setup, lots of inspo)
+- [Prakash Joshi Pax - YouTube](https://www.youtube.com/@beingpax) (Daily Note setup, Taskido video, lots of inspo)
 - [Linking Your Thinking with Nick Milo - YouTube](https://www.youtube.com/@linkingyourthinking) (Efforts and Ideaverse)
 - [FromSergio - YouTube](https://www.youtube.com/@FromSergio) (Tutorials, inspiration)
 

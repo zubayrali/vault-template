@@ -10,6 +10,7 @@
           {
             "id": "ecc2d998f9ab2587",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -17,7 +18,8 @@
                 "mode": "source",
                 "backlinks": false,
                 "source": true
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -60,19 +62,6 @@
             }
           },
           {
-            "id": "b33c2b72d7266f9f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "d9792f675a4e4200",
             "type": "leaf",
             "state": {
@@ -88,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -379,8 +367,12 @@
       "improved-random-note:Open improved random note": false
     }
   },
-  "active": "b33c2b72d7266f9f",
+  "active": "ecc2d998f9ab2587",
   "lastOpenFiles": [
+    "bin/templates/new daily note.md",
+    "Calendar/Logbook.md",
+    "Cognitive Psychology Terms.md",
+    "README.md",
     "bin/assets/README/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg",
     "bin/assets/README/d73ae2968ebeea1de4b3dd513c02331b_MD5.jpeg",
     "bin/assets/README/d4706456abadce05319ded18f5eb07ca_MD5.jpeg",
@@ -391,18 +383,14 @@
     "bin/assets/README/43c8220329d12678fbd37a0da10a9d2c_MD5.jpeg",
     "bin/assets/README/41ab9b3dafdeae990f81e5a776c45c4a_MD5.jpeg",
     "bin/assets/README/32aff77526d57f29000ad7a16884427e_MD5.jpeg",
-    "bin/assets/README/193b1c42c0d1098fa1a35bb7a3bc79aa_MD5.jpeg",
     "bin/templates/video modal form templater.md",
     "Something.md",
-    "README.md",
-    "Calendar/Logbook.md",
     "bin/templates/Omnivore Frontmatter Template.md",
     "bin/templates/Omnivore Template Body.md",
     "bin/templates/Insert Weight Tracker Template.md",
     "bin/templates/Insert Pomodoro Tracker Template.md",
     "bin/templates/new note quickadd.md",
     "bin/templates/templates.md",
-    "bin/templates/new daily note.md",
     "Efforts/Flow.md",
     "Hotkey Helper.md",
     "bin/templates/03 From Knowledge Artifacts to Full Articles.md",

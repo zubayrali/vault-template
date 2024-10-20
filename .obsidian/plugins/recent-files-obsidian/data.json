@@ -5,12 +5,20 @@
       "path": "README.md"
     },
     {
-      "basename": "video modal form templater",
-      "path": "bin/templates/video modal form templater.md"
+      "basename": "new daily note",
+      "path": "bin/templates/new daily note.md"
     },
     {
       "basename": "Logbook",
       "path": "Calendar/Logbook.md"
+    },
+    {
+      "basename": "Cognitive Psychology Terms",
+      "path": "Cognitive Psychology Terms.md"
+    },
+    {
+      "basename": "video modal form templater",
+      "path": "bin/templates/video modal form templater.md"
     },
     {
       "basename": "Omnivore Frontmatter Template",
@@ -27,10 +35,6 @@
     {
       "basename": "09d32947164e6c68096cdcbd2826b7f2_MD5",
       "path": "bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg"
-    },
-    {
-      "basename": "new daily note",
-      "path": "bin/templates/new daily note.md"
     },
     {
       "basename": "Flow",
@@ -103,10 +107,6 @@
     {
       "basename": "Something",
       "path": "zFlow/Sources/Misc/Something.md"
-    },
-    {
-      "basename": "Cognitive Psychology Terms",
-      "path": "Cognitive Psychology Terms.md"
     },
     {
       "basename": "inbox",
