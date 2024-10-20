@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T16:24:53.267-04:00
+updated: 2024-10-20T16:26:11.919-04:00
 ---
 
 ## 1. Introduction
@@ -595,7 +595,7 @@ Workspaces allow you to quickly jump between different configurations of your va
 
 ## 13. Customization
 
-- How to customize templates
+- See [[templates]] to find all the templates.
 - Modifying the system to fit personal needs
 
 ## 14. Troubleshooting

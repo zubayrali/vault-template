@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "bin/templates/templates.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "bin/templates/templates.md"
               }
             }
           }
@@ -182,7 +182,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "bin/templates/templates.md"
               }
             }
           },
@@ -231,7 +231,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "bin/templates/templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +267,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "bin/templates/templates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,7 +284,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "README.md",
+                "file": "bin/templates/templates.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -354,12 +354,14 @@
   },
   "active": "ecc2d998f9ab2587",
   "lastOpenFiles": [
+    "bin/templates/03 From Knowledge Artifacts to Full Articles.md",
+    "bin/templates/templates.md",
+    "README.md",
     "bin/assets/README/19f759f84753b789edc99f98beecb193_MD5.jpeg",
     "bin/assets/Pasted image 20241020161950.png",
     "Calendar/2024/Daily/10/2024-10-20.md",
     "Calendar/Tasks/Overview.md",
     "Calendar/2024/Daily/10/2024-10-19.md",
-    "README.md",
     "Efforts/Flow.md",
     "Efforts/Learning Time Management/Learning Time Management.md",
     "Efforts/Efforts.md",
@@ -384,14 +386,12 @@
     "Cognitive Psychology Terms.md",
     "Hotkey Helper.md",
     "inbox.md",
-    "Heuristics.md",
     "Efforts/Initiatives/Mindfulness Workshop Series",
     "bin/assets/Chew the Cud - Vault Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg",
     "bin/assets/Pasted image 20241020123749.png",
     "bin/assets/Chew the Cud - Vault Documentation/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg",
     "bin/assets/Pasted image 20241020123628.png",
     "bin/assets/Chew the Cud - Vault Documentation/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg",
-    "bin/assets/Pasted image 20241020123420.png",
     "Efforts/Developing Mindfulness Practice",
     "bin/assets/Chew the Cud - Vault Documentation",
     "bin/assets/Don't Believe Everything You Think",

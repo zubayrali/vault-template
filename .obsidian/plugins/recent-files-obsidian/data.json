@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "templates",
+      "path": "bin/templates/templates.md"
+    },
+    {
       "basename": "README",
       "path": "README.md"
     },
@@ -161,10 +165,6 @@
       "path": "zFlow/Sources/Videos/Videos.md"
     },
     {
-      "basename": "templates",
-      "path": "bin/templates/templates.md"
-    },
-    {
       "basename": "d38b5c05fc5b45decb49dfd38d9040a0_MD5",
       "path": "bin/assets/Chew the Cud - Vault Documentation/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "new book template",
       "path": "bin/templates/new book template.md"
-    },
-    {
-      "basename": "Starting a YouTube Channel",
-      "path": "Efforts/Initiatives/Starting a YouTube Channel/Starting a YouTube Channel.md"
     }
   ],
   "omittedPaths": [],
