@@ -158,9 +158,6 @@
     "Bin/templates/Logbook.md": {
       "icon": "lucide-clipboard-signature"
     },
-    "Books Cardview.md": {
-      "icon": "lucide-book-copy"
-    },
     "Books Dataview.md": {
       "icon": "lucide-book-dashed"
     },
@@ -241,6 +238,9 @@
     },
     "Spaces/Wheel of Life.md": {
       "icon": "lucide-circle-dot"
+    },
+    "bin/views/Books Cardview.md": {
+      "icon": "lucide-book-copy"
     },
     "x": {
       "icon": "lucide-unlink",

@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T19:51:25.969-04:00
+updated: 2024-10-20T19:54:25.424-04:00
 ---
 
 > [!warning] This is meant to be previewed from inside Obsidian
@@ -603,11 +603,15 @@ Workspaces allow you to quickly jump between different configurations of your va
 - [commander](https://github.com/phibr0/obsidian-commander) to add commands/buttons.
 - [note-toolbar](https://github.com/chrisgurney/obsidian-note-toolbar) to add custom toolbars.
 
-## 14. Bookmarks
+## 14. Views
+
+[[Books Cardview]]
+
+## 15. Bookmarks
 
 Utilizing Bookmarks with the [bookmarks-caller](https://github.com/namikaze-40p/obsidian-bookmarks-caller) plugin to quickly open bookmarked notes.
 
-## 15. Sources
+## 16. Sources
 
 ### Omnivore
 

@@ -5,6 +5,10 @@
       "path": "README.md"
     },
     {
+      "basename": "Books Cardview",
+      "path": "bin/views/Books Cardview.md"
+    },
+    {
       "basename": "new daily note",
       "path": "bin/templates/new daily note.md"
     },
@@ -151,10 +155,6 @@
     {
       "basename": "My Needs",
       "path": "My Needs.md"
-    },
-    {
-      "basename": "Books Cardview",
-      "path": "Books Cardview.md"
     },
     {
       "basename": "Books Dataview",

@@ -76,6 +76,19 @@
               "type": "FileClassView__person",
               "state": {}
             }
+          },
+          {
+            "id": "27a90d241a125fde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bin/views/Books Cardview.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
         ]
       }
@@ -369,10 +382,12 @@
   },
   "active": "ecc2d998f9ab2587",
   "lastOpenFiles": [
+    "bin/views/Books Cardview.md",
+    "bin/views/Books Cards View.md",
+    "README.md",
     "bin/templates/new daily note.md",
     "Calendar/Logbook.md",
     "Cognitive Psychology Terms.md",
-    "README.md",
     "bin/assets/README/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg",
     "bin/assets/README/d73ae2968ebeea1de4b3dd513c02331b_MD5.jpeg",
     "bin/assets/README/d4706456abadce05319ded18f5eb07ca_MD5.jpeg",
@@ -404,8 +419,6 @@
     "Efforts/Initiatives/Initiatives.md",
     "bin/templates/new weekly note.md",
     "Calendar/Calendar.md",
-    "bin/classes/calendar.md",
-    "bin/templates/new yearly template.md",
     "Efforts/Initiatives/Mindfulness Workshop Series",
     "Efforts/Developing Mindfulness Practice",
     "bin/assets/Chew the Cud - Vault Documentation",
