@@ -1,8 +1,8 @@
 ---
-title: Mastering Advanced Mindfulness Techniques
+title: Mindfulness Workshop Series
 fileClass: initiative
 created: 2024-10-20T00:00:00.000-04:00
-updated: 2024-10-20T13:16:31.204-04:00
+updated: 2024-10-20T13:32:07.700-04:00
 aliases:
 tags: type/initiative, mindfulness, Q4-goal
 description: "Learn and implement advanced mindfulness techniques to deepen personal practice and cognitive awareness. Study and practice advanced mindfulness techniques, including body scan meditation, loving-kindness meditation, and mindful movement, to enhance self-awareness and emotional regulation."
@@ -14,7 +14,7 @@ efforts:
   - "[[Practicing Mindfulness]]"
 ---
 
-# Mastering Advanced Mindfulness Techniques
+# Mindfulness Workshop Series
 
 > `VIEW[{description}][text]`
 
@@ -145,7 +145,7 @@ Mindful walking has brought a new level of clarity to my routine. I'm noticing p
 ## Related Notes
 
 - [[Developing Mindfulness Practice]] (Effort)
-- [[Don't Believe Everything You Think]] (Resource)
+- [[zFlow/Sources/Books/Don't Believe Everything You Think]] (Resource)
 - [[The Role of Self-Awareness in Cognitive Restructuring]] (Insight)
 
 ## Questions to Explore

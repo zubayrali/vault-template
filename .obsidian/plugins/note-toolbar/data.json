@@ -600,7 +600,7 @@
       "position": {
         "desktop": {
           "allViews": {
-            "position": "props"
+            "position": "top"
           }
         },
         "mobile": {
@@ -614,7 +614,7 @@
           }
         }
       },
-      "updated": "2024-10-20T16:27:57.692Z"
+      "updated": "2024-10-20T17:33:46.748Z"
     }
   ],
   "version": 20240727.1,

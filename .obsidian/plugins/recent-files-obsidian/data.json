@@ -1,28 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Mastering Advanced Mindfulness Techniques",
-      "path": "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "Something",
-      "path": "zFlow/Sources/Misc/Something.md"
+      "basename": "Mindfulness Workshop Series",
+      "path": "Efforts/Initiatives/Mindfulness Workshop Series/Mindfulness Workshop Series.md"
     },
     {
       "basename": "Developing Mindfulness Practice",
       "path": "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md"
     },
     {
-      "basename": "2024-10-20",
-      "path": "Calendar/2024/Daily/10/2024-10-20.md"
-    },
-    {
-      "basename": "Chew the Cud - Vault Documentation",
-      "path": "Chew the Cud - Vault Documentation.md"
+      "basename": "The Role of Self-Awareness in Cognitive Restructuring",
+      "path": "zFlow/Insights/The Role of Self-Awareness in Cognitive Restructuring.md"
     },
     {
       "basename": "Don't Believe Everything You Think",
       "path": "zFlow/Sources/Books/Don't Believe Everything You Think.md"
+    },
+    {
+      "basename": "Something",
+      "path": "zFlow/Sources/Misc/Something.md"
+    },
+    {
+      "basename": "Cognitive Psychology Terms",
+      "path": "Cognitive Psychology Terms.md"
+    },
+    {
+      "basename": "Hotkey Helper",
+      "path": "Hotkey Helper.md"
+    },
+    {
+      "basename": "inbox",
+      "path": "inbox.md"
+    },
+    {
+      "basename": "Heuristics",
+      "path": "Heuristics.md"
+    },
+    {
+      "basename": "2024-10-20",
+      "path": "Calendar/2024/Daily/10/2024-10-20.md"
     },
     {
       "basename": "Initiative Templater",
@@ -33,20 +53,12 @@
       "path": "Cognitive Dissonance.md"
     },
     {
-      "basename": "The Role of Self-Awareness in Cognitive Restructuring",
-      "path": "zFlow/Insights/The Role of Self-Awareness in Cognitive Restructuring.md"
-    },
-    {
       "basename": "Cognitive Psychology MOC",
       "path": "zFlow/MOCs/Cognitive Psychology MOC.md"
     },
     {
       "basename": "Note Templater",
       "path": "bin/templates/Note Templater.md"
-    },
-    {
-      "basename": "Cognitive Psychology Terms",
-      "path": "Cognitive Psychology Terms.md"
     },
     {
       "basename": "41ab9b3dafdeae990f81e5a776c45c4a_MD5",
@@ -63,10 +75,6 @@
     {
       "basename": "Overcoming Negative Thought Loops",
       "path": "zFlow/Incubating/Overcoming Negative Thought Loops.md"
-    },
-    {
-      "basename": "Hotkey Helper",
-      "path": "Hotkey Helper.md"
     },
     {
       "basename": "99a276a2bd31517bce393fe27933eb9c_MD5",
@@ -87,10 +95,6 @@
     {
       "basename": "Books Cardview",
       "path": "Books Cardview.md"
-    },
-    {
-      "basename": "inbox",
-      "path": "inbox.md"
     },
     {
       "basename": "Flow",
@@ -195,10 +199,6 @@
     {
       "basename": "video",
       "path": "bin/classes/video.md"
-    },
-    {
-      "basename": "My Core Values",
-      "path": "My Core Values.md"
     }
   ],
   "omittedPaths": [],

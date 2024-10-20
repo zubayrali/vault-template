@@ -4,71 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a41330611d0d74c5",
+        "id": "b5036519fc777750",
         "type": "tabs",
         "children": [
           {
-            "id": "12419c0be9002467",
+            "id": "ecc2d998f9ab2587",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zFlow/Sources/Misc/Something.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5ba1fd6a534a8736",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f75c5289b79ca3af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9f5a1dd9c53afe48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zFlow/Insights/The Role of Self-Awareness in Cognitive Restructuring.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ab5e3430ba99d33f",
-            "type": "leaf",
-            "state": {
-              "type": "modal-form-manage-forms-view",
+              "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,9 +59,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md"
-              }
+              "state": {}
             }
           },
           {
@@ -227,7 +169,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 1
       },
       {
         "id": "6417ed4453a03bfb",
@@ -263,7 +204,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -280,7 +220,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -348,18 +287,23 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "5ba1fd6a534a8736",
+  "active": "ecc2d998f9ab2587",
   "lastOpenFiles": [
-    "zFlow/Sources/Misc/Something.md",
-    "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md",
+    "README.md",
+    "Efforts/Initiatives/Mindfulness Workshop Series/Mindfulness Workshop Series.md",
     "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
-    "Calendar/2024/Daily/10/2024-10-20.md",
-    "Chew the Cud - Vault Documentation.md",
+    "zFlow/Insights/The Role of Self-Awareness in Cognitive Restructuring.md",
     "zFlow/Sources/Books/Don't Believe Everything You Think.md",
+    "zFlow/Sources/Misc/Something.md",
+    "Cognitive Psychology Terms.md",
+    "Hotkey Helper.md",
+    "inbox.md",
+    "Heuristics.md",
+    "Chew the Cud - Vault Documentation.md",
+    "Calendar/2024/Daily/10/2024-10-20.md",
     "bin/templates/Initiative Templater.md",
     "Efforts/Initiatives/Mindfulness Workshop Series",
     "Cognitive Dissonance.md",
-    "zFlow/Insights/The Role of Self-Awareness in Cognitive Restructuring.md",
     "zFlow/MOCs/Cognitive Psychology MOC.md",
     "bin/assets/Chew the Cud - Vault Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg",
     "bin/assets/Pasted image 20241020123749.png",
@@ -373,21 +317,16 @@
     "bin/assets/Pasted image 20241020122913.png",
     "Efforts/Developing Mindfulness Practice",
     "bin/templates/Note Templater.md",
-    "Cognitive Psychology Terms.md",
     "something.md",
     "Untitled 1.md",
     "zFlow/Insights/The Observer Self.md",
     "The Maturity Crisis.md",
     "zFlow/Incubating/Overcoming Negative Thought Loops.md",
-    "Hotkey Helper.md",
     "bin/templates/Effort Templater.md",
     "bin/classes/effort.md",
     "My Needs.md",
     "Books Cardview.md",
     "New Note Today.md",
-    "inbox.md",
-    "Efforts/Flow.md",
-    "Efforts/Efforts.md",
     "bin/assets/Chew the Cud - Vault Documentation",
     "bin/assets/Don't Believe Everything You Think",
     "bin/assets/Chew the Cud",

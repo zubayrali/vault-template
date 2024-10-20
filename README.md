@@ -1,10 +1,8 @@
 ---
-title: Chew the Cud - Vault Documentation
-created: 2024-10-18T10:49:00.000-04:00
-updated: 2024-10-20T13:06:14.951-04:00
+title: README
+created: 2024-10-20T13:21:53.000-04:00
+updated: 2024-10-20T13:38:27.219-04:00
 ---
-
-# Chew the Cud - Vault Documentation
 
 ## 1. Introduction
 
@@ -106,7 +104,7 @@ After setting up your vault:
 │   ├── templates/  # Templater templates and other reference templates
 │   └── views/  # Custom view configurations, Taskido
 |
-│── Chew the Cud - Vault Documentation # 🟢 YOU ARE HERE
+│── README.md # 🟢 YOU ARE HERE
 │── index.md
 └── inbox.md  # Capture point for quick notes
 ```
@@ -115,7 +113,7 @@ After setting up your vault:
 
 ### 1. Source Note (Already created)
 
-[[Don't Believe Everything You Think]]
+[[zFlow/Sources/Books/Don't Believe Everything You Think]]
 
 ```markdown
 ---
@@ -123,17 +121,16 @@ fileClass: book
 id: 20241019120051
 title: "Don't Believe Everything You Think"
 author: "[[Joseph Nguyen]]"
-# … (other metadata)
 ---
 
-# Don't Believe Everything You Think
+# README
 by [[Joseph Nguyen]]
 
 ```
 
 ### 2. Fleeting Note (In Daily Note)
 
-Let's say you're reading [[Sylvia Plath]]'s journal and it reminds you of a concept from "[[Don't Believe Everything You Think]]". You quickly jot this down in your daily note [[2024-10-20]] :
+Let's say you're reading [[Sylvia Plath]]'s journal and it reminds you of a concept from "[[zFlow/Sources/Books/Don't Believe Everything You Think]]". You quickly jot this down in your daily note [[2024-10-20]] :
 
 ```markdown
 ---
@@ -152,7 +149,7 @@ This fleeting note captures a momentary thought connection. It may or may not le
 
 ### 3. Literature Note (Incubating)
 
-While reading "[[Don't Believe Everything You Think]]", you decide to create a literature note to capture and process some key ideas:
+While reading "[[zFlow/Sources/Books/Don't Believe Everything You Think]]", you decide to create a literature note to capture and process some key ideas:
 
 Here's how it would look:
 
@@ -392,31 +389,42 @@ down:
 
 [[Developing Mindfulness Practice]]
 
-Trigger QuickAdd Macro for Creating Effort using `Alt + D` select "Effort" which will help create the Effort in the right directory with its dedicated folder…sometimes the template will get overwritten by other plugins you can do `Ctrl + Z` to get your template back right after form submission.
+1. **Create the Effort**:
+    - Trigger QuickAdd Macro for creating an Effort using `Alt + D`. Select "Effort," which will create the note in the correct directory with a dedicated folder.
+    - If the template gets overwritten by other plugins, press `Ctrl + Z` right after form submission to restore the original template.
 
 ![[bin/assets/Chew the Cud - Vault Documentation/04779e7ebf4c933005bcba2dd2d461cd_MD5.jpeg]]
 
 ![[bin/assets/Chew the Cud - Vault Documentation/d4706456abadce05319ded18f5eb07ca_MD5.jpeg]]
 
-Adding tasks to our Efforts note
+1. **Adding Tasks to the Effort**:
+    - Once the Effort note is created, add specific tasks related to mindfulness practice.
+    - You can add tasks manually or use natural language dates to set them.
 
 ![[bin/assets/Chew the Cud - Vault Documentation/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg]]
 
-[GitHub - argenos/nldates-obsidian: Work with dates in natural language in Obsidian](https://github.com/argenos/nldates-obsidian)
+- [GitHub - argenos/nldates-obsidian: Work with dates in natural language in Obsidian](https://github.com/argenos/nldates-obsidian)
 
-Adding recurring tasks
+1. **Adding Recurring Tasks**:
+    - For practices like daily meditation, create recurring tasks to maintain consistency.
 
 ![[bin/assets/Chew the Cud - Vault Documentation/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg]]
 
-Effort note after populating the note with tasks and recurring tasks and making connections with other note
+1. **Final Effort Note**:
+    - After populating the note with tasks and recurring tasks, ensure connections are made with other relevant notes (like insights and related readings).
 
 ![[bin/assets/Chew the Cud - Vault Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg]]
 
 ## 8. Initiative (Project with a deadline)
 
-The best way to learn is to teach sooo lets make a project out of this effort by doing a series on [[Mindfulness MOC]]: [[Mastering Advanced Mindfulness Techniques]]
+The best way to learn is to teach, so let's turn this Effort into a project! The initiative will be a series based on [[Mindfulness MOC]]
 
-I don't want to take too long on this project tho, I know my goal and I can roughly estimate how long it would take when choosing a due date.
+1. **Define the Project**:
+    - Create a series of mindfulness-focused sessions or resources as part of the initiative.
+2. **Set a Timeline**:
+    - This is a focused project with a clear goal, so choose a deadline that allows enough time for deep learning, without extending too long. Estimate a reasonable completion time based on your goal and commitment level.
+
+[[Mindfulness Workshop Series]].
 
 ## 5. Periodic Notes
 
@@ -530,4 +538,4 @@ Workspaces allow you to quickly jump between different configurations of your va
 
 A. List of all plugins with brief descriptions
 B. Complete folder structure map
-C. All template files used in the system
+C. All template files used in the system# README

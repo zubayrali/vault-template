@@ -5,12 +5,12 @@ lead: To overcome negative thought loops, start by recognizing when you're caugh
 created: 2024-10-20T00:00:00.000-04:00
 updated: 2024-10-20T10:09:59.253-04:00
 aliases: 
-tags: 
+tags:
   - type/incubating
   - psychology
-  - mindfulness 
-up: 
-  - "[[Don't Believe Everything You Think]]"
+  - mindfulness
+up:
+  - "[[zFlow/Sources/Books/Don't Believe Everything You Think]]"
 related: 
 prev: 
 down: 

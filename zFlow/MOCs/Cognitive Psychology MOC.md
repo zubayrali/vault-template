@@ -29,7 +29,7 @@ down:
 
 ## Key Works
 
-- [[Don't Believe Everything You Think]]
+- [[zFlow/Sources/Books/Don't Believe Everything You Think]]
 - [[Thinking, Fast and Slow]]
 
 ## Therapeutic Approaches

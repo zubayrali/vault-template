@@ -2,7 +2,7 @@
 title: The Role of Self-Awareness in Cognitive Restructuring
 fileClass: insight
 created: 2024-10-20T00:00:00.000-04:00
-updated: 2024-10-20T12:51:11.876-04:00
+updated: 2024-10-20T13:36:47.372-04:00
 aliases: 
 tags: 
   - type/insight
@@ -23,7 +23,7 @@ down:
 3. Create distance between thoughts and self-identity
 4. Implement [[Mindfulness]] techniques more effectively
 
-This insight draws from concepts in [[Don't Believe Everything You Think]] by [[Joseph Nguyen]] and connects to broader psychological theories like [[Cognitive Behavioral Therapy]].
+This insight draws from concepts in [[zFlow/Sources/Books/Don't Believe Everything You Think]] by [[Joseph Nguyen]] and connects to broader psychological theories like [[Cognitive Behavioral Therapy]].
 
 Key points:
 - Self-awareness is a skill that can be developed through practice

@@ -5,7 +5,7 @@ fileClass: effort
 description: Establish a daily mindfulness routine to enhance self-awareness and cognitive flexibility
 type: Ongoing
 created: 2024-10-20T00:00:00.000-04:00
-updated: 2024-10-20T12:37:33.054-04:00
+updated: 2024-10-20T13:36:19.589-04:00
 rank: 2
 eol: false
 tags: type/effort, personal-development
@@ -104,18 +104,55 @@ Develop and maintain a consistent mindfulness practice to improve mental well-be
 3. Thought journaling
 4. Weekly reflection on progress
 
+## Current Status
+
+- Meditating for 10 minutes daily
+- Journaling thoughts 3 times a week
+- Exploring different mindfulness techniques
+
 ## Resources
 
 - [[Don't Believe Everything You Think]]
 - [[Meditation Practices]]
 - [[Mindfulness-Based Stress Reduction]]
+- Headspace app for guided meditations
 
-[Weekly reflections on the practice and its effects would go here]
+## Progress Tracking
 
-related:: [[The Role of Self-Awareness in Cognitive Restructuring]], [[Cognitive Psychology MOC]]
+- Week 1: Established daily 5-minute meditation routine
+- Week 2: Increased to 10-minute sessions, started journaling
+- Week 3: Noticed improved focus during work hours
+
+## Reflections
+
+### Week 1
+
+Found it challenging to sit still for even 5 minutes. Mind constantly wandering. Need to be patient with the process.
+
+### Week 2
+
+Feeling more comfortable with the practice. Journaling is revealing some recurring negative thought patterns about work stress.
+
+### Week 3
+
+Beginning to notice moments of mindfulness during the day, especially when feeling stressed. The practice seems to be extending beyond the formal meditation sessions.
+
+## Related Notes
+
+- [[The Role of Self-Awareness in Cognitive Restructuring]] (Insight)
+- [[Mindfulness Workshop Series]] (Initiative)
+- [[Cognitive Psychology MOC]]
+
+## Questions to Explore
+
+- How does mindfulness practice affect [[Cognitive Bias|cognitive biases]] over time?
+- Can mindfulness techniques be effectively combined with [[Cognitive Behavioral Therapy]]?
+- What role does [[Self-Awareness]] play in the development of a consistent mindfulness practice?
 
 > [!example]- Tasks
-> - [ ] Research different meditation techniques ⏬ 📅 2024-10-31
-> - [ ] Set up a dedicated meditation space 📅 2024-11-20
-> - [ ] Start with 5-minute daily sessions, gradually increasing duration 🔁 every day 🛫 2024-10-20
-> - [ ] Keep a thought journal to track patterns and progress 📅 2024-10-20
+> - [x] Research different meditation techniques ⏬ 📅 2024-10-31 ✅ 2024-10-20
+> - [x] Set up a dedicated meditation space 📅 2024-11-20 ✅ 2024-10-20
+> - [x] Start with 5-minute daily sessions, gradually increasing duration 🛫 2024-10-24
+> - [x] Keep a thought journal to track patterns and progress 📅 2024-10-20 ✅ 2024-10-20
+> - [ ] Experiment with body scan meditation technique
+> - [ ] Attend a local mindfulness workshop
