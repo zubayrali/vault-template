@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T13:38:27.219-04:00
+updated: 2024-10-20T14:09:13.764-04:00
 ---
 
 ## 1. Introduction
@@ -32,9 +32,9 @@ The name "Chew the Cud" reflects the system's core philosophy: just as ruminants
 4. In the startup screen, select "Open folder as vault"
 5. Navigate to and select the unzipped folder (or cloned repository)
 
-![[bin/assets/Chew the Cud - Vault Documentation/8e880ec74cd558c21a6e972642f2eaea_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/8e880ec74cd558c21a6e972642f2eaea_MD5.jpeg)
 
-![[bin/assets/Chew the Cud - Vault Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg)
 
 ### Next Steps
 
@@ -159,7 +159,7 @@ Here's how it would look:
 2. Insert the Note Template:
    - Press `Ctrl + Enter` to insert the [[Note Templater]] template, which will trigger the modal form **Note**.
 
-![[bin/assets/Chew the Cud - Vault Documentation/99a276a2bd31517bce393fe27933eb9c_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/99a276a2bd31517bce393fe27933eb9c_MD5.jpeg)
 
 
 ```markdown
@@ -212,7 +212,8 @@ up:
 
 After reflecting on the ideas from the book and your literature note, you decide to create a more developed insight [[The Observer Self]]:
 
-![[bin/assets/Chew the Cud - Vault Documentation/41ab9b3dafdeae990f81e5a776c45c4a_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/41ab9b3dafdeae990f81e5a776c45c4a_MD5.jpeg)
+
 
 ```markdown
 ---
@@ -251,7 +252,7 @@ This insight connects ideas from [[Overcoming Negative Thought Loops]] with broa
 
 As you continue to explore these ideas, you might create or update a Map of Content [[Cognitive Psychology MOC]]:
 
-![[bin/assets/Chew the Cud - Vault Documentation/d73ae2968ebeea1de4b3dd513c02331b_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/d73ae2968ebeea1de4b3dd513c02331b_MD5.jpeg)
 
 ```markdown
 ---
@@ -309,7 +310,7 @@ The process isn't linear, and not every fleeting thought leads to deeper explora
 
 ### Consolidated Definition File: [[Cognitive Psychology Terms]]
 
-![[bin/assets/Chew the Cud - Vault Documentation/76c9b4bb4aff18c3215da6e624ed5a88_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/76c9b4bb4aff18c3215da6e624ed5a88_MD5.jpeg)
 
 
 ```markdown
@@ -357,7 +358,7 @@ The capacity for introspection and the ability to recognize oneself as an indivi
 
 ### Atomic Definition File: [[Cognitive Dissonance]]
 
-![[bin/assets/Chew the Cud - Vault Documentation/43c8220329d12678fbd37a0da10a9d2c_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/43c8220329d12678fbd37a0da10a9d2c_MD5.jpeg)
 
 ```markdown
 ---
@@ -393,27 +394,27 @@ down:
     - Trigger QuickAdd Macro for creating an Effort using `Alt + D`. Select "Effort," which will create the note in the correct directory with a dedicated folder.
     - If the template gets overwritten by other plugins, press `Ctrl + Z` right after form submission to restore the original template.
 
-![[bin/assets/Chew the Cud - Vault Documentation/04779e7ebf4c933005bcba2dd2d461cd_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/04779e7ebf4c933005bcba2dd2d461cd_MD5.jpeg)
 
-![[bin/assets/Chew the Cud - Vault Documentation/d4706456abadce05319ded18f5eb07ca_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/d4706456abadce05319ded18f5eb07ca_MD5.jpeg)
 
 1. **Adding Tasks to the Effort**:
     - Once the Effort note is created, add specific tasks related to mindfulness practice.
     - You can add tasks manually or use natural language dates to set them.
 
-![[bin/assets/Chew the Cud - Vault Documentation/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/3e357cd4f0a2753a5c1fdbacb1ccc918_MD5.jpeg)
 
 - [GitHub - argenos/nldates-obsidian: Work with dates in natural language in Obsidian](https://github.com/argenos/nldates-obsidian)
 
 1. **Adding Recurring Tasks**:
     - For practices like daily meditation, create recurring tasks to maintain consistency.
 
-![[bin/assets/Chew the Cud - Vault Documentation/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg)
 
 1. **Final Effort Note**:
     - After populating the note with tasks and recurring tasks, ensure connections are made with other relevant notes (like insights and related readings).
 
-![[bin/assets/Chew the Cud - Vault Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/32aff77526d57f29000ad7a16884427e_MD5.jpeg)
 
 ## 8. Initiative (Project with a deadline)
 
@@ -472,7 +473,7 @@ I am using a combination of a few plugins:
   - Configured to open a workspace that displays the daily note view
   - Triggers the LifeOS: Create Daily note command when the Daily Note workspace is selected
 
-![[bin/assets/Chew the Cud - Vault Documentation/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg]]
+![](bin/assets/Chew%20the%20Cud%20-%20Vault%20Documentation/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg)
 
 Workspaces allow you to quickly jump between different configurations of your vault:
 

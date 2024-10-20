@@ -11,8 +11,13 @@
             "id": "ecc2d998f9ab2587",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -59,7 +64,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -121,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           },
           {
@@ -169,6 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,6 +214,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,6 +231,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "README.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -289,6 +301,7 @@
   },
   "active": "ecc2d998f9ab2587",
   "lastOpenFiles": [
+    "bin/assets/Chew the Cud - Vault Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg",
     "README.md",
     "Efforts/Initiatives/Mindfulness Workshop Series/Mindfulness Workshop Series.md",
     "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
@@ -326,7 +339,6 @@
     "bin/classes/effort.md",
     "My Needs.md",
     "Books Cardview.md",
-    "New Note Today.md",
     "bin/assets/Chew the Cud - Vault Documentation",
     "bin/assets/Don't Believe Everything You Think",
     "bin/assets/Chew the Cud",
