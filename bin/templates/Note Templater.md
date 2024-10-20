@@ -1,7 +1,7 @@
 <% "---" %>
 <%*
   const modalForm = app.plugins.plugins.modalforms.api;
-  const currentTitle = tp.file.title || "Untitled";
+  const currentTitle = tp.file.title;
   const defaultValues = { title: currentTitle };
   const result = await modalForm.openForm("Note", { values: defaultValues });
 
@@ -16,11 +16,10 @@
   const formatBacklinksAsYamlList = tp.user.formatBacklinksAsYamlList;
 
   // Extract values from the form
-  const type = result.data.type || 'Note';
+  const type = result.data.type || 'note';
   const title = result.data.title || currentTitle;
-  const lead = result.data.lead || '';
-  const defType = result.data.defType || '';
-  const definition = result.data.definition || '';
+  const content = result.data.content || '';
+  const defType = result.get("def-type") || '';
   const up = result.get("up") || '';
   const related = result.get("related") || '';
   const prev = result.get("prev") || '';
@@ -36,7 +35,7 @@
   }
 
   // Add the required tag (e.g., type/concept or type/initiative)
-  const typeTag = `type/${result.data.type || 'concept'}`;
+  const typeTag = `type/${result.data.type || 'note'}`;
   if (!tags.includes(typeTag)) {
     tags.unshift(typeTag);  // Add the required tag if it's not already there
   }
@@ -66,12 +65,11 @@
 -%>
 title: <%* tR += title %>
 fileClass: <%* tR += type %>
-lead: <%* tR += lead %>
 created: <% tp.date.now("YYYY-MM-DD") %>
 updated: <% tp.date.now("YYYY-MM-DD") %>
 aliases: <%* tR += formattedAliases %>
 tags: <%* tR += formattedTags %> <%* if (isDefinitionNote) { %>
-definition: <%* tR += definition %> <%* } %>
+def-type: <%* tR += defType %> <%* } %>
 up: <%* tR += formattedUp ? '\n' + formattedUp : '' %>
 related: <%* tR += formattedRelated ? '\n' + formattedRelated : '' %>
 prev: <%* tR += formattedPrev ? '\n' + formattedPrev : '' %>
@@ -80,8 +78,4 @@ down: <%* tR += formattedDown ? '\n' + formattedDown : '' %>
 
 # <%* tR += title %>
 
-<%* if (isDefinitionNote) { %>
-`VIEW[{definition}][text]`
-<%* } else { %>
-`VIEW[{lead}][text]`
-<%* } %>
+ <%* tR += content %>

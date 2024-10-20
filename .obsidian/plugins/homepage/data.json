@@ -4,7 +4,7 @@
     "Main Homepage": {
       "value": "Daily Note View",
       "kind": "Workspace",
-      "openOnStartup": true,
+      "openOnStartup": false,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",
       "view": "Default view",
@@ -16,7 +16,7 @@
       "pin": false,
       "commands": [
         {
-          "id": "journals:journal:calendar:open-day",
+          "id": "periodic-para:periodic-para-create-daily-note",
           "period": "Both"
         }
       ],

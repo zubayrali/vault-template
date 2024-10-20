@@ -1,20 +1,148 @@
 {
   "recentFiles": [
     {
-      "basename": "omnivore",
-      "path": "bin/classes/omnivore.md"
+      "basename": "Mastering Advanced Mindfulness Techniques",
+      "path": "Efforts/Initiatives/Mindfulness Workshop Series/Mastering Advanced Mindfulness Techniques.md"
+    },
+    {
+      "basename": "Something",
+      "path": "zFlow/Sources/Misc/Something.md"
+    },
+    {
+      "basename": "Developing Mindfulness Practice",
+      "path": "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md"
+    },
+    {
+      "basename": "2024-10-20",
+      "path": "Calendar/2024/Daily/10/2024-10-20.md"
+    },
+    {
+      "basename": "Chew the Cud - Vault Documentation",
+      "path": "Chew the Cud - Vault Documentation.md"
+    },
+    {
+      "basename": "Don't Believe Everything You Think",
+      "path": "zFlow/Sources/Books/Don't Believe Everything You Think.md"
+    },
+    {
+      "basename": "Initiative Templater",
+      "path": "bin/templates/Initiative Templater.md"
+    },
+    {
+      "basename": "Cognitive Dissonance",
+      "path": "Cognitive Dissonance.md"
+    },
+    {
+      "basename": "The Role of Self-Awareness in Cognitive Restructuring",
+      "path": "zFlow/Insights/The Role of Self-Awareness in Cognitive Restructuring.md"
+    },
+    {
+      "basename": "Cognitive Psychology MOC",
+      "path": "zFlow/MOCs/Cognitive Psychology MOC.md"
+    },
+    {
+      "basename": "Note Templater",
+      "path": "bin/templates/Note Templater.md"
+    },
+    {
+      "basename": "Cognitive Psychology Terms",
+      "path": "Cognitive Psychology Terms.md"
+    },
+    {
+      "basename": "41ab9b3dafdeae990f81e5a776c45c4a_MD5",
+      "path": "bin/assets/Chew the Cud - Vault Documentation/41ab9b3dafdeae990f81e5a776c45c4a_MD5.jpeg"
+    },
+    {
+      "basename": "The Observer Self",
+      "path": "zFlow/Insights/The Observer Self.md"
+    },
+    {
+      "basename": "The Maturity Crisis",
+      "path": "The Maturity Crisis.md"
+    },
+    {
+      "basename": "Overcoming Negative Thought Loops",
+      "path": "zFlow/Incubating/Overcoming Negative Thought Loops.md"
+    },
+    {
+      "basename": "Hotkey Helper",
+      "path": "Hotkey Helper.md"
+    },
+    {
+      "basename": "99a276a2bd31517bce393fe27933eb9c_MD5",
+      "path": "bin/assets/Chew the Cud - Vault Documentation/99a276a2bd31517bce393fe27933eb9c_MD5.jpeg"
+    },
+    {
+      "basename": "Effort Templater",
+      "path": "bin/templates/Effort Templater.md"
+    },
+    {
+      "basename": "effort",
+      "path": "bin/classes/effort.md"
+    },
+    {
+      "basename": "My Needs",
+      "path": "My Needs.md"
+    },
+    {
+      "basename": "Books Cardview",
+      "path": "Books Cardview.md"
+    },
+    {
+      "basename": "inbox",
+      "path": "inbox.md"
+    },
+    {
+      "basename": "Flow",
+      "path": "Efforts/Flow.md"
+    },
+    {
+      "basename": "Efforts",
+      "path": "Efforts/Efforts.md"
+    },
+    {
+      "basename": "Books Dataview",
+      "path": "Books Dataview.md"
+    },
+    {
+      "basename": "Videos",
+      "path": "zFlow/Sources/Videos/Videos.md"
+    },
+    {
+      "basename": "templates",
+      "path": "bin/templates/templates.md"
     },
     {
       "basename": "2024-10-19",
       "path": "Calendar/2024/Daily/10/2024-10-19.md"
     },
     {
+      "basename": "d38b5c05fc5b45decb49dfd38d9040a0_MD5",
+      "path": "bin/assets/Chew the Cud - Vault Documentation/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg"
+    },
+    {
+      "basename": "Overview",
+      "path": "Calendar/Tasks/Overview.md"
+    },
+    {
+      "basename": "c18912d017d5ee5f682d4f029e288c62_MD5",
+      "path": "bin/assets/Chew the Cud - Vault Documentation/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg"
+    },
+    {
+      "basename": "Psychology MOC",
+      "path": "zFlow/MOCs/Psychology MOC.md"
+    },
+    {
       "basename": "Chew the Cud",
       "path": "zFlow/Sources/Books/Chew the Cud.md"
     },
     {
-      "basename": "Don't Believe Everything You Think",
-      "path": "zFlow/Sources/Books/Don't Believe Everything You Think.md"
+      "basename": "New Note",
+      "path": "zFlow/Insights/New Note.md"
+    },
+    {
+      "basename": "omnivore",
+      "path": "bin/classes/omnivore.md"
     },
     {
       "basename": "Initiatives",
@@ -29,28 +157,12 @@
       "path": "bin/templates/new excalidraw templater.md"
     },
     {
-      "basename": "Psychology MOC",
-      "path": "Psychology MOC.md"
-    },
-    {
-      "basename": "Books Dataview",
-      "path": "Books Dataview.md"
-    },
-    {
-      "basename": "Books Cardview",
-      "path": "Books Cardview.md"
-    },
-    {
       "basename": "new book template",
       "path": "bin/templates/new book template.md"
     },
     {
       "basename": "Starting a YouTube Channel",
       "path": "Efforts/Initiatives/Starting a YouTube Channel/Starting a YouTube Channel.md"
-    },
-    {
-      "basename": "Overview",
-      "path": "Calendar/Tasks/Overview.md"
     },
     {
       "basename": "Calendar",
@@ -67,18 +179,6 @@
     {
       "basename": "2024-10-18",
       "path": "Calendar/2024/Daily/10/2024-10-18.md"
-    },
-    {
-      "basename": "Hotkey Helper",
-      "path": "Hotkey Helper.md"
-    },
-    {
-      "basename": "Efforts",
-      "path": "Efforts/Efforts.md"
-    },
-    {
-      "basename": "Flow",
-      "path": "Efforts/Flow.md"
     },
     {
       "basename": "Learning Time Management",
@@ -99,106 +199,6 @@
     {
       "basename": "My Core Values",
       "path": "My Core Values.md"
-    },
-    {
-      "basename": "new quarterly template",
-      "path": "bin/templates/new quarterly template.md"
-    },
-    {
-      "basename": "My Needs",
-      "path": "My Needs.md"
-    },
-    {
-      "basename": "new yearly template",
-      "path": "bin/templates/new yearly template.md"
-    },
-    {
-      "basename": "effort",
-      "path": "bin/classes/effort.md"
-    },
-    {
-      "basename": "initiative",
-      "path": "bin/classes/initiative.md"
-    },
-    {
-      "basename": "Note Templater",
-      "path": "bin/templates/Note Templater.md"
-    },
-    {
-      "basename": "note",
-      "path": "bin/classes/note.md"
-    },
-    {
-      "basename": "definition",
-      "path": "bin/classes/definition.md"
-    },
-    {
-      "basename": "Something",
-      "path": "zFlow/Sources/Misc/Something.md"
-    },
-    {
-      "basename": "Initiative Templater",
-      "path": "bin/templates/Initiative Templater.md"
-    },
-    {
-      "basename": "zFlow-note Templater",
-      "path": "bin/templates/zFlow-note Templater.md"
-    },
-    {
-      "basename": "Effort Templater",
-      "path": "bin/templates/Effort Templater.md"
-    },
-    {
-      "basename": "2024-10-14",
-      "path": "Calendar/2024/Daily/10/2024-10-14.md"
-    },
-    {
-      "basename": "The Maturity Crisis",
-      "path": "The Maturity Crisis.md"
-    },
-    {
-      "basename": "2024-10-11",
-      "path": "Calendar/2024/Daily/10/2024-10-11.md"
-    },
-    {
-      "basename": "new note",
-      "path": "new note.md"
-    },
-    {
-      "basename": "Tasks Timeline.md",
-      "path": "Calendar/Tasks/Tasks Timeline.md.md"
-    },
-    {
-      "basename": "2024-10-10",
-      "path": "Calendar/2024/Daily/10/2024-10-10.md"
-    },
-    {
-      "basename": "Heuristics",
-      "path": "Heuristics.md"
-    },
-    {
-      "basename": "2024-10-09",
-      "path": "Calendar/2024/Daily/10/2024-10-09.md"
-    },
-    {
-      "basename": "inbox",
-      "path": "inbox.md"
-    },
-    {
-      "basename": "Tasks Tabs Upcoming",
-      "path": "Calendar/Tasks/Tasks Tabs Upcoming.md"
-    },
-    {
-      "basename": "2024-10-08",
-      "path": "Calendar/2024/Daily/10/2024-10-08.md"
-    },
-    {
-      "basename": "new file",
-      "path": "Calendar/2024/Daily/10/new file.md"
-    },
-    {
-      "basename": "Logbook",
-      "path": "Calendar/Logbook.md"
     }
   ],
   "omittedPaths": [],

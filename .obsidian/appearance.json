@@ -33,7 +33,7 @@
     "flow",
     "[editor] Mono Emojis everywhere"
   ],
-  "baseFontSize": 14,
-  "theme": "obsidian",
+  "baseFontSize": 13,
+  "theme": "moonstone",
   "baseFontSizeAction": true
 }

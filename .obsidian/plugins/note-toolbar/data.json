@@ -1,4 +1,10 @@
 {
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
   "folderMappings": [
     {
       "folder": "Efforts",
@@ -357,8 +363,7 @@
         "sticky",
         "button",
         "center",
-        "wide",
-        "autohide"
+        "wide"
       ],
       "items": [
         {
@@ -609,9 +614,9 @@
           }
         }
       },
-      "updated": "2024-09-21T02:29:23.123Z"
+      "updated": "2024-10-20T16:27:57.692Z"
     }
   ],
   "version": 20240727.1,
-  "whatsnew_version": 1.13
+  "whatsnew_version": 1.14
 }

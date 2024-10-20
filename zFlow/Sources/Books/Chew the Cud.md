@@ -1,7 +1,7 @@
 ---
 title: Chew the Cud
 created: 2024-10-06T20:34:38.000-04:00
-updated: 2024-10-19T18:33:53.532-04:00
+updated: 2024-10-19T22:24:28.084-04:00
 ---
 
 # Chew the Cud

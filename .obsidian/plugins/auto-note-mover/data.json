@@ -5,22 +5,7 @@
   "folder_tag_pattern": [
     {
       "folder": "zFlow/Sources/Definitions",
-      "tag": "#type/term",
-      "pattern": ""
-    },
-    {
-      "folder": "zFlow/Sources/Definitions",
       "tag": "#type/concept",
-      "pattern": ""
-    },
-    {
-      "folder": "zFlow/Sources/Definitions",
-      "tag": "#type/definition",
-      "pattern": ""
-    },
-    {
-      "folder": "zFlow/Sources/Definitions",
-      "tag": "#type/method",
       "pattern": ""
     },
     {

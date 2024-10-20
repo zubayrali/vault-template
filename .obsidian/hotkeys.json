@@ -933,15 +933,6 @@
       "key": "Enter"
     }
   ],
-  "emoji-magic:copy": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
   "quickadd:choice:54060121-0161-40a8-9f81-a87df5c6c01b": [
     {
       "modifiers": [
@@ -958,6 +949,14 @@
         "Shift"
       ],
       "key": "I"
+    }
+  ],
+  "workspaces:load": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "Z"
     }
   ]
 }
