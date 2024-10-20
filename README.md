@@ -593,14 +593,14 @@ Workspaces allow you to quickly jump between different configurations of your va
 
 - useMemos integration
 
-## 13. Customization
+## 13. Customizations
 
 - See [[templates]] to find all the templates.
 - Modifying the QuickAdd functions to change Dataview ineline metadata fields used in [[Calendar/Logbook|Logbook]] and in other places to fit personal needs.
 - [style-settings](https://github.com/mgmeyers/obsidian-style-settings) for changing how the Notetoolbar appears, the theme [AnuPpuccin](https://github.com/AnubisNekhet/AnuPpuccin) by AnubisNekhet with [extended-colorschemes](https://github.com/AnubisNekhet/AnuPpuccin/blob/main/snippets/extended-colorschemes.css).
 - [iconic](https://github.com/gfxholo/iconic) for customzing Icons
 - [commander](https://github.com/phibr0/obsidian-commander) to add commands/buttons.
-- [GitHub - chrisgurney/obsidian-note-toolbar: Plugin for Obsidian providing a flexible way to create context-aware toolbars for your notes.](https://github.com/chrisgurney/obsidian-note-toolbar)
+- [note-toolbar](https://github.com/chrisgurney/obsidian-note-toolbar) to add custom toolbars.
 
 ## 14. Bookmarks
 
