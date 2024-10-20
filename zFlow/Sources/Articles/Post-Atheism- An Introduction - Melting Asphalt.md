@@ -1,6 +1,6 @@
 ---
 id: 1e9123f2-7e50-4b40-9887-6da4519a14a0
-fileClass: Omnivore
+fileClass: omnivore
 title: "Post-Atheism: An Introduction | Melting Asphalt - web.archive.org"
 author:
   - Kevin Simler

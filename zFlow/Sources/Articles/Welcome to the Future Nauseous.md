@@ -1,6 +1,6 @@
 ---
 id: a2775619-53dd-477e-af34-362b6172fec1
-fileClass: Omnivore
+fileClass: omnivore
 title: Welcome to the Future Nauseous - ribbonfarm
 author:
   - Venkatesh Rao

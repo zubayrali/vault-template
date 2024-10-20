@@ -1,6 +1,6 @@
 ---
 id: 0a15e9b2-6954-11ee-b1a3-e32443237115
-fileClass: Omnivore
+fileClass: omnivore
 title: The Ethics of Authenticity - Mockingbird - Mockingbird
 author:
   - Charis Hamiltonius

@@ -1,6 +1,6 @@
 ---
 id: daa8c9dd-2042-462d-8d52-6401adde700d
-fileClass: Omnivore
+fileClass: omnivore
 title: The Techno-Optimist Manifesto | Andreessen Horowitz - Andreessen Horowitz
 author:
   - Marc Andreessen

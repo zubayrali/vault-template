@@ -1,6 +1,6 @@
 ---
 id: d7ebdb57-759e-4b5d-83af-2fee5755e3c2
-fileClass: Omnivore
+fileClass: omnivore
 title: "&quot;Yes to Life&quot; by Viktor Frankl (Detailed Book Summary) - Sloww"
 author:
   - Kyle Kowalski

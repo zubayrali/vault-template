@@ -1,6 +1,6 @@
 ---
 id: 3e729dd2-a839-4a66-895c-a42bbabe6076
-fileClass: Omnivore
+fileClass: omnivore
 title: Reflections; or Sentences and Moral Maxims by Francois Duc De La Rochefoucauld - gutenberg.org
 author:
   - unknown

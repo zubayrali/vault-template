@@ -1,6 +1,6 @@
 ---
 id: 66530fee-c912-4ebe-ad19-f47f47a63990
-fileClass: Omnivore
+fileClass: omnivore
 title: The One Thing A Philosophy Degree Can&#39;t Give You - A Mug of Insights
 author:
   - Robin Waldun

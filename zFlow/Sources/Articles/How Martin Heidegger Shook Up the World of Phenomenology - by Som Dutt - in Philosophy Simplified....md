@@ -1,6 +1,6 @@
 ---
 id: a407baa1-1d3f-4bec-8665-6f1ed9a0f5ed
-fileClass: Omnivore
+fileClass: omnivore
 title: How Martin Heidegger Shook Up the World of Phenomenology | by Som Dutt | in Philosophy Simplified - Freedium - freedium.cfd
 author:
   - unknown

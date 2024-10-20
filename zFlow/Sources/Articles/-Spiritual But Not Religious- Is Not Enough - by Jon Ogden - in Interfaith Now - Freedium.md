@@ -1,6 +1,6 @@
 ---
 id: 46d45049-0dd3-4270-8438-a48b2bc5c683
-fileClass: Omnivore
+fileClass: omnivore
 title: "&quot;Spiritual But Not Religious&quot; Is Not Enough | by Jon Ogden | in Interfaith Now - Freedium - freedium.cfd"
 author:
   - unknown

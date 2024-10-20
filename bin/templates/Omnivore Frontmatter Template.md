@@ -1,5 +1,5 @@
 id: {{id}}
-fileClass: Omnivore
+fileClass: omnivore
 title: "{{title}} {{#siteName}}- {{{siteName}}}{{/siteName}}{{^siteName}}Unknown Source{{/siteName}}"
 {{#author.length}}
 author:

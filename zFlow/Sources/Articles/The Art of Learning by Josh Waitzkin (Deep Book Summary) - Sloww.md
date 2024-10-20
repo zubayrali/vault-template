@@ -1,6 +1,6 @@
 ---
 id: cab6d1ae-c718-4305-bd77-505c6fe8b576
-fileClass: Omnivore
+fileClass: omnivore
 title: The Art of Learning by Josh Waitzkin (Deep Book Summary) | Sloww - Sloww
 author:
   - Kyle Kowalski

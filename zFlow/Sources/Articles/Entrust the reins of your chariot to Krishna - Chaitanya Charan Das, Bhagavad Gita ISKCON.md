@@ -1,6 +1,6 @@
 ---
 id: a542b492-55bb-4aef-aaac-cc2687f1aad7
-fileClass: Omnivore
+fileClass: omnivore
 title: Entrust the reins of your chariot to Krishna - Chaitanya Charan Das, Bhagavad Gita ISKCON - Chaitanya Charan Das, Bhagavad Gita ISKCON
 author:
   - Chaitanya Charan

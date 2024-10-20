@@ -1,6 +1,6 @@
 ---
 id: d3951cba-5bde-4011-84b4-630f122e5ca6
-fileClass: Omnivore
+fileClass: omnivore
 title: "Jungian Psychology: A Comprehensive Guide | by Som Dutt | in Philosophy Simplified - Freedium - freedium.cfd"
 author:
   - unknown

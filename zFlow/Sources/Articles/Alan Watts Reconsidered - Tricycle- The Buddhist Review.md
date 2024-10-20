@@ -1,6 +1,6 @@
 ---
 id: 59fbf8c0-a027-4ceb-ab97-250f3700c01e
-fileClass: Omnivore
+fileClass: omnivore
 title: "Alan Watts Reconsidered - Tricycle: The Buddhist Review - Tricycle: The Buddhist Review"
 author:
   - David Guy

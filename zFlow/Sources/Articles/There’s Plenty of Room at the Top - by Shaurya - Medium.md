@@ -1,6 +1,6 @@
 ---
 id: 0e36c3be-c78e-40f8-8ff0-b62871652ea0
-fileClass: Omnivore
+fileClass: omnivore
 title: There’s Plenty of Room at the Top | by Shaurya | Medium - Medium
 author:
   - Shaurya

@@ -1,6 +1,6 @@
 ---
 id: f4deb70d-38b9-fdc9-af9c-d1fc3d714de7
-fileClass: Omnivore
+fileClass: omnivore
 title: The Secret Power of ‘Read It Later’ Apps - Forte Labs
 author:
   - Tiago Forte

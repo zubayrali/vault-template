@@ -1,6 +1,6 @@
 ---
 id: ee2dad68-4e81-46f6-a016-8e86016e9dfb
-fileClass: Omnivore
+fileClass: omnivore
 title: Resisting Deterministic Thinking. AI is here and it will change… | by danah boyd | Apr, 2023 | Medium - Medium
 author:
   - danah boyd

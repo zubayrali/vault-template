@@ -1,6 +1,6 @@
 ---
 id: 4b3c5e98-c9c7-49d6-8850-e0c7a6a73dc4
-fileClass: Omnivore
+fileClass: omnivore
 title: "Lifestyle Creep: Definition, Signs, How to Avoid It - Insider"
 author:
   - Tiffany Verbeck

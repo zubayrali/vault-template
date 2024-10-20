@@ -1,6 +1,6 @@
 ---
 id: 333ba9d6-8eff-4422-8457-36d4d03394e8
-fileClass: Omnivore
+fileClass: omnivore
 title: The Paradox of Goals - Ness Labs - Ness Labs
 author:
   - Anne-Laure Le Cunff

@@ -1,6 +1,6 @@
 ---
 id: 7c487cdd-02d3-40ac-975a-1ac9451b31ec
-fileClass: Omnivore
+fileClass: omnivore
 title: Epicurus for Our Time - Los Angeles Review of Books
 author:
   - unknown

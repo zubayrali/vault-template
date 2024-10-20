@@ -1,6 +1,6 @@
 ---
 id: 5ba49277-267f-45b5-b95d-cd3787307f88
-fileClass: Omnivore
+fileClass: omnivore
 title: How to learn soft skills - LessWrong - lesswrong.com
 author:
   - AnnaSalamon

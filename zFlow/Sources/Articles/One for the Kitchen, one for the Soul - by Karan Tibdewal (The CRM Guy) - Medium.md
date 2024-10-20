@@ -1,6 +1,6 @@
 ---
 id: ec5f4227-dace-42d2-9408-12c5fbf22896
-fileClass: Omnivore
+fileClass: omnivore
 title: One for the Kitchen, one for the Soul | by Karan Tibdewal (The CRM Guy) | Medium - Medium
 author:
   - Karan Tibdewal (The CRM Guy)

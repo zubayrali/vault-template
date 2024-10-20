@@ -30,7 +30,7 @@ Your launchpad and home base. That's here. That's **home**.
 >
 > ![[robert-mccall-space-ship-launch-narrower.png|400]]
 > - To broadly reflect, go to [[Plan and Review]].
-> - To learn more about time travel, go to [[Calendar]].
+> - To learn more about time travel, go to [[Calendar/Calendar]].
 
 > [!Training]- Efforts
 > > *What can you work on?*

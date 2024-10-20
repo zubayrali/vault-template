@@ -1,6 +1,6 @@
 ---
 id: 3e423a9d-c07d-4507-88b0-3f819fd3a597
-fileClass: Omnivore
+fileClass: omnivore
 title: Don&#39;t Be Afraid To Stand Out -- Be Afraid Of Blending In - Forbes
 author:
   - Liz Ryan

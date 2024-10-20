@@ -1,6 +1,6 @@
 ---
 id: 264a888f-9021-444e-b3d1-6bcfc3aa3fc3
-fileClass: Omnivore
+fileClass: omnivore
 title: "The Imperfectionist: How to make writing less hard - oliverburkeman.com"
 author:
   - unknown

@@ -1,6 +1,6 @@
 ---
 id: d701caea-3384-44d1-ba40-4c683b255f04
-fileClass: Omnivore
+fileClass: omnivore
 title: The Power of Now by Eckhart Tolle (Detailed Book Summary) | Sloww - Sloww
 author:
   - Kyle Kowalski

@@ -1,6 +1,6 @@
 ---
 id: aa10f554-1551-44a4-9f58-651766c783f9
-fileClass: Omnivore
+fileClass: omnivore
 title: The paradox of Alan Watts | The Spectator - The Spectator
 author:
   - Gus Carter

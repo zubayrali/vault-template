@@ -1,7 +1,7 @@
 ---
 title: Build a Custom Keyboard
 description: 
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06T00:00:00.000-04:00
 updated: 2024-10-06T15:34:23.503-04:00
 dueDate: 2024-10-09
@@ -22,7 +22,7 @@ efforts:
 > - What activities energize me, and how can I inco---
 title: Building a Custom PC
 description:
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06
 updated: 2024-10-06
 dueDate: 2024-10-07

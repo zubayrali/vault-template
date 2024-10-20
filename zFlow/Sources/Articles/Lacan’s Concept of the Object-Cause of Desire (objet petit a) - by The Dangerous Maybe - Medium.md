@@ -1,6 +1,6 @@
 ---
 id: 736ba4ab-daaa-4ad9-8384-3145aa57f7f9
-fileClass: Omnivore
+fileClass: omnivore
 title: Lacan’s Concept of the Object-Cause of Desire (objet petit a) | by The Dangerous Maybe | Medium - Medium
 author:
   - The Dangerous Maybe

@@ -1,6 +1,6 @@
 ---
 id: c37d262f-2ce7-463d-8273-a8ad51ace623
-fileClass: Omnivore
+fileClass: omnivore
 title: "Your Relationship with Death - FirefighterNation: Fire Rescue - Firefighting News and Community - firefighternation.com"
 author:
   - FirefighterNation Staff

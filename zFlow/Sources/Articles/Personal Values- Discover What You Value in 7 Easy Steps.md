@@ -1,6 +1,6 @@
 ---
 id: 054eccf0-45ec-4414-86f3-df6627f553c9
-fileClass: Omnivore
+fileClass: omnivore
 title: "Personal Values: Discover What You Value in 7 Easy Steps - Scott Jeffrey"
 author:
   - unknown

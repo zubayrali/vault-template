@@ -2,7 +2,7 @@
 
 title: Applying for a program
 description: 
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06
 updated: 2024-10-06
 dueDate: 2024-10-10

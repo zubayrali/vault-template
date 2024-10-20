@@ -1,6 +1,6 @@
 ---
 id: f563a49c-d73a-4483-b044-e10c5292e3f8
-fileClass: Omnivore
+fileClass: omnivore
 title: The Hero&#39;s Journey is a Jammed Door - by River Kenna - Inner Wilds
 author:
   - River Kenna

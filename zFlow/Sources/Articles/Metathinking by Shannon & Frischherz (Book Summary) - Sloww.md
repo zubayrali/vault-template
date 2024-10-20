@@ -1,6 +1,6 @@
 ---
 id: 5277815d-1c58-4bec-aa01-fa3d5c538c0d
-fileClass: Omnivore
+fileClass: omnivore
 title: Metathinking by Shannon &amp; Frischherz (Book Summary) | Sloww - Sloww
 author:
   - Kyle Kowalski

@@ -1,6 +1,6 @@
 ---
 id: 28f03f6f-f871-419d-bc33-0ddd94222b93
-fileClass: Omnivore
+fileClass: omnivore
 title: Stop using keywords (or tags) like an archivist. - The Digital Organization Dad
 author:
   - Matt Chung

@@ -1,6 +1,6 @@
 ---
 id: fd8c5436-c853-4273-8904-f2b09d3e8c36
-fileClass: Omnivore
+fileClass: omnivore
 title: Fake Smile Or Genuine Smile? Duchenne Smiles, Explained - Science of People
 author:
   - Mike Mantell

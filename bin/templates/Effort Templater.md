@@ -51,7 +51,7 @@
 -%>
 title: <%* tR += title %>
 aliases:<%* tR += formatList(aliases) %>
-fileClass: Effort
+fileClass: effort
 description: <%* tR += description %>
 type: <%* tR += type %>
 created: <% tp.date.now("YYYY-MM-DD") %>

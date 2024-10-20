@@ -1,6 +1,6 @@
 ---
 title: Eating Healthy
-fileClass: Effort
+fileClass: effort
 description: Focus on eating a balanced, nutritious diet to support health and well-being.
 type: On
 created: 2024-10-06

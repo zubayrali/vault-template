@@ -1,7 +1,7 @@
 ---
 title: Launching a Personal Blog
 description: Creating a personal blog to share my experiences in technology and personal development.
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06T00:00:00.000-04:00
 updated: 2024-10-06T18:59:31.838-04:00
 dueDate: 2024-10-25

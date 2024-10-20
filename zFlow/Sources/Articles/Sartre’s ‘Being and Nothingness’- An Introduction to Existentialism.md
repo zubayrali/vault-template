@@ -1,6 +1,6 @@
 ---
 id: 3e1bd106-ba22-4c65-b939-0b56ec13e746
-fileClass: Omnivore
+fileClass: omnivore
 title: "Sartre’s ‘Being and Nothingness’: An Introduction to Existentialism - TheCollector"
 author:
   - Viktoriya Sus

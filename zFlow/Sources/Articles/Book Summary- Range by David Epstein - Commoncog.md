@@ -1,6 +1,6 @@
 ---
 id: 77997646-3bb0-4dfd-a1ee-34a428bf0120
-fileClass: Omnivore
+fileClass: omnivore
 title: "Book Summary: Range by David Epstein - Commoncog - Commoncog"
 author:
   - Cedric Chin

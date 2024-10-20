@@ -1,6 +1,6 @@
 ---
 id: 5d6fffc2-06a7-473b-926b-4790471aaa7a
-fileClass: Omnivore
+fileClass: omnivore
 title: loving and letting go - by Nix 🕊 - starting from nix - starting from nix
 author:
   - Nix 🕊

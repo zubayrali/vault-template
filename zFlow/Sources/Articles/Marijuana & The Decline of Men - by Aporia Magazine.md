@@ -1,6 +1,6 @@
 ---
 id: 9a2d18ca-30a7-4e32-aac3-5f524a04bd9f
-fileClass: Omnivore
+fileClass: omnivore
 title: Marijuana &amp; The Decline of Men - by Aporia Magazine - Aporia
 author:
   - Aporia Magazine

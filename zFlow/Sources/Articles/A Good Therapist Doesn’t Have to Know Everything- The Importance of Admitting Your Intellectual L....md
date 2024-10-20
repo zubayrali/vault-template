@@ -1,6 +1,6 @@
 ---
 id: a4aeb862-a26e-44e4-a4c3-48b36e666951
-fileClass: Omnivore
+fileClass: omnivore
 title: "A Good Therapist Doesn’t Have to Know Everything: The Importance of Admitting Your Intellectual Limitations to Clients – Leon&#39;s Existential Cafe - Leon's Existential Cafe"
 author:
   - Published by Leon Garber, LMHC

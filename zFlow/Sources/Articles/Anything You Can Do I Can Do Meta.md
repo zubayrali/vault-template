@@ -1,6 +1,6 @@
 ---
 id: 9992392e-4053-49cd-ab3a-00ecaacc45f1
-fileClass: Omnivore
+fileClass: omnivore
 title: Anything You Can Do I Can Do Meta - ecologywithoutnature.blogspot.com
 author:
   - unknown

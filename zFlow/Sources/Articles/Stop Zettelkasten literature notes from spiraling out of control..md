@@ -1,6 +1,6 @@
 ---
 id: 595dcb7b-9b0a-4722-9f9b-ae5bf8ad0fd6
-fileClass: Omnivore
+fileClass: omnivore
 title: Stop Zettelkasten literature notes from spiraling out of control. - The Digital Organization Dad
 author:
   - Matt Chung

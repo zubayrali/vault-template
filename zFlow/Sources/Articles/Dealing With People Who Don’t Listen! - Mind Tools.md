@@ -1,6 +1,6 @@
 ---
 id: 8d63cd7d-b720-4d5a-8147-c3bf78e15520
-fileClass: Omnivore
+fileClass: omnivore
 title: Dealing With People Who Don’t Listen! - Mind Tools - Mind Tools
 author:
   - Keith Jackson

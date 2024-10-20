@@ -1,6 +1,6 @@
 ---
 id: d6bf1b31-09d0-479a-b7ad-a9fbdfd3ab6a
-fileClass: Omnivore
+fileClass: omnivore
 title: "Working with Symbols: manifesting Health, Wholeness and Meaning - Applied Jung - Applied Jung"
 author:
   - Anja van Kralingen

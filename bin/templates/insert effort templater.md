@@ -1,6 +1,6 @@
 ---
 title: <% tp.file.title %>  
-fileClass: Effort
+fileClass: effort
 type: <%* await tp.system.suggester(["On", "Ongoing", "Simmering", "Sleeping"], false, "Select the effort type: ") %>
 created: <% tp.date.now("YYYY-MM-DD") %>
 updated: <% tp.date.now("YYYY-MM-DD") %>

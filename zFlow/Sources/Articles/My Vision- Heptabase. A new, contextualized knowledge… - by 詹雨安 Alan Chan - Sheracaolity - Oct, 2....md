@@ -1,6 +1,6 @@
 ---
 id: 14b454be-1f54-491a-8ef8-550c71a11137
-fileClass: Omnivore
+fileClass: omnivore
 title: "My Vision: Heptabase. A new, contextualized knowledge… | by 詹雨安 Alan Chan | Sheracaolity | Oct, 2021 | Medium | Heptabase - Heptabase"
 author:
   - 詹雨安 Alan Chan

@@ -1,6 +1,6 @@
 ---
 id: 51c01a47-f524-49d8-9b00-84a7ca745ab2
-fileClass: Omnivore
+fileClass: omnivore
 title: What is Mindfulness (Sati) in Buddhism? | Lion’s Roar - Lion’s Roar
 author:
   - Norman Fischer

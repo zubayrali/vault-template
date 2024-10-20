@@ -1,7 +1,7 @@
 ---
 title: Mastering Data Analysis
 description: Learning advanced data analysis techniques to improve decision-making at work.
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06T00:00:00.000-04:00
 updated: 2024-10-06T18:59:33.879-04:00
 dueDate: 2024-11-09

@@ -1,6 +1,6 @@
 ---
 id: 0d3bda43-3652-48e1-83ae-f2b110d6e29d
-fileClass: Omnivore
+fileClass: omnivore
 title: Intend philosophy &amp; paradigm - intend.do
 author:
   - unknown

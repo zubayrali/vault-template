@@ -1,6 +1,6 @@
 ---
 id: ca1911a9-0f1c-4666-a1b6-964c05bde956
-fileClass: Omnivore
+fileClass: omnivore
 title: Accepting Deviant Minds | Melting Asphalt - meltingasphalt.com
 author:
   - Kevin Simler

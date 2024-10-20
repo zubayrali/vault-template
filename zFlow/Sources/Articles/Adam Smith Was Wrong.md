@@ -1,6 +1,6 @@
 ---
 id: f8b42c04-135b-4439-9e2c-c1116df0a9ad
-fileClass: Omnivore
+fileClass: omnivore
 title: Adam Smith Was Wrong
 author:
   - "| Tomer Afek"

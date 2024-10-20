@@ -1,6 +1,6 @@
 ---
 id: 958598ce-ef7b-40c2-a18d-0691572515c3
-fileClass: Omnivore
+fileClass: omnivore
 title: The Tao of Philosophy (Part 7) - Alan Watts Organization - Alan Watts Organization
 author:
   - zapier

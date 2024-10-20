@@ -1,6 +1,6 @@
 ---
 id: cf072f08-57fc-4d6e-b518-8a242b43a793
-fileClass: Omnivore
+fileClass: omnivore
 title: Meditation Can Happen Anywhere and Anytime | by Ephrat Livni | in Forge - Freedium - freedium.cfd
 author:
   - unknown

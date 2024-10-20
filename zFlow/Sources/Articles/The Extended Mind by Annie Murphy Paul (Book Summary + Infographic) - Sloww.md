@@ -1,6 +1,6 @@
 ---
 id: fbb3548b-246a-4d56-831f-8d441c46164a
-fileClass: Omnivore
+fileClass: omnivore
 title: The Extended Mind by Annie Murphy Paul (Book Summary + Infographic) | Sloww - Sloww
 author:
   - Kyle Kowalski

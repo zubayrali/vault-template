@@ -1,6 +1,6 @@
 ---
 id: 97440e0b-20cd-4ae3-b2d3-c232150597db
-fileClass: Omnivore
+fileClass: omnivore
 title: When You Fall Into the Tortured Artist Fiction - LYF
 author:
   - Mei-Mei Mijares

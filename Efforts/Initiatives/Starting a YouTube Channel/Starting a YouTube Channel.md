@@ -1,7 +1,7 @@
 ---
 title: Starting a YouTube Channel
 description: Launching a YouTube channel focused on personal development content.
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06T00:00:00.000-04:00
 updated: 2024-10-06T18:59:23.053-04:00
 dueDate: 

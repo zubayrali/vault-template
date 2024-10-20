@@ -1,6 +1,6 @@
 ---
 id: 385f5d3c-3b42-4510-8178-b9b23e830781
-fileClass: Omnivore
+fileClass: omnivore
 title: On getting over imposter syndrome - thecreativeindependent.com
 author:
   - Emma Warren

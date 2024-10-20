@@ -1,7 +1,7 @@
 ---
 title: Applying for a Program
 description: this is a description of my initiative
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06T00:00:00.000-04:00
 updated: 2024-10-06T18:59:03.582-04:00
 dueDate: 2024-10-08

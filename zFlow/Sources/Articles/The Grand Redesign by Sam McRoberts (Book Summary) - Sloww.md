@@ -1,6 +1,6 @@
 ---
 id: 9dc5008e-4db6-40f8-92e2-7da3855ae49a
-fileClass: Omnivore
+fileClass: omnivore
 title: The Grand Redesign by Sam McRoberts (Book Summary) | Sloww - Sloww
 author:
   - Kyle Kowalski

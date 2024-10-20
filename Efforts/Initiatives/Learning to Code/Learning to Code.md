@@ -1,7 +1,7 @@
 ---
 title: Learning to Code
 description: Learning Python to improve programming skills and advance my career.
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06
 updated: 2024-10-06
 dueDate: 2024-10-06

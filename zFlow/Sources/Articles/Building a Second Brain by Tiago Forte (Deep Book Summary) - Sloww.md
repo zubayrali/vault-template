@@ -1,6 +1,6 @@
 ---
 id: b61d1791-80cd-4b7d-b613-ebb9aa6d8cbb
-fileClass: Omnivore
+fileClass: omnivore
 title: Building a Second Brain by Tiago Forte (Deep Book Summary) | Sloww - Sloww
 author:
   - Kyle Kowalski

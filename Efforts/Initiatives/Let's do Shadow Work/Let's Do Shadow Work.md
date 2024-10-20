@@ -1,7 +1,7 @@
 ---
 title: "Let's Do Shadow Work"
 aliases: 
-fileClass: Effort
+fileClass: effort
 description: lets gooo!!!!
 type: On
 created: 2024-10-07T00:00:00.000-04:00

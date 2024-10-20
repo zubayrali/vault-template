@@ -47,7 +47,7 @@
   }
 -%>
 title: <%* tR += title %>
-fileClass: Initiative
+fileClass: initiative
 created: <% tp.date.now("YYYY-MM-DD") %>
 updated: <% tp.date.now("YYYY-MM-DD") %>
 aliases:<%* tR += formatList(aliases) %>

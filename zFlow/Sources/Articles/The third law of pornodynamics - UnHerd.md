@@ -1,6 +1,6 @@
 ---
 id: 2a4179fd-df4f-4fef-a4b8-127c48f4c8cf
-fileClass: Omnivore
+fileClass: omnivore
 title: The third law of pornodynamics - UnHerd - UnHerd
 author:
   - Mary Harrington

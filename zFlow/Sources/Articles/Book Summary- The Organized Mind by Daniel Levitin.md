@@ -1,6 +1,6 @@
 ---
 id: b1447340-ea66-4521-8894-14a01a90ffb8
-fileClass: Omnivore
+fileClass: omnivore
 title: "Book Summary: The Organized Mind by Daniel Levitin - kingsmaker.co"
 author:
   - unknown

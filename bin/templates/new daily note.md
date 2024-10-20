@@ -1,5 +1,5 @@
 ---
-fileClass: Calendar, Daily
+fileClass: calendar, daily
 title: <% tp.file.title %>
 created: <% moment().format("YYYY-MM-DDTHH:mm:ss.SSSZ") %>
 updated: <% moment(tp.file.last_modified_date()).format("YYYY-MM-DDTHH:mm:ss.SSSZ") %>
@@ -12,7 +12,7 @@ tags:
   - calendar/daily
 ---
 
-[[bin/classes/Calendar|<< 📆 Calendar]] | [[Logbook|📖 Logbook >>]]
+[[bin/classes/calendar|<< 📆 Calendar]] | [[Logbook|📖 Logbook >>]]
 
 ```calendar-nav
 ```

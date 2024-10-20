@@ -1,8 +1,3 @@
----
-title: ""
-created: 2024-10-10T08:13:03.000-04:00
-updated: 2024-10-10T17:03:45.821-04:00
----
 <%*
   const defaultTitle = tp.date.now("HHmm")+' '+tp.file.title;
   const title = await tp.system.prompt("Title of the drawing?", defaultTitle);

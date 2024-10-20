@@ -1,6 +1,6 @@
 ---
 id: bace7212-a772-4ae8-9808-477d35d15904
-fileClass: Omnivore
+fileClass: omnivore
 title: 10 Lessons From Meeting Internet Friends Face to Face
 author:
   - Jay Yang

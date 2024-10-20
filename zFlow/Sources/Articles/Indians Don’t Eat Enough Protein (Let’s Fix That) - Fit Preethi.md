@@ -1,6 +1,6 @@
 ---
 id: a616688c-afa1-431b-8ac0-7fe87d173221
-fileClass: Omnivore
+fileClass: omnivore
 title: Indians Don’t Eat Enough Protein (Let’s Fix That) - Fit Preethi - Fit Preethi
 author:
   - fitmom

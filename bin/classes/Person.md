@@ -26,15 +26,6 @@ fields:
     options: {}
     path: ""
     id: kNmZyR
-  - name: Book
-    type: MultiFile
-    options:
-      dvQueryString: |
-        dv.pages("#source/book or fileClass = 'Book'")
-      customRendering: |
-        (page.title || page.file.title)
-    path: ""
-    id: Uj6R0z
   - name: bio
     type: Input
     options: {}
@@ -53,7 +44,7 @@ fields:
         "6": role/illustrator
     path: ""
     id: 0v3oZM
-version: "2.22"
+version: "2.23"
 limit: 40
 mapWithTag: false
 icon: user
@@ -72,7 +63,6 @@ fieldsOrder:
   - tUwLsl
   - nVzPm6
   - kNmZyR
-  - Uj6R0z
 title: People
 created: 2024-09-17T02:50:02.000-04:00
 updated: 2024-09-17T21:20:08.997-04:00

@@ -1,6 +1,6 @@
 ---
 id: 615678b0-42c2-48c8-b60b-2bc850b6e299
-fileClass: Omnivore
+fileClass: omnivore
 title: The Merger Self, the Seeker Self, and the Lifelong Challenge of Balancing Intimacy and Independence – The Marginalian - The Marginalian
 author:
   - Maria Popova

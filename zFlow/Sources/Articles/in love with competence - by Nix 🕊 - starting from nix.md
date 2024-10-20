@@ -1,6 +1,6 @@
 ---
 id: 6a8c3345-0f17-4ef7-838a-342d93c2a55c
-fileClass: Omnivore
+fileClass: omnivore
 title: in love with competence - by Nix 🕊 - starting from nix - starting from nix
 author:
   - Nix 🕊

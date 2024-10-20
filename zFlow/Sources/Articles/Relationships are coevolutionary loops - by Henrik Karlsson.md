@@ -1,6 +1,6 @@
 ---
 id: b8ca7f13-bb83-439d-ba19-81c8609db352
-fileClass: Omnivore
+fileClass: omnivore
 title: Relationships are coevolutionary loops - by Henrik Karlsson - Escaping Flatland
 author:
   - Henrik Karlsson

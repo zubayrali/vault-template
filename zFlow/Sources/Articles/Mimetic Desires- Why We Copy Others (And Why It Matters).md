@@ -1,6 +1,6 @@
 ---
 id: c5545f22-333e-46a9-80e7-746a7ca013c7
-fileClass: Omnivore
+fileClass: omnivore
 title: "Mimetic Desires: Why We Copy Others (And Why It Matters) - Frontera"
 author:
   - Frontera

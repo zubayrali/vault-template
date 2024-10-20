@@ -1,6 +1,6 @@
 ---
 id: 5492e9fb-066e-47f9-a05c-cb9aab146715
-fileClass: Omnivore
+fileClass: omnivore
 title: You teach people how to treat you - Punch Newspapers - Punch Newspapers
 author:
   - punchng

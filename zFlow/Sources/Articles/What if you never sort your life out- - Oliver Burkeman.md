@@ -1,6 +1,6 @@
 ---
 id: e3558957-4d16-45e3-8864-85e91268fe5a
-fileClass: Omnivore
+fileClass: omnivore
 title: What if you never sort your life out? | Oliver Burkeman - Oliver Burkeman
 author:
   - unknown

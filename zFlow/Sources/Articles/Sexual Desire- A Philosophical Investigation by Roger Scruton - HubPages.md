@@ -1,6 +1,6 @@
 ---
 id: 862b202a-066e-4295-a5b4-c753aa08a548
-fileClass: Omnivore
+fileClass: omnivore
 title: "Sexual Desire: A Philosophical Investigation by Roger Scruton - HubPages - HubPages"
 author:
   - James A Watkins

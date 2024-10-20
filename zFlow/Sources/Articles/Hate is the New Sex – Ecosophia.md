@@ -1,6 +1,6 @@
 ---
 id: dc706caa-57af-4795-aae5-8e2c214d5023
-fileClass: Omnivore
+fileClass: omnivore
 title: Hate is the New Sex – Ecosophia - Ecosophia
 author:
   - unknown

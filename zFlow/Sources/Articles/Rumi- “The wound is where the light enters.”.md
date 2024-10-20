@@ -1,6 +1,6 @@
 ---
 id: 22642346-4c5d-4ea4-8113-9cf5a3d8027f
-fileClass: Omnivore
+fileClass: omnivore
 title: "Rumi: “The wound is where the light enters.” - jungcurrents.com"
 author:
   - "Susan Scott says:"

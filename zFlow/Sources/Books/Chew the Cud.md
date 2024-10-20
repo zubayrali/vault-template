@@ -1,7 +1,7 @@
 ---
 title: Chew the Cud
 created: 2024-10-06T20:34:38.000-04:00
-updated: 2024-10-19T12:11:29.791-04:00
+updated: 2024-10-19T18:33:53.532-04:00
 ---
 
 # Chew the Cud
@@ -94,32 +94,6 @@ This combination of Efforts and Initiatives forms a balanced approach to managin
 
 **The Flow Method isn’t just about organization—it’s about action. Here's how you can use this method to transform your daily activities and long-term goals into tangible progress.**
 
-#### Managing Efforts by Intensity
-
-Efforts are categorized into four levels of intensity, each reflecting the amount of focus and energy you need to invest:
-
-1. **🔥 On Efforts**: These are your most active projects, the ones that require your immediate attention and daily focus. They are where you allocate your highest energy levels, ensuring that you move the needle on your most important tasks.
-    
-2. **♻️ Ongoing Efforts**: These efforts represent activities that are part of your routine. They don’t have a strict deadline but are essential to maintaining your momentum. Whether it’s regular exercise, learning, or ongoing work tasks, they remain on your radar consistently.
-    
-3. **〰️ Simmering Efforts**: These are ideas and tasks that are in the background. They aren’t urgent, but you don’t want to forget about them. Simmering Efforts are like slow-cooking projects that you revisit when the time is right.
-    
-4. **💤 Sleeping Efforts**: These efforts are in cold storage, waiting for the right moment or conditions to come alive again. You put them aside to clear your mental space, knowing that you can wake them up when they’re needed.
-    
-
-#### Navigating Initiatives by Status
-
-Initiatives in the Flow Method help you track the lifecycle of your projects from inception to completion:
-
-1. **🟥 Backlog**: A list of ideas and projects that you might work on in the future. They are not ready to be activated but are recorded so you don’t lose sight of them.
-    
-2. **🟦 Planning**: These are the Initiatives where you’re gathering resources, setting objectives, and laying the groundwork for action. It’s the preparatory phase where you turn ideas into actionable plans.
-    
-3. **🟨 Active**: Initiatives that are in full swing, requiring your focus and consistent effort to push them toward completion. These are the projects that move the needle toward your goals.
-    
-4. **🟩 Finished**: Successfully completed initiatives. This status not only celebrates your achievements but also allows you to reflect on what worked well and what could be improved for future projects.
-  
-
 Efforts differ from traditional projects in that they don’t impose rigid structures or deadlines. Where conventional project management often fails is in its demand for clear steps and defined outcomes. Efforts, by contrast, are more adaptable, allowing you to embrace changes, pivots, and new ideas as they emerge.
 
 The **looser format of Efforts** supports a mindset that is both **architectural and gardening-like**:
@@ -128,6 +102,25 @@ The **looser format of Efforts** supports a mindset that is both **architectural
 - **Gardener-like** in its flexibility, allowing you to nurture ideas as they grow and adapt to new information.
 
 This dual approach lets you pivot when necessary without losing momentum, making the Flow Method an ideal solution for creative professionals, lifelong learners, and anyone looking to manage their ambitions with a blend of discipline and flexibility.
+
+#### Managing Efforts by Intensity
+
+Efforts are categorized into four levels of intensity, each reflecting the amount of focus and energy you need to invest:
+
+1. **🔥 On Efforts**: These are your most active projects, the ones that require your immediate attention and daily focus. They are where you allocate your highest energy levels, ensuring that you move the needle on your most important tasks.
+2. **♻️ Ongoing Efforts**: These efforts represent activities that are part of your routine. They don’t have a strict deadline but are essential to maintaining your momentum. Whether it’s regular exercise, learning, or ongoing work tasks, they remain on your radar consistently.
+3. **〰️ Simmering Efforts**: These are ideas and tasks that are in the background. They aren’t urgent, but you don’t want to forget about them. Simmering Efforts are like slow-cooking projects that you revisit when the time is right.
+4. **💤 Sleeping Efforts**: These efforts are in cold storage, waiting for the right moment or conditions to come alive again. You put them aside to clear your mental space, knowing that you can wake them up when they’re needed.
+
+#### Navigating Initiatives by Status
+
+Initiatives in the Flow Method help you track the lifecycle of your projects from inception to completion:
+
+1. **🟥 Backlog**: A list of ideas and projects that you might work on in the future. They are not ready to be activated but are recorded so you don’t lose sight of them.
+2. **🟦 Planning**: These are the Initiatives where you’re gathering resources, setting objectives, and laying the groundwork for action. It’s the preparatory phase where you turn ideas into actionable plans.
+3. **🟨 Active**: Initiatives that are in full swing, requiring your focus and consistent effort to push them toward completion. These are the projects that move the needle toward your goals.
+4. **🟩 Finished**: Successfully completed initiatives. This status not only celebrates your achievements but also allows you to reflect on what worked well and what could be improved for future projects.
+  
 
 ## 4. Task Management
 
@@ -484,8 +477,6 @@ Day 4: Expanding your definitions
 
 ---
 
-## zFlow Information Model
-
 1. Use the `up`, `related`, `prev`, and `down` fields to create connections between notes.
 
    - `up`: Link to broader topics or MOCs
@@ -511,7 +502,6 @@ tags:
   - [additional-tags]
 ---
 ```
-
 
 ### Fleeting Note(Eggs), Literature Note (Incubating), Permanent Note (Insight)
 
@@ -569,7 +559,7 @@ aliases:
 ```yaml
 ---
 title: 
-fileClass: Effort
+fileClass: effort
 description:
 type: On,Ongoing,Simmering,Sleeping
 created: 
@@ -585,7 +575,7 @@ tags:
 
 ```yaml
 ---
-fileClass: Calendar, Daily
+fileClass: calendar, daily
 title: "2024-10-19"
 created: 2024-10-19T10:59:21.564-04:00
 updated: 2024-10-19T11:05:16.413-04:00
@@ -605,7 +595,7 @@ tags:
 ---
 title: 
 description:
-fileClass: Initiative
+fileClass: initiative
 effort: On,Ongoing,Simmering,Sleeping
 created: 
 updated: 

@@ -1,6 +1,6 @@
 ---
 id: 7c44cbdb-13d9-4315-b7d7-b219371fafc7
-fileClass: Omnivore
+fileClass: omnivore
 title: Intentional Thinking - The Snowball Effect - The Snowball Effect
 author:
   - Kristin

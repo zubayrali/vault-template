@@ -1,6 +1,6 @@
 ---
 id: bbc006f5-6f90-48cc-90a7-98fb40ef4f18
-fileClass: Omnivore
+fileClass: omnivore
 title: Digital Smart Notes in Obsidian Part 2 - How to Create Literature Notes - Harley Stagner
 author:
   - Harley Stagner

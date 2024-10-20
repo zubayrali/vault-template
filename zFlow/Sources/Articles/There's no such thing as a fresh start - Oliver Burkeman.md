@@ -1,6 +1,6 @@
 ---
 id: 01620554-9347-4af3-910a-b05ec37c19cc
-fileClass: Omnivore
+fileClass: omnivore
 title: There&#39;s no such thing as a fresh start | Oliver Burkeman - Oliver Burkeman
 author:
   - unknown

@@ -1,6 +1,6 @@
 ---
 id: c1bfae8c-2631-4513-b5dd-1f1ab7ca8401
-fileClass: Omnivore
+fileClass: omnivore
 title: "Understanding Shame as the Source of Depression: How Learned Hopefulness Can Backfire – Leon&#39;s Existential Cafe - Leon's Existential Cafe"
 author:
   - Published by Leon Garber, LMHC

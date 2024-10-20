@@ -1,6 +1,6 @@
 ---
 id: fd5e6a47-4322-4ffc-a66c-f4bfac78fc81
-fileClass: Omnivore
+fileClass: omnivore
 title: "The Body of Thought: On Markus Gabriel’s “The Meaning of Thought” - Los Angeles Review of Books"
 author:
   - unknown

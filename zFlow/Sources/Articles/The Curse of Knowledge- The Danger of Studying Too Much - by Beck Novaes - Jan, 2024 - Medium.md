@@ -1,6 +1,6 @@
 ---
 id: 3d8dcb1b-d185-4674-8a52-82f98a17b8b3
-fileClass: Omnivore
+fileClass: omnivore
 title: "The Curse of Knowledge: The Danger of Studying Too Much | by Beck Novaes | Jan, 2024 | Medium - Medium"
 author:
   - Beck Novaes

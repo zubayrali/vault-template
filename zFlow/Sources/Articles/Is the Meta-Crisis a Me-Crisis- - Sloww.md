@@ -1,6 +1,6 @@
 ---
 id: f43f8e9a-a473-4016-afc4-23a49df509e0
-fileClass: Omnivore
+fileClass: omnivore
 title: Is the Meta-Crisis a Me-Crisis? | Sloww - Sloww
 author:
   - Kyle Kowalski

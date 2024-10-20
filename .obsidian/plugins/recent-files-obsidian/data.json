@@ -1,8 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "omnivore",
+      "path": "bin/classes/omnivore.md"
+    },
+    {
+      "basename": "2024-10-19",
+      "path": "Calendar/2024/Daily/10/2024-10-19.md"
+    },
+    {
       "basename": "Chew the Cud",
       "path": "zFlow/Sources/Books/Chew the Cud.md"
+    },
+    {
+      "basename": "Don't Believe Everything You Think",
+      "path": "zFlow/Sources/Books/Don't Believe Everything You Think.md"
+    },
+    {
+      "basename": "Initiatives",
+      "path": "Efforts/Initiatives/Initiatives.md"
+    },
+    {
+      "basename": "person",
+      "path": "bin/classes/person.md"
+    },
+    {
+      "basename": "new excalidraw templater",
+      "path": "bin/templates/new excalidraw templater.md"
+    },
+    {
+      "basename": "Psychology MOC",
+      "path": "Psychology MOC.md"
     },
     {
       "basename": "Books Dataview",
@@ -17,20 +45,8 @@
       "path": "bin/templates/new book template.md"
     },
     {
-      "basename": "Don't Believe Everything You Think",
-      "path": "zFlow/Sources/Books/Don't Believe Everything You Think.md"
-    },
-    {
-      "basename": "Initiatives",
-      "path": "Efforts/Initiatives/Initiatives.md"
-    },
-    {
       "basename": "Starting a YouTube Channel",
       "path": "Efforts/Initiatives/Starting a YouTube Channel/Starting a YouTube Channel.md"
-    },
-    {
-      "basename": "2024-10-19",
-      "path": "Calendar/2024/Daily/10/2024-10-19.md"
     },
     {
       "basename": "Overview",
@@ -47,10 +63,6 @@
     {
       "basename": "2024-10-06",
       "path": "Calendar/2024/Daily/10/2024-10-06.md"
-    },
-    {
-      "basename": "Psychology MOC",
-      "path": "Psychology MOC.md"
     },
     {
       "basename": "2024-10-18",
@@ -75,10 +87,6 @@
     {
       "basename": "Obsidian October O_O 2024 vault self-critique checklist",
       "path": "Obsidian October O_O 2024 vault self-critique checklist.md"
-    },
-    {
-      "basename": "Person",
-      "path": "bin/classes/Person.md"
     },
     {
       "basename": "2024-Q4",
@@ -165,10 +173,6 @@
       "path": "Calendar/2024/Daily/10/2024-10-10.md"
     },
     {
-      "basename": "new excalidraw templater",
-      "path": "new excalidraw templater.md"
-    },
-    {
       "basename": "Heuristics",
       "path": "Heuristics.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Logbook",
       "path": "Calendar/Logbook.md"
-    },
-    {
-      "basename": "new article template",
-      "path": "bin/templates/new article template.md"
     }
   ],
   "omittedPaths": [],

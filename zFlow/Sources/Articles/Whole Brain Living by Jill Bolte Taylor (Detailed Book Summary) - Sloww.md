@@ -1,6 +1,6 @@
 ---
 id: c5b773af-e7dd-46a5-96c8-c2f02ea590e2
-fileClass: Omnivore
+fileClass: omnivore
 title: Whole Brain Living by Jill Bolte Taylor (Detailed Book Summary) | Sloww - Sloww
 author:
   - Kyle Kowalski

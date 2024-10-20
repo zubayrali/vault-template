@@ -1,6 +1,6 @@
 ---
 id: a76bbe2e-71ea-45db-b1bf-e8fd56f2e7a7
-fileClass: Omnivore
+fileClass: omnivore
 title: (31) Mental Models - Divergent vs. Convergent Thinking ↔️ - Mental Models Weekly
 author:
   - Julia Clavien

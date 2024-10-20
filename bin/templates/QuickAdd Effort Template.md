@@ -1,6 +1,6 @@
 ---
 title: {{ VALUE:Effort Name }}
-fileClass: Effort
+fileClass: effort
 description: {{ VALUE:Effort Description }}
 type: {{ VALUE:On, Ongoing, Simmering, Sleeping }}
 created: {{ DATE:YYYY-MM-DD }}

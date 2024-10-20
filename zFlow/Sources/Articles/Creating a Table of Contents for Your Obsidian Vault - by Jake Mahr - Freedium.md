@@ -1,6 +1,6 @@
 ---
 id: 7ce814ee-82de-4f7a-baca-14e3dd1f989b
-fileClass: Omnivore
+fileClass: omnivore
 title: Creating a Table of Contents for Your Obsidian Vault | by Jake Mahr - Freedium - freedium.cfd
 author:
   - unknown

@@ -1,6 +1,6 @@
 ---
 id: 48427c71-e2c7-4006-853e-2b2723f562c4
-fileClass: Omnivore
+fileClass: omnivore
 title: "Sloww Sunday 001: Inner Beauty, Pockets of Stillness, Golden Mean - Sloww"
 author:
   - Kyle Kowalski

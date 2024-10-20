@@ -1,6 +1,6 @@
 ---
 id: 12aced09-6085-4b5d-9f84-055b6c9f149f
-fileClass: Omnivore
+fileClass: omnivore
 title: How to Achieve a Higher Level of Consciousness and Go Beyond the Mind | by Tim Denning | in Mind Cafe - Freedium - freedium.cfd
 author:
   - unknown

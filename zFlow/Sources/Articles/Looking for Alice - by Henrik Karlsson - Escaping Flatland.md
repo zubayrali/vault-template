@@ -1,6 +1,6 @@
 ---
 id: 61693065-7be9-4705-bacb-a43e7440dbdb
-fileClass: Omnivore
+fileClass: omnivore
 title: Looking for Alice - by Henrik Karlsson - Escaping Flatland - Escaping Flatland
 author:
   - Henrik Karlsson

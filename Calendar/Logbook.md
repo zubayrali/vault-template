@@ -6,7 +6,7 @@ updated: 2024-10-06T22:44:04.738-04:00
 
 # Logbook
 
-[[bin/classes/Calendar|<< 📆 Calendar]]
+[[bin/classes/calendar|<< 📆 Calendar]]
 
 This logbook aggregates logs recorded in your daily notes, it uses the `Gratitude::`, `Motivation::`, `Achievement::`, `Title::` and `Summary::`.
 In Weekly note, `highlight::` is used.

@@ -1,7 +1,7 @@
 ---
 	title: Building a Custom PC
 description: 
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06T00:00:00.000-04:00
 updated: 2024-10-06T15:14:37.882-04:00
 dueDate: 

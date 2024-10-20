@@ -1,6 +1,6 @@
 ---
 id: 60bbf013-5fba-41f9-9e08-659461179cc8
-fileClass: Omnivore
+fileClass: omnivore
 title: Assume You’re the Rule, Not the Exception | by Shannon Leigh | in P.S. I Love You - Freedium - freedium.cfd
 author:
   - unknown

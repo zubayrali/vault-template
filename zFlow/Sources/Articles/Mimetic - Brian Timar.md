@@ -1,6 +1,6 @@
 ---
 id: 6a8d8fc8-02e8-4569-9a57-1cc6f271ebf9
-fileClass: Omnivore
+fileClass: omnivore
 title: Mimetic - Brian Timar - briantimar.com
 author:
   - unknown

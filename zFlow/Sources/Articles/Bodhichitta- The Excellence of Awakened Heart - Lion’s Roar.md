@@ -1,6 +1,6 @@
 ---
 id: dc1ae8c2-2fe3-48ca-a2e5-b82d04dcb7d4
-fileClass: Omnivore
+fileClass: omnivore
 title: "Bodhichitta: The Excellence of Awakened Heart | Lion’s Roar - Lion’s Roar"
 author:
   - Pema Chödrön

@@ -1,7 +1,7 @@
 ---
 title: Writing a Novel
 description: Writing my first novel, focusing on character development and plot.
-fileClass: Initiative
+fileClass: initiative
 created: 2024-10-06T00:00:00.000-04:00
 updated: 2024-10-06T19:35:41.040-04:00
 dueDate: 2024-10-26

@@ -1,6 +1,6 @@
 ---
 id: 8778528f-6159-4900-b091-3fdbf9049927
-fileClass: Omnivore
+fileClass: omnivore
 title: Jerks might win the battle, but nice guys win the war - Big Think
 author:
   - Jonny Thomson

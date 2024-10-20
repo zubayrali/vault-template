@@ -1,6 +1,6 @@
 ---
 title: Learning Time Management
-fileClass: Effort
+fileClass: effort
 description: Mastering time management skills to improve productivity and reduce stress.
 type: On
 created: 2024-10-06T00:00:00.000-04:00

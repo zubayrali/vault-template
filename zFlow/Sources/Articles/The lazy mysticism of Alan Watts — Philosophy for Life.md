@@ -1,6 +1,6 @@
 ---
 id: 8fc08a0e-df15-43aa-b8c1-bea5d77904d4
-fileClass: Omnivore
+fileClass: omnivore
 title: The lazy mysticism of Alan Watts — Philosophy for Life - Philosophy for Life
 author:
   - Jules Evans

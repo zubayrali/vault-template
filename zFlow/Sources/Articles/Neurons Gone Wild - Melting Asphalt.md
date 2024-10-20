@@ -1,6 +1,6 @@
 ---
 id: 8bfbdec3-d869-4612-bdf3-fca62b5e0903
-fileClass: Omnivore
+fileClass: omnivore
 title: Neurons Gone Wild | Melting Asphalt - meltingasphalt.com
 author:
   - Kevin Simler

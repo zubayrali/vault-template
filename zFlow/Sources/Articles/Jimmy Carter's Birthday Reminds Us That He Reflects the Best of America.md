@@ -1,6 +1,6 @@
 ---
 id: dfa91ca6-88d2-4180-9ea0-24069e2f14d4
-fileClass: Omnivore
+fileClass: omnivore
 title: Jimmy Carter&#39;s Birthday Reminds Us That He Reflects the Best of America - The Hartmann Report
 author:
   - Thom Hartmann

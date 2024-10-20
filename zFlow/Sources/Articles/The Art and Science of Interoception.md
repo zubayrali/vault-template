@@ -1,6 +1,6 @@
 ---
 id: f8a440f7-52f7-4e0b-9444-d7822a78b569
-fileClass: Omnivore
+fileClass: omnivore
 title: The Art and Science of Interoception - every.to
 author:
   - Jonny Miller

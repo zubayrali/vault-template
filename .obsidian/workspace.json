@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "07701da4332eac26",
+        "id": "0e75e96bb4f4bb14",
         "type": "tabs",
         "children": [
           {
-            "id": "27d91dbbc57865fe",
+            "id": "93019bee096d2d82",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Calendar/2024/Daily/10/2024-10-19.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
@@ -23,56 +23,31 @@
             }
           },
           {
-            "id": "90f3b68419ca79e5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zFlow/Sources/Books/Chew the Cud.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "40266b5c5205a665",
+            "id": "1c51d450fca231e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "zFlow/Sources/Books/Don't Believe Everything You Think.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "68728d16ee27c2a6",
-            "type": "leaf",
-            "state": {
-              "type": "FileClassView__book",
+              "type": "FileClassView__Calendar",
               "state": {}
             }
           },
           {
-            "id": "fa18c9177083f69c",
+            "id": "01d3287a339e4209",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Initiatives/Initiatives.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "FileClassView__Omnivore",
+              "state": {}
+            }
+          },
+          {
+            "id": "32aa739c394a97c7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -101,9 +76,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "zFlow/Sources/Books/Chew the Cud.md"
-              }
+              "state": {}
             }
           },
           {
@@ -119,8 +92,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "7ec6c24bd7f04474",
@@ -190,9 +162,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "zFlow/Sources/Books/Chew the Cud.md"
-              }
+              "state": {}
             }
           },
           {
@@ -255,7 +225,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zFlow/Sources/Books/Chew the Cud.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -303,20 +272,24 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "b7d3791400d8be16",
+  "active": "32aa739c394a97c7",
   "lastOpenFiles": [
+    "bin/classes/omnivore.md",
+    "Calendar/2024/Daily/10/2024-10-19.md",
+    "zFlow/Sources/Books/Chew the Cud.md",
+    "zFlow/Sources/Books/Don't Believe Everything You Think.md",
+    "Efforts/Initiatives/Initiatives.md",
+    "bin/classes/person.md",
+    "bin/templates/new excalidraw templater.md",
+    "Psychology MOC.md",
     "Books Dataview.md",
     "Books Cardview.md",
-    "zFlow/Sources/Books/Chew the Cud.md",
     "bin/templates/new book template.md",
-    "zFlow/Sources/Books/Don't Believe Everything You Think.md",
     "bin/classes/book.md",
-    "Efforts/Initiatives/Initiatives.md",
     "bin/assets/Don't Believe Everything You Think/b9366c9a21298bc3db4757e30c79919c_MD5.jpg",
     "bin/assets/Don't Believe Everything You Think",
     "Efforts/Initiatives/Building a Custom PC/Building a Custom PC.md",
     "Efforts/Initiatives/Starting a YouTube Channel/Starting a YouTube Channel.md",
-    "Calendar/2024/Daily/10/2024-10-19.md",
     "bin/assets/Chew the Cud/15b9b6d382cfd6390c84da943cb40c3d_MD5.jpeg",
     "bin/assets/Chew the Cud",
     "bin/assets/Pasted image 20241019110722.png",
@@ -330,7 +303,6 @@
     "bin/assets/Deep Aliveness — Inner Wilds/bbe3d2dee8892573a0aa766662037363_MD5.png",
     "bin/assets/Deep Aliveness — Inner Wilds",
     "Tags",
-    "Psychology MOC.md",
     "Calendar/2024/Daily/10/2024-10-18.md",
     "Hotkey Helper.md",
     "refType/books/books.md",
@@ -340,10 +312,7 @@
     "Efforts/Efforts.md",
     "Efforts/Flow.md",
     "Welcome Home.md",
-    "zFlow/Drawings/Drawing 2024-10-18 08.36.49.excalidraw.md",
-    "Efforts/Learning Time Management/Learning Time Management.md",
     "zFlow/Drawings/Drawing 2024-10-18 08.36.49.excalidraw.excalidraw",
-    "Obsidian October O_O 2024 vault self-critique checklist.md",
     "bin/assets/Pasted image 20241014193851.png",
     "bin/scripts/formatBacklinksAsYamlList.js",
     "bin/scripts/formatFilenamesToYamlList.js",

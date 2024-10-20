@@ -1,7 +1,7 @@
 ---
 title: { { VALUE:Initiative Name } }
 description: { { VALUE:Initiative Description } }
-fileClass: Initiative
+fileClass: initiative
 effort: { { VALUE:On, Ongoing, Simmering, Sleeping } }
 created: { { DATE:YYYY-MM-DD } }
 updated: { { DATE:YYYY-MM-DD } }

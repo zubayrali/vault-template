@@ -1,6 +1,6 @@
 ---
 id: 519d4e4b-f661-4bf1-b3b0-7d5a63d9d4e6
-fileClass: Omnivore
+fileClass: omnivore
 title: Build tools around workflows, not workflows around tools | thesephist.com - thesephist.com
 author:
   - unknown

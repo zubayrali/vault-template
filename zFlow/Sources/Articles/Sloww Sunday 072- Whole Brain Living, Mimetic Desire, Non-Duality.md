@@ -1,6 +1,6 @@
 ---
 id: 70112415-cf01-45e5-a7b6-eff80ec570fa
-fileClass: Omnivore
+fileClass: omnivore
 title: "Sloww Sunday 072: Whole Brain Living, Mimetic Desire, Non-Duality - Sloww"
 author:
   - Kyle Kowalski

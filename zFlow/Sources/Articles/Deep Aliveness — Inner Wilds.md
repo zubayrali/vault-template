@@ -1,6 +1,6 @@
 ---
 id: 5e7daf13-6d02-46fe-856a-d4882f8a8a3d
-fileClass: Omnivore
+fileClass: omnivore
 title: Deep Aliveness — Inner Wilds - Inner Wilds
 author:
   - unknown

@@ -1,6 +1,6 @@
 ---
 id: d729983b-c08e-4302-8df0-e44e84ff20ed
-fileClass: Omnivore
+fileClass: omnivore
 title: Learning in Adulthood by Merriam &amp; Baumgartner (Book Summary) | Sloww - Sloww
 author:
   - Kyle Kowalski

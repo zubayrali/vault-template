@@ -1,6 +1,6 @@
 ---
 id: 4f710737-76ba-4b0a-8bef-3606d187545d
-fileClass: Omnivore
+fileClass: omnivore
 title: "Aldous Huxley : Why not stay at home ? - Anthologia"
 author:
   - InLibroVeritas

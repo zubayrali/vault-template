@@ -1,6 +1,6 @@
 ---
 title: Practicing Mindfulness
-fileClass: Effort
+fileClass: effort
 description: Integrating mindfulness into my daily routine to improve focus and reduce stress.
 type: On
 created: 2024-10-06T00:00:00.000-04:00

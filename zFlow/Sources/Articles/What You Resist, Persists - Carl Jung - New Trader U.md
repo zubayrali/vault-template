@@ -1,6 +1,6 @@
 ---
 id: e2e06c31-0ccd-4ddf-acdb-d7a3421429c0
-fileClass: Omnivore
+fileClass: omnivore
 title: What You Resist, Persists - Carl Jung - New Trader U - New Trader U
 author:
   - unknown

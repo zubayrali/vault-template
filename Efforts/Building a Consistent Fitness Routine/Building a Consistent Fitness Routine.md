@@ -1,6 +1,6 @@
 ---
 title: Building a Consistent Fitness Routine
-fileClass: Effort
+fileClass: effort
 description: Developing a regular fitness routine to improve physical health and energy levels.
 type:
   - Simmering
