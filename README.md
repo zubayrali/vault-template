@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T21:00:37.954-04:00
+updated: 2024-10-20T21:20:21.264-04:00
 ---
 
 > [!warning] This is meant to be previewed from inside Obsidian
@@ -650,15 +650,23 @@ Add new video template: [[video modal form templater]]
 
 ## Resources
 
-- [How to Eliminate Distractions in Obsidian - YouTube](https://youtu.be/u0Sk2CBZUb4?si=UWDRz_tcwfPhLXYV)
+- [How to Eliminate Distractions in Obsidian - YouTube](https://youtu.be/u0Sk2CBZUb4?si=UWDRz_tcwfPhLXYV) (Howto)
+- [How To Use Obsidian: Dashboards Are OUT. THIS is IN. - YouTube](https://youtu.be/dDDXRSoOZgY?si=3YR36wbOEy3BtxjG) (Feature)
+- [My simple note-taking setup | Zettelkasten in Obsidian | Step-by-step guide - YouTube](https://youtu.be/E6ySG7xYgjY?si=u3L3jceOFL-pmCbn) (Example)
+- [What Obsidian gurus get wrong about Zettelkasten - YouTube](https://youtu.be/FrvKHFIHaeQ?si=zkbKHgv6z8bGOz2s) (Methodology, Mindset)
+- [Am I overcomplicating zettelkasten? \[Reddit reaction\] - YouTube](https://youtu.be/uwzOo2UfuQQ?si=g7HEXuEhUtj7N1Lh) (Methodology, Mindset)
+- [Second Brains are a Lie - YouTube](https://youtu.be/-l0jXCQMuwc?si=GEdRmRp0uVVhf-uG) (Philosophy, Mindset)
+- [Stop Procrastinating With Note-Taking Apps Like Obsidian, Roam, Logseq - YouTube](https://youtu.be/baKCC2uTbRc?si=pZ8B743zQFLVuNN-) (Philosophy)
+- [How to Get Started with Weekly Reflection in Obsidian - YouTube](https://youtu.be/NVu7EWLE34s?si=N4UL-Hl0i0AebYXQ) (Template)
+- [What Nobody Tells You About Organizing Folders in Obsidian - YouTube](https://youtu.be/RNH4zpVUm3E?si=vntCAomuUB-cVqCu) (Methodology)
 
 ## Credits & Thanks
 
-- [Tony Ramella - YouTube](https://www.youtube.com/@TonyRamella) (Better understanding Zettlekasten and helped in embracing a loose intepretation of zettlekasten favouring personal style over fixed methodolog and for the Logbook, as well as _Flow_).
-- [Paul Dickson - YouTube](https://www.youtube.com/@PaulDickson7) (Lots of inspo)
-- [Prakash Joshi Pax - YouTube](https://www.youtube.com/@beingpax) (Daily Note setup, Taskido video, lots of inspo)
-- [Linking Your Thinking with Nick Milo - YouTube](https://www.youtube.com/@linkingyourthinking) (Efforts and Ideaverse)
-- [FromSergio - YouTube](https://www.youtube.com/@FromSergio) (Tutorials, inspiration)
+- [Tony Ramella](https://www.youtube.com/@TonyRamella) (Better understanding Zettlekasten and helped in embracing a loose intepretation of zettlekasten favouring personal style over fixed methodolog and for the Logbook, as well as _Flow_).
+- [Paul Dickson](https://www.youtube.com/@PaulDickson7) (Lots of inspo)
+- [Prakash Joshi Pax](https://www.youtube.com/@beingpax) (Daily Note setup, Taskido video, lots of inspo)
+- [Nick Milo](https://www.youtube.com/@linkingyourthinking) (Efforts and Ideaverse)
+- [FromSergio](https://www.youtube.com/@FromSergio) (Tutorials, inspiration)
 
 ## Appendices
 
