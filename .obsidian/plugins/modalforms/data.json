@@ -812,7 +812,74 @@
       "title": "Add a Person or Influence",
       "name": "Person",
       "customClassname": "person",
-      "fields": [],
+      "fields": [
+        {
+          "name": "bio",
+          "label": "Bio",
+          "description": "",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false,
+            "hidden": false
+          },
+          "isRequired": false
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false,
+            "hidden": false
+          },
+          "isRequired": false
+        },
+        {
+          "name": "dob",
+          "label": "D.O.B",
+          "description": "",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false,
+            "hidden": false
+          },
+          "isRequired": false
+        },
+        {
+          "name": "nationality",
+          "label": "Nationality",
+          "description": "",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false,
+            "hidden": false
+          },
+          "isRequired": false
+        },
+        {
+          "name": "website",
+          "label": "Website",
+          "description": "",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false,
+            "hidden": false
+          },
+          "isRequired": false
+        },
+        {
+          "name": "social",
+          "label": "Social",
+          "description": "",
+          "input": {
+            "type": "text",
+            "allowUnknownValues": false,
+            "hidden": false
+          },
+          "isRequired": false
+        }
+      ],
       "version": "1"
     }
   ]

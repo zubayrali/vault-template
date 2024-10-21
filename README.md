@@ -1,14 +1,14 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T20:07:09.874-04:00
+updated: 2024-10-20T20:16:42.889-04:00
 ---
 
 > [!warning] This is meant to be previewed from inside Obsidian
 
 ## 1. Introduction
 
-"Chew the Cud" is a comprehensive Personal Knowledge Management (PKM) system implemented in Obsidian. It's designed to capture, process, and organize thoughts, tasks, and projects effectively. This system blends structured note-taking practices with flexible task management techniques, creating a cohesive environment for intellectual growth and productivity.
+This is a template Vault for [Obsidian](https://obsidian.md/). It's an opinionated way of doing things inside Obsidian. I was revamping my Obsidian vault for the nth time of course but I knew this time it was something different, and I set out to find the best ways of doing things inside Obsidian, the plugins that support us in accomplishing those goals with Obsidian. It's designed to capture, process, and organize thoughts, tasks, and projects effectively. This system blends structured note-taking practices with flexible task management techniques.
 
 The name "Chew the Cud" reflects the system's core philosophy: just as ruminants regurgitate and re-chew their food to extract maximum nutrition, this system encourages revisiting and refining ideas to gain deeper understanding and generate new insights.
 

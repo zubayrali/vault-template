@@ -21,11 +21,6 @@ fields:
     options: {}
     path: ""
     id: nVzPm6
-  - name: social
-    type: JSON
-    options: {}
-    path: ""
-    id: kNmZyR
   - name: bio
     type: Input
     options: {}
@@ -44,7 +39,12 @@ fields:
         "6": role/illustrator
     path: ""
     id: 0v3oZM
-version: "2.23"
+  - name: social
+    type: Input
+    options: {}
+    path: ""
+    id: H6cgLn
+version: "2.25"
 limit: 40
 mapWithTag: false
 icon: user
@@ -56,13 +56,13 @@ extends:
 savedViews: []
 favoriteView: 
 fieldsOrder:
+  - H6cgLn
   - 0v3oZM
   - jY7oBl
   - x3qWvL
   - iHgQlW
   - tUwLsl
   - nVzPm6
-  - kNmZyR
 title: People
 created: 2024-09-17T02:50:02.000-04:00
 updated: 2024-09-17T21:20:08.997-04:00

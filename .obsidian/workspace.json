@@ -70,18 +70,85 @@
             }
           },
           {
+            "id": "516dee50c5ad9f88",
+            "type": "leaf",
+            "state": {
+              "type": "modal-form-edit-form-view",
+              "state": {
+                "title": "Add a Person or Influence",
+                "name": "Person",
+                "customClassname": "person",
+                "fields": [
+                  {
+                    "name": "bio",
+                    "label": "Bio",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "text",
+                      "hidden": false
+                    }
+                  },
+                  {
+                    "name": "title",
+                    "label": "Title",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "text",
+                      "hidden": false
+                    }
+                  },
+                  {
+                    "name": "dob",
+                    "label": "D.O.B",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "text",
+                      "hidden": false
+                    }
+                  },
+                  {
+                    "name": "nationality",
+                    "label": "Nationality",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "text",
+                      "hidden": false
+                    }
+                  },
+                  {
+                    "name": "website",
+                    "label": "Website",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "text",
+                      "hidden": false
+                    }
+                  },
+                  {
+                    "name": "social",
+                    "label": "Social",
+                    "description": "",
+                    "isRequired": false,
+                    "input": {
+                      "type": "text",
+                      "hidden": false
+                    }
+                  }
+                ],
+                "version": "1"
+              }
+            }
+          },
+          {
             "id": "d750deba46eab9b4",
             "type": "leaf",
             "state": {
               "type": "FileClassView__person",
-              "state": {}
-            }
-          },
-          {
-            "id": "27a90d241a125fde",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
               "state": {}
             }
           }
@@ -165,7 +232,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -375,10 +443,11 @@
   },
   "active": "ecc2d998f9ab2587",
   "lastOpenFiles": [
-    "bin/assets/README/8bd00bea41766494a3492027639e0646_MD5.jpeg",
-    "README.md",
-    "bin/assets/Pasted image 20241020200343.png",
     "bin/views/Books Cardview.md",
+    "bin/views/Articles Cardview.md",
+    "README.md",
+    "bin/assets/README/8bd00bea41766494a3492027639e0646_MD5.jpeg",
+    "bin/assets/Pasted image 20241020200343.png",
     "bin/assets/README/2bf6f0237d5787bdbc2ff9608e9619a3_MD5.jpeg",
     "bin/assets/Pasted image 20241020195811.png",
     "bin/views/Books Cards View.md",
