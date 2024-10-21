@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T19:54:25.424-04:00
+updated: 2024-10-20T20:07:09.874-04:00
 ---
 
 > [!warning] This is meant to be previewed from inside Obsidian
@@ -19,6 +19,10 @@ The name "Chew the Cud" reflects the system's core philosophy: just as ruminants
 [PLACEHOLDER: Add any specific goals you have for your PKM system]
 
 [PLACEHOLDER: Add any personal motivations or reasons for developing this system]
+
+> [!focus] One of the goals of this template is to also just serve a collection of cool Obsidian….idk
+
+![](bin/assets/README/8bd00bea41766494a3492027639e0646_MD5.jpeg)
 
 ## 2. Getting Started
 
@@ -605,9 +609,18 @@ Workspaces allow you to quickly jump between different configurations of your va
 
 ## 14. Views
 
-[[Books Cardview]]
+Cutom "views" or portals for different Sources,
 
-## 15. Bookmarks
+- [[Books Cardview]]
+- [[Books Dataview]]
+
+## 15. fileClass (current Use case)
+
+Habit Tracking by not having the fields by default buy using Metadata menu to add the fields that can be tracked across the daily notes. (These can of course be customized, I just created these for this example).
+
+![](bin/assets/README/2bf6f0237d5787bdbc2ff9608e9619a3_MD5.jpeg)
+
+## 16. Bookmarks
 
 Utilizing Bookmarks with the [bookmarks-caller](https://github.com/namikaze-40p/obsidian-bookmarks-caller) plugin to quickly open bookmarked notes.
 

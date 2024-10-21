@@ -81,13 +81,8 @@
             "id": "27a90d241a125fde",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bin/views/Books Cardview.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -139,8 +134,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7ec6c24bd7f04474",
@@ -280,7 +274,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "6417ed4453a03bfb",
@@ -339,8 +333,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -382,9 +375,13 @@
   },
   "active": "ecc2d998f9ab2587",
   "lastOpenFiles": [
-    "bin/views/Books Cardview.md",
-    "bin/views/Books Cards View.md",
+    "bin/assets/README/8bd00bea41766494a3492027639e0646_MD5.jpeg",
     "README.md",
+    "bin/assets/Pasted image 20241020200343.png",
+    "bin/views/Books Cardview.md",
+    "bin/assets/README/2bf6f0237d5787bdbc2ff9608e9619a3_MD5.jpeg",
+    "bin/assets/Pasted image 20241020195811.png",
+    "bin/views/Books Cards View.md",
     "bin/templates/new daily note.md",
     "Calendar/Logbook.md",
     "Cognitive Psychology Terms.md",
@@ -394,10 +391,6 @@
     "bin/assets/README/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg",
     "bin/assets/README/c18912d017d5ee5f682d4f029e288c62_MD5.jpeg",
     "bin/assets/README/99a276a2bd31517bce393fe27933eb9c_MD5.jpeg",
-    "bin/assets/README/76c9b4bb4aff18c3215da6e624ed5a88_MD5.jpeg",
-    "bin/assets/README/43c8220329d12678fbd37a0da10a9d2c_MD5.jpeg",
-    "bin/assets/README/41ab9b3dafdeae990f81e5a776c45c4a_MD5.jpeg",
-    "bin/assets/README/32aff77526d57f29000ad7a16884427e_MD5.jpeg",
     "bin/templates/video modal form templater.md",
     "Something.md",
     "bin/templates/Omnivore Frontmatter Template.md",
@@ -418,7 +411,6 @@
     "bin/assets/README",
     "Efforts/Initiatives/Initiatives.md",
     "bin/templates/new weekly note.md",
-    "Calendar/Calendar.md",
     "Efforts/Initiatives/Mindfulness Workshop Series",
     "Efforts/Developing Mindfulness Practice",
     "bin/assets/Chew the Cud - Vault Documentation",
