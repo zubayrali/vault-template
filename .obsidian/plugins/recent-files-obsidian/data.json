@@ -5,6 +5,18 @@
       "path": "README.md"
     },
     {
+      "basename": "2024-10-20",
+      "path": "Calendar/2024/Daily/10/2024-10-20.md"
+    },
+    {
+      "basename": "Overview",
+      "path": "Calendar/Tasks/Overview.md"
+    },
+    {
+      "basename": "new daily note",
+      "path": "bin/templates/new daily note.md"
+    },
+    {
       "basename": "Books Cardview",
       "path": "bin/views/Books Cardview.md"
     },
@@ -15,10 +27,6 @@
     {
       "basename": "8bd00bea41766494a3492027639e0646_MD5",
       "path": "bin/assets/README/8bd00bea41766494a3492027639e0646_MD5.jpeg"
-    },
-    {
-      "basename": "new daily note",
-      "path": "bin/templates/new daily note.md"
     },
     {
       "basename": "Logbook",
@@ -51,14 +59,6 @@
     {
       "basename": "Flow",
       "path": "Efforts/Flow.md"
-    },
-    {
-      "basename": "2024-10-20",
-      "path": "Calendar/2024/Daily/10/2024-10-20.md"
-    },
-    {
-      "basename": "Overview",
-      "path": "Calendar/Tasks/Overview.md"
     },
     {
       "basename": "2024-10-19",

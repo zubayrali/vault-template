@@ -1,28 +1,29 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-20T20:16:42.889-04:00
+updated: 2024-10-20T21:00:37.954-04:00
 ---
 
 > [!warning] This is meant to be previewed from inside Obsidian
 
 ## 1. Introduction
 
-This is a template Vault for [Obsidian](https://obsidian.md/). It's an opinionated way of doing things inside Obsidian. I was revamping my Obsidian vault for the nth time of course but I knew this time it was something different, and I set out to find the best ways of doing things inside Obsidian, the plugins that support us in accomplishing those goals with Obsidian. It's designed to capture, process, and organize thoughts, tasks, and projects effectively. This system blends structured note-taking practices with flexible task management techniques.
+"Chew the Cud" is a comprehensive Obsidian vault template designed to streamline personal knowledge management and task organization. This template provides an opinionated setup that combines various plugins, templates, configurations, CSS snippets, and user scripts to create a ready-to-use system that is heavily relies on Obsidian's Reading view and QuickAdd and Forms for quickly creating new notes.
+
+> [!focus] This template aims to provide a robust starting point for Obsidian users, whether you're new to Personal Knowledge Management or looking to enhance your existing setup. While it offers a specific workflow, all components can be customized to suit your individual needs.
 
 The name "Chew the Cud" reflects the system's core philosophy: just as ruminants regurgitate and re-chew their food to extract maximum nutrition, this system encourages revisiting and refining ideas to gain deeper understanding and generate new insights.
 
-### Philosophy & Goals
+The README will guide you through:
 
-[PLACEHOLDER: Add any personal philosophies or principles you follow in your note-taking and knowledge management]
-
-[PLACEHOLDER: Add any specific goals you have for your PKM system]
-
-[PLACEHOLDER: Add any personal motivations or reasons for developing this system]
-
-> [!focus] One of the goals of this template is to also just serve a collection of cool Obsidian….idk
+1. Setting up the vault
+2. Understanding the folder structure
+3. Using the provided templates and scripts
+4. Customizing the system to your preferences
 
 ![](bin/assets/README/8bd00bea41766494a3492027639e0646_MD5.jpeg)
+
+See **Resources** for understanding the foundations on which this system is based on.
 
 ## 2. Getting Started
 
@@ -512,7 +513,7 @@ Use the Logbook to:
 Go to [[Flow]] navigation page.
 
 
-![](bin/assets/READMEbin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg)_
+![](bin/assets/README/09d32947164e6c68096cdcbd2826b7f2_MD5.jpeg)
 
 - Efforts
 	- Categories (On, Ongoing, Simmering, Sleeping)
@@ -580,6 +581,8 @@ Workspaces allow you to quickly jump between different configurations of your va
 - `Alt + B` - Add bookmark
 - `Alt + Shift + B` - Focus Bookmark Sidebar
 - `Alt + E` - Toggle Live preview reading
+- `Ctrl + Shift + Space` - Toggle both sidebars on/off
+- `Ctrl + Shift + S` - Create new book note
 
 ## 11. Workflows
 
@@ -645,7 +648,11 @@ Add new video template: [[video modal form templater]]
 - Version history of the vault template
 - Recent updates and modifications
 
-## 18. Credits & Thanks
+## Resources
+
+- [How to Eliminate Distractions in Obsidian - YouTube](https://youtu.be/u0Sk2CBZUb4?si=UWDRz_tcwfPhLXYV)
+
+## Credits & Thanks
 
 - [Tony Ramella - YouTube](https://www.youtube.com/@TonyRamella) (Better understanding Zettlekasten and helped in embracing a loose intepretation of zettlekasten favouring personal style over fixed methodolog and for the Logbook, as well as _Flow_).
 - [Paul Dickson - YouTube](https://www.youtube.com/@PaulDickson7) (Lots of inspo)
