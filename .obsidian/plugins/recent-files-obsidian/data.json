@@ -9,16 +9,16 @@
       "path": "Calendar/2024/Daily/10/2024-10-20.md"
     },
     {
-      "basename": "Overview",
-      "path": "Calendar/Tasks/Overview.md"
-    },
-    {
-      "basename": "Something",
-      "path": "Something.md"
+      "basename": "Tasks",
+      "path": "bin/views/Tasks.md"
     },
     {
       "basename": "README",
       "path": "README.md"
+    },
+    {
+      "basename": "Something",
+      "path": "Something.md"
     },
     {
       "basename": "plugins",
@@ -202,6 +202,7 @@
     }
   ],
   "omittedPaths": [],
+  "omittedTags": [],
   "maxLength": null,
   "openType": "tab"
 }

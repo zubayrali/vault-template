@@ -1,7 +1,7 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-22T20:11:04.144-04:00
+updated: 2024-10-23T10:15:52.943-04:00
 ---
 
 > [!warning] This is meant to be previewed from inside Obsidian
@@ -564,6 +564,7 @@ Workspaces allow you to quickly jump between different configurations of your va
 - List of custom hotkeys
 - Essential Obsidian shortcuts
 - How to modify hotkeys
+- `Alt + Shift + K` - Toggle MySnippet plugin(for custom CSS snippets e.g, Hide Ribbon which would be on the left sidebar)
 - `Alt + Shift + W` = LifeOs Create Weekly note
 - `Alt + Shift + D` = LifeOs Create Daily note
 - `Alt + Shift + M` = LifeOs Create Monthly note

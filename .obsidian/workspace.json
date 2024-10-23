@@ -8,9 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2c11cceacc2ca195",
+            "id": "27d91dbbc57865fe",
             "type": "leaf",
             "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "8f8b8c69c32f0640",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
@@ -18,11 +32,11 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
-              },
-              "pinned": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -45,32 +59,8 @@
                 "sortOrder": "byModifiedTime"
               }
             }
-          },
-          {
-            "id": "b7d3791400d8be16",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Calendar/2024/Daily/10/2024-10-23.md"
-              }
-            }
-          },
-          {
-            "id": "a2612523814bcbb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calendar/Tasks/Overview.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "7ec6c24bd7f04474",
@@ -234,6 +224,8 @@
       "open-vscode:VSCode": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "alias-management:ListAliasesView": false,
+      "alias-management:DuplicateAliasesView": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "geulo-youtube-liked-video:Activate Liked Video List View": false,
       "periodic-para:LifeOS Creation": false,
@@ -262,13 +254,13 @@
       "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "2c11cceacc2ca195",
+  "active": "8f8b8c69c32f0640",
   "lastOpenFiles": [
     "Calendar/2024/Daily/10/2024-10-20.md",
-    "Calendar/Tasks/Overview.md",
+    "bin/views/Tasks.md",
+    "README.md",
     "Calendar/2024/Daily/10/2024-10-23.md",
     "Something.md",
-    "README.md",
     "smart-chats",
     "plugins.md",
     "Cognitive Psychology Terms.md",

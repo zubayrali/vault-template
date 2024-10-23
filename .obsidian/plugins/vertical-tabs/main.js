@@ -24951,10 +24951,18 @@ var useTabCache = create()((set, get) => ({
     for (const key2 of content.keys()) {
       const entry = content.get(key2);
       newTabs.set(key2, entry);
-      const group = entry.group || (entry.leaves.length > 0 ? entry.leaves[0].parent : null);
-      if (group) newTabs.get(key2).leaves = sortTabs(group, sortStrategy);
+      if (entry.groupType === "root-split" /* RootSplit */) {
+        const group = entry.group || (entry.leaves.length > 0 ? entry.leaves[0].parent : null);
+        if (group)
+          newTabs.get(key2).leaves = sortTabs(group, sortStrategy);
+      }
     }
     set({ content: newTabs });
+  },
+  hasOnlyOneGroup: () => {
+    const { groupIDs } = get();
+    const rootGroupIDs = groupIDs.filter((id) => !id.endsWith("-sidebar"));
+    return rootGroupIDs.length === 1;
   }
 }));
 var REFRESH_TIMEOUT = 10;
@@ -29076,6 +29084,7 @@ var NavigationTreeItem = (props) => {
     "is-dragging-over": isOver,
     "is-tab-slot": props.isTabSlot,
     "is-group-slot": props.isGroupSlot,
+    "is-single-group": props.isSingleGroup,
     "is-slot": props.isTabSlot || props.isGroupSlot,
     "is-highlighted": props.isHighlighted
   };
@@ -29827,6 +29836,9 @@ var Group = ({ type, children, group }) => {
   const app = useApp();
   const workspace = app.workspace;
   const isSidebar = type === "left-sidebar" /* LeftSidebar */ || type === "right-sidebar" /* RightSidebar */;
+  const { hasOnlyOneGroup } = useTabCache();
+  const hideSidebars = useSettings((state) => state.hideSidebars);
+  const isSingleGroup = hasOnlyOneGroup() && hideSidebars && !isSidebar && !!group;
   const globalCollpaseState = useViewState(
     (state) => state.globalCollapseState
   );
@@ -29875,7 +29887,8 @@ var Group = ({ type, children, group }) => {
   const props = {
     icon: "right-triangle",
     isCollapsed,
-    isSidebar
+    isSidebar,
+    isSingleGroup
   };
   const toolbar = /* @__PURE__ */ (0, import_jsx_runtime5.jsxs)(import_react10.Fragment, { children: [
     !isSidebar && /* @__PURE__ */ (0, import_jsx_runtime5.jsx)(
@@ -30000,6 +30013,7 @@ async function moveTabToNewGroup(app, sourceID) {
   );
   targetLeaf.setPinned(!!sourceLeaf.getViewState().pinned);
   sourceLeaf.detach();
+  return targetLeaf;
 }
 function selfIsNotInTheSidebar(app) {
   const workspace = app.workspace;
@@ -30041,14 +30055,26 @@ var TabSlot = ({ groupID }) => {
 // src/components/GroupSlot.tsx
 var import_jsx_runtime7 = __toESM(require_jsx_runtime());
 var GroupSlot = () => {
+  const app = useApp();
+  const workspace = app.workspace;
+  const { lockFocusOnLeaf } = useViewState();
+  const createLeafNewGroupAndOpen = async () => {
+    const leaf = workspace.getLeaf(true);
+    const movedLeaf = await moveTabToNewGroup(app, leaf.id);
+    if (!movedLeaf) return;
+    workspace.setActiveLeaf(movedLeaf, { focus: true });
+    workspace.onLayoutChange();
+    lockFocusOnLeaf(app, movedLeaf);
+  };
   return /* @__PURE__ */ (0, import_jsx_runtime7.jsx)(
     NavigationTreeItem,
     {
-      title: "",
-      icon: "",
+      title: "New Group",
+      icon: "plus",
       id: `slot-new`,
       isTab: false,
-      isGroupSlot: true
+      isGroupSlot: true,
+      onClick: createLeafNewGroupAndOpen
     }
   );
 };

@@ -181,9 +181,6 @@
     "Calendar/Tasks/Daily Timeline.md": {
       "icon": "lucide-file-line-chart"
     },
-    "Calendar/Tasks/Overview.md": {
-      "icon": "lucide-book-check"
-    },
     "Efforts": {
       "icon": "lucide-wand-2",
       "unsynced": [
@@ -242,6 +239,9 @@
     },
     "bin/views/Books Cardview.md": {
       "icon": "lucide-book-copy"
+    },
+    "bin/views/Tasks.md": {
+      "icon": "lucide-book-check"
     },
     "x": {
       "icon": "lucide-unlink",

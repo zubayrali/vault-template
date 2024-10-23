@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* src/styles.scss */
 body.vt-show-active-tabs:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs > .workspace-tab-header-container .workspace-tab-header:not(.is-active) {
   display: none;
@@ -71,6 +73,50 @@ body.vt-zen-mode .obsidian-vertical-tabs-container .tree-item.is-group .clickabl
 }
 .mod-macos.is-hidden-frameless:not(.is-popout-window) .workspace .workspace-tabs.vt-mod-top-right-space .workspace-tab-header-container {
   padding-right: 38px;
+}
+.obsidian-vertical-tabs-container .tree-item::before {
+  content: "\200b";
+  height: 4px;
+  width: 100%;
+  display: block;
+  margin-top: -4px;
+  color: transparent;
+  background: transparent;
+}
+.obsidian-vertical-tabs-container.is-dragging-group .tree-item.is-group.is-dragging-over::before,
+.obsidian-vertical-tabs-container.is-dragging-group .tree-item.is-group:has(.is-dragging-over)::before {
+  background: var(--interactive-accent);
+}
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-tab.is-dragging-over::before {
+  background: var(--interactive-accent);
+}
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group.is-dragging-over.is-group-slot {
+  background: hsla(var(--interactive-accent-hsl), 0.2);
+}
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group.is-dragging-over.is-group-slot::before {
+  background: var(--interactive-accent);
+}
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group.is-dragging-over:not(.is-group-slot) .is-tab-slot::before {
+  background: var(--interactive-accent);
+}
+.obsidian-vertical-tabs-container .is-group-slot {
+  border-top: 1px solid var(--background-modifier-border);
+  margin-top: 10px;
+}
+.obsidian-vertical-tabs-container .is-group-slot .tree-item-self {
+  color: hsla(var(--interactive-accent-hsl), 0.5);
+}
+.obsidian-vertical-tabs-container .is-group-slot .tree-item-icon {
+  width: 16px !important;
+  height: 16px !important;
+}
+.obsidian-vertical-tabs-container .tree-item.is-group.is-single-group > .tree-item-self {
+  display: none;
+}
+.obsidian-vertical-tabs-container .tree-item.is-group.is-single-group > .tree-item-children {
+  padding-inline-start: 0;
+  margin-inline-start: 0;
+  border-inline-start: none;
 }
 .vertical-tabs {
   display: flex;
@@ -151,16 +197,6 @@ body.vt-exclude-self .obsidian-vertical-tabs-container .tree-item.is-tab[data-ty
 .workspace-tab-header[data-type=vertical-tabs] {
   display: flex !important;
 }
-.obsidian-vertical-tabs-container.is-dragging-group .tree-item.is-group.is-dragging-over,
-.obsidian-vertical-tabs-container.is-dragging-group .tree-item.is-group:has(.is-dragging-over),
-.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-tab.is-dragging-over,
-.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group.is-group-slot.is-dragging-over {
-  border-top: 5px solid var(--interactive-accent);
-}
-.obsidian-vertical-tabs-container .tree-item {
-  margin-top: -5px;
-  border-top: 5px solid transparent;
-}
 .obsidian-vertical-tabs-container .tree-item.is-dragging-self {
   opacity: 0.5;
 }
@@ -171,14 +207,6 @@ body.vt-exclude-self .obsidian-vertical-tabs-container .tree-item.is-tab[data-ty
 .obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group.is-dragging-over .is-tab-slot,
 .obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group:has(.is-dragging-over) .is-tab-slot {
   display: block;
-}
-.obsidian-vertical-tabs-container .is-group-slot {
-  height: 10px;
-  background: none !important;
-  display: none;
-}
-.obsidian-vertical-tabs-container .is-group-slot * {
-  background: none !important;
 }
 .obsidian-vertical-tabs-container:not(.is-dragging-group) .is-group-slot {
   display: block;

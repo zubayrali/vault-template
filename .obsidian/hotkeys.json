@@ -958,5 +958,23 @@
       ],
       "key": "Z"
     }
+  ],
+  "vertical-tabs:open-vertical-tabs": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "1"
+    }
+  ],
+  "vertical-tabs:toggle-zen-mode": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "2"
+    }
   ]
 }

@@ -1,13 +1,8 @@
 {
   "pluginList": [
-    "soberhacker/obsidian-telegram-sync",
-    "HananoshikaYomaru/obsidian-run",
-    "andrewmcgivery/obsidian-canvas-dailynote",
-    "SebastianMC/obsidian-custom-sort",
     "claremacrae/reveal-active-file-button-plugin",
     "pjeby/hotkey-helper",
     "chasebank87/mesh-ai",
-    "alexandru-dinu/obsidian-sortable",
     "ordidxzero/obsidian-external-favicon"
   ],
   "pluginSubListFrozenVersion": [],
