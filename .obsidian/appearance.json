@@ -1,6 +1,6 @@
 {
   "accentColor": "#b49b6e",
-  "cssTheme": "Fancy-a-Story",
+  "cssTheme": "Border",
   "interfaceFontFamily": "Cascadia Code",
   "textFontFamily": "Cascadia Code",
   "monospaceFontFamily": "Cascadia Mono",
@@ -25,7 +25,7 @@
     "flow",
     "[ui] Statusbar tweaks"
   ],
-  "baseFontSize": 13,
+  "baseFontSize": 17,
   "theme": "obsidian",
   "baseFontSizeAction": true
 }

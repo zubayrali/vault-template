@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2b8453b7efb52877",
+            "id": "2c11cceacc2ca195",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -21,48 +21,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "44cfc38c39d9573f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Something.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3e82e334f054db5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7e9229a16658ec12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +52,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Calendar/2024/Daily/10/2024-10-23.md"
               }
             }
           },
@@ -108,17 +68,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "65f8daa120aa19ac",
-            "type": "leaf",
-            "state": {
-              "type": "vertical-tabs",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "7ec6c24bd7f04474",
@@ -153,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 357
   },
   "right": {
     "id": "14880b82e7514867",
@@ -189,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "README.md"
+                "file": "Calendar/2024/Daily/10/2024-10-23.md"
               }
             }
           },
@@ -238,25 +190,9 @@
               "type": "Strange New Worlds",
               "state": {}
             }
-          },
-          {
-            "id": "a6f3fa89726e3b7e",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "3a760798a7a7f7f2",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       },
       {
         "id": "6417ed4453a03bfb",
@@ -269,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Calendar/2024/Daily/10/2024-10-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -284,12 +220,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 366
   },
   "left-ribbon": {
     "hiddenItems": {
       "mesh-ai:Mesh AI Integration": false,
       "improved-random-note:Open improved random note": false,
+      "obsidian42-brat:BRAT": false,
+      "custom-sort:Toggle custom sorting": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false,
+      "card-library:Card library": false,
+      "open-vscode:VSCode": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "geulo-youtube-liked-video:Activate Liked Video List View": false,
       "periodic-para:LifeOS Creation": false,
@@ -315,32 +259,24 @@
       "callout-manager:Insert Callout": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-omnivore:Omnivore": false,
-      "obsidian42-brat:BRAT": false,
-      "custom-sort:Toggle custom sorting": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "card-library:Card library": false,
-      "open-vscode:VSCode": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false
+      "obsidian-omnivore:Omnivore": false
     }
   },
-  "active": "65f8daa120aa19ac",
+  "active": "2c11cceacc2ca195",
   "lastOpenFiles": [
+    "Calendar/2024/Daily/10/2024-10-20.md",
+    "Calendar/Tasks/Overview.md",
+    "Calendar/2024/Daily/10/2024-10-23.md",
+    "Something.md",
+    "README.md",
     "smart-chats",
     "plugins.md",
     "Cognitive Psychology Terms.md",
-    "Calendar/2024/Daily/10/2024-10-23.md",
     "Calendar/2024/Daily/10/2024-10-22.md",
-    "Something.md",
     "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
     "Efforts/Flow.md",
-    "README.md",
     "Calendar/Logbook.md",
     "Calendar/Calendar.md",
-    "Calendar/Tasks/Overview.md",
-    "Calendar/2024/Daily/10/2024-10-20.md",
     "Heuristics.md",
     "Calendar/2024/Daily/10/2024-10-21.md",
     "bin/assets/Certainty Is an Illusion/baeb479fabc36ec20fa53246d61fa9ed_MD5.jpg",
@@ -373,7 +309,6 @@
     "bin/assets/Chew the Cud",
     "bin/assets/Deep Aliveness — Inner Wilds",
     "Tags",
-    "refType/books",
     "Spaces/Canvas/Wheel of Life.canvas",
     "Spaces/Canvas/Canvas Example.canvas",
     "Spaces/Canvas/My Zettlekasten.canvas",
