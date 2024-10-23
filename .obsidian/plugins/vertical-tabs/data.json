@@ -1,0 +1,9 @@
+{
+  "showActiveTabs": false,
+  "hideSidebars": true,
+  "sidebarTabTypes": [
+    "markdown"
+  ],
+  "sidebarExcludeSelf": true,
+  "zenMode": false
+}

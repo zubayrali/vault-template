@@ -1,0 +1,11 @@
+{
+	"id": "canvas-send-to-back",
+	"name": "Canvas Send to Back",
+	"version": "0.0.4",
+	"minAppVersion": "1.1.0",
+	"description": "Send a card in Obsidian Canvas to be behind all other cards.",
+	"author": "Zachatoo",
+	"authorUrl": "https://zachyoung.dev",
+	"fundingUrl": "https://github.com/sponsors/Zachatoo",
+	"isDesktopOnly": false
+}

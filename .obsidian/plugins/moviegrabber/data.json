@@ -1,0 +1,14 @@
+{
+  "MovieDirectory": "refType/films",
+  "SeriesDirectory": "refType/tv shows",
+  "OMDb_API_Key": "c2203bd8",
+  "YouTube_API_Key": "",
+  "SwitchToCreatedNote": true,
+  "MovieTemplatePath": "bin/templates/new moviegrabber movie.md",
+  "SeriesTemplatePath": "bin/templates/new moviegrabber movie.md",
+  "PlotLength": "full",
+  "FilenameTemplateMovie": "{{Title}}",
+  "FilenameTemplateSeries": "{{Title}}",
+  "enablePosterImageSave": false,
+  "posterImagePath": "bin/assets"
+}

@@ -1,0 +1,10 @@
+{
+	"id": "cursor-jump",
+	"name": "Cursor Jump",
+	"version": "0.1.9",
+	"minAppVersion": "1.4.11",
+	"description": "Quickly jump between list items and headings throughout same or upper/lower level",
+	"author": "Sangwon Jung",
+	"authorUrl": "https://github.com/LifeFi",
+	"isDesktopOnly": false
+}

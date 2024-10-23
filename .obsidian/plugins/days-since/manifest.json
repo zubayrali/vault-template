@@ -1,0 +1,10 @@
+{
+  "id": "days-since",
+  "name": "Days Since",
+  "version": "2.0.3",
+  "minAppVersion": "0.15.0",
+  "description": "A plugin to show the number of days since a given date.",
+  "author": "gndclouds",
+  "authorUrl": "https://gndclouds.earth",
+  "isDesktopOnly": false
+}

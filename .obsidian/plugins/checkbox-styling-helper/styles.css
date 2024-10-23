@@ -1,0 +1,76 @@
+/* styles.css */
+.icon-picker {
+	position: absolute;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	padding: 10px;
+	z-index: 1000; /* Ensure it appears above other content */
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 4px;
+}
+
+/* For dark mode */
+@media (prefers-color-scheme: dark) {
+	.icon-picker {
+		background-color: #222;
+		border-color: #444;
+		color: #ddd; /* Default text color */
+		box-shadow: 0 2px 10px rgba(255, 255, 255, 0.01);
+	}
+
+	.selected {
+		background-color: #555;
+	}
+}
+
+.icon-option {
+	cursor: pointer;
+	padding: 4px 6px; /* Add padding for better appearance */
+	border-radius: 5px;
+	min-width: 116px;
+}
+
+.setting-icon-option {
+	padding: 4px 6px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	min-width: 116px;
+	max-width: 120px;
+	text-align: center;
+	cursor: grab;
+	transition: background-color 0.1s ease-in, background-color 0.5s ease-out;
+}
+
+.setting-icon-option .icon {
+	margin-right: 6px;
+}
+
+.icon-option .icon {
+	margin-right: 10px;
+}
+
+.selected {
+	background-color: #f0f0f0;
+}
+
+/* For dark mode */
+@media (prefers-color-scheme: dark) {
+	.selected {
+		background-color: #555;
+	}
+}
+
+.setting-icon-grid {
+	display: grid;
+	align-items: self-end;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 6px;
+	width: 90%;
+}
+
+.icon-option.hovered {
+	background-color: #f0f0f0;
+}

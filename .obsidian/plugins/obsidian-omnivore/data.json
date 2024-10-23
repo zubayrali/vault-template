@@ -1,0 +1,34 @@
+{
+  "dateHighlightedFormat": "yyyy-MM-dd HH:mm:ss",
+  "dateSavedFormat": "yyyy-MM-dd HH:mm:ss",
+  "apiKey": "78fc52e8-dc4c-442b-a9d8-298f0006e8e1",
+  "filter": "HIGHLIGHTS",
+  "syncAt": "2024-10-22T18:38:11",
+  "customQuery": "in:all has:highlights",
+  "template": "# {{{title}}}\n\n{{#content}}\n{{{content}}}\n{{/content}}\n\n{{#highlights.length}}\n\n## Highlights\n\n{{#highlights}}\nhighlight:: {{{text}}} [⤴️]({{{highlightUrl}}}) #highlight\n{{#note}}\nnote:: {{{note}}}\n{{/note}}\n\n{{/highlights}}\n{{/highlights.length}}\n\n---\n\n{{#fileAttachment}}\n\n## File Attachment:\n\n![Attachment]({{{fileAttachment}}})\n{{/fileAttachment}}\n\n[View in Omnivore]({{{omnivoreUrl}}})\n",
+  "highlightOrder": "LOCATION",
+  "syncing": false,
+  "folder": "zFlow/Sources/Articles",
+  "folderDateFormat": "YYYY-MM-DD",
+  "endpoint": "https://api-prod.omnivore.app/api/graphql",
+  "filename": "{{{title}}}",
+  "filenameDateFormat": "YYYY-MM-DD",
+  "attachmentFolder": "bin/assets",
+  "version": "1.10.4",
+  "isSingleFile": false,
+  "frequency": 0,
+  "intervalId": 0,
+  "frontMatterVariables": [
+    "date_saved::id"
+  ],
+  "frontMatterTemplate": "id: {{id}}\nfileClass: Omnivore\ntitle: \"{{title}} {{#siteName}}- {{{siteName}}}{{/siteName}}{{^siteName}}Unknown Source{{/siteName}}\"\n{{#author.length}}\nauthor: \n  {{#author}} \n    - \"{{author}}\"\n  {{/author}}\n{{/author.length}}\ndate_saved: {{#dateSaved}}{{{dateSaved}}}{{/dateSaved}}{{^dateSaved}}null{{/dateSaved}}\ndate_published: {{#datePublished}}{{{datePublished}}}{{/datePublished}}{{^datePublished}}null{{/datePublished}}\nurl: \"{{{originalUrl}}}\"\nomnivore_url: \"{{{omnivoreUrl}}}\"\nsite_name: \"{{#siteName}}{{{siteName}}}{{/siteName}}{{^siteName}}Unknown Source{{/siteName}}\"\nstatus: \"{{#labels}}{{#name}}{{name}}{{/name}}{{/labels}}{{^labels}}Unknown{{/labels}}\"\ntags:\n  - highlights\n  - source/article",
+  "syncOnStart": true,
+  "enableHighlightColorRender": false,
+  "highlightManagerId": "omni",
+  "highlightColorMapping": {
+    "yellow": "#fff3a3",
+    "red": "#ff5582",
+    "blue": "#adccff",
+    "green": "#bbfabb"
+  }
+}

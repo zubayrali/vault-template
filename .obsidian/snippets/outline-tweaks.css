@@ -1,0 +1,25 @@
+/* Source: https://forum.obsidian.md/t/meta-post-common-css-hacks/1978/357 */
+/* Original was a lot larger with a lot of padding margin changes */
+
+/* set everything to a lighter/less visible state */
+[data-type="outline"] {
+    font-weight: 300; 
+}
+
+/* add emphasis for anything that has subsections */
+[data-type="outline"] .collapse-icon + .tree-item-inner {
+    font-weight: 500;
+    color: var(--text-normal);
+}
+
+/* add a pale background for anything that is top level */
+[data-type="outline"] > .view-content > div > .tree-item > .tree-item-self {
+    background-color: var(--ui1);
+}
+
+/* turn the active heading (at whatever leve) to the accent color */
+[data-type="outline"] .tree-item-self.is-active  .tree-item-inner {
+    color: var(--text-accent);
+    font-weight: 500;
+}
+

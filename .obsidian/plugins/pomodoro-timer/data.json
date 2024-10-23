@@ -1,0 +1,19 @@
+{
+  "workLen": 25,
+  "breakLen": 5,
+  "autostart": true,
+  "useStatusBarTimer": true,
+  "notificationSound": true,
+  "customSound": "",
+  "showTaskProgress": true,
+  "enableTaskTracking": false,
+  "logFile": "FILE",
+  "logFocused": true,
+  "logPath": "unsorted/pomodoro_log",
+  "logLevel": "ALL",
+  "logTemplate": "<%*\nif (typeof log !== \"undefined\") {\n  if (log.mode == \"WORK\") {\n    if (!log.finished) {\n      tR = `🟡 Focused ${log.task.name} ${log.duration} / ${log.session} minutes`;\n    } else {\n      tR = `🍅 Focused ${log.task.name} ${log.duration} minutes`;\n    }\n  } else {\n    tR = `☕️ Took a break from ${log.begin.format(\"HH:mm\")} to ${log.end.format(\"HH:mm\")}`;\n  }\n} else {\n  tR = `Log data is not available. Ensure the Pomodoro session is active and logging.`;\n}\n%>",
+  "logFormat": "CUSTOM",
+  "useSystemNotification": true,
+  "taskFormat": "TASKS",
+  "lowFps": true
+}

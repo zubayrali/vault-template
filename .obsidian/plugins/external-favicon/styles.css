@@ -1,0 +1,44 @@
+.__external-favicon__container {
+  padding: 1px;
+  padding-left: 4px;
+  padding-right: 8px;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #363636;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #dadada;
+}
+
+.__external-favicon__container:hover {
+  color: #dadada;
+  text-decoration: none;
+  background-color: #464646;
+}
+
+.__external-favicon__text {
+  /*  */
+}
+
+.__external-favicon__img-container {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.__external-favicon__img {
+  width: 16px;
+  height: 16px;
+  object-fit: cover;
+}
+
+.cm-url .external-link {
+  display: none !important;
+}

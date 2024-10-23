@@ -1,0 +1,35 @@
+/* Custom CSS for inline buttons in the Multi Column layout */
+
+/* Ensure buttons are displayed inline and are not spaced out too much */
+.inline-button-left, .inline-button-center, .inline-button-right {
+    display: inline-flex; /* Inline flexbox layout */
+    align-items: center;  /* Align content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 5px 15px; /* Adjust button padding */
+    margin: 0 5px; /* Adjust margin to reduce space between buttons */
+    border-radius: 4px; /* Rounded corners */
+    background-color: var(--interactive-primary); /* Primary button color */
+    color: var(--text-normal); /* Button text color */
+    text-align: center;
+}
+
+/* Hover effect for buttons */
+.inline-button-left:hover, .inline-button-center:hover, .inline-button-right:hover {
+    background-color: var(--interactive-hover); /* Button hover color */
+}
+
+/* Flex settings to avoid excessive flexing */
+.callout[data-callout="multi-column"] .inline-button-left,
+.callout[data-callout="multi-column"] .inline-button-center,
+.callout[data-callout="multi-column"] .inline-button-right {
+    flex-grow: 0; /* Prevent buttons from growing */
+    flex-shrink: 0; /* Prevent buttons from shrinking */
+    width: auto; /* Ensure buttons take only the necessary space */
+}
+
+/* Center the group of buttons within the multi-column layout */
+.callout[data-callout="multi-column"] .callout-content {
+    display: flex;
+    justify-content: center; /* Center the group of buttons as a whole */
+    align-items: center;
+}

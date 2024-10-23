@@ -1,0 +1,154 @@
+{
+  "presetFields": [
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {},
+      "name": "up",
+      "id": "H4yurc",
+      "path": "",
+      "display": "asList"
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {},
+      "name": "down",
+      "id": "RNun1r",
+      "path": "",
+      "display": "asList"
+    },
+    {
+      "type": "DateTime",
+      "tagName": "date",
+      "icon": "calendar-clock",
+      "tooltip": "Accepts a date with time",
+      "colorClass": "date",
+      "options": {
+        "dateShiftInterval": "1 day",
+        "dateFormat": "YYYY-MM-DD HH:mm",
+        "defaultInsertAsLink": false,
+        "linkPath": ""
+      },
+      "name": "updated",
+      "id": "W5gSCo",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {},
+      "name": "prev",
+      "id": "Xw3Zao",
+      "path": "",
+      "display": "asList"
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "Accepts multiple values from a list",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "aliases",
+      "id": "a3rLzq",
+      "path": ""
+    },
+    {
+      "type": "MultiFile",
+      "tagName": "file",
+      "icon": "link",
+      "tooltip": "Accepts multiple internal links",
+      "colorClass": "file",
+      "options": {},
+      "name": "related",
+      "id": "fjrzPF",
+      "path": "",
+      "display": "asList"
+    },
+    {
+      "type": "Input",
+      "tagName": "single",
+      "icon": "pencil",
+      "tooltip": "Accepts any value",
+      "colorClass": "single",
+      "options": {},
+      "name": "title",
+      "id": "mzR3yT",
+      "path": ""
+    },
+    {
+      "type": "DateTime",
+      "tagName": "date",
+      "icon": "calendar-clock",
+      "tooltip": "Accepts a date with time",
+      "colorClass": "date",
+      "options": {
+        "dateShiftInterval": "1 day",
+        "dateFormat": "YYYY-MM-DD HH:mm",
+        "defaultInsertAsLink": false,
+        "linkPath": ""
+      },
+      "name": "created",
+      "id": "nxyP3S",
+      "path": ""
+    },
+    {
+      "type": "Multi",
+      "tagName": "multi",
+      "icon": "bullet-list",
+      "tooltip": "Accepts multiple values from a list",
+      "colorClass": "multi",
+      "options": {
+        "sourceType": "ValuesList",
+        "valuesList": {}
+      },
+      "name": "cssclasses",
+      "id": "zdBUFP",
+      "path": ""
+    }
+  ],
+  "fileClassQueries": [],
+  "displayFieldsInContextMenu": true,
+  "globallyIgnoredFields": [],
+  "classFilesPath": "bin/classes/",
+  "isAutosuggestEnabled": true,
+  "fileClassAlias": "fileClass",
+  "settingsVersion": "5.14",
+  "firstDayOfWeek": 1,
+  "enableLinks": false,
+  "enableTabHeader": false,
+  "enableEditor": false,
+  "enableBacklinks": false,
+  "enableStarred": true,
+  "enableFileExplorer": true,
+  "enableSearch": false,
+  "enableProperties": true,
+  "tableViewMaxRecords": 40,
+  "frontmatterListDisplay": "asArray",
+  "fileClassExcludedFolders": [],
+  "showIndexingStatusInStatusBar": true,
+  "fileIndexingExcludedFolders": [],
+  "fileIndexingExcludedExtensions": [
+    ".excalidraw.md"
+  ],
+  "fileIndexingExcludedRegex": [],
+  "frontmatterOnly": false,
+  "showFileClassSelectInModal": true,
+  "chooseFileClassAtFileCreation": false,
+  "autoInsertFieldsAtFileClassInsertion": true,
+  "fileClassIcon": "package",
+  "isAutoCalculationEnabled": true
+}

@@ -1,0 +1,25 @@
+/* Background for the column callout */
+.callout[data-callout="column"] {
+  background: transparent;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Flexbox layout for horizontal alignment */
+.callout[data-callout="column"] .callout-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centers the buttons */
+  align-items: center;
+  gap: 20px; /* Controls the spacing between buttons */
+}
+
+/* Remove excessive flexing of the buttons */
+.callout[data-callout="column"] .mb-button {
+  width: auto; /* Removes the full-width behavior */
+}
+
+.callout[data-callout="column"] .mb-button-inner {
+  width: auto; /* Ensures buttons don't stretch excessively */
+  text-align: center;
+}

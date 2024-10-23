@@ -1,0 +1,100 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:zFlow/Sources/People  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Calendar  ",
+      "color": {
+        "a": 1,
+        "rgb": 12247122
+      }
+    },
+    {
+      "query": "path:Efforts  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:Efforts/Initiatives  ",
+      "color": {
+        "a": 1,
+        "rgb": 10283164
+      }
+    },
+    {
+      "query": "tag:#type/moc  ",
+      "color": {
+        "a": 1,
+        "rgb": 13861430
+      }
+    },
+    {
+      "query": "tag:#devlog",
+      "color": {
+        "a": 1,
+        "rgb": 10395294
+      }
+    },
+    {
+      "query": "tag:#type/person",
+      "color": {
+        "a": 1,
+        "rgb": 12539466
+      }
+    },
+    {
+      "query": "tag:#type/incubating",
+      "color": {
+        "a": 1,
+        "rgb": 15130664
+      }
+    },
+    {
+      "query": "tag:#type/fleeting ",
+      "color": {
+        "a": 1,
+        "rgb": 5407200
+      }
+    },
+    {
+      "query": "tag:#genAI/claude  ",
+      "color": {
+        "a": 1,
+        "rgb": 8147680
+      }
+    },
+    {
+      "query": "tag:#source/quote  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701195
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.38230109687701697,
+  "close": true
+}

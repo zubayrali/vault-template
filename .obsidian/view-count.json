@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "path": "Home.canvas",
+      "uniqueDaysOpened": 1,
+      "totalTimesOpened": 3,
+      "openLogs": [
+        {
+          "timestampMillis": 1726994993513
+        },
+        {
+          "timestampMillis": 1726994995051
+        },
+        {
+          "timestampMillis": 1727016899011
+        }
+      ]
+    }
+  ]
+}

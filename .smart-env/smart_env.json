@@ -1,0 +1,15 @@
+{
+  "is_obsidian_vault": true,
+  "smart_blocks": {
+    "embed_blocks": true
+  },
+  "smart_sources": {
+    "embed_model": {
+      "model_key": "TaylorAI/bge-micro-v2",
+      "legacy_transformers": true
+    }
+  },
+  "file_exclusions": "Untitled",
+  "folder_exclusions": "smart-chats",
+  "smart_chats_folder": "smart-chats"
+}

@@ -1,0 +1,105 @@
+div[data-type*="alias-management_"] .view-content {
+    padding: 7px;
+}
+
+div[class*="alias-management_"] ul {
+    margin-top: 0px;
+    padding-left: 30px;
+}
+
+div[class*="alias-management_"] li {
+    padding-top: 1px !important;
+    padding-left: 10px !important;
+}
+
+div[class*="alias-management_"] ul li::marker {
+    color: #808080;
+}
+
+div[class*="alias-management_"] li.alias::marker,
+div[class*="alias-management_"] .alias summary::marker {
+    color: #ffa07a !important;
+}
+
+div[class*="alias-management_"] li.fname::marker,
+div[class*="alias-management_"] .fname summary::marker {
+    color: red !important;
+}
+
+div[class*="alias-management_"] a:hover {
+    color: rgb(229 57 46);
+}
+
+div[class*="alias-management_"] summary::marker {
+    color: rgb(171, 171, 171) !important;
+    font-size: 0.8em !important;
+}
+
+div[class*="alias-management_"] summary a {
+    margin-left: 1px;
+}
+
+div[class*="alias-management_"] summary {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+div[class*="alias-management_"] summary::-webkit-details-marker {
+    display: inline-block;
+    margin-right: 5px;
+    /* Adjust as needed */
+}
+
+div[class*="alias-management_"] hr {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    border-color: #BBB;
+}
+
+div[class*="alias-management_"] .heading-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+div[class*="alias-management_"] .heading-wrapper h4 {
+    margin: 0;
+}
+
+div[class*="alias-management_"] .heading-wrapper button {
+    margin-left: auto;
+    height: 2em;
+}
+
+div[class*="alias-management_"] .text-center {
+    text-align: center;
+}
+
+div[class*="alias-management_"] .marginleft2em {
+    margin-left: 2em;
+}
+
+div[class*="alias-management_"] input[type=text],
+div[class*="alias-management_"] textarea {
+    font-family: Consolas, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+    width: 25em;
+}
+
+div[class*="alias-management_"] textarea {
+    height: 100px;
+}
+
+div[class*="alias-management_"] .header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+div[class*="alias-management"] div.setting-item-heading {
+    padding: 0.75em 0;
+}
+
+.alias-management_highlight {
+    background-color: lightgoldenrodyellow;
+}

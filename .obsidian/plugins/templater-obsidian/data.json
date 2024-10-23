@@ -1,0 +1,48 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "bin/templates",
+  "templates_pairs": [
+    [
+      "git_commit",
+      "git commit -m \"$message\""
+    ],
+    [
+      "git_add",
+      "git add \"$file\""
+    ],
+    [
+      "ls",
+      "ls"
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": true,
+  "shell_path": "",
+  "user_scripts_folder": "bin/scripts",
+  "enable_folder_templates": false,
+  "folder_templates": [
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": true,
+  "enabled_templates_hotkeys": [
+    "bin/templates/Initiative Templater.md",
+    "bin/templates/Effort Templater.md",
+    "bin/templates/Note Templater.md"
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": false
+}

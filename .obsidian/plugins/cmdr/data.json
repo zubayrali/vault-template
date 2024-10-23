@@ -1,0 +1,117 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": false,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "workspace:toggle-stacked-tabs",
+      "icon": "lucide-layers",
+      "name": "Toggle stacked tabs",
+      "mode": "any"
+    },
+    {
+      "id": "editor:toggle-source",
+      "icon": "lucide-code-2",
+      "name": "Toggle Live Preview/Source mode",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:edit-file-title",
+      "icon": "lucide-edit-3",
+      "name": "Rename file",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:move-file",
+      "icon": "lucide-folder-tree",
+      "name": "Move current file to another folder",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "Toggle pin",
+      "mode": "any"
+    },
+    {
+      "id": "metadata-menu:field_options",
+      "icon": "gear",
+      "name": "Metadata Menu: Fields options",
+      "mode": "any"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "lifeos-pro:periodic-para-create-daily-note"
+        },
+        {
+          "action": 1,
+          "delay": "1150"
+        },
+        {
+          "action": 0,
+          "commandId": "journals:journal:calendar:open-day"
+        }
+      ],
+      "name": "Daily Note",
+      "icon": "calendar",
+      "startup": true
+    }
+  ],
+  "explorer": [],
+  "hide": {
+    "statusbar": [
+      "obsidian-wakatime",
+      "privacy-glasses",
+      "keyboard-analyzer",
+      "auto-note-mover",
+      "obsidian-git",
+      "obsidian-languagetool-plugin",
+      "properties",
+      "better-word-count",
+      "copilot-auto-completion",
+      "spotify-link",
+      "pane-relief",
+      "mysnippets-plugin",
+      "editor-status",
+      "js-engine",
+      "custom-sort",
+      "metadata-menu",
+      "backlink",
+      "sync",
+      "aw-watcher-obsidian",
+      "pomodoro-timer",
+      "super-duper-audio-recorder",
+      "telegram-sync"
+    ],
+    "leftRibbon": [
+      "Reveal non-private",
+      "Sync your hypothesis highlights",
+      "Chatbot (Clear Conversation)",
+      "Copilot Chat",
+      "Omnivore",
+      "Pending Notes",
+      "Templater"
+    ]
+  },
+  "spacing": "15",
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": true,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

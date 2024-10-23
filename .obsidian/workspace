@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "b552d32eb25ff800",
+    "type": "split",
+    "children": [
+      {
+        "id": "c990d39047bc5115",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "devlog.ServiceNow.Workflows.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ce105a4633e63778",
+    "type": "split",
+    "children": [
+      {
+        "id": "3932f2b4f4b27a37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c61f0372f3c3ce8b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "line:(2022-10-09)",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "27fcea45736dfbac",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 245,
+    "collapsed": true
+  },
+  "right": {
+    "id": "340adbf4124eab23",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc9ee97dad55ccf5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "650efcc91c889465",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "85ff58cdfc2adc00",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "devlog.ServiceNow.Workflows.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f5cfebee0aafc6ff",
+            "type": "leaf",
+            "state": {
+              "type": "podcast_player_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "31c5a84892451b34",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "7c28669d967432a2",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
+          },
+          {
+            "id": "fe8fb448875616ee",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b845ec5da512957d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "81fadf13f682854c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "devlog.ServiceNow.Workflows.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "53bf61754253b6a0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b559c2dac4d0a896",
+            "type": "leaf",
+            "state": {
+              "type": "example-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 281.5
+  },
+  "active": "c990d39047bc5115",
+  "lastOpenFiles": [
+    "devlog.IdentityNow.md",
+    "devlog.ServiceNow.md",
+    "devlog.git.md",
+    "devlog.Git.md",
+    "devlog.ServiceNow.Workflows.md",
+    "devlog.ServiceNow.Notifications.md",
+    "devlog.ServiceNow.System Security.md",
+    "devlog.ServiceNow.System Diagnostics.md",
+    "devlog.ServiceNow.Mobile.md",
+    "devlog.ServiceNow.Self-Service.md"
+  ]
+}

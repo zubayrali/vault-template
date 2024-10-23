@@ -1,0 +1,6 @@
+{
+  "template": "bin/templates/new daily note",
+  "folder": "journals",
+  "format": "YYYY-MM-DD",
+  "autorun": false
+}

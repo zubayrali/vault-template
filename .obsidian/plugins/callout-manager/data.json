@@ -1,0 +1,1064 @@
+{
+  "callouts": {
+    "custom": [
+      "book",
+      "meta",
+      "map",
+      "video",
+      "inbox",
+      "script",
+      "mail",
+      "search",
+      "energy",
+      "increase",
+      "on",
+      "work",
+      "focus",
+      "current",
+      "continue",
+      "pause",
+      "thanks",
+      "trophy",
+      "basket",
+      "fingerprint",
+      "sprout",
+      "cloud",
+      "clip",
+      "sailboat",
+      "ghost",
+      "day",
+      "year",
+      "week",
+      "archive",
+      "sunrise",
+      "link",
+      "sticky",
+      "synth",
+      "eye",
+      "podcast",
+      "colors",
+      "money",
+      "code",
+      "citation",
+      "network",
+      "brain",
+      "notebox",
+      "wave",
+      "training",
+      "hammer",
+      "click",
+      "date",
+      "explore",
+      "go",
+      "capacities-body",
+      "circle-scale",
+      "motivation",
+      "power",
+      "net",
+      "seed",
+      "seedling",
+      "solo",
+      "one",
+      "audio",
+      "strong",
+      "tools"
+    ],
+    "settings": {
+      "date": [
+        {
+          "changes": {
+            "icon": "calendar-week",
+            "color": "255, 153, 0"
+          }
+        }
+      ],
+      "info": [
+        {
+          "changes": {}
+        }
+      ],
+      "success": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "book": [
+        {
+          "changes": {
+            "icon": "lucide-book"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "222, 116, 23"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "250, 179, 135"
+          }
+        }
+      ],
+      "meta": [
+        {
+          "changes": {
+            "icon": "lucide-database",
+            "color": "112, 128, 144"
+          }
+        }
+      ],
+      "map": [
+        {
+          "changes": {
+            "icon": "lucide-map"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "video": [
+        {
+          "changes": {
+            "icon": "lucide-youtube",
+            "color": "220, 20, 60"
+          }
+        }
+      ],
+      "inbox": [
+        {
+          "changes": {
+            "icon": "lucide-inbox"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "222, 116, 23"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "250, 179, 135"
+          }
+        }
+      ],
+      "script": [
+        {
+          "changes": {
+            "icon": "lucide-scroll-text"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "70, 200, 251"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "135, 206, 235"
+          }
+        }
+      ],
+      "mail": [
+        {
+          "changes": {
+            "icon": "lucide-mail",
+            "color": "112, 128, 144"
+          }
+        }
+      ],
+      "explore": [
+        {
+          "changes": {
+            "icon": "lucide-search"
+          }
+        }
+      ],
+      "search": [
+        {
+          "changes": {
+            "icon": "lucide-search"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "70, 200, 251"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "135, 206, 235"
+          }
+        }
+      ],
+      "energy": [
+        {
+          "changes": {
+            "icon": "lucide-battery-charging"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "70, 200, 251"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "135, 206, 235"
+          }
+        }
+      ],
+      "caution": [
+        {
+          "changes": {}
+        }
+      ],
+      "increase": [
+        {
+          "changes": {
+            "icon": "lucide-line-chart"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "work": [
+        {
+          "changes": {
+            "icon": "lucide-pyramid",
+            "color": "112, 128, 144"
+          }
+        }
+      ],
+      "go": [
+        {
+          "changes": {
+            "icon": "lucide-power-circle"
+          }
+        }
+      ],
+      "on": [
+        {
+          "changes": {
+            "icon": "lucide-power-circle"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "focus": [
+        {
+          "changes": {
+            "icon": "lucide-crosshair"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "quote": [
+        {
+          "changes": {
+            "color": "112, 128, 144"
+          }
+        }
+      ],
+      "cite": [
+        {
+          "changes": {
+            "color": "112, 128, 144"
+          }
+        }
+      ],
+      "capacities-body": [
+        {
+          "changes": {}
+        }
+      ],
+      "example": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "70, 200, 251"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "135, 206, 235"
+          }
+        }
+      ],
+      "important": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "70, 200, 251"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "135, 206, 235"
+          }
+        }
+      ],
+      "done": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "check": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "circle-scale": [
+        {
+          "changes": {
+            "icon": "lucide-circle-dot"
+          }
+        }
+      ],
+      "current": [
+        {
+          "changes": {
+            "icon": "lucide-circle-dot"
+          }
+        }
+      ],
+      "continue": [
+        {
+          "changes": {
+            "icon": "lucide-circle-ellipsis",
+            "color": "186, 85, 211"
+          }
+        }
+      ],
+      "pause": [
+        {
+          "changes": {
+            "icon": "paused",
+            "color": "220, 20, 60"
+          }
+        }
+      ],
+      "thanks": [
+        {
+          "changes": {
+            "icon": "lucide-heart-handshake",
+            "color": "186, 85, 211"
+          }
+        }
+      ],
+      "motivation": [
+        {
+          "changes": {
+            "icon": "lucide-inbox"
+          }
+        }
+      ],
+      "power": [
+        {
+          "changes": {
+            "icon": "lucide-power"
+          }
+        }
+      ],
+      "trophy": [
+        {
+          "changes": {
+            "icon": "lucide-trophy"
+          }
+        }
+      ],
+      "net": [
+        {
+          "changes": {
+            "icon": "lucide-shopping-basket"
+          }
+        }
+      ],
+      "basket": [
+        {
+          "changes": {
+            "icon": "lucide-shopping-basket",
+            "color": "186, 85, 211"
+          }
+        }
+      ],
+      "fingerprint": [
+        {
+          "changes": {
+            "icon": "lucide-fingerprint"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "211, 116, 23"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "250, 179, 135"
+          }
+        }
+      ],
+      "seed": [
+        {
+          "changes": {
+            "icon": "lucide-sprout"
+          }
+        }
+      ],
+      "sprout": [
+        {
+          "changes": {
+            "icon": "lucide-sprout"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "cloud": [
+        {
+          "changes": {
+            "icon": "lucide-cloud"
+          }
+        }
+      ],
+      "clip": [
+        {
+          "changes": {
+            "icon": "lucide-instagram"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "222, 116, 23"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "250, 179, 135"
+          }
+        }
+      ],
+      "seedling": [
+        {
+          "changes": {
+            "color": "9, 251, 153"
+          }
+        }
+      ],
+      "sailboat": [
+        {
+          "changes": {
+            "icon": "lucide-sailboat"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "70, 200, 251"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "135, 206, 235"
+          }
+        }
+      ],
+      "solo": [
+        {
+          "changes": {
+            "icon": "lucide-ghost"
+          }
+        }
+      ],
+      "ghost": [
+        {
+          "changes": {
+            "icon": "lucide-ghost"
+          }
+        }
+      ],
+      "day": [
+        {
+          "changes": {
+            "icon": "calendar-day"
+          }
+        }
+      ],
+      "year": [
+        {
+          "changes": {
+            "icon": "calendar-year"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "240, 183, 25"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "227, 235, 139"
+          }
+        }
+      ],
+      "week": [
+        {
+          "changes": {
+            "icon": "calendar-week"
+          }
+        }
+      ],
+      "archive": [
+        {
+          "changes": {
+            "icon": "lucide-archive",
+            "color": "112, 128, 144"
+          }
+        }
+      ],
+      "sunrise": [
+        {
+          "changes": {
+            "icon": "lucide-sunrise"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "240, 183, 25"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "227, 235, 139"
+          }
+        }
+      ],
+      "link": [
+        {
+          "changes": {
+            "icon": "link"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "240, 183, 25"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "227, 235, 139"
+          }
+        }
+      ],
+      "sticky": [
+        {
+          "changes": {
+            "icon": "lucide-sticky-note",
+            "color": "220, 20, 60"
+          }
+        }
+      ],
+      "synth": [
+        {
+          "changes": {
+            "icon": "lucide-repeat-2"
+          }
+        }
+      ],
+      "one": [
+        {
+          "changes": {
+            "color": "250, 179, 135"
+          }
+        }
+      ],
+      "eye": [
+        {
+          "changes": {
+            "icon": "lucide-eye"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "240, 183, 25"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "227, 235, 139"
+          }
+        }
+      ],
+      "audio": [
+        {
+          "changes": {
+            "icon": "lucide-podcast"
+          }
+        }
+      ],
+      "podcast": [
+        {
+          "changes": {
+            "icon": "lucide-podcast"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "240, 183, 25"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "227, 238, 139"
+          }
+        }
+      ],
+      "strong": [
+        {
+          "changes": {
+            "color": "250, 179, 135"
+          }
+        }
+      ],
+      "colors": [
+        {
+          "changes": {
+            "icon": "lucide-paintbrush"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "222, 116, 23"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "250, 179, 135"
+          }
+        }
+      ],
+      "money": [
+        {
+          "changes": {
+            "icon": "lucide-circle-dollar-sign"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "0, 100, 0"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "152, 251, 152"
+          }
+        }
+      ],
+      "code": [
+        {
+          "changes": {
+            "icon": "lucide-code-2",
+            "color": "186, 85, 211"
+          }
+        }
+      ],
+      "citation": [
+        {
+          "changes": {
+            "icon": "lucide-book-marked",
+            "color": "112, 128, 144"
+          }
+        }
+      ],
+      "network": [
+        {
+          "changes": {
+            "icon": "lucide-network",
+            "color": "220, 20, 60"
+          }
+        }
+      ],
+      "note": [
+        {
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "227, 235, 139"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "240, 183, 16"
+          }
+        }
+      ],
+      "brain": [
+        {
+          "changes": {
+            "icon": "lucide-brain"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "70, 184, 252"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "135, 206, 235"
+          }
+        }
+      ],
+      "notebox": [
+        {
+          "changes": {
+            "icon": "lucide-archive"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "240, 183, 25"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "227, 235, 139"
+          }
+        }
+      ],
+      "wave": [
+        {
+          "changes": {
+            "icon": "lucide-waves"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "70, 200, 251"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "135, 206, 235"
+          }
+        }
+      ],
+      "training": [
+        {
+          "changes": {
+            "icon": "lucide-dumbbell",
+            "color": "220, 20, 60"
+          }
+        }
+      ],
+      "tools": [
+        {
+          "changes": {
+            "icon": "lucide-hammer"
+          }
+        }
+      ],
+      "hammer": [
+        {
+          "changes": {
+            "icon": "lucide-hammer"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "182,196,182"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "182,196,182"
+          }
+        }
+      ],
+      "click": [
+        {
+          "changes": {
+            "icon": "lucide-mouse-pointer-click"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "222, 116, 23"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "250, 179, 135"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

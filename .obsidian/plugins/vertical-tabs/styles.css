@@ -1,0 +1,199 @@
+/* src/styles.scss */
+body.vt-show-active-tabs:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs > .workspace-tab-header-container .workspace-tab-header:not(.is-active) {
+  display: none;
+}
+body.vt-show-active-tabs:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs > .workspace-tab-header-container .workspace-tab-header.is-active {
+  max-width: unset;
+  width: unset;
+}
+body:not(.vt-zen-mode) .workspace-split.mod-root .workspace-tabs.is-hidden {
+  display: none;
+}
+body:not(.vt-zen-mode) .workspace-split.mod-root .workspace-split {
+  display: none;
+}
+body:not(.vt-zen-mode) .workspace-split.mod-root .workspace-split:has(.workspace-tabs:not(.is-hidden)) {
+  display: flex;
+}
+body.vt-zen-mode:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs:not(.mod-active),
+body.vt-zen-mode:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs:not(.vt-mod-active) {
+  display: none;
+  flex-basis: unset;
+}
+body.vt-zen-mode:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs.mod-active,
+body.vt-zen-mode:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs.vt-mod-active {
+  display: flex;
+  flex-basis: 100%;
+}
+body.vt-zen-mode:not(.is-popout-window) .workspace-split.mod-root .workspace-split:has(.workspace-tabs.mod-active),
+body.vt-zen-mode:not(.is-popout-window) .workspace-split.mod-root .workspace-split:has(.workspace-tabs.vt-mod-active) {
+  flex-basis: 100%;
+}
+body.vt-zen-mode:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs > .workspace-tab-header-container .workspace-tab-header:not(.is-active) {
+  display: none;
+}
+body.vt-zen-mode:not(.is-popout-window) .workspace-split.mod-root .workspace-tabs > .workspace-tab-header-container .workspace-tab-header.is-active {
+  max-width: unset;
+  width: unset;
+}
+body.vt-zen-mode {
+  --tab-stacked-pane-width: 100%;
+}
+body.vt-zen-mode .obsidian-vertical-tabs-container .tree-item.is-group .clickable-icon.action-button.action-eye-off {
+  display: none;
+}
+.obsidian-vertical-tabs-container .tree-item.is-tab.is-highlighted .tree-item-self {
+  background-color: var(--background-modifier-active-hover);
+}
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.vt-mod-top-left-space .workspace-tab-header-container {
+  padding-left: calc(var(--size-4-2) + var(--frame-left-space));
+}
+.is-hidden-frameless:not(.is-fullscreen) .workspace-tabs.vt-mod-top-right-space .workspace-tab-header-container {
+  padding-right: calc(var(--size-4-2) + var(--frame-right-space));
+}
+.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos) .workspace-tabs.vt-mod-top-left-space .workspace-tab-header-container:before {
+  -webkit-app-region: no-drag;
+  content: "";
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: var(--frame-left-space);
+}
+.is-hidden-frameless:not(.is-fullscreen):not(.mod-macos) .workspace-tabs.vt-mod-top-right-space .workspace-tab-header-container:after {
+  -webkit-app-region: no-drag;
+  content: "";
+  height: 100%;
+  right: 0;
+  top: 0;
+  position: absolute;
+  width: var(--frame-right-space);
+}
+.mod-macos.is-hidden-frameless:not(.is-popout-window) .workspace .workspace-tabs.vt-mod-top-right-space .workspace-tab-header-container {
+  padding-right: 38px;
+}
+.vertical-tabs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+.obsidian-vertical-tabs-container {
+  font-size: var(--font-ui-small);
+  padding: var(--size-4-3) var(--size-4-3) var(--size-4-8);
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.obsidian-vertical-tabs-container .tree-item-self {
+  align-items: stretch;
+}
+.obsidian-vertical-tabs-container .is-tab {
+  margin-left: 0.5em;
+}
+.obsidian-vertical-tabs-container > div {
+  width: 100%;
+}
+.obsidian-vertical-tabs-container .tree-item .action-button {
+  padding: var(--size-2-1);
+}
+.obsidian-vertical-tabs-container .tree-item.is-tab .action-button {
+  visibility: hidden;
+}
+.obsidian-vertical-tabs-container .tree-item.is-tab:hover .action-button {
+  visibility: visible;
+}
+.obsidian-vertical-tabs-container .tree-item.is-tab.is-pinned .action-pin {
+  visibility: visible;
+}
+.obsidian-vertical-tabs-container .tree-item.is-tab.is-pinned .action-x {
+  color: var(--text-faint);
+  opacity: 0.5;
+}
+.obsidian-vertical-tabs-container .tree-item.is-group.is-collapsed .tree-item-children {
+  display: none;
+}
+.obsidian-vertical-tabs-container .tree-item.is-group .tree-item-icon svg {
+  stroke-width: 4px;
+  width: 10px;
+  height: 10px;
+  transition: transform 100ms ease-in-out;
+}
+.obsidian-vertical-tabs-container .tree-item.is-tab .tree-item-icon svg {
+  width: var(--icon-xs);
+  height: var(--icon-xs);
+}
+.obsidian-vertical-tabs-container .tree-item.is-group.is-collapsed .tree-item-icon svg {
+  transform: rotate(calc(var(--direction) * -1 * 90deg));
+}
+body.vt-hide-sidebars .obsidian-vertical-tabs-container .tree-item.is-group.is-sidebar {
+  display: none;
+}
+body.vt-exclude-self .obsidian-vertical-tabs-container .tree-item.is-tab[data-type=vertical-tabs] {
+  display: none;
+}
+.obsidian-vertical-tabs-container .tab-slot {
+  height: 30px;
+  background-color: var(--background-modifier-border);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: var(--border-radius);
+}
+.obsidian-vertical-tabs-container .tab-slot.is-hidden {
+  display: none;
+}
+.obsidian-vertical-tabs-container .tree-item.is-group input {
+  background: transparent;
+  outline: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+}
+.workspace-tab-header[data-type=vertical-tabs] {
+  display: flex !important;
+}
+.obsidian-vertical-tabs-container.is-dragging-group .tree-item.is-group.is-dragging-over,
+.obsidian-vertical-tabs-container.is-dragging-group .tree-item.is-group:has(.is-dragging-over),
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-tab.is-dragging-over,
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group.is-group-slot.is-dragging-over {
+  border-top: 5px solid var(--interactive-accent);
+}
+.obsidian-vertical-tabs-container .tree-item {
+  margin-top: -5px;
+  border-top: 5px solid transparent;
+}
+.obsidian-vertical-tabs-container .tree-item.is-dragging-self {
+  opacity: 0.5;
+}
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .is-tab-slot {
+  height: 6px;
+  background: none !important;
+}
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group.is-dragging-over .is-tab-slot,
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .tree-item.is-group:has(.is-dragging-over) .is-tab-slot {
+  display: block;
+}
+.obsidian-vertical-tabs-container .is-group-slot {
+  height: 10px;
+  background: none !important;
+  display: none;
+}
+.obsidian-vertical-tabs-container .is-group-slot * {
+  background: none !important;
+}
+.obsidian-vertical-tabs-container:not(.is-dragging-group) .is-group-slot {
+  display: block;
+}
+.obsidian-vertical-tabs-container .tree-item .clickable-icon[data-action=drag-handle] {
+  visibility: visible !important;
+  color: var(--text-faint);
+}
+.obsidian-vertical-tabs-container .tree-item:not(.is-slot) .clickable-icon[data-action=drag-handle] svg {
+  height: var(--icon-xs);
+  width: var(--icon-xs);
+}
+.obsidian-vertical-tabs-container .tree-item.is-slot .clickable-icon[data-action=drag-handle] {
+  display: none;
+}
+.obsidian-vertical-tabs-container .tree-item .drag-handle {
+  touch-action: none;
+}

@@ -1,0 +1,35 @@
+.canvas-node:not(.is-editing) {
+  .ni {
+    padding: 4px; /* feel free to change based on your theme styles */
+    position: absolute;
+
+    &[data-icon] {
+      &:before {
+        display: block;
+        content: attr(data-icon);
+      }
+
+      /* feel free to change based on your theme styles */
+        font-family: "Segoe UI Emoji"; /* change this to an emoji font that matches your system */
+        font-size: 1rem;
+        padding: 0; 
+    }
+
+    /* feel free to change based on your theme styles */
+    &.t {
+      top: 0;
+    }
+
+    &.b {
+      bottom: 0;
+    }
+
+    &.r {
+      right: -12px;
+    }
+
+    &.l {
+      left: 0;
+    }
+  }
+}

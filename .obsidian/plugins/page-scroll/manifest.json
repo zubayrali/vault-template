@@ -1,0 +1,10 @@
+{
+	"id": "page-scroll",
+	"name": "Page Scroll",
+	"version": "1.0.1",
+	"minAppVersion": "0.15.0",
+	"description": "Page Up|Down|Top|Bottom",
+	"author": "triski",
+	"authorUrl": "https://github.com/chenshutian9610",
+	"isDesktopOnly": false
+}

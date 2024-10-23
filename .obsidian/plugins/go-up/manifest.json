@@ -1,0 +1,10 @@
+{
+	"id": "go-up",
+	"name": "Go Up",
+	"version": "1.1.2",
+	"minAppVersion": "0.15.0",
+	"description": "Go to the pages that says 'up' property",
+	"author": "JinMu Go",
+	"authorUrl": "https://github.com/JinMuGo",
+	"isDesktopOnly": true
+}

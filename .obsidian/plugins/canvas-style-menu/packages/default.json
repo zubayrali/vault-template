@@ -1,0 +1,42 @@
+{
+  "default": {
+    "name": "Default",
+    "menuItems": [
+      {
+        "class": "cc-background",
+        "type": "",
+        "icon": "cs-background",
+        "name": "Background",
+        "cat": "",
+        "selector": "cc",
+        "ctxmenu": false,
+        "enable": true,
+        "expanded": true
+      },
+      {
+        "class": "cc-border",
+        "type": "",
+        "icon": "cs-style-border",
+        "name": "Border",
+        "cat": "",
+        "selector": "cc",
+        "ctxmenu": false,
+        "enable": true,
+        "expanded": true
+      }
+    ],
+    "subMenuItems": {
+      "": [
+        {
+          "class": "cc-card-transparent",
+          "type": "",
+          "icon": "",
+          "name": "Transparent",
+          "selector": "cc",
+          "enable": true
+        }
+      ]
+    },
+    "customIcons": []
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "savedFeeds": {
+    "Lex Fridman Podcast": {
+      "title": "Lex Fridman Podcast",
+      "url": "https://lexfridman.com/feed/podcast/",
+      "artworkUrl": "https://lexfridman.com/wordpress/wp-content/uploads/2017/06/cropped-lex-favicon-4-1-32x32.png"
+    },
+    "ToKCast": {
+      "title": "ToKCast",
+      "url": "https://feed.podbean.com/brettroberthall/feed.xml",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/2e/59/d8/2e59d835-916e-071a-48c7-7cbef70df419/mza_41688498060216287.png/100x100bb.jpg"
+    },
+    "Naval": {
+      "title": "Naval",
+      "url": "https://naval.libsyn.com/rss",
+      "artworkUrl": "https://is3-ssl.mzstatic.com/image/thumb/Podcasts123/v4/eb/f4/dc/ebf4dc3a-0292-a846-b8a1-496ea5c8b435/mza_6617487660716274171.png/100x100bb.jpg"
+    },
+    "Modern Wisdom": {
+      "title": "Modern Wisdom",
+      "url": "https://modernwisdom.libsyn.com/rss",
+      "artworkUrl": "https://is3-ssl.mzstatic.com/image/thumb/Podcasts113/v4/99/8f/79/998f79cf-647b-8b1a-11e2-e2b1800ffc22/mza_12467065745942262671.jpg/100x100bb.jpg",
+      "collectionId": 1347973549
+    },
+    "Huberman Lab": {
+      "title": "Huberman Lab",
+      "url": "https://feeds.megaphone.fm/hubermanlab",
+      "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/61/35/d6/6135d6e9-5d67-86db-e984-ed74d5646c5d/mza_3545313863246849826.jpeg/100x100bb.jpg",
+      "collectionId": 1545953110
+    }
+  },
+  "podNotes": {},
+  "defaultPlaybackRate": 1,
+  "playedEpisodes": {
+    "#331 – Balaji Srinivasan: How to Fix Government, Twitter, Science, and the FDA": {
+      "title": "#331 – Balaji Srinivasan: How to Fix Government, Twitter, Science, and the FDA",
+      "podcastName": "Lex Fridman Podcast",
+      "time": 0,
+      "duration": 0,
+      "finished": true
+    },
+    "Ep 116: Objective Knowledge": {
+      "title": "Ep 116: Objective Knowledge",
+      "podcastName": "ToKCast",
+      "time": 0,
+      "duration": 0,
+      "finished": true
+    },
+    "The Beginning of Infinity, Part 1": {
+      "title": "The Beginning of Infinity, Part 1",
+      "podcastName": "Naval",
+      "time": 0,
+      "duration": 0,
+      "finished": true
+    },
+    "David Deutsch: Knowledge Creation and The Human Race": {
+      "title": "David Deutsch: Knowledge Creation and The Human Race",
+      "podcastName": "Naval",
+      "time": 0,
+      "duration": 0,
+      "finished": true
+    },
+    "#367 – Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI": {
+      "title": "#367 – Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI",
+      "podcastName": "Lex Fridman Podcast",
+      "time": 0.623004,
+      "duration": 8888.448,
+      "finished": false
+    },
+    "#609 - Uri Gneezy - How To Understand Psychological Incentives": {
+      "title": "#609 - Uri Gneezy - How To Understand Psychological Incentives",
+      "podcastName": "Modern Wisdom",
+      "time": 1.177024,
+      "duration": 4714.814694,
+      "finished": false
+    },
+    "#479 - Johnathan Bi - Why Do Founders Love René Girard?": {
+      "title": "#479 - Johnathan Bi - Why Do Founders Love René Girard?",
+      "podcastName": "Modern Wisdom",
+      "time": 0,
+      "duration": 0,
+      "finished": true
+    }
+  },
+  "favorites": {
+    "icon": "lucide-star",
+    "name": "Favorites",
+    "shouldEpisodeRemoveAfterPlay": false,
+    "shouldRepeat": false,
+    "episodes": []
+  },
+  "queue": {
+    "icon": "list-ordered",
+    "name": "Queue",
+    "shouldEpisodeRemoveAfterPlay": true,
+    "shouldRepeat": false,
+    "episodes": [
+      {
+        "title": "#479 - Johnathan Bi - Why Do Founders Love René Girard?",
+        "streamUrl": "https://chrt.fm/track/G454/traffic.libsyn.com/secure/modernwisdom/Modern_Wisdom_Episode_479_-_Jonathan_Bi.mp3?dest-id=651923",
+        "url": "https://sites.libsyn.com/115004/479-jonathan-bi-why-do-entrepreneurs-love-ren-girard",
+        "description": "<p>Johnathan Bi is a startup founder, philosopher and mathematician.</p> <p>René Girard is one of the most popular philosophers in Silicon Valley. Why is it that an obscure French polymath from the 1900's would become one of the most influential and cited thinkers amongst founders, CEOs and leaders in high-growth companies? </p> <p>Expect to learn how Girard believes that mimetic desire drives almost all of our behaviour, why breaking out from the group to do your own thing doesn't mean you're an individual, how having sex can end up not being for the enjoyment of sex, why Peter Thiel and so many others love Girard's work, how understanding Girard can improve your daily life and much more...</p> <p><strong style= \"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Sponsors:</strong></p> <p class=\"p1\">Join the Modern Wisdom Community to connect with me & other listeners - <a href= \"https://modernwisdom.locals.com/\">https://modernwisdom.locals.com/</a></p> <p class=\"p1\">Get 20% discount on Diet Smoke’s legal THC Gummies at <a href=\"https://www.dietsmoke.com/\"><span class= \"s1\">https://www.dietsmoke.com/</span></a> (use code: MW20)</p> <p class=\"p1\">Get a Free Sample Pack of all LMNT Flavours at <a href=\"https://www.drinklmnt.com/modernwisdom\"><span class= \"s1\">https://www.drinklmnt.com/modernwisdom</span></a> (discount automatically applied)</p> <p class=\"p1\"><strong style= \"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Extra Stuff:</strong></p> <p class=\"p1\">Watch Jonathan's Girard lecture series here - <a href=\"https://youtu.be/5Qu6vBebwwg\">https://youtu.be/5Qu6vBebwwg</a></p> <p><a href=\"https://chriswillx.com/books/\" target=\"_blank\" rel= \"noopener\">Get my free Reading List of 100 books to read before you die → https://chriswillx.com/books/</a></p> <p>To support me on Patreon (thank you): <a href= \"https://www.patreon.com/modernwisdom\"><span class= \"s1\">https://www.patreon.com/modernwisdom</span></a></p> <p class=\"p1\">-</p> <p class=\"p1\"><strong>Get in touch.</strong></p> <p class=\"p1\">Instagram: <a href= \"https://www.instagram.com/chriswillx\">https://www.instagram.com/chriswillx</a></p> <p class=\"p1\">Twitter: <a href= \"https://www.twitter.com/chriswillx\">https://www.twitter.com/chriswillx</a></p> <p class=\"p1\">YouTube: <a href= \"https://www.youtube.com/modernwisdompodcast\">https://www.youtube.com/modernwisdompodcast</a></p> <p class=\"p1\">Email: <a href= \"https://chriswillx.com/contact/\">https://chriswillx.com/contact/</a> </p>",
+        "content": "<p>Johnathan Bi is a startup founder, philosopher and mathematician.</p> <p>René Girard is one of the most popular philosophers in Silicon Valley. Why is it that an obscure French polymath from the 1900's would become one of the most influential and cited thinkers amongst founders, CEOs and leaders in high-growth companies? </p> <p>Expect to learn how Girard believes that mimetic desire drives almost all of our behaviour, why breaking out from the group to do your own thing doesn't mean you're an individual, how having sex can end up not being for the enjoyment of sex, why Peter Thiel and so many others love Girard's work, how understanding Girard can improve your daily life and much more...</p> <p> Sponsors:</p> <p class=\"p1\">Join the Modern Wisdom Community to connect with me & other listeners - <a href= \"https://modernwisdom.locals.com/\">https://modernwisdom.locals.com/</a></p> <p class=\"p1\">Get 20% discount on Diet Smoke’s legal THC Gummies at <a href=\"https://www.dietsmoke.com/\">https://www.dietsmoke.com/</a> (use code: MW20)</p> <p class=\"p1\">Get a Free Sample Pack of all LMNT Flavours at <a href=\"https://www.drinklmnt.com/modernwisdom\">https://www.drinklmnt.com/modernwisdom</a> (discount automatically applied)</p> <p class=\"p1\"> Extra Stuff:</p> <p class=\"p1\">Watch Jonathan's Girard lecture series here - <a href=\"https://youtu.be/5Qu6vBebwwg\">https://youtu.be/5Qu6vBebwwg</a></p> <p><a href=\"https://chriswillx.com/books/\" target=\"_blank\" rel= \"noopener\">Get my free Reading List of 100 books to read before you die → https://chriswillx.com/books/</a></p> <p>To support me on Patreon (thank you): <a href= \"https://www.patreon.com/modernwisdom\">https://www.patreon.com/modernwisdom</a></p> <p class=\"p1\">-</p> <p class=\"p1\">Get in touch.</p> <p class=\"p1\">Instagram: <a href= \"https://www.instagram.com/chriswillx\">https://www.instagram.com/chriswillx</a></p> <p class=\"p1\">Twitter: <a href= \"https://www.twitter.com/chriswillx\">https://www.twitter.com/chriswillx</a></p> <p class=\"p1\">YouTube: <a href= \"https://www.youtube.com/modernwisdompodcast\">https://www.youtube.com/modernwisdompodcast</a></p> <p class=\"p1\">Email: <a href= \"https://chriswillx.com/contact/\">https://chriswillx.com/contact/</a> </p>",
+        "podcastName": "Modern Wisdom",
+        "artworkUrl": "https://ssl-static.libsyn.com/p/assets/d/4/a/1/d4a19d566043779b5f2e77a3093c12a1/New_2023_Podcast_Artwork.jpg",
+        "episodeDate": "2022-05-28T06:00:00.000Z",
+        "feedUrl": "https://modernwisdom.libsyn.com/rss",
+        "itunesTitle": ""
+      },
+      {
+        "title": "#609 - Uri Gneezy - How To Understand Psychological Incentives",
+        "streamUrl": "https://chrt.fm/track/G454/traffic.libsyn.com/secure/modernwisdom/Modern_Wisdom_Episode_609_-_Uri_Gneezy.mp3?dest-id=651923",
+        "url": "https://sites.libsyn.com/115004/609-uri-gneezy",
+        "description": "<p>Uri Gneezy is a behavioural economist, a professor at the University of California and an author who's research focuses on human incentives.</p> <p>Incentives encourage humans to do things. But they're not as straight forward as you might think. They often have unintended and disastrous consequences for our personal lives, businesses and societies. Basically, a bad incentive is worse than no incentive at all. </p> <p>Expect to learn why paying citizens 10p for a rat tail is a bad idea, how fining parents for taking their kids on holiday results in more kids missing school, why the Toyota Prius won because of its strange design, how reframing discounts can rapidly change behaviour, why Peloton's sales went up when they increased the price, why Coke machines have an outdoors thermometer on them and much more...</p> <p><strong style= \"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Sponsors:</strong></p> <p class=\"p1\">Get 83% discount & 3 months free from Surfshark VPN at <a href= \"https://surfshark.deals/MODERNWISDOM\"><span class= \"s1\">https://surfshark.deals/MODERNWISDOM</span></a> (use code MODERNWISDOM)</p> <p class=\"p1\">Get $100 discount on the best water filter on earth from AquaTru at <a href=\"https://bit.ly/drinkwisdom\"><span class= \"s1\">https://bit.ly/drinkwisdom</span></a> (discount automatically applied)</p> <p class=\"p1\">Get 20% discount on all Keto Brainz products at <a href=\"https://ketobrainz.com/modernwisdom\"><span class= \"s1\">https://ketobrainz.com/modernwisdom</span></a> (use code: MW20) and follow them on Instagram at <a href= \"https://www.instagram.com/ketobrainz/\"><span class= \"s1\">https://www.instagram.com/ketobrainz/</span></a></p> <p class=\"p1\"><strong style= \"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\"> Extra Stuff:</strong></p> <p>Buy Mixed Signals - <a href= \"https://amzn.to/40pQ4Tj\">https://amzn.to/40pQ4Tj</a> </p> <p><a href=\"https://chriswillx.com/books/\" target=\"_blank\" rel= \"noopener\">Get my free Reading List of 100 books to read before you die → https://chriswillx.com/books/</a></p> <p>To support me on Patreon (thank you): <a href= \"https://www.patreon.com/modernwisdom\"><span class= \"s1\">https://www.patreon.com/modernwisdom</span></a></p> <p class=\"p1\">-</p> <p class=\"p1\"><strong>Get in touch.</strong></p> <p class=\"p1\">Instagram: <a href= \"https://www.instagram.com/chriswillx\">https://www.instagram.com/chriswillx</a></p> <p class=\"p1\">Twitter: <a href= \"https://www.twitter.com/chriswillx\">https://www.twitter.com/chriswillx</a></p> <p class=\"p1\">YouTube: <a href= \"https://www.youtube.com/modernwisdompodcast\">https://www.youtube.com/modernwisdompodcast</a></p> <p class=\"p1\">Email: <a href= \"https://chriswillx.com/contact/\">https://chriswillx.com/contact/</a> </p>",
+        "content": "<p>Uri Gneezy is a behavioural economist, a professor at the University of California and an author who's research focuses on human incentives.</p> <p>Incentives encourage humans to do things. But they're not as straight forward as you might think. They often have unintended and disastrous consequences for our personal lives, businesses and societies. Basically, a bad incentive is worse than no incentive at all. </p> <p>Expect to learn why paying citizens 10p for a rat tail is a bad idea, how fining parents for taking their kids on holiday results in more kids missing school, why the Toyota Prius won because of its strange design, how reframing discounts can rapidly change behaviour, why Peloton's sales went up when they increased the price, why Coke machines have an outdoors thermometer on them and much more...</p> <p> Sponsors:</p> <p class=\"p1\">Get 83% discount & 3 months free from Surfshark VPN at <a href= \"https://surfshark.deals/MODERNWISDOM\">https://surfshark.deals/MODERNWISDOM</a> (use code MODERNWISDOM)</p> <p class=\"p1\">Get $100 discount on the best water filter on earth from AquaTru at <a href=\"https://bit.ly/drinkwisdom\">https://bit.ly/drinkwisdom</a> (discount automatically applied)</p> <p class=\"p1\">Get 20% discount on all Keto Brainz products at <a href=\"https://ketobrainz.com/modernwisdom\">https://ketobrainz.com/modernwisdom</a> (use code: MW20) and follow them on Instagram at <a href= \"https://www.instagram.com/ketobrainz/\">https://www.instagram.com/ketobrainz/</a></p> <p class=\"p1\"> Extra Stuff:</p> <p>Buy Mixed Signals - <a href= \"https://amzn.to/40pQ4Tj\">https://amzn.to/40pQ4Tj</a> </p> <p><a href=\"https://chriswillx.com/books/\" target=\"_blank\" rel= \"noopener\">Get my free Reading List of 100 books to read before you die → https://chriswillx.com/books/</a></p> <p>To support me on Patreon (thank you): <a href= \"https://www.patreon.com/modernwisdom\">https://www.patreon.com/modernwisdom</a></p> <p class=\"p1\">-</p> <p class=\"p1\">Get in touch.</p> <p class=\"p1\">Instagram: <a href= \"https://www.instagram.com/chriswillx\">https://www.instagram.com/chriswillx</a></p> <p class=\"p1\">Twitter: <a href= \"https://www.twitter.com/chriswillx\">https://www.twitter.com/chriswillx</a></p> <p class=\"p1\">YouTube: <a href= \"https://www.youtube.com/modernwisdompodcast\">https://www.youtube.com/modernwisdompodcast</a></p> <p class=\"p1\">Email: <a href= \"https://chriswillx.com/contact/\">https://chriswillx.com/contact/</a> </p>",
+        "podcastName": "Modern Wisdom",
+        "artworkUrl": "https://ssl-static.libsyn.com/p/assets/d/4/a/1/d4a19d566043779b5f2e77a3093c12a1/New_2023_Podcast_Artwork.jpg",
+        "episodeDate": "2023-04-01T06:00:00.000Z",
+        "feedUrl": "https://modernwisdom.libsyn.com/rss",
+        "itunesTitle": ""
+      },
+      {
+        "title": "#367 – Sam Altman: OpenAI CEO on GPT-4, ChatGPT, and the Future of AI",
+        "streamUrl": "https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_sam_altman.mp3",
+        "url": "https://lexfridman.com/sam-altman/",
+        "description": "Sam Altman is the CEO of OpenAI, the company behind GPT-4, ChatGPT, DALL-E, Codex, and many other state-of-the-art AI technologies. Please support this podcast by checking out our sponsors:\n- NetSuite: http://netsuite.com/lex to get free product tour\n- SimpliSafe: https://simplisafe.com/lex\n- ExpressVPN: https://expressvpn.com/lexpod to get 3 months free\n\nEPISODE LINKS:\nSam's Twitter: https://twitter.com/sama\nOpenAI's Twitter: https://twitter.com/OpenAI\nOpenAI's Website: https://openai.com\nGPT-4 Website: https://openai.com/research/gpt-4\n\nPODCAST INFO:\nPodcast website: https://lexfridman.com/podcast\nApple Podcasts: https://apple.co/2lwqZIr\nSpotify: https://spoti.fi/2nEwCF8\nRSS: https://lexfridman.com/feed/podcast/\nYouTube Full Episodes: https://youtube.com/lexfridman\nYouTube Clips: https://youtube.com/lexclips\n\nSUPPORT & CONNECT:\n- Check out the sponsors above, it's the best way to support this podcast\n- Support on Patreon: https://www.patreon.com/lexfridman\n- Twitter: https://twitter.com/lexfridman\n- Instagram: https://www.instagram.com/lexfridman\n- LinkedIn: https://www.linkedin.com/in/lexfridman\n- Facebook: https://www.facebook.com/lexfridman\n- Medium: https://medium.com/@lexfridman\n\nOUTLINE:\nHere's the timestamps for the episode. On some podcast players you should be able to click the timestamp to jump to that time.\n(00:00) - Introduction\n(08:41) - GPT-4\n(20:06) - Political bias\n(27:07) - AI safety\n(47:47) - Neural network size\n(51:40) - AGI\n(1:13:09) - Fear\n(1:15:18) - Competition\n(1:17:38) - From non-profit to capped-profit\n(1:20:58) - Power\n(1:26:11) - Elon Musk\n(1:34:37) - Political pressure\n(1:52:51) - Truth and misinformation\n(2:05:13) - Microsoft\n(2:09:13) - SVB bank collapse\n(2:14:04) - Anthropomorphism\n(2:18:07) - Future applications\n(2:21:59) - Advice for young people\n(2:24:37) - Meaning of life",
+        "content": "<p>Sam Altman is the CEO of OpenAI, the company behind GPT-4, ChatGPT, DALL-E, Codex, and many other state-of-the-art AI technologies. Please support this podcast by checking out our sponsors:<br />\n&#8211; <b>NetSuite</b>: <a href=\"http://netsuite.com/lex\">http://netsuite.com/lex</a> to get free product tour<br />\n&#8211; <b>SimpliSafe</b>: <a href=\"https://simplisafe.com/lex\">https://simplisafe.com/lex</a><br />\n&#8211; <b>ExpressVPN</b>: <a href=\"https://expressvpn.com/lexpod\">https://expressvpn.com/lexpod</a> to get 3 months free</p>\n<p><b>EPISODE LINKS:</b><br />\nSam&#8217;s Twitter: <a href=\"https://twitter.com/sama\">https://twitter.com/sama</a><br />\nOpenAI&#8217;s Twitter: <a href=\"https://twitter.com/OpenAI\">https://twitter.com/OpenAI</a><br />\nOpenAI&#8217;s Website: <a href=\"https://openai.com\">https://openai.com</a><br />\nGPT-4 Website: <a href=\"https://openai.com/research/gpt-4\">https://openai.com/research/gpt-4</a></p>\n<p><b>PODCAST INFO:</b><br />\nPodcast website: <a href=\"https://lexfridman.com/podcast\">https://lexfridman.com/podcast</a><br />\nApple Podcasts: <a href=\"https://apple.co/2lwqZIr\">https://apple.co/2lwqZIr</a><br />\nSpotify: <a href=\"https://spoti.fi/2nEwCF8\">https://spoti.fi/2nEwCF8</a><br />\nRSS: <a href=\"https://lexfridman.com/feed/podcast/\">https://lexfridman.com/feed/podcast/</a><br />\nYouTube Full Episodes: <a href=\"https://youtube.com/lexfridman\">https://youtube.com/lexfridman</a><br />\nYouTube Clips: <a href=\"https://youtube.com/lexclips\">https://youtube.com/lexclips</a></p>\n<p><b>SUPPORT &amp; CONNECT:</b><br />\n&#8211; Check out the sponsors above, it&#8217;s the best way to support this podcast<br />\n&#8211; Support on Patreon: <a href=\"https://www.patreon.com/lexfridman\">https://www.patreon.com/lexfridman</a><br />\n&#8211; Twitter: <a href=\"https://twitter.com/lexfridman\">https://twitter.com/lexfridman</a><br />\n&#8211; Instagram: <a href=\"https://www.instagram.com/lexfridman\">https://www.instagram.com/lexfridman</a><br />\n&#8211; LinkedIn: <a href=\"https://www.linkedin.com/in/lexfridman\">https://www.linkedin.com/in/lexfridman</a><br />\n&#8211; Facebook: <a href=\"https://www.facebook.com/lexfridman\">https://www.facebook.com/lexfridman</a><br />\n&#8211; Medium: <a href=\"https://medium.com/@lexfridman\">https://medium.com/@lexfridman</a></p>\n<p><b>OUTLINE:</b><br />\nHere&#8217;s the timestamps for the episode. On some podcast players you should be able to click the timestamp to jump to that time.<br />\n(00:00) &#8211; Introduction<br />\n(08:41) &#8211; GPT-4<br />\n(20:06) &#8211; Political bias<br />\n(27:07) &#8211; AI safety<br />\n(47:47) &#8211; Neural network size<br />\n(51:40) &#8211; AGI<br />\n(1:13:09) &#8211; Fear<br />\n(1:15:18) &#8211; Competition<br />\n(1:17:38) &#8211; From non-profit to capped-profit<br />\n(1:20:58) &#8211; Power<br />\n(1:26:11) &#8211; Elon Musk<br />\n(1:34:37) &#8211; Political pressure<br />\n(1:52:51) &#8211; Truth and misinformation<br />\n(2:05:13) &#8211; Microsoft<br />\n(2:09:13) &#8211; SVB bank collapse<br />\n(2:14:04) &#8211; Anthropomorphism<br />\n(2:18:07) &#8211; Future applications<br />\n(2:21:59) &#8211; Advice for young people<br />\n(2:24:37) &#8211; Meaning of life</p>\n",
+        "podcastName": "Lex Fridman Podcast",
+        "artworkUrl": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
+        "episodeDate": "2023-03-25T18:04:11.000Z",
+        "feedUrl": "https://lexfridman.com/feed/podcast/",
+        "itunesTitle": ""
+      },
+      {
+        "title": "David Deutsch: Knowledge Creation and The Human Race",
+        "streamUrl": "https://traffic.libsyn.com/secure/naval/Naval__David_V2.mp3?dest-id=1103966",
+        "url": "http://nav.al/david-deutsch",
+        "description": "<p dir=\"ltr\">Introduction 0:00</p> <p dir=\"ltr\">The Human Race 2:11</p> <p dir=\"ltr\">Knowledge Creation 12:34</p> <p dir=\"ltr\">AGI 15:50</p> <p dir=\"ltr\">Taking Children Seriously 23:30</p> <p dir=\"ltr\">Good Explanations 27:49</p> <p dir=\"ltr\">Quantum Computers 36:35</p> <p dir=\"ltr\">—</p> <p>Transcript http://nav.al/david-deutsch</p>",
+        "content": "<p dir=\"ltr\">Introduction 0:00</p> <p dir=\"ltr\">The Human Race 2:11</p> <p dir=\"ltr\">Knowledge Creation 12:34</p> <p dir=\"ltr\">AGI 15:50</p> <p dir=\"ltr\">Taking Children Seriously 23:30</p> <p dir=\"ltr\">Good Explanations 27:49</p> <p dir=\"ltr\">Quantum Computers 36:35</p> <p dir=\"ltr\">—</p> <p>Transcript http://nav.al/david-deutsch</p>",
+        "podcastName": "Naval",
+        "artworkUrl": "https://ssl-static.libsyn.com/p/assets/6/e/9/c/6e9cf22bfd4fc1885f2e77a3093c12a1/Podcast.png",
+        "episodeDate": "2023-02-11T18:32:18.000Z",
+        "feedUrl": "https://naval.libsyn.com/rss"
+      },
+      {
+        "title": "The Beginning of Infinity, Part 1",
+        "streamUrl": "https://traffic.libsyn.com/secure/naval/Naval-Ep104.mp3?dest-id=1103966",
+        "url": "https://naval.libsyn.com/infinity-comp",
+        "description": "<p>Transcript http://nav.al/infinity</p>",
+        "content": "<p>Transcript http://nav.al/infinity</p>",
+        "podcastName": "Naval",
+        "artworkUrl": "https://ssl-static.libsyn.com/p/assets/6/e/9/c/6e9cf22bfd4fc1885f2e77a3093c12a1/Podcast.png",
+        "episodeDate": "2021-07-02T21:22:28.000Z",
+        "feedUrl": "https://naval.libsyn.com/rss"
+      },
+      {
+        "title": "Ep 116: Objective Knowledge",
+        "streamUrl": "https://mcdn.podbean.com/mf/web/nv7vg7/Objective_Knowledge_Podcastbo0m6.mp3",
+        "url": "https://brettroberthall.podbean.com/e/ep-116-objective-knowledge/",
+        "description": "<p>This is my succinct explanation of \"Objective Knowledge\" - the concept and not the book of the same name by Karl Popper. However that book of course informs this entire thesis of what Objective Knowledge is. My view of objective knowledge is augmented by more recent advances in epistemology, philosophy and physics by David Deutsch as expressed largely in \"The Beginning of Infinity\" but also with some reference to \"Constructor Theory\". I will place more precise time stamps on this episode later but for now there exist roughly 4 parts to this episode:</p>\n<p>1. Objectivity vs Subjectivity</p>\n<p>2. Objective Knowledge</p>\n<p>3. Other ideas about epistemology</p>\n<p>4. Conclusions.</p>\n<p> </p>\n<p>This episode not only explains \"objective knowledge\" from the so-called \"Popperian\" or \"Critical Rationalist\" perspective in the 21st century but also serves to refute the dominant other competing epistemological notions. In the order I deal with them using quotations from their own proponents and \"primary sources\" they are: Bayesian Epistemology (as endorsed by other \"rationalists\" and as explained in places like <a href='http://www.lesswrong.com'>www.lesswrong.com</a>) and \"Objectivist Epistemology\" (as first explained by Ayn Rand and promoted by, among others, the Ayn Rand Institute and self-identified \"objectivists\"). I show how both of these alternatives views of epistemology are not \"objective\" in two senses. And those two senses of objective are the criteria for objective and are only met by the Popperian framework.</p>\r\n",
+        "podcastName": "ToKCast",
+        "artworkUrl": "https://deow9bq0xqvbj.cloudfront.net/image-logo/3210771/TOKCAST_e8uwkp.png",
+        "episodeDate": "2022-05-06T08:44:32.000Z",
+        "feedUrl": "https://feed.podbean.com/brettroberthall/feed.xml"
+      },
+      {
+        "title": "#331 – Balaji Srinivasan: How to Fix Government, Twitter, Science, and the FDA",
+        "streamUrl": "https://media.blubrry.com/takeituneasy/content.blubrry.com/takeituneasy/lex_ai_balaji_srinivasan.mp3",
+        "url": "https://lexfridman.com/balaji-srinivasan/",
+        "description": "Balaji Srinivasan is an angel investor, tech founder, philosopher, and author of The Network State: How to Start a New Country. He was formerly the CTO of Coinbase and General Partner at Andreessen Horowitz. Please support this podcast by checking out our sponsors: – Policygenius: https://www.policygenius.com/ – Blinkist: https://blinkist.com/lex to get 25% off premium – Notion: https://notion.com – Onnit: https://lexfridman.com/onnit to get up to 10% off EPISODE LINKS: Balaji’s Twitter: https://twitter.com/balajis Balaji’s Website: https://balajis.com Books: 1. The Network State: https://thenetworkstate.com 2. Reputation and Power: https://amzn.to/3eyQiF6 3. Exit, Voice, and Loyalty: https://amzn.to/3TpuLNP 4. Seeing Like a State: https://amzn.to/3MJfvcD Articles: 1. Bitcoin",
+        "podcastName": "Lex Fridman Podcast",
+        "artworkUrl": "https://lexfridman.com/wordpress/wp-content/uploads/powerpress/artwork_3000-230.png",
+        "episodeDate": "2022-10-20T16:24:03.000Z",
+        "feedUrl": "https://lexfridman.com/feed/podcast/"
+      }
+    ]
+  },
+  "playlists": {},
+  "skipBackwardLength": 15,
+  "skipForwardLength": 15,
+  "currentEpisode": {
+    "title": "ADHD & How Anyone Can Improve Their Focus",
+    "streamUrl": "https://www.podtrac.com/pts/redirect.mp3/pdst.fm/e/chrt.fm/track/3F7F74/traffic.megaphone.fm/SCIM5444804832.mp3?updated=1687620008",
+    "url": "https://hubermanlab.com/adhd-and-how-anyone-can-improve-their-focus/",
+    "description": "In this episode, I discuss ADHD (Attention-Deficit Hyperactivity Disorder): what it is, the common myths, and the biology and psychology of ADHD.\nI discuss both behavioral and pharmacologic treatments for ADHD, and brain-machine interface tools. I also discuss behavioral training protocols that can improve focus in people with ADHD and those without ADHD, and for people of different ages. I discuss the role of dopamine in coordinating 'default-mode' and 'task-related' neural networks, attentional \"blinks\" (lapses of attention) and how to overcome them, and the role of actual blinks in time perception and attention. Finally, I review some of the prescription and over-the-counter compounds for increasing focus such as Adderall, Ritalin, Modafinil and Armodafinil, the racetams, Alpha-GPC and phosphatidylserine and the role of diet for managing ADHD (and the controversies of diet for ADHD).\nThe role of cell phones/technology in ADHD and ADHD-like challenges with focus are also discussed. Throughout, both basic science and clinical scenarios, as well as applicable tools and resources are covered.\nFor the full show notes, visit hubermanlab.com.\nThank you to our sponsors\nAG1 (Athletic Greens): https://athleticgreens.com/huberman\nLMNT: https://drinklmnt.com/huberman\nSupplements from Momentous\nhttps://www.livemomentous.com/huberman\nTimestamps\n(00:00:00) Introduction & Note About Diagnosis\n(00:03:44) Sponsors: AG1, LMNT\n(00:07:56) ADHD vs. ADD: Genetics, IQ, Rates in Kids & Adults\n(00:13:00) Attention & Focus, Impulse Control\n(00:14:57) Hyper-focus \n(00:16:45) Time Perception\n(00:18:25) The Pile System\n(00:20:00) Working Memory\n(00:24:10) Hyper-Focus & Dopamine \n(00:26:40) Neural Circuits In ADHD: Default Mode Network & Task-Related Networks \n(00:32:57) Low Dopamine in ADHD & Stimulant Use & Abuse\n(00:37:10) Sugar, Ritalin, Adderall, Modafinil & Armodafinil \n(00:47:00) Non-Prescribed Adderall, Caffeine, Nicotine\n(00:49:18) How Stimulants “Teach” the Brains of ADHD Children to Focus\n(00:52:00) When To Medicate: A Highly Informed (Anecdotal) Case Study\n(00:56:35) Elimination Diets & Allergies In ADHD\n(01:04:46) Omega-3 Fatty Acids: EPAs & DHAs \n(01:07:00) Modulation vs Mediation of Biological Processes\n(01:10:50) Attentional Blinks \n(01:16:56) Open Monitoring & 17minute Focus Enhancement \n(01:22:50) Blinking, Dopamine & Time Perception; & Focus Training \n(01:30:10) Reverberatory Neural & Physical Activity\n(01:33:40) Adderall, Ritalin & Blink Frequency\n(01:35:00) Cannabis \n(01:37:30) Interoceptive Awareness \n(01:41:15) Ritalin, Adderall, Modafinil, Armodafinil; Smart Drugs & Caffeine: Dangers\n(01:48:05) DHA Fatty Acids, Phosphatidylserine\n(0:1:50:54) Ginko Biloba \n(01:51:45) Modafinil & Armodafanil: Dopamine Action & Orexin\n(01:56:19) Acetylcholine: Circuits Underlying Focus; Alpha-GPC\n(01:59:04) L-Tyrosine, (PEA) Phenylethylamine \n(02:01:23) Racetams, Noopept \n(02:05:15) Transcranial Magnetic Stimulation; Combining Technology & Pharmacology \n(02:09:14) Smart Phones & ADHD & Sub-Clinical Focus Issues In Adults & Kids\n(02:14:30) Synthesis/Summary\n(02:16:10) Support for Podcast & Research, Supplement Resources\nTitle Card Photo Credit: Mike Blabac\nDisclaimer",
+    "content": "\n        <p>In this episode, I discuss ADHD (Attention-Deficit Hyperactivity Disorder): what it is, the common myths, and the biology and psychology of ADHD.</p><p>I discuss both behavioral and pharmacologic treatments for ADHD, and brain-machine interface tools. I also discuss behavioral training protocols that can improve focus in people with ADHD and those without ADHD, and for people of different ages. I discuss the role of dopamine in coordinating 'default-mode' and 'task-related' neural networks, attentional \"blinks\" (lapses of attention) and how to overcome them, and the role of actual blinks in time perception and attention. Finally, I review some of the prescription and over-the-counter compounds for increasing focus such as Adderall, Ritalin, Modafinil and Armodafinil, the racetams, Alpha-GPC and phosphatidylserine and the role of diet for managing ADHD (and the controversies of diet for ADHD).</p><p>The role of cell phones/technology in ADHD and ADHD-like challenges with focus are also discussed. Throughout, both basic science and clinical scenarios, as well as applicable tools and resources are covered.</p><p>For the full show notes, visit <a href=\"https://hubermanlab.com/adhd-and-how-anyone-can-improve-their-focus/\">hubermanlab.com</a>.</p><h2>Thank you to our sponsors</h2><p>AG1 (Athletic Greens): <a href=\"https://athleticgreens.com/huberman\">https://athleticgreens.com/huberman</a></p><p>LMNT: <a href=\"https://drinklmnt.com/huberman\">https://drinklmnt.com/huberman</a></p><h2>Supplements from Momentous</h2><p><a href=\"https://www.livemomentous.com/pages/huberman?irclickid=y34ypYQ0vxyIWDCTfRQmEXIuUkD1Ob10U0Gk180&amp;irgwc=1&amp;nb_platform=impact&amp;nb_adid=1318412&amp;nb_cid=15826&amp;nb_pid=3406974&amp;nb_aname=Podcast+Link&amp;nb_atype=TEXT_LINK&amp;nb_asize=&amp;nb_product_sku=&amp;nb_partner_name=Huberman+Lab&amp;nb_mtype=mediapartner&amp;nb_partner_shared_id=&amp;utm_source=Huberman+Lab&amp;utm_medium=affiliate&amp;utm_content=3406974&amp;utm_campaign=15826&amp;_ga=undefined\">https://www.livemomentous.com/huberman</a></p><h2>Timestamps</h2><p>(00:00:00) Introduction &amp; Note About Diagnosis</p><p>(00:03:44) Sponsors: AG1, LMNT</p><p>(00:07:56) ADHD vs. ADD: Genetics, IQ, Rates in Kids &amp; Adults</p><p>(00:13:00) Attention &amp; Focus, Impulse Control</p><p>(00:14:57) Hyper-focus </p><p>(00:16:45) Time Perception</p><p>(00:18:25) The Pile System</p><p>(00:20:00) Working Memory</p><p>(00:24:10) Hyper-Focus &amp; Dopamine </p><p>(00:26:40) Neural Circuits In ADHD: Default Mode Network &amp; Task-Related Networks </p><p>(00:32:57) Low Dopamine in ADHD &amp; Stimulant Use &amp; Abuse</p><p>(00:37:10) Sugar, Ritalin, Adderall, Modafinil &amp; Armodafinil </p><p>(00:47:00) Non-Prescribed Adderall, Caffeine, Nicotine</p><p>(00:49:18) How Stimulants “Teach” the Brains of ADHD Children to Focus</p><p>(00:52:00) When To Medicate: A Highly Informed (Anecdotal) Case Study</p><p>(00:56:35) Elimination Diets &amp; Allergies In ADHD</p><p>(01:04:46) Omega-3 Fatty Acids: EPAs &amp; DHAs </p><p>(01:07:00) Modulation vs Mediation of Biological Processes</p><p>(01:10:50) Attentional Blinks </p><p>(01:16:56) Open Monitoring &amp; 17minute Focus Enhancement </p><p>(01:22:50) Blinking, Dopamine &amp; Time Perception; &amp; Focus Training </p><p>(01:30:10) Reverberatory Neural &amp; Physical Activity</p><p>(01:33:40) Adderall, Ritalin &amp; Blink Frequency</p><p>(01:35:00) Cannabis </p><p>(01:37:30) Interoceptive Awareness </p><p>(01:41:15) Ritalin, Adderall, Modafinil, Armodafinil; Smart Drugs &amp; Caffeine: Dangers</p><p>(01:48:05) DHA Fatty Acids, Phosphatidylserine</p><p>(0:1:50:54) Ginko Biloba </p><p>(01:51:45) Modafinil &amp; Armodafanil: Dopamine Action &amp; Orexin</p><p>(01:56:19) Acetylcholine: Circuits Underlying Focus; Alpha-GPC</p><p>(01:59:04) L-Tyrosine, (PEA) Phenylethylamine </p><p>(02:01:23) Racetams, Noopept </p><p>(02:05:15) Transcranial Magnetic Stimulation; Combining Technology &amp; Pharmacology </p><p>(02:09:14) Smart Phones &amp; ADHD &amp; Sub-Clinical Focus Issues In Adults &amp; Kids</p><p>(02:14:30) Synthesis/Summary</p><p>(02:16:10) Support for Podcast &amp; Research, Supplement Resources</p><p>Title Card Photo Credit: <a href=\"https://www.blabacphoto.com/\">Mike Blabac</a></p><p><a href=\"https://hubermanlab.com/disclaimer/\">Disclaimer</a></p>\n      ",
+    "podcastName": "Huberman Lab",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/61/35/d6/6135d6e9-5d67-86db-e984-ed74d5646c5d/mza_3545313863246849826.jpeg/100x100bb.jpg",
+    "episodeDate": "2021-09-13T08:00:00.000Z",
+    "feedUrl": "https://feeds.megaphone.fm/hubermanlab",
+    "itunesTitle": "ADHD & How Anyone Can Improve Their Focus"
+  },
+  "timestamp": {
+    "template": "{{time}} "
+  },
+  "note": {
+    "path": "zFlow/Sources/Podcasts/{{podcast}}/{{title}}",
+    "template": "tags:: #source/podcast #type/source\nurl:: {{url}}\ncreated:: {{date}}\n\n\n## {{title}}\n"
+  },
+  "download": {
+    "path": "Bin/podcasts/episodes/{{title}}"
+  },
+  "downloadedEpisodes": {},
+  "localFiles": {
+    "icon": "folder",
+    "name": "Local Files",
+    "shouldEpisodeRemoveAfterPlay": false,
+    "shouldRepeat": false,
+    "episodes": []
+  },
+  "openAIApiKey": "",
+  "transcript": {
+    "path": "bin/podcasts/transcripts/{{podcast}}/{{title}}.md",
+    "template": "# {{title}}\n\nPodcast: [[{{podcast}}]]\nDate: [[{{date}}]]\n\n{{transcript}}"
+  }
+}

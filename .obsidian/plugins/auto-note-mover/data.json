@@ -1,0 +1,74 @@
+{
+  "trigger_auto_manual": "Automatic",
+  "use_regex_to_check_for_tags": true,
+  "statusBar_trigger_indicator": false,
+  "folder_tag_pattern": [
+    {
+      "folder": "zFlow/Sources/Definitions",
+      "tag": "#type/concept",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Sources/Books",
+      "tag": "#source/book",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Sources/Articles",
+      "tag": "#source/article",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Sources/Films",
+      "tag": "#source/films",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Sources/TV Shows",
+      "tag": "#source/tv_shows",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Sources/Misc",
+      "tag": "#source",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Sources/People",
+      "tag": "#type/person",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/MOCs",
+      "tag": "#type/moc",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Fleeting",
+      "tag": "#type/fleeting",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Incubating",
+      "tag": "#type/incubating",
+      "pattern": ""
+    },
+    {
+      "folder": "zFlow/Insights",
+      "tag": "#type/insight",
+      "pattern": ""
+    }
+  ],
+  "use_regex_to_check_for_excluded_folder": false,
+  "excluded_folder": [
+    {
+      "folder": "bin/templates"
+    },
+    {
+      "folder": "bin/classes"
+    },
+    {
+      "folder": "bin/views"
+    }
+  ]
+}

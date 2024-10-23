@@ -1,0 +1,622 @@
+{
+  "export": {
+    "includeIcons": true,
+    "replaceVars": true,
+    "useDataEls": true,
+    "useIds": true
+  },
+  "folderMappings": [
+    {
+      "folder": "Efforts",
+      "toolbar": "719dde6a-795a-45a8-a089-3f1c9cd21ddd"
+    },
+    {
+      "folder": "Calendar/2024",
+      "toolbar": "fb34bfea-e02b-412e-84f9-ae89c9c310df"
+    }
+  ],
+  "icon": "circle-ellipsis",
+  "ribbonAction": "toolbar",
+  "showEditInFabMenu": true,
+  "toolbarProp": "notetoolbar",
+  "toolbars": [
+    {
+      "uuid": "fb34bfea-e02b-412e-84f9-ae89c9c310df",
+      "defaultStyles": [
+        "border",
+        "sticky",
+        "button",
+        "center",
+        "wide"
+      ],
+      "items": [
+        {
+          "uuid": "1a7e5f96-6701-41d0-98c6-c9104c7ee3b7",
+          "label": "",
+          "icon": "lucide-home",
+          "link": "LifeOS Pro 🚀: Home",
+          "linkAttr": {
+            "commandId": "lifeos-pro:periodic-para-home",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "7f3016f5-eb96-425c-af4e-bfc57b6ca87b",
+          "label": "",
+          "icon": "lucide-activity-square",
+          "link": "QuickAdd: 🏃 Activity",
+          "linkAttr": {
+            "commandId": "quickadd:choice:7f0c6dbf-54b7-4c69-ae0f-29da76888e32",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Log Activity to Daily Note with 2nd Parameter for a backlink.",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "9baf9840-16bb-42b4-8851-bfc91ac9b92a",
+          "label": "",
+          "icon": "lucide-file-box",
+          "link": "QuickAdd: 📂 File",
+          "linkAttr": {
+            "commandId": "quickadd:choice:ef9397a9-b7a1-41d1-b59b-6105460d461e",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Create a new file in the present directory.",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "a5644b0c-6f69-4515-90cb-69faed66a8b5",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "7dd6c8a1-cbc1-487b-af31-1f6165912775",
+          "label": "Do Something",
+          "icon": "lucide-alert-circle",
+          "link": "QuickAdd: Daily",
+          "linkAttr": {
+            "commandId": "quickadd:choice:879adafd-b6c4-4715-a8ba-664f9aee9123",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Launch QuickAdd prompts for your daily note.",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "1d399457-5b3b-4ddf-80e6-43eb2d626550",
+          "label": "Create Note",
+          "icon": "lucide-pencil",
+          "link": "Templater: Insert bin/templates/Note Templater.md",
+          "linkAttr": {
+            "commandId": "templater-obsidian:bin/templates/Note Templater.md",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Create a note ",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "6b01a968-d940-4936-b4e3-65ec6e4e61a1",
+          "label": "Effort",
+          "icon": "lucide-wand-2",
+          "link": "QuickAdd: 🪄 Effort",
+          "linkAttr": {
+            "commandId": "quickadd:choice:54060121-0161-40a8-9f81-a87df5c6c01b",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Begin an Effort",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "68252ea2-038f-4996-97af-d7ecee78a002",
+          "label": "Initiative",
+          "icon": "lucide-medal",
+          "link": "QuickAdd: 🎖️Initiative",
+          "linkAttr": {
+            "commandId": "quickadd:choice:ce26a926-55a1-4b6b-a594-741e6fb09583",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Start an Initiative",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "Daily",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2024-10-09T00:12:23.884Z"
+    },
+    {
+      "uuid": "719dde6a-795a-45a8-a089-3f1c9cd21ddd",
+      "defaultStyles": [
+        "border",
+        "sticky",
+        "button",
+        "center",
+        "wide"
+      ],
+      "items": [
+        {
+          "uuid": "d2620458-f070-4c42-9d78-f8dfead37376",
+          "label": "Add Task",
+          "icon": "lucide-check-square",
+          "link": "QuickAdd: ✅ Task",
+          "linkAttr": {
+            "commandId": "quickadd:choice:222275ca-187c-4c66-97c6-6a63d56b9f75",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "8d5e631c-ad11-429a-b00f-af667c744b62",
+          "label": "Log Activity",
+          "icon": "lucide-activity-square",
+          "link": "QuickAdd: 🏃 Activity",
+          "linkAttr": {
+            "commandId": "quickadd:choice:7f0c6dbf-54b7-4c69-ae0f-29da76888e32",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Log Activity to Daily Note with 2nd Parameter for a backlink.",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "348c6873-34f8-4f42-991d-494742d24415",
+          "label": "Add File",
+          "icon": "lucide-file-box",
+          "link": "QuickAdd: 📂 File",
+          "linkAttr": {
+            "commandId": "quickadd:choice:ef9397a9-b7a1-41d1-b59b-6105460d461e",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Create a new file in the present directory.",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "84139d67-25f5-417a-9202-236c9be43057",
+          "label": "",
+          "icon": "",
+          "link": "",
+          "linkAttr": {
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "4401e1ac-9e42-499d-ac9b-1155facdc673",
+          "label": "Effort",
+          "icon": "lucide-wand-2",
+          "link": "QuickAdd: 🪄 Effort",
+          "linkAttr": {
+            "commandId": "quickadd:choice:54060121-0161-40a8-9f81-a87df5c6c01b",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Begin an Effort",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "uuid": "b4955ac8-2155-46f0-8fe5-9126ca674cb4",
+          "label": "Initiative",
+          "icon": "lucide-medal",
+          "link": "QuickAdd: 🎖️Initiative",
+          "linkAttr": {
+            "commandId": "quickadd:choice:ce26a926-55a1-4b6b-a594-741e6fb09583",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "Start an Initiative",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "main",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "top"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "props"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "props"
+          }
+        }
+      },
+      "updated": "2024-10-20T17:33:46.748Z"
+    }
+  ],
+  "version": 20240727.1,
+  "whatsnew_version": 1.14
+}

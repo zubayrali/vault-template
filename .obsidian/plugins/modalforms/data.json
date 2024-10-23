@@ -1,0 +1,879 @@
+{
+  "editorPosition": "mainView",
+  "attachShortcutToGlobalWindow": true,
+  "globalNamespace": "MF",
+  "formDefinitions": [
+    {
+      "title": "Example form",
+      "name": "example-form",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "description": "It is named how?",
+          "isRequired": true,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "age",
+          "label": "Age",
+          "description": "How old",
+          "isRequired": true,
+          "input": {
+            "type": "number",
+            "hidden": false
+          }
+        },
+        {
+          "name": "dateOfBirth",
+          "label": "Date of Birth",
+          "description": "When were you born?",
+          "input": {
+            "type": "date",
+            "hidden": false
+          }
+        },
+        {
+          "name": "timeOfDay",
+          "label": "Time of day",
+          "description": "The time you can do this",
+          "input": {
+            "type": "time",
+            "hidden": false
+          }
+        },
+        {
+          "name": "is_family",
+          "label": "Is family",
+          "description": "If it is part of the family",
+          "input": {
+            "type": "toggle",
+            "hidden": false
+          }
+        },
+        {
+          "name": "favorite_book",
+          "label": "Favorite book",
+          "description": "Pick one",
+          "input": {
+            "type": "note",
+            "folder": "Books"
+          }
+        },
+        {
+          "name": "folder",
+          "label": "The destination folder",
+          "description": "It offers auto-completion to existing folders",
+          "input": {
+            "type": "folder"
+          }
+        },
+        {
+          "name": "multi_example",
+          "label": "Multi select folder",
+          "description": "Allows to pick many notes from a folder",
+          "input": {
+            "type": "multiselect",
+            "source": "notes",
+            "folder": "Books"
+          }
+        },
+        {
+          "name": "multi_example_2",
+          "label": "Multi select fixed",
+          "description": "Allows to pick many notes from a fixed list",
+          "input": {
+            "type": "multiselect",
+            "source": "fixed",
+            "multi_select_options": [
+              "Android",
+              "iOS",
+              "Windows",
+              "MacOS",
+              "Linux",
+              "Solaris",
+              "MS2"
+            ],
+            "allowUnknownValues": false
+          }
+        },
+        {
+          "name": "multi_select_dataview",
+          "label": "Multi select dataview",
+          "description": "Allows to pick several values from a dv query",
+          "input": {
+            "type": "multiselect",
+            "source": "dataview",
+            "query": "dv.pages(\"#person\").map(p => p.file.name)",
+            "allowUnknownValues": true
+          }
+        },
+        {
+          "name": "best_fried",
+          "label": "Best friend",
+          "description": "Select of type note from a folder",
+          "input": {
+            "type": "select",
+            "source": "notes",
+            "folder": "People"
+          }
+        },
+        {
+          "name": "dataview_example",
+          "label": "Dataview example",
+          "description": "Only people matching the dataview query will be shown",
+          "input": {
+            "type": "dataview",
+            "query": "dv.pages(\"#person\").filter(p => p.age < 30).map(p => p.file.name)"
+          }
+        },
+        {
+          "name": "friendship_level",
+          "label": "Friendship level",
+          "description": "How good friends are you?",
+          "input": {
+            "type": "slider",
+            "min": 0,
+            "max": 10
+          }
+        },
+        {
+          "name": "favorite_meal",
+          "label": "Favorite meal",
+          "description": "Pick one option",
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "pizza",
+                "label": "🍕 Pizza"
+              },
+              {
+                "value": "pasta",
+                "label": "🍝 Pasta"
+              },
+              {
+                "value": "burger",
+                "label": "🍔 Burger"
+              },
+              {
+                "value": "salad",
+                "label": "🥗 Salad"
+              },
+              {
+                "value": "steak",
+                "label": "🥩 Steak"
+              },
+              {
+                "value": "sushi",
+                "label": "🍣 Sushi"
+              },
+              {
+                "value": "ramen",
+                "label": "🍜 Ramen"
+              },
+              {
+                "value": "tacos",
+                "label": "🌮 Tacos"
+              },
+              {
+                "value": "fish",
+                "label": "🐟 Fish"
+              },
+              {
+                "value": "chicken",
+                "label": "🍗 Chicken"
+              }
+            ]
+          }
+        },
+        {
+          "name": "some notes",
+          "label": "Multi line notes",
+          "description": "Put your thouhts here",
+          "input": {
+            "type": "textarea",
+            "hidden": false
+          }
+        },
+        {
+          "name": "Tags",
+          "description": "Tags input example",
+          "input": {
+            "type": "tag"
+          }
+        },
+        {
+          "name": "document",
+          "description": "Document block example",
+          "input": {
+            "type": "document_block",
+            "body": "return `Hello ${form.name}!<br> Your best friend is <b>${form.best_fried}</b>`"
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "Add a Video",
+      "name": "Video",
+      "customClassname": "video",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "Enter the title",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "author",
+          "label": "Author",
+          "description": "Enter Internal Link to Author",
+          "isRequired": false,
+          "input": {
+            "type": "multiselect",
+            "source": "fixed",
+            "multi_select_options": [],
+            "allowUnknownValues": true
+          }
+        },
+        {
+          "name": "status",
+          "label": "Status",
+          "description": "Select the status",
+          "isRequired": false,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "watched",
+                "label": "Watched"
+              },
+              {
+                "value": "unwatched",
+                "label": "Unwatched"
+              },
+              {
+                "value": "unfinished",
+                "label": "Unfinished"
+              }
+            ]
+          }
+        },
+        {
+          "name": "url",
+          "label": "URL",
+          "description": "Enter URL",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "content",
+          "label": "Content",
+          "description": "Enter Content",
+          "isRequired": false,
+          "input": {
+            "type": "textarea",
+            "hidden": false
+          }
+        }
+      ],
+      "version": "1",
+      "template": {
+        "createCommand": true,
+        "parsedTemplate": [
+          {
+            "_tag": "text",
+            "value": "---\ntitle: \""
+          },
+          {
+            "_tag": "variable",
+            "value": "title"
+          },
+          {
+            "_tag": "text",
+            "value": "\"\nfileClass: Videos\ntags:\n  - references\n  - videos\nauthor:\n  - "
+          },
+          {
+            "_tag": "variable",
+            "value": "author"
+          },
+          {
+            "_tag": "text",
+            "value": "\nstatus: "
+          },
+          {
+            "_tag": "variable",
+            "value": "status"
+          },
+          {
+            "_tag": "text",
+            "value": "\nurl: \""
+          },
+          {
+            "_tag": "variable",
+            "value": "url"
+          },
+          {
+            "_tag": "text",
+            "value": "\"\ncreated:\nupdated:\n---\n\n"
+          },
+          {
+            "_tag": "variable",
+            "value": "content"
+          },
+          {
+            "_tag": "text",
+            "value": "\n\n"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Begin an Effort",
+      "name": "Effort",
+      "customClassname": "Effort",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "Enter a clear and concise title that reflects the main focus of the effort.",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "description",
+          "label": "Description",
+          "description": "Provide a brief description of the effort, outlining its purpose, scope, and expected outcomes.",
+          "isRequired": false,
+          "input": {
+            "type": "textarea",
+            "hidden": false
+          }
+        },
+        {
+          "name": "type",
+          "label": "Type",
+          "description": "Select the type of effort based on its current intensity: On (most active), Ongoing (steady progress), Simmering (background focus), or Sleeping (on hold).",
+          "isRequired": false,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "On",
+                "label": "🔥 On"
+              },
+              {
+                "value": "Ongoing",
+                "label": "♻️ Ongoing"
+              },
+              {
+                "value": "Simmering",
+                "label": "~ Simmering"
+              },
+              {
+                "value": "Sleeping",
+                "label": "💤 Sleeping"
+              }
+            ]
+          }
+        },
+        {
+          "name": "rank",
+          "label": "Rank",
+          "description": "Assign a rank to prioritize the effort relative to others.",
+          "isRequired": false,
+          "input": {
+            "type": "slider",
+            "min": 0,
+            "max": 5
+          }
+        },
+        {
+          "name": "eol",
+          "label": "End of Life",
+          "description": "Indicate if the effort has been cancelled, archived, or ended prematurely.",
+          "isRequired": false,
+          "condition": {
+            "dependencyName": "rank",
+            "type": "belowOrEqual",
+            "value": 0
+          },
+          "input": {
+            "type": "toggle",
+            "hidden": false
+          }
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "description": "Select relevant tags, themes",
+          "isRequired": false,
+          "input": {
+            "type": "tag"
+          }
+        },
+        {
+          "name": "aliases",
+          "label": "Aliases",
+          "description": "Enter relevant aliases for this note.",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        }
+      ],
+      "version": "1",
+      "template": {
+        "createCommand": true,
+        "parsedTemplate": []
+      }
+    },
+    {
+      "title": "Create a New Note",
+      "name": "Note",
+      "fields": [
+        {
+          "name": "type",
+          "label": "Type",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "moc",
+                "label": "🗺️ MOC (Map of Content)"
+              },
+              {
+                "value": "insight",
+                "label": "💡 Insight"
+              },
+              {
+                "value": "sketchnote",
+                "label": "🖍️ Sketchnote"
+              },
+              {
+                "value": "source",
+                "label": "📖 Source"
+              },
+              {
+                "value": "incubating",
+                "label": "🥚 Incubating"
+              },
+              {
+                "value": "egg",
+                "label": "🐣 Egg"
+              },
+              {
+                "value": "definition",
+                "label": "📘 Definition"
+              }
+            ]
+          }
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "description": "Use specific tags to pinpoint details or broader tags to group similar ideas.",
+          "isRequired": false,
+          "input": {
+            "type": "tag"
+          }
+        },
+        {
+          "name": "def-type",
+          "label": "Definition Type",
+          "description": "",
+          "isRequired": false,
+          "condition": {
+            "dependencyName": "type",
+            "type": "isExactly",
+            "value": "definition"
+          },
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "consolidated",
+                "label": "📂 Consolidated - Multiple definitions"
+              },
+              {
+                "value": "atomic",
+                "label": "🔬 Atomic - A single, focused definition"
+              }
+            ]
+          }
+        },
+        {
+          "name": "content",
+          "label": "Content",
+          "description": "Enter lead text, a description for the note or any additional content.",
+          "isRequired": false,
+          "input": {
+            "type": "textarea",
+            "hidden": false
+          }
+        },
+        {
+          "name": "aliases",
+          "label": "Aliases",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "up",
+          "label": "Top-level hierarchy",
+          "description": "Link to broader topics or MOCs",
+          "isRequired": false,
+          "condition": {
+            "dependencyName": "hierarchies",
+            "type": "boolean",
+            "value": true
+          },
+          "input": {
+            "type": "multiselect",
+            "source": "notes",
+            "folder": "zFlow"
+          }
+        },
+        {
+          "name": "related",
+          "label": "Lateral hierarchy",
+          "description": "Link to related concepts or notes",
+          "isRequired": false,
+          "condition": {
+            "dependencyName": "hierarchies",
+            "type": "boolean",
+            "value": true
+          },
+          "input": {
+            "type": "multiselect",
+            "source": "notes",
+            "folder": "zFlow"
+          }
+        },
+        {
+          "name": "Predecessors",
+          "label": "",
+          "description": "Link to predecessors in a sequence of thoughts",
+          "isRequired": false,
+          "condition": {
+            "dependencyName": "hierarchies",
+            "type": "boolean",
+            "value": true
+          },
+          "input": {
+            "type": "multiselect",
+            "source": "notes",
+            "folder": "zFlow"
+          }
+        },
+        {
+          "name": "down",
+          "label": "Sub-topics",
+          "description": "Link to sub-topics or more specific notes to follow",
+          "isRequired": false,
+          "condition": {
+            "dependencyName": "hierarchies",
+            "type": "boolean",
+            "value": true
+          },
+          "input": {
+            "type": "multiselect",
+            "source": "notes",
+            "folder": "zFlow"
+          }
+        },
+        {
+          "name": "hierarchies",
+          "label": "Hierarchies?",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "toggle",
+            "hidden": false
+          }
+        }
+      ],
+      "version": "1"
+    },
+    {
+      "title": "ㅤStart an Initiative",
+      "name": "Initiative",
+      "customClassname": "",
+      "fields": [
+        {
+          "name": "title",
+          "label": "Initiative Name",
+          "description": "Enter a concise, descriptive name for your initiative",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "description",
+          "label": "Initiative Description",
+          "description": "Provide a brief overview of the initiative's purpose and goals",
+          "isRequired": false,
+          "input": {
+            "type": "textarea",
+            "hidden": false
+          }
+        },
+        {
+          "name": "status",
+          "label": "Current Status",
+          "description": "Select the current state of the initiative",
+          "isRequired": false,
+          "input": {
+            "type": "select",
+            "source": "fixed",
+            "options": [
+              {
+                "value": "🟦 Planning",
+                "label": "🟦 Planning"
+              },
+              {
+                "value": "🟨 Active",
+                "label": "🟨 Active"
+              },
+              {
+                "value": "🟥 Backlog",
+                "label": "🟥 Backlog"
+              },
+              {
+                "value": "🟩 Finished",
+                "label": "🟩 Finished"
+              }
+            ]
+          }
+        },
+        {
+          "name": "dueDate",
+          "label": "Due Date",
+          "description": "Set the target completion date for this initiative",
+          "isRequired": false,
+          "input": {
+            "type": "date",
+            "hidden": false
+          }
+        },
+        {
+          "name": "eol",
+          "label": "End of Life",
+          "description": "Toggle if this initiative is no longer active or relevant",
+          "isRequired": false,
+          "input": {
+            "type": "toggle",
+            "hidden": true
+          }
+        },
+        {
+          "name": "tags",
+          "label": "Tags",
+          "description": "Add relevant tags to categorize this initiative e.g., project, high-priority, Q4-goal",
+          "isRequired": false,
+          "input": {
+            "type": "tag"
+          }
+        },
+        {
+          "name": "effort",
+          "label": "In Efforts Of",
+          "description": "Select any related efforts or sub-projects",
+          "isRequired": false,
+          "input": {
+            "type": "multiselect",
+            "source": "dataview",
+            "query": "dv.pages('#type/effort').file.name",
+            "allowUnknownValues": true
+          }
+        },
+        {
+          "name": "aliases",
+          "label": "Aliases",
+          "description": "Enter aliases for this note",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        }
+      ],
+      "version": "1",
+      "template": {
+        "createCommand": true,
+        "parsedTemplate": [
+          {
+            "_tag": "text",
+            "value": "---\ntitle: \""
+          },
+          {
+            "_tag": "variable",
+            "value": "title"
+          },
+          {
+            "_tag": "text",
+            "value": "\"\nfileClass: Efforts\ndescription: "
+          },
+          {
+            "_tag": "variable",
+            "value": "description"
+          },
+          {
+            "_tag": "text",
+            "value": "\ntype: "
+          },
+          {
+            "_tag": "variable",
+            "value": "type"
+          },
+          {
+            "_tag": "text",
+            "value": "\ncreated:\nupdated:\nrank: "
+          },
+          {
+            "_tag": "variable",
+            "value": "rank"
+          },
+          {
+            "_tag": "text",
+            "value": "\neol: "
+          },
+          {
+            "_tag": "variable",
+            "value": "eol"
+          },
+          {
+            "_tag": "text",
+            "value": "\ntags:\n  - efforts\n---\n\n> `VIEW[Description: {description}][text]`\n\n> [!info]- Menu\n> ```dynamic-embed\n> ![[Macro Buttons]]\n> ```\n\n\n---\n\n> [!summary]- Files\n>\n> ```dataview\n> TABLE file.ctime AS \"Created On\", file.mtime AS \"Updated On\"\n> FROM \"Efforts/"
+          },
+          {
+            "_tag": "variable",
+            "value": "title"
+          },
+          {
+            "_tag": "text",
+            "value": "\"\n> WHERE file.name != this.file.name\n> SORT file.mtime DESC\n> ```\n\n\n> [!multi-column]\n>\n>> [!todo]- Todo\n>> ```tasks\n>> not done\n>> path includes "
+          },
+          {
+            "_tag": "text",
+            "value": "{{query.file.path}}\n>> (status.type is not IN_PROGRESS)\n>> short mode\n>> hide due date\n>> hide backlink\n>> hide edit button\n>> hide start date\n>> hide scheduled date\n>> hide recurrence rule\n>> sort by urgency, scheduled\n>> ```\n>\n>> [!warning]- Doing\n>> ```tasks\n>> not done\n>> path includes "
+          },
+          {
+            "_tag": "text",
+            "value": "{{query.file.path}}\n>> (status.type is IN_PROGRESS)\n>> short mode\n>> hide due date\n>> hide backlink\n>> hide edit button\n>> hide start date\n>> hide scheduled date\n>> hide recurrence rule\n>> sort by urgency, due\n>> ```\n>\n>> [!summary]- Done\n>> ```tasks\n>> done\n>> path includes "
+          },
+          {
+            "_tag": "text",
+            "value": "{{query.file.path}}\n>> short mode\n>> hide due date\n>> hide backlink\n>> hide edit button\n>> hide start date\n>> hide scheduled date\n>> hide recurrence rule\n>> hide priority\n>> sort by done reverse\n>> ```\n\n> [!example]- Tasks\n"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Add a Person or Influence",
+      "name": "Person",
+      "customClassname": "person",
+      "fields": [
+        {
+          "name": "bio",
+          "label": "Bio",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "title",
+          "label": "Title",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "dob",
+          "label": "D.O.B",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "nationality",
+          "label": "Nationality",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "website",
+          "label": "Website",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        },
+        {
+          "name": "social",
+          "label": "Social",
+          "description": "",
+          "isRequired": false,
+          "input": {
+            "type": "text",
+            "hidden": false
+          }
+        }
+      ],
+      "version": "1"
+    }
+  ]
+}

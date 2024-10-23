@@ -1,0 +1,10 @@
+{
+	"id": "improved-random-note",
+	"name": "Improved Random Note",
+	"version": "1.0.2",
+	"minAppVersion": "0.9.12",
+	"description": "Improved interaction with the knowledge base in so-called wandering mode by opening specific Random Notes.",
+	"author": "ShockThunder",
+	"authorUrl": "https://github.com/ShockThunder",
+	"isDesktopOnly": false
+}

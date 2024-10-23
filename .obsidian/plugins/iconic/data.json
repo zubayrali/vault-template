@@ -1,0 +1,316 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "desktop",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showItemName": "desktop",
+  "biggerSearchResults": "mobile",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": true,
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "+": {
+      "icon": "lucide-trash",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "+/templates/Books Cards View.md": {
+      "icon": "lucide-library-square"
+    },
+    "-/unsorted/Pomodoro Tasks Summary Table.md": {
+      "icon": "lucide-file-clock"
+    },
+    "-/unsorted/Tasks Dataview Table.md": {
+      "icon": "lucide-check-square"
+    },
+    "Atlas": {
+      "icon": "lucide-anchor",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Canvas": {
+      "icon": "lucide-mouse-pointer-square-dashed",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Classes": {
+      "icon": "lucide-cone",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Definitions": {
+      "icon": "question-mark-glyph",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Devlog": {
+      "icon": "lucide-codesandbox",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Drawings": {
+      "icon": "lucide-pencil-ruler",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Fleeting": {
+      "icon": "lucide-egg-fried",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Incubating": {
+      "icon": "lucide-tent-tree",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Insights": {
+      "icon": "experiment",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Maps": {
+      "icon": "lucide-map",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Posts": {
+      "icon": "lucide-party-popper",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/References": {
+      "icon": "lucide-file-symlink",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Sources": {
+      "icon": "links-going-out",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Spells": {
+      "icon": "lucide-sparkles",
+      "color": "yellow",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/Whispers": {
+      "icon": "lucide-message-circle",
+      "color": "green",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Atlas/refType": {
+      "icon": "lucide-file-input",
+      "color": "cyan",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Bin": {
+      "icon": "lucide-package-search",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Bin/templates/Logbook.md": {
+      "icon": "lucide-clipboard-signature"
+    },
+    "Books Dataview.md": {
+      "icon": "lucide-book-dashed"
+    },
+    "Calendar": {
+      "icon": "lucide-calendar-heart",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Calendar/Calendar.md": {
+      "icon": "lucide-calendar-days",
+      "color": "purple"
+    },
+    "Calendar/Tasks": {
+      "icon": "lucide-file-check",
+      "unsynced": [
+        "5505014daadcc696"
+      ]
+    },
+    "Calendar/Tasks/Daily Timeline.md": {
+      "icon": "lucide-file-line-chart"
+    },
+    "Calendar/Tasks/Overview.md": {
+      "icon": "lucide-book-check"
+    },
+    "Efforts": {
+      "icon": "lucide-wand-2",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Efforts/Efforts.md": {
+      "icon": "lucide-wand-2"
+    },
+    "Efforts/Flow.md": {
+      "icon": "lucide-waves"
+    },
+    "Efforts/Initiatives": {
+      "icon": "lucide-medal",
+      "unsynced": [
+        "5505014daadcc696"
+      ]
+    },
+    "Efforts/Initiatives/Initiatives.md": {
+      "icon": "lucide-medal"
+    },
+    "Flow": {
+      "icon": "lucide-shell",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Flow/Initiatives": {
+      "icon": "lucide-medal",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Flow/Shadow Work/Shadow Work.md": {
+      "icon": "lucide-scan-face"
+    },
+    "Flow/Tasks": {
+      "icon": "lucide-check-square",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Spaces": {
+      "icon": "distribute-space-vertical",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "Spaces/Wheel of Life.md": {
+      "icon": "lucide-circle-dot"
+    },
+    "bin/views/Books Cardview.md": {
+      "icon": "lucide-book-copy"
+    },
+    "x": {
+      "icon": "lucide-unlink",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    },
+    "x/unsorted/Books Library Dataview Table.md": {
+      "icon": "lucide-library-big"
+    },
+    "zFlow": {
+      "icon": "lucide-share-2",
+      "unsynced": [
+        "bafa2272e5192aa4",
+        "5505014daadcc696"
+      ]
+    }
+  },
+  "bookmarkIcons": {
+    "1725761533665": {
+      "icon": "lucide-stars",
+      "color": "red"
+    },
+    "1725761572888": {
+      "icon": "lucide-calendar-clock",
+      "color": "red"
+    },
+    "1725761593190": {
+      "icon": "lucide-file-clock",
+      "color": "yellow"
+    },
+    "1725761603084": {
+      "icon": "lucide-archive",
+      "color": "green"
+    },
+    "1725761611493": {
+      "icon": "lucide-book-check",
+      "color": "green"
+    },
+    "1725921731994": {
+      "icon": "lucide-scaling",
+      "color": "cyan"
+    },
+    "1725921978808": {
+      "icon": "lucide-file-cog",
+      "color": "cyan"
+    },
+    "1729043604999": {
+      "icon": "lucide-shapes",
+      "color": "pink"
+    }
+  },
+  "propertyIcons": {
+    "id": {
+      "icon": "lucide-locate-fixed",
+      "color": "orange"
+    },
+    "title": {
+      "icon": "lucide-text-cursor-input",
+      "color": "red"
+    }
+  },
+  "ribbonIcons": {
+    "pinned-notes:Index": {
+      "icon": "lucide-home"
+    },
+    "pinned-notes:Tasks Timeline": {
+      "icon": "lucide-ruler"
+    }
+  }
+}

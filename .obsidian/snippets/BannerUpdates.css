@@ -1,0 +1,34 @@
+.banner.is-live-preview [data-callout="banner-icon"].callout .callout-title {
+  background: unset;
+}
+
+.banner.is-live-preview [data-callout="banner-icon"].callout {
+  border: unset;
+}
+
+/* Works on my 16" MacBook Pro & 55" LG TV */
+@media screen and (min-width: 800px) {
+    .banner.banner-inline-title.markdown-preview-view .inline-title, .banner.banner-inline-title.is-live-preview .inline-title {
+        position: absolute;
+        top: 173px;
+        left: 110px;
+    }
+}
+
+/* Works on my iPad Pro 12.9" */
+@media screen and (min-width: 500px) {
+    .banner.banner-inline-title.markdown-preview-view .inline-title, .banner.banner-inline-title.is-live-preview .inline-title {
+        background-color: var(--banner-title-background-color);
+        border-radius: var(--banner-title-border-radius);
+        --inline-title-color: var(--banner-title-color);
+        padding: var(--banner-title-padding);
+        position: absolute;
+        top: 173px;
+        left: 80px;
+        z-index: 1;
+        max-width: var(--banner-title-max-width);
+        width: auto !important;
+        text-wrap: nowrap;
+        overflow-x: hidden;
+    }
+}

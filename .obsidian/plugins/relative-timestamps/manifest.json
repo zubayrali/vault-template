@@ -1,0 +1,10 @@
+{
+	"id": "relative-timestamps",
+	"name": "Relative Timestamps",
+	"version": "1.0.1",
+	"minAppVersion": "1.5.1",
+	"description": "Track the time between log entries",
+	"author": "Charles Young",
+	"authorUrl": "github.com/agctute",
+	"isDesktopOnly": false
+}

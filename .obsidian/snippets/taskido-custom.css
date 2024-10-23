@@ -1,0 +1,24 @@
+.taskido .task.completed {
+    opacity: 0.7;
+}
+
+.taskido .task.in-progress {
+    background-color: rgba(var(--interactive-accent-rgb), 0.1);
+}
+
+.taskido .task.recurring::after {
+    content: "🔁";
+    margin-left: 5px;
+}
+
+.taskido .task[data-priority="high"] {
+    border-left: 3px solid var(--color-red);
+}
+
+.taskido .task[data-priority="medium"] {
+    border-left: 3px solid var(--color-orange);
+}
+
+.taskido .task[data-priority="low"] {
+    border-left: 3px solid var(--color-yellow);
+}

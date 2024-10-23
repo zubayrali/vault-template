@@ -1,0 +1,83 @@
+
+.theme-dark {
+    --color-orange-rgb: 251, 155, 57;
+    --color-orange: #FB9B39;
+}
+
+.canvas-node.is-themed .canvas-node-content{
+    background-color: rgba(var(--canvas-color), 1 );
+    
+}
+
+.canvas-node-container {
+    background-color: #FFFF88;    
+    border-radius: 2px;
+    border: 0px solid ;
+    box-shadow: 8px 8px 7px rgba(33,33,33,.7);
+    
+}
+
+
+.canvas-node-placeholder {
+    background-color: #1e1e1e;
+}
+
+.canvas-icon-placeholder svg {
+    opacity: 1;
+}
+
+.canvas-background circle {
+    fill: rgba(255, 255, 255, 0.17);
+}
+.canvas-group-label {
+    /* width: var(--parent-width); */
+    /* background-color: aqua; */
+    left: 50%;
+    transform: translate(-50%,-120%);
+  }
+
+/* ===================================================================================================================== */
+
+.canvas-node.canvas-node-group.is-themed .canvas-node-content {
+    background-color: rgba(var(--canvas-color), 0.1 );
+    
+}
+
+.canvas-node.canvas-node-group.is-themed .canvas-group-label {
+    background-color: rgba(var(--canvas-color), 0.85 );
+    text-transform: capitalize;
+}
+
+/* ===================================================================================================================== */
+
+
+.canvas-node.is-themed .canvas-node-container {
+    box-shadow: 8px 8px 7px rgba(33,33,33,.7);
+    
+}
+/* ===================================================================================================================== */
+.canvas-node-content.markdown-embed .markdown-preview-view{
+    color: var(--text-normal);
+    color: black;
+    font-weight: 480;
+    font-size: large;
+    text-align: center;    
+}
+
+.inline-title{
+    text-align: center;
+}
+
+/* ===================================================================================================================== */
+
+.canvas-node-content.canvas-embed.is-loaded{
+    background: #151515;
+}
+.canvas-node-content.markdown-embed.is-loaded{
+    background: #404040;
+
+}
+
+.canvas-node-content.markdown-embed.is-loaded > .markdown-embed-content.node-insert-event > .markdown-preview-view.markdown-rendered.node-insert-event.show-indentation-guide.allow-fold-headings.allow-fold-lists {
+    text-align: left;
+}

@@ -1,0 +1,31 @@
+{
+  "accentColor": "#b49b6e",
+  "cssTheme": "Fancy-a-Story",
+  "interfaceFontFamily": "Cascadia Code",
+  "textFontFamily": "Cascadia Code",
+  "monospaceFontFamily": "Cascadia Mono",
+  "enabledCssSnippets": [
+    "Omnisearch",
+    "Task Progressbars",
+    "MCL Wide Views",
+    "MCL Multi Column",
+    "[plugin] MySnippets tweaks",
+    "MySnippets",
+    "MetaBind Compact",
+    "nick-milo-callouts",
+    "Tracker",
+    "[ui] Restrict last right sidebar panel",
+    "extended-colorschemes",
+    "supercharged-links-gen",
+    "cornell-main-v2",
+    "[ui] Tab Header show path and title",
+    "Cards",
+    "canvas-emoji",
+    "[plugin] Excalidraw",
+    "flow",
+    "[ui] Statusbar tweaks"
+  ],
+  "baseFontSize": 13,
+  "theme": "obsidian",
+  "baseFontSizeAction": true
+}

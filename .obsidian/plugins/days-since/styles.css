@@ -1,0 +1,11 @@
+/* styles.css */
+.plugin-tooltip {
+  position: absolute;
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: var(--shadow-elevation-1);
+  font-family: var(--font-family);
+  z-index: 1000;
+}

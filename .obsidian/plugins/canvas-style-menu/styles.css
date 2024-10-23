@@ -1,0 +1,448 @@
+/* cs-border-none */
+.canvas-node.cs-border-none .canvas-node-container {
+  border: none;
+  box-shadow: none;
+}
+.canvas-node.cs-border-none.is-themed .canvas-node-container {
+  box-shadow: none;
+}
+.canvas-node.cs-border-none .canvas-node-container:hover {
+  border: 2px dashed rgba(var(--canvas-color), 0.9);
+}
+.canvas-node.cs-border-none.is-selected .canvas-node-container,
+.canvas-node.cs-border-none.is-focused .canvas-node-container {
+  border: 4px dashed var(--background-modifier-border-focus);
+  box-shadow: none;
+}
+.canvas-node.cs-border-none.is-themed.is-selected .canvas-node-container,
+.canvas-node.cs-border-none.is-themed.is-focused .canvas-node-container {
+  border: 4px dashed rgb(var(--canvas-color));
+  box-shadow: none;
+}
+/* cs-border-dashed */
+.canvas-node.cs-border-dashed .canvas-node-container {
+  border: 2px dashed rgba(var(--canvas-color), 0.5);
+  box-shadow: none;
+}
+.canvas-node.cs-border-dashed.is-themed .canvas-node-container {
+  border: 2px dashed rgba(var(--canvas-color), 0.5);
+  box-shadow: none;
+}
+.canvas-node.cs-border-dashed .canvas-node-container:hover {
+  border: 2px dashed rgb(var(--canvas-color));
+}
+.canvas-node.cs-border-dashed.is-themed .canvas-node-container:hover {
+  border: 2px dashed rgba(var(--canvas-color), 0.9);
+}
+.canvas-node.cs-border-dashed.is-selected .canvas-node-container,
+.canvas-node.cs-border-dashed.is-focused .canvas-node-container {
+  border: 4px dashed var(--background-modifier-border-focus);
+  box-shadow: none;
+}
+.canvas-node.cs-border-dashed.is-themed.is-selected .canvas-node-container,
+.canvas-node.cs-border-dashed.is-themed.is-focused .canvas-node-container {
+  border: 4px dashed rgb(var(--canvas-color));
+  box-shadow: none;
+}
+
+/* cs-bg-transparent */
+.canvas-node.cs-bg-transparent .canvas-node-container {
+  background-color: transparent;
+}
+/* cs-bg-opacity-0 */
+.canvas-node.cs-bg-opacity-0 .canvas-node-container {
+  background-color: transparent;
+}
+.canvas-node.cs-bg-opacity-0.is-themed .canvas-node-content {
+  background-color: rgba(var(--canvas-color), 0);
+}
+
+/* cs-rotate-right-45 */
+.canvas-node.cs-rotate-right-45 .canvas-node-container {
+  transform: rotate(45deg);
+}
+/* cs-rotate-right-90 */
+.canvas-node.cs-rotate-right-90 .canvas-node-container {
+  transform: rotate(90deg);
+}
+/* cs-rotate-left-45 */
+.canvas-node.cs-rotate-left-45 .canvas-node-container {
+  transform: rotate(-45deg);
+}
+/* cs-rotate-left-90 */
+.canvas-node.cs-rotate-left-90 .canvas-node-container {
+  transform: rotate(-90deg);
+}
+
+.canvas-node .canvas-node-label {
+  display: none;
+}
+.canvas-node.is-editing .canvas-node-container {
+  transform: rotate(0);
+}
+
+/* cs-highlight */
+.canvas-node.cs-highlight .canvas-node-container {
+  box-shadow: 0 0 5px 5px rgb(var(--canvas-color)) !important;
+}
+
+/* cs-shape-circle */
+.canvas-node.cs-shape-circle .canvas-node-container {
+  border-radius: 50%;
+}
+.canvas-node.cs-shape-circle .canvas-node-container .markdown-preview-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* cs-shape-parallelogram-right */
+.canvas-node.cs-shape-parallelogram-right .canvas-node-container {
+  transform: skew(-20deg);
+}
+.canvas-node.cs-shape-parallelogram-right .canvas-node-container .markdown-preview-section {
+  transform: skew(20deg);
+}
+/* cs-shape-parallelogram-left */
+.canvas-node.cs-shape-parallelogram-left .canvas-node-container {
+  transform: skew(20deg);
+}
+.canvas-node.cs-shape-parallelogram-left .canvas-node-container .markdown-preview-section {
+  transform: skew(-20deg);
+}
+
+.canvas-node.cs-shape-parallelogram-right .canvas-node-container .markdown-preview-section,
+.canvas-node.cs-shape-parallelogram-left .canvas-node-container .markdown-preview-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.canvas-node.cs-shape-parallelogram-right.is-editing .canvas-node-container,
+.canvas-node.cs-shape-parallelogram-left.is-editing .canvas-node-container {
+  transform: skew(0);
+}
+
+.canvas-node.is-editing .canvas-node-container {
+  border-radius: var(--radius-m);
+}
+
+/* cs-line-dashed */
+.canvas-edges g.cs-line-dashed {
+  stroke-dasharray: 10;
+}
+
+/* cs-line-dashed-round */
+.canvas-edges g.cs-line-dashed-round {
+  stroke-dasharray: 15;
+  stroke-linecap: round;
+}
+
+/* cs-line-dotted */
+.canvas-edges g.cs-line-dotted {
+  stroke-dasharray: 5;
+}
+
+/* cs-line-dotted-line */
+.canvas-edges g.cs-line-dotted-line {
+  stroke-dasharray: 20 5 5 5; /* double-dotted-line 20 10 5 5 5 10 */
+}
+
+/* cs-line-thick */
+.canvas-edges g.cs-line-thick .canvas-display-path {
+  stroke-width: calc(5.5px * var(--zoom-multiplier));
+}
+.canvas-edges g.cs-line-thick.is-focused path.canvas-display-path, 
+.canvas:not(.is-connecting) .canvas-edges g.cs-line-thick:hover path.canvas-display-path {
+  stroke-width: calc(8px * var(--zoom-multiplier));
+}
+.canvas-edges g.cs-line-thick polygon.canvas-path-end {
+  transform: scale(calc(1.5 * var(--zoom-multiplier)));
+}
+
+/* cs-line-thicker */
+.canvas-edges g.cs-line-thicker .canvas-display-path {
+  stroke-width: calc(8.5px * var(--zoom-multiplier));
+}
+.canvas-edges g.cs-line-thicker.is-focused path.canvas-display-path, 
+.canvas:not(.is-connecting) .canvas-edges g.cs-line-thicker:hover path.canvas-display-path {
+  stroke-width: calc(11px * var(--zoom-multiplier));
+}
+.canvas-edges g.cs-line-thicker polygon.canvas-path-end {
+  transform: scale(calc(2 * var(--zoom-multiplier)));
+}
+
+.canvas-edges path.canvas-path-end,
+.canvas-edges polygon.canvas-path-end {
+  stroke: unset;
+}
+
+
+
+
+/* for plugings */
+.menu-items-tab-container .clickable-icon:empty,
+.custom-icons-tab-container .clickable-icon:empty {
+  width: 26px;
+  height: 26px;
+}
+.settings-header-container input[type='text'] {
+  width: 135px;
+}
+
+.config-tab-container .setting-item {
+  padding-top: 0.75em;
+}
+
+.config-tab-container .menu-items-tab::after {
+  content: attr(data-label);
+  padding: var(--size-4-1);
+}
+.config-tab-container .custom-icons-tab::after {
+  content: attr(data-label);
+  padding: var(--size-4-1);
+}
+
+.custom-icons-container input[type='text'],
+.menu-items-container input[type='text'] {
+  width: 110px;
+  border: none;
+  padding: var(--size-4-1) var(--size-2-2);
+  background-color: transparent;
+}
+.menu-items-container .setting-edge-check::after {
+  content: attr(data-label);
+}
+.menu-items-container .setting-cc-check::after {
+  content: attr(data-label);
+}
+
+.menu-items-tab-container .setting-item.mod-toggle {
+  flex-wrap: wrap;
+}
+.submenu-items-container {
+  background-color: var(--background-primary-alt);
+  flex-basis: 100%;
+  flex-grow: 1;
+}
+.menu-items-container .setting-item-control {
+  flex-basis: 100%;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.custom-icons-container {
+  display: flex;
+  flex-direction: column;
+}
+.custom-icons-container .setting-item {
+  flex-wrap: wrap;
+}
+.custom-icons-container .setting-item-control {
+  flex-basis: 100%;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.custom-icons-container input[type=text][placeholder='SVG Content'] {
+  width: 100%;
+}
+.config-tab-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.config-tab-container .setting-item {
+  flex-wrap: wrap;
+}
+.config-tab-container .setting-item-control {
+  flex-basis: 100%;
+  flex-grow: 1;
+  justify-content: flex-start;
+}
+
+
+.submenu-items-container .setting-item {
+  padding: 0.45em 0;
+}
+.setting-item.mod-toggle:has(.setting-expanded-true) .setting-item-control {
+  padding-bottom: 0.75em;
+}
+.setting-item.mod-toggle:has(.setting-expanded-true) .submenu-items-container .setting-item-control {
+  padding: 0;
+}
+
+.submenu-items-container .setting-item.mod-toggle {
+  border-top: none;
+}
+.setting-item.mod-toggle:has(.setting-expanded-false) .submenu-items-container {
+  display: none;
+}
+.setting-expanded-true.nosub,
+.setting-expanded-false.nosub {
+  visibility: hidden;
+}
+.setting-item.mod-toggle:has(.nosub) .setting-ctxmenu-check {
+  pointer-events: none;
+}
+.submenu-items-container .setting-item-control > *:first-child {
+  visibility: hidden;
+}
+.add-setting .clickable-icon.mod-cta {
+  visibility: visible;
+}
+
+
+.menu-items-tab-container .hidden {
+  visibility: hidden;
+}
+.settings-header-container .disabled,
+.menu-items-tab-container .disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+.settings-header-container .disabled svg {
+  opacity: 0.5;
+}
+
+.menu-items-tab-container .setting-item-controller {
+  opacity: 0.5;
+}
+.add-setting .clickable-icon.mod-cta {
+  background-color: var(--interactive-accent);
+}
+.add-setting .clickable-icon.mod-cta:hover {
+  background-color: var(--interactive-accent-hover);
+}
+.add-setting .clickable-icon.mod-cta svg {
+  stroke: var(--text-on-accent);
+  stroke-width: 2.5;
+}
+
+.new-menu-item-setting-container,
+.new-submenu-item-setting-container,
+.new-custom-icon-setting-container,
+.menu-items-tab-container,
+.custom-icons-tab-container,
+.cs-icons-container,
+.builtin-icons-container {
+  display: none;
+}
+.actived {
+  display: inherit;
+}
+.config-tab-container .clickable-icon.actived,
+.icon-list-container .clickable-icon.actived {
+  background-color: var(--background-modifier-hover);
+}
+
+.new-menu-item-setting-container .setting-item {
+  padding: 0.45em 0;
+}
+.add-setting {
+  display: inline;
+}
+.add-setting input[type='text'] {
+  border: var(--input-border-width) dashed var(--background-modifier-border);
+}
+.add-setting input[type='text']:focus {
+  border: none;
+}
+.icon-selector {
+  border: var(--input-border-width) dashed var(--background-modifier-border);
+}
+
+.setting-edge-check svg {
+  opacity: 0.5;
+}
+.setting-edge-checked {
+  background-color: var(--interactive-accent);
+}
+.setting-edge-checked:hover {
+  background-color: var(--interactive-accent-hover);
+}
+.setting-edge-checked svg {
+  stroke: var(--text-on-accent);
+  stroke-width: 2.5;
+}
+.new-menu-item-setting-container.add-setting .setting-edge-check svg {
+  opacity: unset;
+}
+.new-menu-item-setting-container.add-setting .setting-edge-check.disabled svg {
+  opacity: 0.5;
+}
+
+.setting-cc-check svg {
+  opacity: 0.5;
+}
+.setting-cc-checked {
+  background-color: var(--interactive-accent);
+}
+.setting-cc-checked:hover {
+  background-color: var(--interactive-accent-hover);
+}
+.setting-cc-checked svg {
+  stroke: var(--text-on-accent);
+  stroke-width: 2.5;
+}
+.new-menu-item-setting-container.add-setting .setting-cc-check svg {
+  opacity: unset;
+}
+.new-menu-item-setting-container.add-setting .setting-cc-check.disabled svg {
+  opacity: 0.5;
+}
+
+.setting-ctxmenu-check {
+  opacity: 0.5;
+}
+.setting-ctxmenu-check svg {
+  opacity: unset;
+}
+.setting-ctxmenu-check.nosub svg,
+.setting-ctxmenu-check.disabled svg {
+  opacity: 0.5;
+}
+.setting-ctxmenu-checked {
+  background-color: var(--interactive-accent);
+}
+.setting-ctxmenu-checked:hover {
+  background-color: var(--interactive-accent-hover);
+}
+.setting-ctxmenu-checked svg {
+  stroke: var(--text-on-accent);
+  stroke-width: 2.5;
+}
+.setting-editor-extra-setting-button.mod-warning svg {
+  opacity: 0.5;
+}
+.setting-editor-extra-setting-button.mod-warning:hover {
+  background-color: var(--background-modifier-error);
+}
+.setting-editor-extra-setting-button.mod-warning:hover svg {
+  opacity: unset;
+  stroke: var(--text-on-accent);
+}
+
+.cs-icons-container,
+.builtin-icons-container {
+  flex-wrap: wrap;
+  gap: 4px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  flex-grow: 1;
+  align-items: flex-start;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+.cs-icons-container.actived,
+.builtin-icons-container.actived {
+  display: flex;
+}
+.icon-list-container {
+  display: flex;
+  align-items: center;
+  padding: 0.75em 0;
+  gap: var(--size-4-2);
+}
+.icon-list-container .icon-list-name {
+  padding-left: var(--size-4-1);
+}
+.modal:has(.icon-list-container) {
+  height: var(--dialog-width);
+}

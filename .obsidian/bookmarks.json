@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "type": "group",
+      "ctime": 1725761533665,
+      "items": [],
+      "title": "TODAY"
+    },
+    {
+      "type": "group",
+      "ctime": 1725761572888,
+      "items": [],
+      "title": "UPCOMING"
+    },
+    {
+      "type": "group",
+      "ctime": 1725761593190,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1723958066046,
+          "path": "projects/projects-shadow-work/projects-shadow-work.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1725925988773,
+          "path": "Flow/Shadow Work/Shadow Work.md",
+          "title": "Shadow Work"
+        },
+        {
+          "type": "file",
+          "ctime": 1726439432398,
+          "path": "unsorted/My Being.md"
+        }
+      ],
+      "title": "ANYTIME"
+    },
+    {
+      "type": "group",
+      "ctime": 1725761603084,
+      "items": [],
+      "title": "SOMEDAY"
+    },
+    {
+      "type": "group",
+      "ctime": 1725921731994,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1726936836007,
+          "path": "Efforts/Initiatives/Initiatives.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1726936820276,
+          "path": "Efforts/Efforts.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1725921873372,
+          "path": "-/unsorted/Books Library Dataview Table.md",
+          "title": "Books"
+        },
+        {
+          "type": "file",
+          "ctime": 1725922347917,
+          "path": "-/unsorted/Books Cards View.md",
+          "title": "Books Cards"
+        },
+        {
+          "type": "file",
+          "ctime": 1725921890189,
+          "path": "-/unsorted/Pomodoro Tasks Summary Table.md",
+          "title": "Pomodoros"
+        },
+        {
+          "type": "file",
+          "ctime": 1725922182194,
+          "path": "Atlas/canvas/Monthly Dashboard.canvas",
+          "title": "Monthly Trackers"
+        },
+        {
+          "type": "file",
+          "ctime": 1725922255126,
+          "path": "Atlas/canvas/Habit Tracking.canvas",
+          "title": "Habit Trackers"
+        },
+        {
+          "type": "file",
+          "ctime": 1725925456453,
+          "path": "-/unsorted/Tasks Dataview Table.md",
+          "title": "Tasks Count"
+        },
+        {
+          "type": "file",
+          "ctime": 1725931046317,
+          "path": "Spaces/Wheel of Life.md",
+          "title": "Wheel of Life"
+        },
+        {
+          "type": "file",
+          "ctime": 1726077555622,
+          "path": "Atlas/canvas/Now.canvas",
+          "title": "Now"
+        },
+        {
+          "type": "file",
+          "ctime": 1726258878826,
+          "path": "Flow/Flow.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1726259031768,
+          "path": "Flow/Initiatives/Initiatives.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1726261697500,
+          "path": "Atlas/References/References.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1726262663055,
+          "path": "Flow/Tasks/Tasks.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1726268668713,
+          "path": "Atlas/Maps/Maps.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1726345336856,
+          "path": "Atlas/References/Articles/Articles.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1726936365879,
+          "path": "Efforts/Flow.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1727204624253,
+          "path": "zFlow/Sources/Sources.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1727208051487,
+          "path": "Spaces/Devlog/Devlog.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1729354078957,
+          "path": "bin/views/Books Cardview.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1729354086637,
+          "path": "Books Dataview.md"
+        }
+      ],
+      "title": "Views"
+    },
+    {
+      "type": "file",
+      "ctime": 1726865148842,
+      "path": "Bin/templates/Logbook.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1726865294918,
+      "path": "Calendar/Calendar.md"
+    },
+    {
+      "type": "group",
+      "ctime": 1729043604999,
+      "items": [
+        {
+          "type": "file",
+          "ctime": 1729043648725,
+          "path": "bin/classes/effort.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1729043678921,
+          "path": "bin/classes/initiative.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1729043691101,
+          "path": "bin/classes/definition.md"
+        },
+        {
+          "type": "file",
+          "ctime": 1729043697270,
+          "path": "bin/classes/note.md"
+        }
+      ],
+      "title": "fileClass"
+    }
+  ]
+}
