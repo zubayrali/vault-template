@@ -4,7 +4,41 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "periodic-para:periodic-para-create-daily-note",
+      "icon": "calendar",
+      "name": "LifeOS: Create Daily Note",
+      "mode": "any"
+    },
+    {
+      "id": "periodic-para:periodic-para-create-weekly-note",
+      "icon": "calendar",
+      "name": "LifeOS: Create Weekly Note",
+      "mode": "any"
+    },
+    {
+      "id": "periodic-para:periodic-para-create-monthly-note",
+      "icon": "calendar",
+      "name": "LifeOS: Create Monthly Note",
+      "mode": "any",
+      "color": "#000000"
+    },
+    {
+      "id": "periodic-para:periodic-para-create-quarterly-note",
+      "icon": "calendar",
+      "name": "LifeOS: Create Quarterly Note",
+      "mode": "any",
+      "color": "#000000"
+    },
+    {
+      "id": "periodic-para:periodic-para-create-yearly-note",
+      "icon": "calendar",
+      "name": "LifeOS: Create Yearly Note",
+      "mode": "any",
+      "color": "#000000"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],
@@ -94,13 +128,43 @@
       "telegram-sync"
     ],
     "leftRibbon": [
-      "Reveal non-private",
       "Sync your hypothesis highlights",
       "Chatbot (Clear Conversation)",
       "Copilot Chat",
       "Omnivore",
       "Pending Notes",
-      "Templater"
+      "Templater",
+      "Open Symbols for the active editor",
+      "ListAliasesView",
+      "DuplicateAliasesView",
+      "Open trash explorer",
+      "Activate Liked Video List View",
+      "Toggle draft/complete",
+      "Open projects",
+      "Create new book note",
+      "Open improved random note",
+      "BRAT",
+      "Toggle custom sorting",
+      "Open: View Smart Connections",
+      "Open: Smart Chat Conversation",
+      "Card library",
+      "VSCode",
+      "Open in Headings Mode",
+      "Reveal all",
+      "Start/Stop Recording",
+      "Run local backup",
+      "PDF++: Toggle auto-copy",
+      "PDF++: Toggle auto-focus",
+      "PDF++: Toggle auto-paste",
+      "Open Git source control",
+      "Publish changes...",
+      "Edit forms",
+      "QuickAdd",
+      "Open today's note",
+      "Open this week's note",
+      "Open this month's note",
+      "Open this quarter's note",
+      "Open this year's note"
     ]
   },
   "spacing": "15",

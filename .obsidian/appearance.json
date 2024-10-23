@@ -26,6 +26,6 @@
     "[ui] Statusbar tweaks"
   ],
   "baseFontSize": 17,
-  "theme": "obsidian",
+  "theme": "moonstone",
   "baseFontSizeAction": true
 }

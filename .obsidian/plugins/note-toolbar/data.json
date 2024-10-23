@@ -34,9 +34,9 @@
           "uuid": "1a7e5f96-6701-41d0-98c6-c9104c7ee3b7",
           "label": "",
           "icon": "lucide-home",
-          "link": "LifeOS Pro 🚀: Home",
+          "link": "LifeOS: LifeOS Guide",
           "linkAttr": {
-            "commandId": "lifeos-pro:periodic-para-home",
+            "commandId": "periodic-para:periodic-para-life-os-guide",
             "hasVars": false,
             "type": "command"
           },
@@ -221,44 +221,6 @@
           }
         },
         {
-          "uuid": "1d399457-5b3b-4ddf-80e6-43eb2d626550",
-          "label": "Create Note",
-          "icon": "lucide-pencil",
-          "link": "Templater: Insert bin/templates/Note Templater.md",
-          "linkAttr": {
-            "commandId": "templater-obsidian:bin/templates/Note Templater.md",
-            "hasVars": false,
-            "type": "command"
-          },
-          "tooltip": "Create a note ",
-          "visibility": {
-            "desktop": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            },
-            "mobile": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            },
-            "tablet": {
-              "allViews": {
-                "components": [
-                  "icon",
-                  "label"
-                ]
-              }
-            }
-          }
-        },
-        {
           "uuid": "6b01a968-d940-4936-b4e3-65ec6e4e61a1",
           "label": "Effort",
           "icon": "lucide-wand-2",
@@ -333,6 +295,44 @@
               }
             }
           }
+        },
+        {
+          "uuid": "3a5b224e-d1c2-469a-ba56-85ac291a9e4a",
+          "label": "Create Note",
+          "icon": "lucide-pen-box",
+          "link": "QuickAdd: Create Note",
+          "linkAttr": {
+            "commandId": "quickadd:choice:63667013-2db2-429d-8551-0220d4987744",
+            "hasVars": false,
+            "type": "command"
+          },
+          "tooltip": "",
+          "visibility": {
+            "desktop": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "mobile": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            },
+            "tablet": {
+              "allViews": {
+                "components": [
+                  "icon",
+                  "label"
+                ]
+              }
+            }
+          }
         }
       ],
       "mobileStyles": [],
@@ -354,7 +354,7 @@
           }
         }
       },
-      "updated": "2024-10-09T00:12:23.884Z"
+      "updated": "2024-10-23T16:19:36.207Z"
     },
     {
       "uuid": "719dde6a-795a-45a8-a089-3f1c9cd21ddd",

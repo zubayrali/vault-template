@@ -23,8 +23,48 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "8f8b8c69c32f0640",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "915021f72f43a242",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "README.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "43c8afd596bdbf6b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Calendar/2024/Daily/10/2024-10-23.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -49,30 +89,16 @@
                 }
               },
               {
-                "id": "b7d3791400d8be16",
+                "id": "43e28be943f1e595",
                 "type": "leaf",
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Calendar/2024/Daily/10/2024-10-20.md"
-                  }
-                }
-              },
-              {
-                "id": "a2612523814bcbb8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Calendar/Tasks/Overview.md",
-                    "mode": "preview",
-                    "backlinks": false,
-                    "source": true
+                    "file": "Calendar/2024/Daily/10/2024-10-23.md"
                   }
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           },
           {
             "id": "7ec6c24bd7f04474",
@@ -86,7 +112,7 @@
                   "type": "search",
                   "state": {
                     "query": "",
-                    "matchingCase": true,
+                    "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
                     "extraContext": false,
@@ -101,9 +127,17 @@
                   "type": "recent-files",
                   "state": {}
                 }
+              },
+              {
+                "id": "45d10c22312991fe",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "horizontal",
@@ -130,20 +164,12 @@
                 }
               },
               {
-                "id": "45d10c22312991fe",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              },
-              {
                 "id": "afad4e29a19071b6",
                 "type": "leaf",
                 "state": {
                   "type": "file-properties",
                   "state": {
-                    "file": "Calendar/2024/Daily/10/2024-10-20.md"
+                    "file": "Calendar/2024/Daily/10/2024-10-23.md"
                   }
                 }
               },
@@ -184,14 +210,6 @@
                   "type": "journal-calendar",
                   "state": {}
                 }
-              },
-              {
-                "id": "d7222b003970f036",
-                "type": "leaf",
-                "state": {
-                  "type": "Strange New Worlds",
-                  "state": {}
-                }
               }
             ],
             "currentTab": 1
@@ -207,7 +225,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                    "file": "Calendar/2024/Daily/10/2024-10-23.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -216,6 +234,14 @@
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": true
                   }
+                }
+              },
+              {
+                "id": "51a059fe911e1805",
+                "type": "leaf",
+                "state": {
+                  "type": "timer-view",
+                  "state": {}
                 }
               }
             ]
@@ -226,11 +252,39 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "homepage:Open homepage": false,
+          "command-palette:Open command palette": false,
+          "cmdr:LifeOS: Create Daily Note": false,
+          "cmdr:LifeOS: Create Weekly Note": false,
+          "cmdr:LifeOS: Create Monthly Note": false,
+          "cmdr:LifeOS: Create Quarterly Note": false,
+          "cmdr:LifeOS: Create Yearly Note": false,
+          "fill-in-the-blank:Fill in the Blank": false,
+          "obsidian-pending-notes:Pending Notes": false,
+          "obsidian-git:Open Git source control": false,
+          "pomodoro-timer:Toggle timer panel": false,
+          "privacy-glasses:Hide all": false,
+          "privacy-glasses:Reveal non-private": false,
+          "privacy-glasses:Reveal headlines only": false,
+          "privacy-glasses:Reveal all": false,
+          "reverse-prompter:Generate reverse prompt": false,
+          "super-duper-audio-recorder:Start/Stop Recording": false,
+          "local-backup:Run local backup": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "mesh-ai:Mesh AI Integration": false,
+          "improved-random-note:Open improved random note": false,
+          "obsidian42-brat:BRAT": false,
+          "custom-sort:Toggle custom sorting": false,
+          "open-vscode:VSCode": false,
+          "darlal-switcher-plus:Open in Headings Mode": false,
+          "darlal-switcher-plus:Open Symbols for the active editor": false,
+          "alias-management:ListAliasesView": false,
+          "alias-management:DuplicateAliasesView": false,
           "obsidian-trash-explorer:Open trash explorer": false,
           "geulo-youtube-liked-video:Activate Liked Video List View": false,
           "periodic-para:LifeOS Creation": false,
-          "dashboard-navigator:Open dashboard navigator": false,
-          "homepage:Open homepage": false,
           "yesterday:Create entry": false,
           "yesterday:Toggle draft/complete": false,
           "canvas:Create new canvas": false,
@@ -238,7 +292,6 @@
           "publish:Publish changes...": false,
           "workspaces:Manage workspace layouts": false,
           "templater-obsidian:Templater": false,
-          "obsidian-projects:Open projects": false,
           "journals:Open today's note": false,
           "journals:Open this week's note": false,
           "journals:Open this month's note": false,
@@ -250,14 +303,13 @@
           "bookmarks-caller:Search bookmarks": false,
           "tab-selector:Open tab selector": false,
           "callout-manager:Insert Callout": false,
-          "card-note:Search Notes": false,
           "obsidian-book-search-plugin:Create new book note": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "obsidian-omnivore:Omnivore": false
         }
       },
-      "active": "27d91dbbc57865fe",
-      "mtime": "2024-10-20T16:18:37-04:00"
+      "active": "afad4e29a19071b6",
+      "mtime": "2024-10-23T13:08:40-04:00"
     },
     "Books Library": {
       "main": {

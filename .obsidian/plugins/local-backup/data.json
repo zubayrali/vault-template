@@ -1,5 +1,5 @@
 {
-  "versionValue": "0.1.7",
+  "versionValue": "0.1.8",
   "startupBackupStatus": true,
   "lifecycleValue": "2",
   "backupsPerDayValue": "1",
@@ -15,5 +15,12 @@
   "archiveFileTypeValue": "zip",
   "archiverWinPathValue": "",
   "archiverUnixPathValue": "/usr/bin/7z",
-  "showRibbonIcon": true
+  "showRibbonIcon": true,
+  "showConsoleLog": false,
+  "showNotifications": true,
+  "oneWayBackupStatus": false,
+  "oneWayWinSavePathValue": "",
+  "oneWayUnixSavePathValue": "",
+  "oneWayLifecycleValue": "3",
+  "oneWayBackupsPerDayValue": "3"
 }

@@ -1,0 +1,9 @@
+{
+  "leftSidebar": true,
+  "rightSidebar": true,
+  "enforceSameDelay": true,
+  "sidebarDelayBoth": "300",
+  "sidebarDelayLeft": "300",
+  "sidebarDelayRight": "300",
+  "speedDetection": false
+}

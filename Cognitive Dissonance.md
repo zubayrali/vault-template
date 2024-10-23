@@ -2,20 +2,22 @@
 title: Cognitive Dissonance
 fileClass: definition
 created: 2024-10-20T00:00:00.000-04:00
-updated: 2024-10-20T12:50:27.806-04:00
-aliases: 
+updated: 2024-10-23T13:16:24.423-04:00
+aliases:
   - psychological discomfort
   - internal conflict
-tags: 
+tags:
   - type/definition
   - psychology
-  - cognition 
+  - cognition
 def-type: atomic
-up: 
+up:
   - "[[Cognitive Psychology MOC]]"
 related: 
 prev: 
 down: 
+words:
+  2024-10-20: 65
 ---
 
 # Cognitive Dissonance

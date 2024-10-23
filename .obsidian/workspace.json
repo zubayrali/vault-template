@@ -28,6 +28,32 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Calendar/2024/Daily/10/2024-10-20.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "915021f72f43a242",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "43c8afd596bdbf6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Calendar/2024/Daily/10/2024-10-23.md",
                 "mode": "preview",
                 "backlinks": false,
@@ -36,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -59,6 +85,16 @@
                 "sortOrder": "byModifiedTime"
               }
             }
+          },
+          {
+            "id": "43e28be943f1e595",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Calendar/2024/Daily/10/2024-10-23.md"
+              }
+            }
           }
         ]
       },
@@ -74,7 +110,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -89,9 +125,17 @@
               "type": "recent-files",
               "state": {}
             }
+          },
+          {
+            "id": "45d10c22312991fe",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -115,14 +159,6 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true
               }
-            }
-          },
-          {
-            "id": "45d10c22312991fe",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           },
           {
@@ -174,10 +210,22 @@
             }
           },
           {
-            "id": "d7222b003970f036",
+            "id": "902278ffc77eaf65",
             "type": "leaf",
             "state": {
-              "type": "Strange New Worlds",
+              "type": "outgoing-link",
+              "state": {
+                "file": "Calendar/2024/Daily/10/2024-10-23.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "25101855c21834a7",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
               "state": {}
             }
           }
@@ -205,6 +253,14 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "51a059fe911e1805",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {}
+            }
           }
         ]
       }
@@ -214,22 +270,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "mesh-ai:Mesh AI Integration": false,
+      "homepage:Open homepage": false,
+      "command-palette:Open command palette": false,
+      "cmdr:LifeOS: Create Daily Note": false,
+      "cmdr:LifeOS: Create Weekly Note": false,
+      "cmdr:LifeOS: Create Monthly Note": false,
+      "cmdr:LifeOS: Create Quarterly Note": false,
+      "cmdr:LifeOS: Create Yearly Note": false,
+      "fill-in-the-blank:Fill in the Blank": false,
+      "obsidian-git:Open Git source control": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "reverse-prompter:Generate reverse prompt": false,
+      "super-duper-audio-recorder:Start/Stop Recording": false,
       "improved-random-note:Open improved random note": false,
-      "obsidian42-brat:BRAT": false,
       "custom-sort:Toggle custom sorting": false,
-      "smart-connections:Open: View Smart Connections": false,
-      "smart-connections:Open: Smart Chat Conversation": false,
-      "card-library:Card library": false,
       "open-vscode:VSCode": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "alias-management:ListAliasesView": false,
-      "alias-management:DuplicateAliasesView": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "geulo-youtube-liked-video:Activate Liked Video List View": false,
       "periodic-para:LifeOS Creation": false,
-      "homepage:Open homepage": false,
       "yesterday:Create entry": false,
       "yesterday:Toggle draft/complete": false,
       "canvas:Create new canvas": false,
@@ -237,7 +295,6 @@
       "publish:Publish changes...": false,
       "workspaces:Manage workspace layouts": false,
       "templater-obsidian:Templater": false,
-      "obsidian-projects:Open projects": false,
       "journals:Open today's note": false,
       "journals:Open this week's note": false,
       "journals:Open this month's note": false,
@@ -245,21 +302,43 @@
       "journals:Open this year's note": false,
       "quickadd:QuickAdd": false,
       "modalforms:Edit forms": false,
+      "tab-selector:Open tab selector": false,
+      "obsidian-omnivore:Omnivore": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "alias-management:ListAliasesView": false,
+      "alias-management:DuplicateAliasesView": false,
       "bookmarks-caller:Open bookmarks caller": false,
       "bookmarks-caller:Search bookmarks": false,
-      "tab-selector:Open tab selector": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-book-search-plugin:Create new book note": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-omnivore:Omnivore": false
+      "obsidian-book-search-plugin:Create new book note": false,
+      "obsidian42-brat:BRAT": false,
+      "geulo-youtube-liked-video:Activate Liked Video List View": false,
+      "local-backup:Run local backup": false,
+      "mesh-ai:Mesh AI Integration": false
     }
   },
-  "active": "8f8b8c69c32f0640",
+  "active": "43c8afd596bdbf6b",
   "lastOpenFiles": [
-    "Calendar/2024/Daily/10/2024-10-20.md",
-    "bin/views/Tasks.md",
-    "README.md",
     "Calendar/2024/Daily/10/2024-10-23.md",
+    "Calendar/2024/Daily/10/2024-10-20.md",
+    "Cognitive Dissonance.md",
+    "inbox.md",
+    "This is a new note.md",
+    "This is a new note.excalidraw",
+    "bin/templates/new weekly note.md",
+    "Calendar/2024/Quarterly/2024-Q4.md",
+    "Calendar/2024/Weekly/2024-W43.md",
+    "README.md",
+    "Calendar/Tasks/Tasks Tabs Today.md",
+    "This is a new MOC.md",
+    "Calendar/Logbook.md",
+    "2020s/2024/2024-10/2024-10-23/2024-10-23 - 11-41-37.md",
+    "2020s/2024/2024-10/2024-10-23",
+    "2020s/2024/2024-10",
+    "2020s/2024",
+    "2020s",
+    "bin/views/Tasks.md",
     "Something.md",
     "smart-chats",
     "plugins.md",
@@ -267,7 +346,6 @@
     "Calendar/2024/Daily/10/2024-10-22.md",
     "Efforts/Developing Mindfulness Practice/Developing Mindfulness Practice.md",
     "Efforts/Flow.md",
-    "Calendar/Logbook.md",
     "Calendar/Calendar.md",
     "Heuristics.md",
     "Calendar/2024/Daily/10/2024-10-21.md",
@@ -277,30 +355,17 @@
     "zFlow/Sources/Articles/Certainty Is an Illusion.md",
     "bin/templates/new daily note.md",
     "bin/views/Books Cardview.md",
-    "bin/views/Articles Cardview.md",
     "bin/assets/README/8bd00bea41766494a3492027639e0646_MD5.jpeg",
     "bin/assets/Pasted image 20241020200343.png",
     "bin/assets/README/2bf6f0237d5787bdbc2ff9608e9619a3_MD5.jpeg",
     "bin/assets/Pasted image 20241020195811.png",
-    "bin/views/Books Cards View.md",
     "bin/assets/README/e9fdeba754a80f1fb9828eb47fcc318d_MD5.jpeg",
     "bin/assets/README/d73ae2968ebeea1de4b3dd513c02331b_MD5.jpeg",
     "bin/assets/README/d4706456abadce05319ded18f5eb07ca_MD5.jpeg",
     "bin/assets/README/d38b5c05fc5b45decb49dfd38d9040a0_MD5.jpeg",
-    "bin/templates/video modal form templater.md",
-    "bin/templates/Omnivore Frontmatter Template.md",
-    "bin/templates/Omnivore Template Body.md",
-    "bin/templates/Insert Weight Tracker Template.md",
-    "bin/templates/Insert Pomodoro Tracker Template.md",
-    "bin/templates/new note quickadd.md",
     "bin/assets/README",
     "Efforts/Initiatives/Mindfulness Workshop Series",
     "Efforts/Developing Mindfulness Practice",
-    "bin/assets/Chew the Cud - Vault Documentation",
-    "bin/assets/Don't Believe Everything You Think",
-    "bin/assets/Chew the Cud",
-    "bin/assets/Deep Aliveness — Inner Wilds",
-    "Tags",
     "Spaces/Canvas/Wheel of Life.canvas",
     "Spaces/Canvas/Canvas Example.canvas",
     "Spaces/Canvas/My Zettlekasten.canvas",

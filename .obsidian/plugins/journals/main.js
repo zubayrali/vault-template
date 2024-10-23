@@ -1607,6 +1607,10 @@ class VariableReferenceModal extends obsidian.Modal {
         grid.createDiv({
             text: "Name of current note",
         });
+        this.renderVariable(grid.createDiv(), "title");
+        grid.createDiv({
+            text: "Name of current note (to support core template variable)",
+        });
         if (this.granularity === "day") {
             this.renderVariable(grid.createDiv(), "date");
             const div = grid.createDiv({
@@ -1693,6 +1697,30 @@ class VariableReferenceModal extends obsidian.Modal {
                 text: "Index of current interval",
             });
         }
+        this.renderVariable(grid.createDiv(), "current_date");
+        const current_date = grid.createDiv({
+            text: "Current date (in YYYY-MM-DD format)",
+        });
+        current_date.createEl("br");
+        current_date.createSpan({
+            text: "You can also use {{current_date:format}} to override format.",
+        });
+        this.renderVariable(grid.createDiv(), "time");
+        const timediv = grid.createDiv({
+            text: "Current time (in HH:mm format)",
+        });
+        timediv.createEl("br");
+        timediv.createSpan({
+            text: "You can also use {{time:format}} to override format.",
+        });
+        this.renderVariable(grid.createDiv(), "current_time");
+        const current_time = grid.createDiv({
+            text: "Current time (in HH:mm format)",
+        });
+        current_time.createEl("br");
+        current_time.createSpan({
+            text: "You can also use {{current_time:format}} to override format.",
+        });
     }
     renderVariable(parent, name) {
         parent.createEl("span", {
@@ -1723,8 +1751,7 @@ function replaceTemplateVariables(template, context) {
     let content = template !== null && template !== void 0 ? template : "";
     if (context.date) {
         const { value: date, defaultFormat } = context.date;
-        content = content
-            .replaceAll(/{{\s*(date)\s*(([+-]\d+)([yqmwdhs]))?\s*(:(.*?))?}}/gi, (_, _variableName, calc, timeDelta, unit, _customFormat, format) => {
+        content = content.replaceAll(/{{\s*(date)\s*(([+-]\d+)([yqmwdhs]))?\s*(:(.*?))?}}/gi, (_, _variableName, calc, timeDelta, unit, _customFormat, format) => {
             const templateVar = date.clone();
             if (calc) {
                 templateVar.add(parseInt(timeDelta, 10), unit);
@@ -1737,8 +1764,7 @@ function replaceTemplateVariables(template, context) {
     }
     if (context.start_date) {
         const { value: start_date, defaultFormat } = context.start_date;
-        content = content
-            .replaceAll(/{{\s*(start_date)\s*(([+-]\d+)([yqmwdhs]))?\s*(:(.*?))?}}/gi, (_, _variableName, calc, timeDelta, unit, _customFormat, format) => {
+        content = content.replaceAll(/{{\s*(start_date)\s*(([+-]\d+)([yqmwdhs]))?\s*(:(.*?))?}}/gi, (_, _variableName, calc, timeDelta, unit, _customFormat, format) => {
             const templateVar = start_date.clone();
             if (calc) {
                 templateVar.add(parseInt(timeDelta, 10), unit);
@@ -1751,8 +1777,7 @@ function replaceTemplateVariables(template, context) {
     }
     if (context.end_date) {
         const { value: end_date, defaultFormat } = context.end_date;
-        content = content
-            .replaceAll(/{{\s*(end_date)\s*(([+-]\d+)([yqmwdhs]))?\s*(:(.*?))?}}/gi, (_, _variableName, calc, timeDelta, unit, _customFormat, format) => {
+        content = content.replaceAll(/{{\s*(end_date)\s*(([+-]\d+)([yqmwdhs]))?\s*(:(.*?))?}}/gi, (_, _variableName, calc, timeDelta, unit, _customFormat, format) => {
             const templateVar = end_date.clone();
             if (calc) {
                 templateVar.add(parseInt(timeDelta, 10), unit);
@@ -1773,8 +1798,31 @@ function replaceTemplateVariables(template, context) {
     }
     if (context.note_name) {
         const { value: name } = context.note_name;
-        content = content.replaceAll("{{note_name}}", name);
+        content = content.replaceAll("{{note_name}}", name).replaceAll("{{title}}", name);
     }
+    const now = obsidian.moment();
+    const timeFormat = "HH:mm";
+    content = content.replaceAll(/{{\s*(time|current_time)\s*(([+-]\d+)([yqmwdhs]))?\s*(:(.*?))?}}/gi, (_, _variableName, calc, timeDelta, unit, _customFormat, format) => {
+        const templateVar = now.clone();
+        if (calc) {
+            templateVar.add(parseInt(timeDelta, 10), unit);
+        }
+        if (format) {
+            return templateVar.format(format);
+        }
+        return templateVar.format(timeFormat);
+    });
+    const dateFormat = "YYYY-MM-DD";
+    content = content.replaceAll(/{{\s*(current_date)\s*(([+-]\d+)([yqmwdhs]))?\s*(:(.*?))?}}/gi, (_, _variableName, calc, timeDelta, unit, _customFormat, format) => {
+        const templateVar = now.clone();
+        if (calc) {
+            templateVar.add(parseInt(timeDelta, 10), unit);
+        }
+        if (format) {
+            return templateVar.format(format);
+        }
+        return templateVar.format(dateFormat);
+    });
     return content;
 }
 function canApplyTemplater(app, content) {
@@ -1791,6 +1839,26 @@ function canApplyTemplater(app, content) {
     if (!("parse_template" in templaterPlugin.templater))
         return false;
     return true;
+}
+function supportsTemplaterCursor(app) {
+    const templaterPlugin = app.plugins.getPlugin("templater-obsidian");
+    if (!templaterPlugin)
+        return false;
+    if (!("editor_handler" in templaterPlugin))
+        return false;
+    if (!("jump_to_next_cursor_location" in templaterPlugin.editor_handler))
+        return false;
+    return true;
+}
+function tryTemplaterCursorJump(app, note) {
+    return __awaiter(this, void 0, void 0, function* () {
+        if (!supportsTemplaterCursor(app))
+            return;
+        const templaterPlugin = app.plugins.getPlugin("templater-obsidian");
+        if (!templaterPlugin)
+            return false;
+        yield templaterPlugin.editor_handler.jump_to_next_cursor_location(note, true);
+    });
 }
 function tryApplyingTemplater(app, templateFile, note, content) {
     return __awaiter(this, void 0, void 0, function* () {
@@ -1873,7 +1941,7 @@ class CalendarJournalSection {
                 return;
             if (!(file instanceof obsidian.TFile))
                 return;
-            yield this.openFile(file);
+            yield this.openFile(file, false);
         });
     }
     openNext(date) {
@@ -1930,7 +1998,9 @@ class CalendarJournalSection {
         return __awaiter(this, void 0, void 0, function* () {
             const filePath = this.getDatePath(startDate, endDate);
             let file = this.app.vault.getAbstractFileByPath(filePath);
+            let isNew = false;
             if (!file) {
+                isNew = true;
                 yield ensureFolderExists(this.app, filePath);
                 file = yield this.app.vault.create(filePath, "");
                 if (!(file instanceof obsidian.TFile))
@@ -1945,20 +2015,23 @@ class CalendarJournalSection {
                     throw new Error("File is not a TFile");
                 yield this.ensureFrontMatter(file, startDate, endDate);
             }
-            return file;
+            return [file, isNew];
         });
     }
     openDate(startDate, endDate) {
         return __awaiter(this, void 0, void 0, function* () {
-            const file = yield this.ensureDateNote(startDate, endDate);
-            yield this.openFile(file);
+            const [file, isNew] = yield this.ensureDateNote(startDate, endDate);
+            yield this.openFile(file, isNew);
         });
     }
-    openFile(file) {
+    openFile(file, isNew) {
         return __awaiter(this, void 0, void 0, function* () {
             const mode = this.config.openMode === "active" ? undefined : this.config.openMode;
             const leaf = this.app.workspace.getLeaf(mode);
             yield leaf.openFile(file, { active: true });
+            if (isNew) {
+                yield tryTemplaterCursorJump(this.app, file);
+            }
         });
     }
     getTemplateContext(start_date, end_date, note_name) {
@@ -4437,7 +4510,7 @@ class IntervalJournal {
                 return;
             if (!(file instanceof obsidian.TFile))
                 return;
-            yield this.openFile(file);
+            yield this.openFile(file, false);
         });
     }
     findInterval(date) {
@@ -4607,7 +4680,9 @@ class IntervalJournal {
         return __awaiter(this, void 0, void 0, function* () {
             const filePath = this.getIntervalPath(interval);
             let file = this.app.vault.getAbstractFileByPath(filePath);
+            let newFile = false;
             if (!file) {
+                newFile = true;
                 yield ensureFolderExists(this.app, filePath);
                 file = yield this.app.vault.create(filePath, "");
                 if (!(file instanceof obsidian.TFile))
@@ -4622,7 +4697,7 @@ class IntervalJournal {
                     throw new Error("File is not a TFile");
                 yield this.ensureFrontMatter(file, interval);
             }
-            return file;
+            return [file, newFile];
         });
     }
     ensureFrontMatter(file, interval) {
@@ -4666,15 +4741,18 @@ class IntervalJournal {
     }
     openInterval(interval) {
         return __awaiter(this, void 0, void 0, function* () {
-            const file = yield this.ensureIntervalNote(interval);
-            yield this.openFile(file);
+            const [file, isNew] = yield this.ensureIntervalNote(interval);
+            yield this.openFile(file, isNew);
         });
     }
-    openFile(file) {
+    openFile(file, isNew) {
         return __awaiter(this, void 0, void 0, function* () {
             const mode = this.config.openMode === "active" ? undefined : this.config.openMode;
             const leaf = this.app.workspace.getLeaf(mode);
             yield leaf.openFile(file, { active: true });
+            if (isNew) {
+                yield tryTemplaterCursorJump(this.app, file);
+            }
         });
     }
     getTemplateContext(interval, note_name) {

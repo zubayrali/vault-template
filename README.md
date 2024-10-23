@@ -1,7 +1,9 @@
 ---
 title: README
 created: 2024-10-20T13:21:53.000-04:00
-updated: 2024-10-23T10:15:52.943-04:00
+updated: 2024-10-23T12:39:56.681-04:00
+words:
+  2024-10-22: 3882
 ---
 
 > [!warning] This is meant to be previewed from inside Obsidian

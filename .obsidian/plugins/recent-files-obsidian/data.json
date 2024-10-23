@@ -9,12 +9,48 @@
       "path": "Calendar/2024/Daily/10/2024-10-20.md"
     },
     {
-      "basename": "Tasks",
-      "path": "bin/views/Tasks.md"
+      "basename": "Cognitive Dissonance",
+      "path": "Cognitive Dissonance.md"
+    },
+    {
+      "basename": "inbox",
+      "path": "inbox.md"
+    },
+    {
+      "basename": "This is a new note",
+      "path": "This is a new note.md"
+    },
+    {
+      "basename": "This is a new note",
+      "path": "This is a new note.excalidraw"
+    },
+    {
+      "basename": "new weekly note",
+      "path": "bin/templates/new weekly note.md"
+    },
+    {
+      "basename": "2024-Q4",
+      "path": "Calendar/2024/Quarterly/2024-Q4.md"
+    },
+    {
+      "basename": "2024-W43",
+      "path": "Calendar/2024/Weekly/2024-W43.md"
     },
     {
       "basename": "README",
       "path": "README.md"
+    },
+    {
+      "basename": "Tasks Tabs Today",
+      "path": "Calendar/Tasks/Tasks Tabs Today.md"
+    },
+    {
+      "basename": "Logbook",
+      "path": "Calendar/Logbook.md"
+    },
+    {
+      "basename": "Tasks",
+      "path": "bin/views/Tasks.md"
     },
     {
       "basename": "Something",
@@ -39,10 +75,6 @@
     {
       "basename": "Flow",
       "path": "Efforts/Flow.md"
-    },
-    {
-      "basename": "Logbook",
-      "path": "Calendar/Logbook.md"
     },
     {
       "basename": "Calendar",
@@ -113,10 +145,6 @@
       "path": "Efforts/Initiatives/Initiatives.md"
     },
     {
-      "basename": "new weekly note",
-      "path": "bin/templates/new weekly note.md"
-    },
-    {
       "basename": "calendar",
       "path": "bin/classes/calendar.md"
     },
@@ -145,16 +173,8 @@
       "path": "zFlow/Sources/Misc/Something.md"
     },
     {
-      "basename": "inbox",
-      "path": "inbox.md"
-    },
-    {
       "basename": "Initiative Templater",
       "path": "bin/templates/Initiative Templater.md"
-    },
-    {
-      "basename": "Cognitive Dissonance",
-      "path": "Cognitive Dissonance.md"
     },
     {
       "basename": "Cognitive Psychology MOC",
@@ -179,26 +199,6 @@
     {
       "basename": "effort",
       "path": "bin/classes/effort.md"
-    },
-    {
-      "basename": "My Needs",
-      "path": "My Needs.md"
-    },
-    {
-      "basename": "Books Dataview",
-      "path": "Books Dataview.md"
-    },
-    {
-      "basename": "Videos",
-      "path": "zFlow/Sources/Videos/Videos.md"
-    },
-    {
-      "basename": "Psychology MOC",
-      "path": "zFlow/MOCs/Psychology MOC.md"
-    },
-    {
-      "basename": "Chew the Cud",
-      "path": "zFlow/Sources/Books/Chew the Cud.md"
     }
   ],
   "omittedPaths": [],

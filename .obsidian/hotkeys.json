@@ -46,15 +46,6 @@
       "key": "Enter"
     }
   ],
-  "emoji-magic:insert": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
   "templater-obsidian:bin/templates/metadata actions.md": [
     {
       "modifiers": [
@@ -153,15 +144,6 @@
         "Meta"
       ],
       "key": "V"
-    }
-  ],
-  "bookmarks-caller:open-bookmarks-caller": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "B"
     }
   ],
   "editor:toggle-strikethrough": [
@@ -276,14 +258,7 @@
       "key": "]"
     }
   ],
-  "obsidian-better-command-palette:open-better-commmand-palette-file-search": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "O"
-    }
-  ],
+  "obsidian-better-command-palette:open-better-commmand-palette-file-search": [],
   "obsidian-better-command-palette:open-better-commmand-palette-tag-search": [
     {
       "modifiers": [
@@ -499,15 +474,6 @@
         "Shift"
       ],
       "key": "M"
-    }
-  ],
-  "periodic-para:periodic-para-create-notes": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "N"
     }
   ],
   "templater-obsidian:create-new-note-from-template": [],
@@ -975,6 +941,59 @@
         "Shift"
       ],
       "key": "2"
+    }
+  ],
+  "quickadd:choice:63667013-2db2-429d-8551-0220d4987744": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "emoji-magic:copy": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
+    }
+  ],
+  "bookmarks:bookmark-current-search": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-starred": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
+  ],
+  "cmdr:open-commander-settings": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": ","
     }
   ]
 }

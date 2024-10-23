@@ -306,11 +306,41 @@
     }
   },
   "ribbonIcons": {
+    "cmdr:LifeOS: Create Daily Note": {
+      "icon": "lucide-calendar-clock"
+    },
+    "cmdr:LifeOS: Create Monthly Note": {
+      "icon": "lucide-calendar-x"
+    },
+    "cmdr:LifeOS: Create Quarterly Note": {
+      "icon": "lucide-calendar-x2"
+    },
+    "cmdr:LifeOS: Create Weekly Note": {
+      "icon": "lucide-calendar-heart"
+    },
+    "cmdr:LifeOS: Create Yearly Note": {
+      "icon": "lucide-calendar-plus"
+    },
+    "journals:Open this month's note": {
+      "icon": "lucide-calendar-x"
+    },
+    "journals:Open this quarter's note": {
+      "icon": "lucide-calendar-heart"
+    },
+    "journals:Open this week's note": {
+      "icon": "lucide-calendar-plus"
+    },
+    "journals:Open this year's note": {
+      "icon": "lucide-calendar-check-2"
+    },
     "pinned-notes:Index": {
       "icon": "lucide-home"
     },
     "pinned-notes:Tasks Timeline": {
       "icon": "lucide-ruler"
+    },
+    "tab-selector:Open tab selector": {
+      "icon": "zoom-to-selection"
     }
   }
 }

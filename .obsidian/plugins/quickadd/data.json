@@ -360,11 +360,11 @@
       "macroId": "ce3ee7da-1a0f-49be-9973-52b8e5fb165e"
     },
     {
-      "id": "376e9600-cf13-4901-b2df-0c55c25ecb92",
+      "id": "63667013-2db2-429d-8551-0220d4987744",
       "name": "Create Note",
-      "type": "Multi",
-      "command": false,
-      "choices": []
+      "type": "Macro",
+      "command": true,
+      "macroId": "aac3f5f3-b10e-4d74-9c34-8bd384622559"
     },
     {
       "id": "c95f6cff-91b3-4b75-816d-9cb9cfcc8290",
@@ -437,52 +437,10 @@
       "openFileInMode": "default"
     },
     {
-      "id": "bffd4970-76d6-4dbc-9e01-3f1cf63d9b37",
-      "name": "macroWheelOfLife",
-      "type": "Macro",
-      "command": false,
-      "macroId": "95af30f9-5457-4572-85a0-066c3b77784c"
-    },
-    {
-      "id": "9ef72387-e1a8-4f90-ad6d-03f416d0db36",
-      "name": "Get Pictures",
-      "type": "Capture",
-      "command": true,
-      "appendLink": false,
-      "captureTo": "",
-      "captureToActiveFile": true,
-      "createFileIfItDoesntExist": {
-        "enabled": false,
-        "createWithTemplate": false,
-        "template": ""
-      },
-      "format": {
-        "enabled": true,
-        "format": "{{MACRO:macroGetPictures}}"
-      },
-      "insertAfter": {
-        "enabled": true,
-        "after": "## Pictures",
-        "insertAtEnd": false,
-        "considerSubsections": false,
-        "createIfNotFound": true,
-        "createIfNotFoundLocation": "top"
-      },
-      "prepend": false,
-      "task": false,
-      "openFileInNewTab": {
-        "enabled": false,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": false,
-      "openFileInMode": "default"
-    },
-    {
       "id": "a788416e-a562-4573-87c5-04581b4cd4a6",
       "name": "macroTracker",
       "type": "Macro",
-      "command": false,
+      "command": true,
       "macroId": "1f6de7d2-515a-453c-828c-097a8de53776"
     },
     {
@@ -514,71 +472,9 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
-    },
-    {
-      "id": "fed57042-48c1-4bcc-942b-b8bb772aed48",
-      "name": "ExcaliTemplates",
-      "type": "Multi",
-      "command": false,
-      "choices": []
-    },
-    {
-      "id": "b1056f00-c2ad-49de-b4e5-bd9f65da5e21",
-      "name": "Canvases",
-      "type": "Multi",
-      "command": false,
-      "choices": [],
-      "collapsed": false
     }
   ],
   "macros": [
-    {
-      "name": "✅ Task",
-      "id": "95af30f9-5457-4572-85a0-066c3b77784c",
-      "commands": [
-        {
-          "name": "Add Task to active file",
-          "type": "NestedChoice",
-          "id": "75117e6b-0907-4558-b2d5-206ac8b07d3b",
-          "choice": {
-            "id": "ff3e91c4-00e1-44fd-8510-70238c9b7b04",
-            "name": "Add Task to active file",
-            "type": "Capture",
-            "command": false,
-            "appendLink": false,
-            "captureTo": "",
-            "captureToActiveFile": true,
-            "createFileIfItDoesntExist": {
-              "enabled": true,
-              "createWithTemplate": true,
-              "template": "bin/templates/new daily note.md"
-            },
-            "format": {
-              "enabled": true,
-              "format": "> ```js quickadd\nreturn await this.app.plugins.plugins['obsidian-tasks-plugin'].apiV1.createTaskLineModal() + '\\n';\n```"
-            },
-            "insertAfter": {
-              "enabled": true,
-              "after": "> [!example]- Tasks",
-              "insertAtEnd": true,
-              "considerSubsections": false,
-              "createIfNotFound": true,
-              "createIfNotFoundLocation": "bottom"
-            },
-            "prepend": false,
-            "task": false,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": false,
-            "openFileInMode": "default"
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
     {
       "name": "🏃 Activity",
       "id": "8f3ec0c0-74cd-4d03-98c6-ff4646b5b35f",
@@ -605,7 +501,7 @@
             "createFileIfItDoesntExist": {
               "enabled": true,
               "createWithTemplate": true,
-              "template": "Bin/templates/new daily note.md"
+              "template": "bin/templates/new daily note.md"
             },
             "format": {
               "enabled": true,
@@ -822,7 +718,7 @@
             "insertAfter": {
               "enabled": true,
               "after": "## Daily Log",
-              "insertAtEnd": true,
+              "insertAtEnd": false,
               "considerSubsections": false,
               "createIfNotFound": false,
               "createIfNotFoundLocation": "top"
@@ -871,6 +767,100 @@
           "id": "05510132-cebf-46fe-9c02-9fa712665b0a",
           "path": "bin/scripts/tracker.js",
           "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Create Note",
+      "id": "aac3f5f3-b10e-4d74-9c34-8bd384622559",
+      "commands": [
+        {
+          "name": "Create an empty file",
+          "type": "NestedChoice",
+          "id": "1b3417c2-fcdb-4134-aaed-9e48966bca27",
+          "choice": {
+            "id": "a66f0eb3-bf4d-433c-a36f-2787e1d3ed34",
+            "name": "Create an empty file",
+            "type": "Template",
+            "command": false,
+            "templatePath": "bin/templates/empty file.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Enter a note title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "/"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "source",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "26dd4fa9-e3fa-47ef-a593-12ebef1b5777",
+          "time": 100
+        },
+        {
+          "name": "Templater: Insert bin/templates/Note Templater.md",
+          "type": "Obsidian",
+          "id": "63506931-cd09-4564-b0da-5bb030531619",
+          "commandId": "templater-obsidian:bin/templates/Note Templater.md"
+        },
+        {
+          "name": "log note creation to daily note",
+          "type": "NestedChoice",
+          "id": "8ed093ed-c7e6-4d55-9bda-f23dd6d92a7e",
+          "choice": {
+            "id": "418921c6-e879-4e3a-a766-1e51055c06bb",
+            "name": "log note creation to daily note",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Calendar/{{DATE:YYYY}}/Daily/{{DATE:MM}}/{{DATE:YYYY-MM-DD}}",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": true,
+              "createWithTemplate": true,
+              "template": "bin/templates/new daily note.md"
+            },
+            "format": {
+              "enabled": true,
+              "format": "- {{DATE:HH:mm}} - Note [[{{VALUE:Enter a note title}}]]  created  \\n"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Daily Log",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
         }
       ],
       "runOnStartup": false
